@@ -7,7 +7,7 @@ import yaml from 'js-yaml';
 export const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 export const CONF_DIR = path.join(ROOT, 'data', 'conferences');
 
-export const SUBS = ['ML', 'CV', 'CG', 'NLP', 'RO', 'SP', 'DM', 'AP', 'KR', 'HCI'];
+export const SUBS = ['ML', 'CV', 'CG', 'NLP', 'RO', 'SP', 'DM', 'AP', 'KR', 'HCI', 'SYS', 'NET', 'SEC', 'DB', 'SE', 'TH', 'MX'];
 export const RANKS = {
   ccf: ['A', 'B', 'C', 'N'],
   core: ['A*', 'A', 'B', 'C', 'N'],

@@ -1,0 +1,67 @@
+id: infocom
+title: INFOCOM
+full_name: IEEE International Conference on Computer Communications
+link: https://ieee-infocom.org/
+subs: [NET]
+rank:
+  ccf: A
+  core: A*
+  thcpl: A
+dblp: infocom
+upstream:
+  ccfddl: NW/infocom
+editions:
+  - year: 2027
+    id: infocom27
+    link: https://infocom2027.ieee-infocom.org/
+    date: May 24-27, 2027
+    start: 2027-05-24
+    end: 2027-05-27
+    place: Honolulu, HI, USA
+    timezone: AoE
+    timeline:
+      - type: abstract
+        date: '2026-07-24 23:59:59'
+      - type: paper
+        date: '2026-07-31 23:59:59'
+      - type: other
+        label: Early-reject notification
+        date: '2026-10-09 23:59:59'
+      - type: notification
+        date: '2026-12-08 23:59:59'
+    note: Abstract and full-paper deadlines are 11:59 p.m. AoE; the notification dates carry no timezone. Held in person at the Hilton Hawaiian Village; submissions via EDAS (max 10 pages, 9 pages of main text, at most five submissions per author).
+    sources:
+      - https://infocom2027.ieee-infocom.org/call-papers
+      - https://infocom2027.ieee-infocom.org/authors
+      - https://infocom2027.ieee-infocom.org/submission-guidelines
+      - https://infocom2027.ieee-infocom.org/hotel-travel
+      - https://infocom2027.ieee-infocom.org/
+    checked: 2026-09-29
+  - year: 2026
+    id: infocom26
+    link: https://infocom2026.ieee-infocom.org/
+    date: May 18-21, 2026
+    start: 2026-05-18
+    end: 2026-05-21
+    place: Tokyo, Japan
+    timezone: AoE
+    timeline:
+      - type: abstract
+        date: '2025-07-24 23:59:59'
+      - type: paper
+        date: '2025-07-31 23:59:59'
+      - type: notification
+        date: '2025-12-08 23:59:59'
+      - type: camera_ready
+        label: Final paper upload & author registration
+        date: '2026-01-09 23:59:59'
+        timezone: UTC-5
+    note: Abstract and full-paper deadlines are 11:59 p.m. AoE; the notification date carries no timezone, and final papers were due 11:59 p.m. US Eastern Time. Held in person at the Hilton Tokyo.
+    sources:
+      - https://infocom2026.ieee-infocom.org/call-papers
+      - https://infocom2026.ieee-infocom.org/authors
+      - https://infocom2026.ieee-infocom.org/submission-guidelines-main-conference
+      - https://infocom2026.ieee-infocom.org/final-paper-submission-guidelines-main-conference
+      - https://infocom2026.ieee-infocom.org/important-information-authors
+      - https://infocom2026.ieee-infocom.org/
+    checked: 2026-09-29

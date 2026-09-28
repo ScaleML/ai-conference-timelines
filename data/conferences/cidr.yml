@@ -1,0 +1,59 @@
+id: cidr
+title: CIDR
+full_name: Conference on Innovative Data Systems Research
+link: https://www.cidrdb.org/
+subs: [DB]
+rank:
+  ccf: B
+  core: A
+  thcpl: B
+dblp: cidr
+upstream:
+  ccfddl: DB/cidr
+editions:
+  - year: 2027
+    id: cidr27
+    link: https://www.cidrdb.org/cidr2027/
+    date: January 24-27, 2027
+    start: 2027-01-24
+    end: 2027-01-27
+    place: Amsterdam, The Netherlands
+    timezone: UTC-7
+    timeline:
+      - type: paper
+        date: '2026-08-04 23:59:00'
+      - type: notification
+        date: '2026-10-06 23:59:00'
+      - type: camera_ready
+        date: '2026-12-04 23:59:00'
+        timezone: UTC-8
+    note: >-
+      Deadlines are 11:59 pm Pacific Time (PDT in August/October, PST in December) and apply to both papers (max 6 pages)
+      and demos; each person may author at most one submission. Held at the Mövenpick Hotel Amsterdam City Centre.
+    sources:
+      - https://www.cidrdb.org/cidr2027/cfp.html
+      - https://www.cidrdb.org/cidr2027/
+    checked: 2026-09-29
+  - year: 2026
+    id: cidr26
+    link: https://www.cidrdb.org/cidr2026/
+    date: January 18-21, 2026
+    start: 2026-01-18
+    end: 2026-01-21
+    place: Santa Cruz, CA, USA
+    timezone: UTC-7
+    timeline:
+      - type: paper
+        date: '2025-08-05 23:59:00'
+      - type: notification
+        date: '2025-10-06 23:59:00'
+      - type: camera_ready
+        date: '2025-12-01 23:59:00'
+        timezone: UTC-8
+    note: >-
+      Deadlines were 11:59 pm Pacific Time (PDT in August/October, PST in December) for all contributions (papers and
+      demos). Held at the Chaminade Resort & Spa in Santa Cruz.
+    sources:
+      - https://www.cidrdb.org/cidr2026/cfp.html
+      - https://www.cidrdb.org/cidr2026/
+    checked: 2026-09-29

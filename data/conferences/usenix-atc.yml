@@ -1,0 +1,87 @@
+id: usenix-atc
+title: USENIX ATC
+full_name: USENIX Annual Technical Conference (ACM SIGOPS Annual Technical Conference since 2026)
+link: https://www.usenix.org/conferences/byname/131
+subs: [SYS]
+rank:
+  ccf: A
+  core: A
+  thcpl: A
+dblp: usenix
+estimate: false  # moved to ACM SIGOPS in 2026; the 2027 schedule is expected to change, so last year's dates are not a good estimate
+upstream:
+  ccfddl: DS/atc
+editions:
+  - year: 2027
+    id: usenix-atc27
+    link: https://atc27.hotcrp.com/
+    timeline: []
+    note: The ACM SIGOPS ATC '27 HotCRP submissions site is up but lists no deadlines; no conference website, dates, venue or call for papers have been published yet.
+    sources:
+      - https://atc27.hotcrp.com/
+      - https://atc27.hotcrp.com/deadlines
+    checked: 2026-09-29
+  - year: 2026
+    id: usenix-atc26
+    link: https://sigops.org/s/conferences/atc/2026/index.html
+    date: November 15-18, 2026
+    start: 2026-11-15
+    end: 2026-11-18
+    place: Hong Kong, China
+    timezone: AoE
+    timeline:
+      - type: paper
+        label: Paper + extended abstract submission deadline
+        date: '2026-06-10 23:59:59'
+      - type: other
+        label: Early rejection notifications
+        date: '2026-08-01 23:59:59'
+      - type: rebuttal_start
+        label: Author response period begins
+        date: '2026-08-29 23:59:59'
+      - type: rebuttal_end
+        label: Author response due
+        date: '2026-09-02 23:59:59'
+      - type: notification
+        date: '2026-09-18 23:59:59'
+      - type: camera_ready
+        date: '2026-10-16 23:59:59'
+    note: First edition run by ACM SIGOPS after USENIX discontinued ATC; there is no abstract registration, and a two-page extended abstract (reviewed first, for early rejection) is due with the full paper. The CFP gives no time zone, but HotCRP listed the deadline as June 11, 4:59:59 AM PDT, i.e. June 10 AoE; workshops on November 15 and main conference November 16-18 at the Hyatt Regency Hong Kong, Sha Tin.
+    sources:
+      - https://sigops.org/s/conferences/atc/2026/cfp.html
+      - https://atc26.hotcrp.com/deadlines
+      - https://sigops.org/s/conferences/atc/2026/index.html
+      - https://sigops.org/s/conferences/atc/2026/workshops.html
+      - https://sigops.org/s/conferences/atc/2026/hotel.html
+      - https://en.wikipedia.org/wiki/ACM_SIGOPS_Annual_Technical_Conference
+    checked: 2026-09-29
+  - year: 2025
+    id: usenix-atc25
+    link: https://www.usenix.org/conference/atc25
+    date: July 7-9, 2025
+    start: 2025-07-07
+    end: 2025-07-09
+    place: Boston, MA, USA
+    timezone: UTC
+    timeline:
+      - type: abstract
+        label: Abstract registration deadline
+        date: '2025-01-07 23:59:59'
+      - type: paper
+        date: '2025-01-14 23:59:59'
+      - type: rebuttal_start
+        label: Author response period begins
+        date: '2025-04-07 23:59:59'
+      - type: rebuttal_end
+        label: Author response period ends
+        date: '2025-04-09 23:59:59'
+      - type: notification
+        date: '2025-04-25 23:59:59'
+      - type: camera_ready
+        label: Final papers due
+        date: '2025-06-03 23:59:59'
+    note: Last edition sponsored by USENIX, co-located with OSDI '25 at the Sheraton Boston. Multi-round review with early rejection notifications at least one month before the final notification; notification and final-paper dates were given without a time.
+    sources:
+      - https://www.usenix.org/conference/atc25/call-for-papers
+      - https://www.usenix.org/conference/atc25
+    checked: 2026-09-29

@@ -1,0 +1,90 @@
+id: sigcomm
+title: SIGCOMM
+full_name: ACM SIGCOMM Conference
+link: https://www.sigcomm.org/events/sigcomm-conference
+subs: [NET]
+rank:
+  ccf: A
+  core: A*
+  thcpl: A
+dblp: sigcomm
+upstream:
+  ccfddl: NW/sigcomm
+editions:
+  - year: 2027
+    id: sigcomm27
+    link: https://conferences.sigcomm.org/sigcomm/2027/
+    date: August 8-12, 2027
+    start: 2027-08-08
+    end: 2027-08-12
+    place: Bangkok, Thailand
+    timeline: []
+    note: To be held at the Queen Sirikit National Convention Center. The homepage lists the main-track abstract registration deadline as TBA; the /cfp/ page under the 2027 site still shows the SIGCOMM 2026 call.
+    sources:
+      - https://conferences.sigcomm.org/sigcomm/2027/
+    checked: 2026-09-29
+  - year: 2026
+    id: sigcomm26
+    link: https://conferences.sigcomm.org/sigcomm/2026/
+    date: August 17-21, 2026
+    start: 2026-08-17
+    end: 2026-08-21
+    place: Denver, CO, USA
+    timezone: AoE
+    timeline:
+      - type: abstract
+        label: Abstract registration deadline
+        date: '2026-01-30 23:59:59'
+      - type: paper
+        date: '2026-02-06 23:59:59'
+      - type: other
+        label: Early notification (consensus rejections)
+        date: '2026-04-02 23:59:59'
+      - type: rebuttal_start
+        date: '2026-04-27 00:00:00'
+      - type: rebuttal_end
+        date: '2026-04-29 23:59:59'
+      - type: notification
+        date: '2026-05-11 23:59:59'
+      - type: other
+        label: One-shot revision deadline
+        date: '2026-06-19 23:59:59'
+      - type: other
+        label: One-shot revision results notification
+        date: '2026-06-29 23:59:59'
+      - type: camera_ready
+        date: '2026-07-03 23:59:59'
+    note: Research and experience tracks; rebuttals are offered to papers reaching the discussion phase, and each author may be on at most eight submissions. Held at the Colorado Convention Center.
+    sources:
+      - https://conferences.sigcomm.org/sigcomm/2026/cfp/
+      - https://conferences.sigcomm.org/sigcomm/2026/
+    checked: 2026-09-29
+  - year: 2025
+    id: sigcomm25
+    link: https://conferences.sigcomm.org/sigcomm/2025/
+    date: September 8-11, 2025
+    start: 2025-09-08
+    end: 2025-09-11
+    place: Coimbra, Portugal
+    timezone: UTC
+    timeline:
+      - type: abstract
+        label: Abstract registration deadline
+        date: '2025-01-24 23:59:00'
+      - type: paper
+        date: '2025-01-31 23:59:00'
+      - type: notification
+        date: '2025-04-29 23:59:59'
+      - type: other
+        label: One-shot revision deadline
+        date: '2025-06-27 23:59:59'
+      - type: other
+        label: Revision results notification
+        date: '2025-07-11 23:59:59'
+      - type: camera_ready
+        date: '2025-07-25 23:59:59'
+    note: Submission deadlines were 23:59 UTC. Hosted by the University of Coimbra at the São Francisco Convent.
+    sources:
+      - https://conferences.sigcomm.org/sigcomm/2025/cfp/
+      - https://conferences.sigcomm.org/sigcomm/2025/
+    checked: 2026-09-29

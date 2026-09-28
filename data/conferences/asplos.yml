@@ -1,0 +1,103 @@
+id: asplos
+title: ASPLOS
+full_name: ACM International Conference on Architectural Support for Programming Languages and Operating Systems
+link: https://www.asplos-conference.org/
+subs: [SYS]
+rank:
+  ccf: A
+  core: A*
+  thcpl: A
+dblp: asplos
+upstream:
+  ccfddl: DS/asplos
+editions:
+  - year: 2027
+    id: asplos27
+    link: https://www.asplos-conference.org/asplos2027/
+    date: April 11-15, 2027
+    start: 2027-04-11
+    end: 2027-04-15
+    place: Heraklion, Crete, Greece
+    timezone: AoE
+    timeline:
+      - type: paper
+        cycle: April cycle
+        date: '2026-04-15 23:59:59'
+      - type: rebuttal_start
+        cycle: April cycle
+        date: '2026-07-06 23:59:59'
+      - type: rebuttal_end
+        cycle: April cycle
+        date: '2026-07-09 23:59:59'
+      - type: notification
+        cycle: April cycle
+        date: '2026-07-27 23:59:59'
+      - type: paper
+        cycle: September cycle
+        date: '2026-09-09 23:59:59'
+      - type: rebuttal_start
+        cycle: September cycle
+        date: '2026-12-01 23:59:59'
+      - type: rebuttal_end
+        cycle: September cycle
+        date: '2026-12-04 23:59:59'
+      - type: notification
+        cycle: September cycle
+        date: '2026-12-21 23:59:59'
+    note: Two submission cycles (April and September 2026) with no separate abstract deadline; a rapid review round first screens only the first two pages of every submission. Some papers get a Major Revision decision and may resubmit at the camera-ready deadline (6 weeks after notification); at most 4 submissions per author per cycle.
+    sources:
+      - https://www.asplos-conference.org/asplos2027/cfp/
+      - https://asplos27-apr.hotcrp.com/deadlines
+      - https://asplos27-sep.hotcrp.com/deadlines
+      - https://www.asplos-conference.org/
+    checked: 2026-09-29
+  - year: 2026
+    id: asplos26
+    link: https://www.asplos-conference.org/asplos2026/
+    date: March 22-26, 2026
+    start: 2026-03-22
+    end: 2026-03-26
+    place: Pittsburgh, PA, USA
+    timezone: AoE
+    timeline:
+      - type: abstract
+        cycle: Spring cycle
+        date: '2025-03-05 23:59:59'
+        timezone: UTC-5
+      - type: paper
+        cycle: Spring cycle
+        date: '2025-03-12 23:59:59'
+        timezone: UTC-5
+      - type: rebuttal_start
+        cycle: Spring cycle
+        date: '2025-06-09 23:59:59'
+      - type: rebuttal_end
+        cycle: Spring cycle
+        date: '2025-06-13 23:59:59'
+      - type: notification
+        cycle: Spring cycle
+        date: '2025-06-24 23:59:59'
+      - type: abstract
+        cycle: Summer cycle
+        date: '2025-08-13 23:59:59'
+        timezone: UTC-4
+      - type: paper
+        cycle: Summer cycle
+        date: '2025-08-20 23:59:59'
+      - type: rebuttal_start
+        cycle: Summer cycle
+        date: '2025-11-10 23:59:59'
+      - type: rebuttal_end
+        cycle: Summer cycle
+        date: '2025-11-14 23:59:59'
+      - type: notification
+        cycle: Summer cycle
+        date: '2025-11-24 23:59:59'
+    note: Two submission cycles (spring and summer 2025). The CFP gave abstract deadlines as 11:59pm Eastern (the summer HotCRP site actually closed registration at AoE) and no time for full papers, so paper times follow HotCRP (spring 11:59pm EST, summer AoE); response/notification dates are assumed AoE. Held at The Landing Hotel, Pittsburgh.
+    sources:
+      - https://www.asplos-conference.org/asplos2026/cfp/
+      - https://asplos26-spring.hotcrp.com/deadlines
+      - https://asplos26-summer.hotcrp.com/deadlines
+      - https://www.asplos-conference.org/asplos2026/
+      - https://www.asplos-conference.org/asplos2026/conference-venue/index.html
+    checked: 2026-09-29

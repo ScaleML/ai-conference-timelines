@@ -1,0 +1,75 @@
+id: crypto
+title: CRYPTO
+full_name: Annual International Cryptology Conference
+link: https://crypto.iacr.org/
+subs: [SEC, TH]
+rank:
+  ccf: A
+  core: A*
+  thcpl: A
+dblp: crypto
+upstream:
+  ccfddl: SC/crypto
+editions:
+  - year: 2026
+    id: crypto26
+    link: https://crypto.iacr.org/2026/
+    date: August 17-20, 2026
+    start: 2026-08-17
+    end: 2026-08-20
+    place: Santa Barbara, CA, USA
+    timezone: AoE
+    timeline:
+      - type: paper
+        date: '2026-02-12 23:59:59'
+        timezone: UTC-8
+      - type: rebuttal_start
+        label: First-round notification & rebuttal starts
+        date: '2026-04-07 23:59:59'
+      - type: rebuttal_end
+        label: Rebuttal deadline
+        date: '2026-04-13 23:59:59'
+      - type: notification
+        label: Final notification
+        date: '2026-05-04 23:59:59'
+      - type: camera_ready
+        label: Final versions due
+        date: '2026-06-08 23:59:59'
+    note: Submission deadline was 23:59 US Pacific time (PST, UTC-8); the other dates were listed without a timezone (recorded as AoE). Two-round review with a rebuttal phase; held on the UCSB campus, with remote video presentation allowed for accepted papers.
+    sources:
+      - https://crypto.iacr.org/2026/callforpapers.php
+      - https://crypto.iacr.org/2026/papersubmission.php
+      - https://crypto.iacr.org/2026/json/metadata.json
+      - https://crypto.iacr.org/2026/travel.php
+      - https://github.com/ccfddl/ccf-deadlines/blob/main/conference/SC/crypto.yml
+    checked: 2026-09-29
+  - year: 2025
+    id: crypto25
+    link: https://crypto.iacr.org/2025/
+    date: August 17-21, 2025
+    start: 2025-08-17
+    end: 2025-08-21
+    place: Santa Barbara, CA, USA
+    timezone: AoE
+    timeline:
+      - type: paper
+        date: '2025-02-13 23:59:59'
+      - type: rebuttal_start
+        label: First-round notification & rebuttal starts
+        date: '2025-04-07 23:59:59'
+      - type: rebuttal_end
+        label: Rebuttal deadline
+        date: '2025-04-12 23:59:59'
+      - type: notification
+        label: Final notification
+        date: '2025-05-03 23:59:59'
+      - type: camera_ready
+        label: Final versions due
+        date: '2025-06-05 23:59:59'
+    note: Submission deadline was 23:59 AoE; the other dates were listed without a time. Two-round review with a rebuttal phase; held on the UCSB campus.
+    sources:
+      - https://crypto.iacr.org/2025/callforpapers.php
+      - https://crypto.iacr.org/2025/papersubmission.php
+      - https://crypto.iacr.org/2025/travel.php
+      - https://github.com/ccfddl/ccf-deadlines/blob/main/conference/SC/crypto.yml
+    checked: 2026-09-29

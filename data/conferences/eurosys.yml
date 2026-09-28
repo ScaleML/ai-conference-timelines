@@ -1,0 +1,134 @@
+id: eurosys
+title: EuroSys
+full_name: European Conference on Computer Systems
+link: https://www.eurosys.org/
+subs: [SYS]
+rank:
+  ccf: A
+  core: A
+  thcpl: A
+dblp: eurosys
+upstream:
+  ccfddl: DS/eurosys
+editions:
+  - year: 2027
+    id: eurosys27
+    link: https://2027.eurosys.org/
+    date: April 19-23, 2027
+    start: 2027-04-19
+    end: 2027-04-23
+    place: Rabat, Morocco
+    timezone: AoE
+    timeline:
+      - type: abstract
+        cycle: Spring
+        label: Paper titles and abstracts due
+        date: '2026-05-07 23:59:59'
+      - type: paper
+        cycle: Spring
+        date: '2026-05-14 23:59:59'
+      - type: rebuttal_start
+        cycle: Spring
+        label: Reviews available
+        date: '2026-07-29 23:59:59'
+      - type: rebuttal_end
+        cycle: Spring
+        label: Author responses due
+        date: '2026-07-31 23:59:59'
+      - type: notification
+        cycle: Spring
+        date: '2026-08-21 23:59:59'
+      - type: other
+        cycle: Spring
+        label: Artifact submission deadline
+        date: '2026-08-31 23:59:59'
+      - type: abstract
+        cycle: Fall
+        label: Paper titles and abstracts due
+        date: '2026-09-17 23:59:59'
+      - type: paper
+        cycle: Fall
+        date: '2026-09-24 23:59:59'
+      - type: camera_ready
+        cycle: Spring
+        date: '2026-09-25 23:59:59'
+      - type: rebuttal_start
+        cycle: Fall
+        label: Reviews available
+        date: '2027-01-06 23:59:59'
+      - type: rebuttal_end
+        cycle: Fall
+        label: Author responses due
+        date: '2027-01-08 23:59:59'
+      - type: notification
+        cycle: Fall
+        date: '2027-01-29 23:59:59'
+      - type: other
+        cycle: Fall
+        label: Artifact submission deadline (to be confirmed)
+        date: '2027-02-08 23:59:59'
+      - type: camera_ready
+        cycle: Fall
+        date: '2027-03-05 23:59:59'
+    note: Two submission cycles (Spring and Fall) whose accepted papers both appear at EuroSys 2027; borderline papers may get a one-shot revise-and-resubmit to the next cycle, and each author may be on at most three submissions per cycle. Workshops on April 19; held at the conference centre on the UM6P campus.
+    sources:
+      - https://2027.eurosys.org/cfp.html
+      - https://2027.eurosys.org/
+      - https://2027.eurosys.org/attend.html
+    checked: 2026-09-29
+  - year: 2026
+    id: eurosys26
+    link: https://2026.eurosys.org/
+    date: April 27-30, 2026
+    start: 2026-04-27
+    end: 2026-04-30
+    place: Edinburgh, UK
+    timezone: AoE
+    timeline:
+      - type: abstract
+        cycle: Spring
+        label: Paper titles and abstracts due
+        date: '2025-05-08 23:59:59'
+      - type: paper
+        cycle: Spring
+        date: '2025-05-15 23:59:59'
+      - type: rebuttal_start
+        cycle: Spring
+        label: Reviews available
+        date: '2025-07-30 23:59:59'
+      - type: rebuttal_end
+        cycle: Spring
+        label: Author responses due
+        date: '2025-08-01 23:59:59'
+      - type: notification
+        cycle: Spring
+        date: '2025-08-22 23:59:59'
+      - type: abstract
+        cycle: Fall
+        label: Paper titles and abstracts due
+        date: '2025-09-18 23:59:59'
+      - type: paper
+        cycle: Fall
+        date: '2025-09-25 23:59:59'
+      - type: camera_ready
+        cycle: Spring
+        date: '2025-09-26 23:59:59'
+      - type: rebuttal_start
+        cycle: Fall
+        label: Reviews available
+        date: '2026-01-07 23:59:59'
+      - type: rebuttal_end
+        cycle: Fall
+        label: Author responses due
+        date: '2026-01-09 23:59:59'
+      - type: notification
+        cycle: Fall
+        date: '2026-01-30 23:59:59'
+      - type: camera_ready
+        cycle: Fall
+        date: '2026-03-06 23:59:59'
+    note: Two submission cycles (Spring and Fall) with one-shot revise-and-resubmit to the next cycle. The Spring author-response deadline is Friday, August 1 on the homepage but "Friday, August 4" on the CFP page (August 4, 2025 was a Monday); the homepage date is recorded.
+    sources:
+      - https://2026.eurosys.org/cfp.html
+      - https://2026.eurosys.org/
+    checked: 2026-09-29

@@ -1,0 +1,81 @@
+id: micro
+title: MICRO
+full_name: IEEE/ACM International Symposium on Microarchitecture
+link: https://www.microarch.org/
+subs: [SYS]
+rank:
+  ccf: A
+  core: A*
+  thcpl: A
+dblp: micro
+upstream:
+  ccfddl: DS/micro
+editions:
+  - year: 2026
+    id: micro26
+    link: https://www.microarch.org/micro59/
+    date: October 31 - November 4, 2026
+    start: 2026-10-31
+    end: 2026-11-04
+    place: Athens, Greece
+    timezone: AoE
+    timeline:
+      - type: abstract
+        date: '2026-03-31 23:59:59'
+        timezone: UTC-4
+      - type: paper
+        date: '2026-04-07 23:59:59'
+        timezone: UTC-4
+      - type: rebuttal_start
+        label: Rebuttal/revision period starts
+        date: '2026-06-03 23:59:59'
+      - type: rebuttal_end
+        label: Rebuttal/revision period ends
+        date: '2026-06-17 23:59:59'
+      - type: notification
+        date: '2026-07-07 23:59:59'
+      - type: camera_ready
+        date: '2026-09-11 23:59:59'
+      - type: other
+        label: Author registration deadline
+        date: '2026-09-11 23:59:59'
+    note: Abstract and paper deadlines are 11:59 PM EDT; rebuttal, notification and camera-ready dates are given without a time zone (AoE assumed). The inaugural Industry Track shares the regular-track deadlines. Held at the InterContinental Athenaeum Athens Hotel.
+    sources:
+      - https://www.microarch.org/micro59/submit/papers.php
+      - https://www.microarch.org/micro59/submit/industrial.php
+      - https://www.microarch.org/micro59/
+      - https://micro2026.hotcrp.com/deadlines
+      - https://www.microarch.org/micro59/attend/index.php
+    checked: 2026-09-29
+  - year: 2025
+    id: micro25
+    link: https://www.microarch.org/micro58/
+    date: October 18-22, 2025
+    start: 2025-10-18
+    end: 2025-10-22
+    place: Seoul, South Korea
+    timezone: AoE
+    timeline:
+      - type: abstract
+        date: '2025-04-04 23:59:59'
+        timezone: UTC-4
+      - type: paper
+        date: '2025-04-11 23:59:59'
+        timezone: UTC-4
+      - type: rebuttal_start
+        label: Rebuttal/revision period starts
+        date: '2025-06-09 23:59:59'
+      - type: rebuttal_end
+        label: Rebuttal/revision period ends
+        date: '2025-06-21 23:59:59'
+      - type: notification
+        date: '2025-07-14 23:59:59'
+      - type: camera_ready
+        date: '2025-09-05 23:59:59'
+    note: Abstract and paper deadlines were 11:59 PM EDT; the other dates were given without a time zone (AoE assumed). Held at the Lotte Hotel Seoul.
+    sources:
+      - https://www.microarch.org/micro58/submit/papers.php
+      - https://www.microarch.org/micro58/
+      - https://www.microarch.org/micro58/submit/cameraready.php
+      - https://micro2025.hotcrp.com/deadlines
+    checked: 2026-09-29

@@ -1,0 +1,164 @@
+id: ccs
+title: CCS
+full_name: ACM Conference on Computer and Communications Security
+link: https://www.sigsac.org/ccs.html
+subs: [SEC]
+rank:
+  ccf: A
+  core: A*
+  thcpl: A
+dblp: ccs
+upstream:
+  ccfddl: SC/ccs
+editions:
+  - year: 2027
+    id: ccs27
+    link: https://www.sigsac.org/ccs/CCS2027/
+    date: October 11-15, 2027
+    start: 2027-10-11
+    end: 2027-10-15
+    place: Atlanta, GA, USA
+    timeline: []
+    note: >-
+      The CCS 2027 homepage is a "Coming Soon" page with only the dates and location; a draft call for papers says
+      there will again be two review cycles, but its Important Dates and submission sites are still TBD.
+    sources:
+      - https://www.sigsac.org/ccs/CCS2027/
+      - https://www.sigsac.org/ccs/CCS2027/cfp.html
+    checked: 2026-09-29
+  - year: 2026
+    id: ccs26
+    link: https://www.sigsac.org/ccs/CCS2026/
+    date: November 15-19, 2026
+    start: 2026-11-15
+    end: 2026-11-19
+    place: The Hague, Netherlands
+    timezone: AoE
+    timeline:
+      - type: abstract
+        cycle: Cycle A
+        label: Abstract submission deadline (mandatory)
+        date: '2026-01-07 23:59:59'
+      - type: paper
+        cycle: Cycle A
+        date: '2026-01-14 23:59:59'
+      - type: other
+        cycle: Cycle A
+        label: Notification of early-rejection papers
+        date: '2026-02-20 23:59:59'
+      - type: rebuttal_start
+        cycle: Cycle A
+        date: '2026-03-17 23:59:59'
+      - type: rebuttal_end
+        cycle: Cycle A
+        date: '2026-03-20 23:59:59'
+      - type: notification
+        cycle: Cycle A
+        date: '2026-04-09 23:59:59'
+      - type: other
+        cycle: Cycle A
+        label: Minor revision approval deadline
+        date: '2026-06-05 23:59:59'
+      - type: camera_ready
+        cycle: Cycle A
+        date: '2026-08-09 23:59:59'
+      - type: abstract
+        cycle: Cycle B
+        label: Abstract submission deadline (mandatory; title, abstract and track)
+        date: '2026-04-22 23:59:59'
+      - type: paper
+        cycle: Cycle B
+        date: '2026-04-29 23:59:59'
+      - type: supplementary
+        cycle: Cycle B
+        label: Online artifact deadline
+        date: '2026-05-02 23:59:59'
+      - type: other
+        cycle: Cycle B
+        label: Notification of early-rejection papers
+        date: '2026-06-12 23:59:59'
+      - type: rebuttal_start
+        cycle: Cycle B
+        date: '2026-06-29 23:59:59'
+      - type: rebuttal_end
+        cycle: Cycle B
+        date: '2026-07-01 23:59:59'
+      - type: notification
+        cycle: Cycle B
+        date: '2026-07-17 23:59:59'
+      - type: other
+        cycle: Cycle B
+        label: Minor revision approval deadline
+        date: '2026-09-04 23:59:59'
+      - type: camera_ready
+        cycle: Cycle B
+        date: '2026-09-13 23:59:59'
+    note: >-
+      Two review cycles (A and B) with mandatory abstract registration one week before each paper deadline; Cycle B's
+      early-rejection notification was postponed twice (June 3, then June 10, now June 12). Held at the World Forum, The Hague.
+    sources:
+      - https://www.sigsac.org/ccs/CCS2026/call-for/call-for-papers.html
+      - https://www.sigsac.org/ccs/CCS2026/
+      - https://www.sigsac.org/ccs/CCS2026/attending/venue.html
+      - https://ccs2026a.hotcrp.com/deadlines
+      - https://ccs2026b.hotcrp.com/deadlines
+    checked: 2026-09-29
+  - year: 2025
+    id: ccs25
+    link: https://www.sigsac.org/ccs/CCS2025/
+    date: October 13-17, 2025
+    start: 2025-10-13
+    end: 2025-10-17
+    place: Taipei, Taiwan
+    timezone: AoE
+    timeline:
+      - type: abstract
+        cycle: Cycle A
+        label: Abstract submission deadline (mandatory)
+        date: '2025-01-02 23:59:59'
+      - type: paper
+        cycle: Cycle A
+        date: '2025-01-09 23:59:59'
+      - type: other
+        cycle: Cycle A
+        label: Notification of early-rejection papers
+        date: '2025-02-10 23:59:59'
+      - type: rebuttal_start
+        cycle: Cycle A
+        date: '2025-03-03 23:59:59'
+      - type: rebuttal_end
+        cycle: Cycle A
+        date: '2025-03-06 23:59:59'
+      - type: notification
+        cycle: Cycle A
+        date: '2025-03-28 23:59:59'
+      - type: abstract
+        cycle: Cycle B
+        label: Abstract submission deadline (mandatory)
+        date: '2025-04-07 23:59:59'
+      - type: paper
+        cycle: Cycle B
+        date: '2025-04-14 23:59:59'
+      - type: other
+        cycle: Cycle B
+        label: Notification of early-rejection papers
+        date: '2025-05-16 23:59:59'
+      - type: rebuttal_start
+        cycle: Cycle B
+        date: '2025-06-07 23:59:59'
+      - type: rebuttal_end
+        cycle: Cycle B
+        date: '2025-06-12 23:59:59'
+      - type: notification
+        cycle: Cycle B
+        date: '2025-07-01 23:59:59'
+    note: >-
+      Two review cycles (A and B); the mandatory abstract deadline one week before each paper deadline was new in 2025.
+      Camera-ready dates were not listed in the CFP. Held at the Taipei International Convention Center (TICC).
+    sources:
+      - https://www.sigsac.org/ccs/CCS2025/call-for-papers/
+      - https://www.sigsac.org/ccs/CCS2025/
+      - https://www.sigsac.org/ccs/CCS2025/venue/
+      - https://ccs2025a.hotcrp.com/deadlines
+      - https://ccs2025b.hotcrp.com/deadlines
+    checked: 2026-09-29

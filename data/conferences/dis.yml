@@ -1,0 +1,92 @@
+id: dis
+title: DIS
+full_name: ACM Designing Interactive Systems Conference
+link: https://dis.acm.org/
+subs: [HCI]
+rank:
+  ccf: C
+  core: A
+  thcpl: B
+dblp: ACMdis
+upstream:
+  ccfddl: HI/dis
+editions:
+  - year: 2027
+    id: dis27
+    link: https://dis.acm.org/2027/
+    date: June 28 - July 2, 2027
+    start: 2027-06-28
+    end: 2027-07-02
+    place: KTH Royal Institute of Technology, Stockholm, Sweden
+    timezone: AoE
+    timeline:
+      - type: abstract
+        label: Title and abstract (papers & pictorials)
+        date: '2027-01-11 23:59:59'
+      - type: paper
+        label: Paper and pictorial submission
+        date: '2027-01-18 23:59:59'
+      - type: notification
+        date: '2027-03-19 23:59:59'
+      - type: camera_ready
+        date: '2027-04-16 23:59:59'
+    note: >-
+      Dates are labelled provisional on the contributing page; the camera-ready date comes from that page and the pictorials
+      dates table (the pictorials text also mentions April 28). Hybrid: synchronous online paper presentations June 21-25, 2027,
+      one week before the in-person conference.
+    sources:
+      - https://dis.acm.org/2027/call-for-papers/
+      - https://dis.acm.org/2027/contributing/
+      - https://dis.acm.org/2027/pictorials/
+      - https://dis.acm.org/2027/
+    checked: 2026-09-29
+  - year: 2026
+    id: dis26
+    link: https://dis.acm.org/2026/
+    date: June 13-17, 2026
+    start: 2026-06-13
+    end: 2026-06-17
+    place: University Town (UTown), National University of Singapore, Singapore
+    timezone: AoE
+    timeline:
+      - type: abstract
+        label: Title and abstract (papers & pictorials)
+        date: '2026-01-09 23:59:59'
+      - type: paper
+        label: Paper and pictorial submission
+        date: '2026-01-19 23:59:59'
+      - type: notification
+        date: '2026-03-18 23:59:59'
+      - type: camera_ready
+        date: '2026-04-08 23:59:59'
+    note: In-person-only conference (no remote presentations); submission site opened December 15, 2025.
+    sources:
+      - https://dis.acm.org/2026/papers/
+      - https://dis.acm.org/2026/
+      - https://dis.acm.org/2026/attending/
+    checked: 2026-09-29
+  - year: 2025
+    id: dis25
+    link: https://dis.acm.org/2025/
+    date: July 5-9, 2025
+    start: 2025-07-05
+    end: 2025-07-09
+    place: Pestana Casino Park, Funchal, Madeira, Portugal
+    timezone: AoE
+    timeline:
+      - type: abstract
+        label: Title and abstract (papers & pictorials)
+        date: '2025-01-13 23:59:59'
+      - type: paper
+        label: Paper and pictorial submission
+        date: '2025-01-20 23:59:59'
+      - type: notification
+        date: '2025-04-08 23:59:59'
+      - type: camera_ready
+        date: '2025-04-22 23:59:59'
+    note: In-person-only conference; theme "Designing for a Sustainable Ocean".
+    sources:
+      - https://dis.acm.org/2025/call-for-papers/
+      - https://dis.acm.org/2025/
+      - https://dis.acm.org/2025/attending/
+    checked: 2026-09-29

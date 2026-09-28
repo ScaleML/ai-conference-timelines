@@ -1,0 +1,120 @@
+id: icde
+title: ICDE
+full_name: IEEE International Conference on Data Engineering
+link: https://ieee-icde.org/
+subs: [DB]
+rank:
+  ccf: A
+  core: A*
+  thcpl: A
+dblp: icde
+upstream:
+  ccfddl: DB/icde
+editions:
+  - year: 2027
+    id: icde27
+    link: https://icde2027.github.io/
+    date: May 17-21, 2027
+    start: 2027-05-17
+    end: 2027-05-21
+    place: Copenhagen, Denmark
+    timezone: UTC-7
+    timeline:
+      - type: paper
+        cycle: Round 1
+        date: '2026-06-11 17:00:00'
+      - type: rebuttal_start
+        cycle: Round 1
+        date: '2026-08-08 00:00:00'
+      - type: rebuttal_end
+        cycle: Round 1
+        date: '2026-08-15 17:00:00'
+      - type: notification
+        cycle: Round 1
+        label: Notification (accept/reject, approximate)
+        date: '2026-09-10 23:59:59'
+      - type: camera_ready
+        cycle: Round 1
+        date: '2026-10-10 17:00:00'
+      - type: paper
+        cycle: Round 2
+        date: '2026-11-11 17:00:00'
+        timezone: UTC-8
+      - type: rebuttal_start
+        cycle: Round 2
+        date: '2027-01-08 00:00:00'
+        timezone: UTC-8
+      - type: rebuttal_end
+        cycle: Round 2
+        date: '2027-01-15 17:00:00'
+        timezone: UTC-8
+      - type: notification
+        cycle: Round 2
+        label: Notification (accept/reject, approximate)
+        date: '2027-02-10 23:59:59'
+        timezone: UTC-8
+      - type: camera_ready
+        cycle: Round 2
+        date: '2027-03-10 17:00:00'
+        timezone: UTC-8
+    note: >-
+      Two research-track rounds with author rebuttal and accept/reject decisions only (no revisions); all deadlines are
+      5 PM Pacific Time (PDT in June, PST in November). At most 5 research submissions per author per round. Workshop
+      proposals are due October 15, 2026 and tutorials November 20, 2026; Industry, demo and other track dates are
+      still TBD.
+    sources:
+      - https://icde2027.github.io/important-dates.html
+      - https://icde2027.github.io/cf-research-papers.html
+      - https://icde2027.github.io/
+    checked: 2026-09-29
+  - year: 2026
+    id: icde26
+    link: https://icde2026.github.io/
+    date: May 4-8, 2026
+    start: 2026-05-04
+    end: 2026-05-08
+    place: Montréal, Canada
+    timezone: UTC-7
+    timeline:
+      - type: paper
+        cycle: Round 1
+        date: '2025-06-18 17:00:00'
+      - type: notification
+        cycle: Round 1
+        label: Notification (accept/revise/reject)
+        date: '2025-08-18 23:59:59'
+      - type: other
+        cycle: Round 1
+        label: Revision due
+        date: '2025-09-22 17:00:00'
+      - type: notification
+        cycle: Round 1
+        label: Final notification (accept/reject)
+        date: '2025-10-20 23:59:59'
+      - type: paper
+        cycle: Round 2
+        date: '2025-10-27 17:00:00'
+      - type: notification
+        cycle: Round 2
+        label: Notification (accept/revise/reject)
+        date: '2025-12-22 23:59:59'
+        timezone: UTC-8
+      - type: other
+        cycle: Round 2
+        label: Revision due
+        date: '2026-01-26 17:00:00'
+        timezone: UTC-8
+      - type: notification
+        cycle: Round 2
+        label: Final notification (accept/reject)
+        date: '2026-02-23 23:59:59'
+        timezone: UTC-8
+    note: >-
+      Two research-track rounds, each with an accept/revise/reject decision followed by a revision phase; all deadlines
+      were 5 PM Pacific Time and notification dates were approximate. The single-round Industry and Applications track
+      deadline was October 27, 2025.
+    sources:
+      - https://icde2026.github.io/important-dates.html
+      - https://icde2026.github.io/cf-research-papers.html
+      - https://icde2026.github.io/
+    checked: 2026-09-29

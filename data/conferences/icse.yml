@@ -1,0 +1,157 @@
+id: icse
+title: ICSE
+full_name: IEEE/ACM International Conference on Software Engineering
+link: https://conf.researchr.org/series/icse
+subs: [SE]
+rank:
+  ccf: A
+  core: A*
+  thcpl: A
+dblp: icse
+upstream:
+  ccfddl: SE/icse
+editions:
+  - year: 2028
+    id: icse28
+    link: https://www.icse-conferences.org/
+    date: April 30 - May 6, 2028
+    start: 2028-04-30
+    end: 2028-05-06
+    place: Waikoloa, HI, USA
+    timeline: []
+    note: >-
+      50th ICSE. The ICSE steering committee site lists ICSE 2028 for April 2028 in Hawaii, USA; the exact dates and venue
+      (Hilton Waikoloa Village) come from IEEE's conference listing. No edition website or call for papers is public yet.
+    sources:
+      - https://www.icse-conferences.org/
+      - https://r6.ieee.org/hawaii/event/2028-ieee-acm-50th-international-conference-on-software-engineering-icse/
+    checked: 2026-09-29
+  - year: 2027
+    id: icse27
+    link: https://conf.researchr.org/home/icse-2027
+    date: April 25 - May 1, 2027
+    start: 2027-04-25
+    end: 2027-05-01
+    place: Dublin, Ireland
+    timezone: AoE
+    timeline:
+      - type: abstract
+        label: Abstract submission (mandatory)
+        date: '2026-06-23 23:59:59'
+      - type: paper
+        date: '2026-06-30 23:59:59'
+      - type: rebuttal_start
+        label: Author response period starts
+        date: '2026-09-23 23:59:59'
+      - type: rebuttal_end
+        label: Author response period ends
+        date: '2026-09-25 23:59:59'
+      - type: notification
+        label: Notification (accept / major revision / reject)
+        date: '2026-10-20 23:59:59'
+      - type: other
+        label: Major revision due
+        date: '2026-11-17 23:59:59'
+      - type: camera_ready
+        label: Camera-ready (directly accepted papers)
+        date: '2026-11-24 23:59:59'
+      - type: notification
+        label: Final decision on major revisions
+        date: '2026-12-18 23:59:59'
+      - type: camera_ready
+        label: Camera-ready (accepted major revisions)
+        date: '2027-01-25 23:59:59'
+    note: >-
+      Research track returns to a single submission cycle (ICSE 2024-2026 used two cycles); all dates are 23:59:59 AoE
+      and submissions use the IEEE format this year. Core conference days April 28-30 at the Convention Centre Dublin.
+    sources:
+      - https://conf.researchr.org/track/icse-2027/icse-2027-research-track
+      - https://conf.researchr.org/home/icse-2027
+      - http://www.icse-conferences.org/news.html
+    checked: 2026-09-29
+  - year: 2026
+    id: icse26
+    link: https://conf.researchr.org/home/icse-2026
+    date: April 12-18, 2026
+    start: 2026-04-12
+    end: 2026-04-18
+    place: Rio de Janeiro, Brazil
+    timezone: AoE
+    timeline:
+      - type: abstract
+        cycle: First cycle
+        label: Abstract submission (mandatory)
+        date: '2025-03-07 23:59:59'
+      - type: paper
+        cycle: First cycle
+        date: '2025-03-14 23:59:59'
+      - type: rebuttal_start
+        cycle: First cycle
+        label: Author response period starts
+        date: '2025-05-27 23:59:59'
+      - type: rebuttal_end
+        cycle: First cycle
+        label: Author response period ends
+        date: '2025-05-29 23:59:59'
+      - type: notification
+        cycle: First cycle
+        label: Notification (accept / revision / reject)
+        date: '2025-06-20 23:59:59'
+      - type: other
+        cycle: First cycle
+        label: Revision due
+        date: '2025-07-18 23:59:59'
+      - type: camera_ready
+        cycle: First cycle
+        label: Camera-ready (directly accepted papers)
+        date: '2025-09-10 23:59:59'
+      - type: notification
+        cycle: First cycle
+        label: Final decision on revised papers
+        date: '2025-10-17 23:59:59'
+      - type: camera_ready
+        cycle: First cycle
+        label: Camera-ready (accepted revised papers)
+        date: '2025-11-28 23:59:59'
+      - type: abstract
+        cycle: Second cycle
+        label: Abstract submission (optional)
+        date: '2025-07-11 23:59:59'
+      - type: paper
+        cycle: Second cycle
+        date: '2025-07-18 23:59:59'
+      - type: rebuttal_start
+        cycle: Second cycle
+        label: Author response period starts
+        date: '2025-09-23 23:59:59'
+      - type: rebuttal_end
+        cycle: Second cycle
+        label: Author response period ends
+        date: '2025-09-25 23:59:59'
+      - type: notification
+        cycle: Second cycle
+        label: Notification (accept / revision / reject)
+        date: '2025-10-17 23:59:59'
+      - type: other
+        cycle: Second cycle
+        label: Revision due
+        date: '2025-11-14 23:59:59'
+      - type: camera_ready
+        cycle: Second cycle
+        label: Camera-ready (directly accepted papers)
+        date: '2025-11-28 23:59:59'
+      - type: notification
+        cycle: Second cycle
+        label: Final decision on revised papers
+        date: '2025-12-19 23:59:59'
+      - type: camera_ready
+        cycle: Second cycle
+        label: Camera-ready (accepted revised papers)
+        date: '2026-01-16 23:59:59'
+    note: >-
+      Two submission cycles (March and July 2025); on June 30, 2025 the second-cycle abstract deadline was made optional,
+      with the July 18 full-paper deadline unchanged. Core conference days April 15-17 at the Windsor Convention Center.
+    sources:
+      - https://conf.researchr.org/track/icse-2026/icse-2026-research-track
+      - https://conf.researchr.org/home/icse-2026
+    checked: 2026-09-29

@@ -1,0 +1,67 @@
+id: fpga
+title: FPGA
+full_name: ACM/SIGDA International Symposium on Field-Programmable Gate Arrays
+link: https://www.isfpga.org/
+subs: [SYS]
+rank:
+  ccf: B
+  core: A
+  thcpl: A
+dblp: fpga
+upstream:
+  ccfddl: DS/fpga
+editions:
+  - year: 2027
+    id: fpga27
+    link: https://www.isfpga.org/
+    date: March 14-16, 2027
+    start: 2027-03-14
+    end: 2027-03-16
+    place: California, USA
+    timezone: AoE
+    timeline:
+      - type: abstract
+        date: '2026-09-30 23:59:59'
+      - type: paper
+        date: '2026-10-07 23:59:59'
+      - type: rebuttal_start
+        date: '2026-11-09 00:00:00'
+      - type: rebuttal_end
+        date: '2026-11-15 23:59:59'
+      - type: notification
+        date: '2026-11-24 23:59:59'
+      - type: camera_ready
+        date: '2026-12-15 23:59:59'
+    note: The HotCRP site closes registration and submission at 12 AM AoE on October 1 and October 8, 2026 (the start of those days), which is what is recorded here; the call itself says 11:59 pm AoE on October 1 / October 8 with no extensions for both the regular and industry tracks. The call only says the symposium will be held in California, USA.
+    sources:
+      - https://www.isfpga.org/call-for-papers/
+      - https://www.isfpga.org/call-for-papers-industry-track/
+      - https://www.isfpga.org/
+      - https://fpga27.hotcrp.com/deadlines
+    checked: 2026-09-29
+  - year: 2026
+    id: fpga26
+    link: https://www.isfpga.org/past/fpga2026/
+    date: February 22-24, 2026
+    start: 2026-02-22
+    end: 2026-02-24
+    place: Seaside (Monterey Bay), CA, USA
+    timezone: AoE
+    timeline:
+      - type: abstract
+        date: '2025-09-24 23:59:59'
+      - type: paper
+        date: '2025-10-01 23:59:59'
+      - type: rebuttal_start
+        date: '2025-11-02 00:00:00'
+      - type: rebuttal_end
+        date: '2025-11-09 23:59:59'
+      - type: notification
+        date: '2025-11-21 23:59:59'
+      - type: camera_ready
+        date: '2025-12-18 23:59:59'
+    note: Notifications were moved from November 23 to November 17-21, 2025 (last day recorded) and the camera-ready deadline from December 10 to December 18, 2025. Held at the Embassy Suites by Hilton Monterey Bay Seaside.
+    sources:
+      - https://isfpga.org/past/fpga2026/call-for-papers/
+      - https://www.isfpga.org/past/fpga2026/
+    checked: 2026-09-29

@@ -1,0 +1,86 @@
+id: socc
+title: SoCC
+full_name: ACM Symposium on Cloud Computing
+link: https://acmsocc.org/
+subs: [SYS]
+rank:
+  ccf: B
+  core: N
+  thcpl: B
+dblp: cloud
+upstream:
+  ccfddl: DS/socc
+editions:
+  - year: 2026
+    id: socc26
+    link: https://acmsocc.org/2026/
+    date: November 18-20, 2026
+    start: 2026-11-18
+    end: 2026-11-20
+    place: Singapore
+    timezone: AoE
+    timeline:
+      - type: abstract
+        cycle: First round
+        date: '2026-02-06 23:59:59'
+      - type: paper
+        cycle: First round
+        date: '2026-02-13 23:59:59'
+      - type: rebuttal_start
+        cycle: First round
+        date: '2026-04-12 23:59:59'
+      - type: rebuttal_end
+        cycle: First round
+        date: '2026-04-14 23:59:59'
+      - type: notification
+        cycle: First round
+        date: '2026-04-29 23:59:59'
+      - type: abstract
+        cycle: Second round
+        date: '2026-07-07 23:59:59'
+      - type: paper
+        cycle: Second round
+        date: '2026-07-14 23:59:59'
+      - type: rebuttal_start
+        cycle: Second round
+        date: '2026-09-10 23:59:59'
+      - type: rebuttal_end
+        cycle: Second round
+        date: '2026-09-12 23:59:59'
+      - type: notification
+        cycle: Second round
+        date: '2026-09-26 23:59:59'
+      - type: camera_ready
+        date: '2026-10-17 23:59:59'
+    note: Two submission rounds; a paper rejected in the first round cannot be resubmitted in the second, and a single camera-ready deadline is listed. Held at the Shangri-La Rasa Sentosa Resort & Spa on Sentosa Island.
+    sources:
+      - https://acmsocc.org/2026/papers.html
+      - https://acmsocc.org/2026/
+      - https://acmsocc.org/2026/venue.html
+    checked: 2026-09-29
+  - year: 2025
+    id: socc25
+    link: https://acmsocc.org/2025/
+    date: November 19-21, 2025
+    start: 2025-11-19
+    end: 2025-11-21
+    place: Virtual
+    timezone: UTC-4
+    timeline:
+      - type: abstract
+        date: '2025-07-07 17:00:00'
+      - type: paper
+        date: '2025-07-14 17:00:00'
+      - type: rebuttal_start
+        date: '2025-09-10 23:59:59'
+      - type: rebuttal_end
+        date: '2025-09-12 17:00:00'
+      - type: notification
+        date: '2025-09-26 23:59:59'
+      - type: camera_ready
+        date: '2025-10-17 23:59:59'
+    note: Deadlines were 5:00 pm EDT; notification and camera-ready dates were given without a time. Held as a fully virtual event.
+    sources:
+      - https://acmsocc.org/2025/papers.html
+      - https://acmsocc.org/2025/
+    checked: 2026-09-29

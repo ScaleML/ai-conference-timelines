@@ -1,0 +1,73 @@
+id: ccc
+title: CCC
+full_name: Computational Complexity Conference
+link: https://computationalcomplexity.org/
+subs: [TH]
+rank:
+  ccf: B
+  core: A
+  thcpl: A
+dblp: coco
+upstream:
+  ccfddl: CT/ccc
+editions:
+  - year: 2027
+    id: ccc27
+    link: https://computationalcomplexity.org/
+    date: July 19-22, 2027
+    start: 2027-07-19
+    end: 2027-07-22
+    place: University of Washington, Seattle, WA, USA
+    timezone: AoE
+    timeline: []
+    note: >-
+      The CCC homepage announces CCC 2027 at the University of Washington (PC chair Swastik Kopparty); no call for
+      papers or submission dates have been posted yet.
+    sources:
+      - https://computationalcomplexity.org/
+      - https://computationalcomplexity.org/conferences.html
+    checked: 2026-09-29
+
+  - year: 2026
+    id: ccc26
+    link: https://computationalcomplexity.org/Archive/2026/index.html
+    date: August 3-6, 2026
+    start: 2026-08-03
+    end: 2026-08-06
+    place: Faculty of Sciences, University of Lisbon, Lisbon, Portugal
+    timezone: AoE
+    timeline:
+      - type: paper
+        date: '2026-02-06 23:59:00'
+      - type: notification
+        label: Notification (by)
+        date: '2026-05-01 23:59:59'
+    note: >-
+      Deadline 23:59 AoE; the notification date carries no time zone (AoE assumed). Camera-ready versions were due
+      "end of May 2026" (no exact date given). Proceedings in LIPIcs.
+    sources:
+      - https://computationalcomplexity.org/Archive/2026/cfp.html
+      - https://computationalcomplexity.org/Archive/2026/index.html
+    checked: 2026-09-29
+
+  - year: 2025
+    id: ccc25
+    link: https://computationalcomplexity.org/Archive/2025/index.html
+    date: August 5-8, 2025
+    start: 2025-08-05
+    end: 2025-08-08
+    place: Fields Institute, University of Toronto, Toronto, Canada
+    timezone: AoE
+    timeline:
+      - type: paper
+        date: '2025-02-07 23:59:00'
+      - type: notification
+        label: Notification (by)
+        date: '2025-05-02 23:59:59'
+    note: >-
+      Deadline 23:59 AoE; the notification date carries no time zone (AoE assumed). Camera-ready versions were due
+      "end of May 2025" (no exact date given). Proceedings in LIPIcs.
+    sources:
+      - https://computationalcomplexity.org/Archive/2025/cfp.html
+      - https://computationalcomplexity.org/Archive/2025/index.html
+    checked: 2026-09-29

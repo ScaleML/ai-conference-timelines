@@ -1,0 +1,111 @@
+id: cav
+title: CAV
+full_name: International Conference on Computer Aided Verification
+link: https://i-cav.org/
+subs: [TH, SE]
+rank:
+  ccf: A
+  core: A*
+  thcpl: A
+dblp: cav
+upstream:
+  ccfddl: CT/cav
+editions:
+  - year: 2027
+    id: cav27
+    link: https://conferences.i-cav.org/2027/
+    date: July 19-23, 2027
+    start: 2027-07-19
+    end: 2027-07-23
+    place: KIT (Royal Tropical Institute), Amsterdam, The Netherlands
+    timezone: AoE
+    timeline:
+      - type: paper
+        date: '2027-01-20 23:59:59'
+      - type: other
+        label: Early rejection notification (first review stage)
+        date: '2027-03-04 23:59:59'
+      - type: other
+        label: Artifact registration (tool papers)
+        date: '2027-03-08 23:59:59'
+      - type: other
+        label: Artifact submission (tool papers)
+        date: '2027-03-11 23:59:59'
+      - type: rebuttal_start
+        date: '2027-04-05 23:59:59'
+      - type: rebuttal_end
+        date: '2027-04-08 23:59:59'
+      - type: notification
+        date: '2027-04-23 23:59:59'
+      - type: camera_ready
+        date: '2027-05-18 23:59:59'
+    note: >-
+      Two-stage review: papers without enough first-stage support are rejected early, the rest get a response period.
+      Artifact evaluation is mandatory for tool papers (registration March 8, submission March 11). Workshops July 19-20,
+      main conference July 21-23; all deadlines AoE; submission via HotCRP (link not yet posted).
+    sources:
+      - https://conferences.i-cav.org/2027/cfp/
+      - https://conferences.i-cav.org/2027/artifacts/
+      - https://conferences.i-cav.org/2027/
+    checked: 2026-09-29
+
+  - year: 2026
+    id: cav26
+    link: https://conferences.i-cav.org/2026/
+    date: July 26-29, 2026
+    start: 2026-07-26
+    end: 2026-07-29
+    place: Lisbon, Portugal
+    timezone: AoE
+    timeline:
+      - type: paper
+        date: '2026-01-28 23:59:59'
+      - type: other
+        label: First-stage (early rejection) notification (tentative)
+        date: '2026-03-04 23:59:59'
+      - type: rebuttal_start
+        date: '2026-03-30 23:59:59'
+      - type: rebuttal_end
+        date: '2026-04-02 23:59:59'
+      - type: notification
+        date: '2026-04-17 23:59:59'
+      - type: camera_ready
+        date: '2026-05-15 23:59:59'
+    note: >-
+      Held as part of FLoC 2026; submissions via submissions.floc26.org. First year of the two-stage review process
+      (first-round outcome "around March 4"). Artifact evaluation was optional (registration April 22, 2026).
+    sources:
+      - https://conferences.i-cav.org/2026/cfp/
+      - https://conferences.i-cav.org/2026/artifacts
+      - https://conferences.i-cav.org/2026/
+    checked: 2026-09-29
+
+  - year: 2025
+    id: cav25
+    link: https://conferences.i-cav.org/2025/
+    date: July 21-25, 2025
+    start: 2025-07-21
+    end: 2025-07-25
+    place: Zagreb, Croatia
+    timezone: AoE
+    timeline:
+      - type: paper
+        date: '2025-01-31 23:59:59'
+      - type: rebuttal_start
+        date: '2025-03-11 23:59:59'
+      - type: rebuttal_end
+        date: '2025-03-14 23:59:59'
+      - type: notification
+        date: '2025-04-02 23:59:59'
+      - type: other
+        label: Artifact submission (mandatory for tool papers)
+        date: '2025-04-14 23:59:59'
+    note: >-
+      Paper deadline was firm; all deadlines AoE. Workshops July 21-22 (Faculty of Electrical Engineering and Computing),
+      main conference July 23-25 (Westin Hotel). No camera-ready date was published on the site.
+    sources:
+      - https://conferences.i-cav.org/2025/cfp/
+      - https://conferences.i-cav.org/2025/artifact/
+      - https://conferences.i-cav.org/2025/
+      - https://conferences.i-cav.org/2025/venues/
+    checked: 2026-09-29

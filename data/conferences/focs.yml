@@ -1,0 +1,70 @@
+id: focs
+title: FOCS
+full_name: IEEE Symposium on Foundations of Computer Science
+link: https://ieee-focs.org/
+subs: [TH]
+rank:
+  ccf: A
+  core: A*
+  thcpl: A
+dblp: focs
+upstream:
+  ccfddl: CT/focs
+editions:
+  - year: 2026
+    id: focs26
+    link: https://focs.computer.org/2026/
+    date: November 8-11, 2026
+    start: 2026-11-08
+    end: 2026-11-11
+    place: NYU Kimmel Center for University Life, New York, NY, USA
+    timezone: AoE
+    timeline:
+      - type: paper
+        timezone: UTC-4
+        date: '2026-04-01 17:00:00'
+      - type: notification
+        date: '2026-07-03 23:59:59'
+      - type: other
+        label: Workshop proposals due
+        date: '2026-07-31 23:59:59'
+      - type: camera_ready
+        date: '2026-10-01 23:59:59'
+    note: >-
+      Paper deadline was 5:00 PM EDT (21:00 UTC); notification and camera-ready dates carry no timezone (AoE assumed),
+      workshop proposals were AoE. Workshops on Sunday, November 8; co-located with TCC 2026 (November 10-13).
+    sources:
+      - https://focs.computer.org/2026/
+      - https://focs.computer.org/2026/call-for-papers-2/
+      - https://sanjeevkhanna.org/FOCS2026_CFP.html
+      - https://focs.computer.org/2026/call-for-workshops/
+      - https://focs26.hotcrp.com/deadlines
+    checked: 2026-09-29
+
+  - year: 2025
+    id: focs25
+    link: https://focs.computer.org/2025/
+    date: December 14-17, 2025
+    start: 2025-12-14
+    end: 2025-12-17
+    place: PARKROYAL Darling Harbour, Sydney, NSW, Australia
+    timezone: AoE
+    timeline:
+      - type: paper
+        timezone: UTC-4
+        date: '2025-04-03 20:00:00'
+      - type: notification
+        date: '2025-07-08 23:59:59'
+      - type: other
+        label: Workshop proposals due
+        date: '2025-09-05 23:59:59'
+    note: >-
+      Paper deadline was 8PM ET (EDT, UTC-4); notification and workshop-proposal dates carry no timezone (AoE assumed).
+      No camera-ready date was published on the site. Workshops were held on December 14.
+    sources:
+      - https://focs.computer.org/2025/
+      - https://focs.computer.org/2025/call-for-papers/
+      - https://focs.computer.org/2025/call-for-workshops/
+      - https://focs.computer.org/2025/venue/
+      - https://focs25.hotcrp.com/deadlines
+    checked: 2026-09-29

@@ -1,0 +1,198 @@
+id: edbt
+title: EDBT
+full_name: International Conference on Extending Database Technology
+link: https://edbt.org/
+subs: [DB]
+rank:
+  ccf: B
+  core: B
+  thcpl: B
+dblp: edbt
+upstream:
+  ccfddl: DB/edbt
+editions:
+  - year: 2027
+    id: edbt27
+    link: https://edbticdt2027.github.io/
+    date: April 6-9, 2027
+    start: 2027-04-06
+    end: 2027-04-09
+    place: Lille, France
+    timezone: UTC-7
+    timeline:
+      - type: paper
+        cycle: Round 1
+        date: '2026-02-04 17:00:00'
+        timezone: UTC-8
+      - type: other
+        cycle: Round 1
+        label: Author feedback
+        date: '2026-03-19 17:00:00'
+      - type: notification
+        cycle: Round 1
+        label: Notification (accept/revise/reject)
+        date: '2026-04-04 23:59:59'
+      - type: other
+        cycle: Round 1
+        label: Revised paper submission
+        date: '2026-05-04 17:00:00'
+      - type: notification
+        cycle: Round 1
+        label: Final notification (accept/reject)
+        date: '2026-05-27 23:59:59'
+      - type: camera_ready
+        cycle: Round 1
+        date: '2026-06-10 17:00:00'
+      - type: paper
+        cycle: Round 2
+        date: '2026-06-10 17:00:00'
+      - type: other
+        cycle: Round 2
+        label: Author feedback
+        date: '2026-07-23 17:00:00'
+      - type: notification
+        cycle: Round 2
+        label: Notification (accept/revise/reject)
+        date: '2026-08-08 23:59:59'
+      - type: other
+        cycle: Round 2
+        label: Revised paper submission
+        date: '2026-09-07 17:00:00'
+      - type: notification
+        cycle: Round 2
+        label: Final notification (accept/reject)
+        date: '2026-09-30 23:59:59'
+      - type: camera_ready
+        cycle: Round 2
+        date: '2026-10-14 17:00:00'
+      - type: paper
+        cycle: Round 3
+        date: '2026-10-07 17:00:00'
+      - type: other
+        cycle: Round 3
+        label: Author feedback
+        date: '2026-11-19 17:00:00'
+        timezone: UTC-8
+      - type: notification
+        cycle: Round 3
+        label: Notification (accept/revise/reject)
+        date: '2026-12-05 23:59:59'
+        timezone: UTC-8
+      - type: other
+        cycle: Round 3
+        label: Revised paper submission
+        date: '2027-01-04 17:00:00'
+        timezone: UTC-8
+      - type: notification
+        cycle: Round 3
+        label: Final notification (accept/reject)
+        date: '2027-01-27 23:59:59'
+        timezone: UTC-8
+      - type: camera_ready
+        cycle: Round 3
+        date: '2027-02-10 17:00:00'
+        timezone: UTC-8
+      - type: paper
+        cycle: Industrial & Application
+        date: '2026-11-27 23:59:59'
+        timezone: AoE
+      - type: notification
+        cycle: Industrial & Application
+        date: '2027-01-29 23:59:59'
+        timezone: AoE
+      - type: camera_ready
+        cycle: Industrial & Application
+        date: '2027-02-12 23:59:59'
+        timezone: AoE
+    note: >-
+      30th EDBT, held jointly with ICDT 2027. Three research rounds with a revise option, max 3 submissions per author per
+      round; research deadlines are 5 pm Pacific Time (the CFP says "5pm PST"; recorded as PST in winter, PDT in
+      summer), the Industrial & Application track uses AoE. Demo papers are due November 18, 2026 (5 pm PT).
+    sources:
+      - https://edbticdt2027.github.io/?contents=important_dates.html
+      - https://edbticdt2027.github.io/?contents=EDBT_CFP.html
+      - https://edbticdt2027.github.io/?contents=call_for_IAP.html
+      - https://edbticdt2027.github.io/?contents=call_for_demos.html
+      - https://edbticdt2027.github.io/
+    checked: 2026-09-29
+  - year: 2026
+    id: edbt26
+    link: https://edbticdt2026.github.io/
+    date: March 24-27, 2026
+    start: 2026-03-24
+    end: 2026-03-27
+    place: Tampere, Finland
+    timezone: AoE
+    timeline:
+      - type: paper
+        cycle: Round 1
+        date: '2025-02-05 23:59:59'
+      - type: notification
+        cycle: Round 1
+        label: Notification (accept/revise/reject)
+        date: '2025-03-27 23:59:59'
+      - type: other
+        cycle: Round 1
+        label: Revised paper submission
+        date: '2025-04-29 23:59:59'
+      - type: notification
+        cycle: Round 1
+        label: Final notification (accept/reject)
+        date: '2025-05-25 23:59:59'
+      - type: camera_ready
+        cycle: Round 1
+        date: '2025-06-09 23:59:59'
+      - type: paper
+        cycle: Round 2
+        date: '2025-06-04 23:59:59'
+      - type: notification
+        cycle: Round 2
+        label: Notification (accept/revise/reject)
+        date: '2025-07-31 23:59:59'
+      - type: other
+        cycle: Round 2
+        label: Revised paper submission
+        date: '2025-09-02 23:59:59'
+      - type: notification
+        cycle: Round 2
+        label: Final notification (accept/reject)
+        date: '2025-10-01 23:59:59'
+      - type: camera_ready
+        cycle: Round 2
+        date: '2025-10-15 23:59:59'
+      - type: paper
+        cycle: Round 3
+        date: '2025-10-08 23:59:59'
+      - type: notification
+        cycle: Round 3
+        label: Notification (accept/revise/reject)
+        date: '2025-11-27 23:59:59'
+      - type: other
+        cycle: Round 3
+        label: Revised paper submission
+        date: '2026-01-05 23:59:59'
+      - type: notification
+        cycle: Round 3
+        label: Final notification (accept/reject)
+        date: '2026-02-03 23:59:59'
+      - type: camera_ready
+        cycle: Round 3
+        date: '2026-02-17 23:59:59'
+      - type: paper
+        cycle: Industrial & Application
+        date: '2025-11-28 23:59:59'
+      - type: notification
+        cycle: Industrial & Application
+        date: '2026-01-30 23:59:59'
+      - type: camera_ready
+        cycle: Industrial & Application
+        date: '2026-02-13 23:59:59'
+    note: >-
+      29th EDBT, held jointly with ICDT 2026 at Tampere University (City Campus). Three research rounds with a revise
+      option; the site lists the Round 3 revision deadline as "January 5, 2025", an obvious typo for January 5, 2026.
+    sources:
+      - https://edbticdt2026.github.io/?contents=important_dates.html
+      - https://edbticdt2026.github.io/?contents=EDBT_CFP.html
+      - https://edbticdt2026.github.io/?contents=call_for_IAP.html
+      - https://edbticdt2026.github.io/
+    checked: 2026-09-29

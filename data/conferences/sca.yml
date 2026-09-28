@@ -1,0 +1,93 @@
+id: sca
+title: SCA
+full_name: ACM SIGGRAPH/Eurographics Symposium on Computer Animation
+link: https://computeranimation.org/
+subs: [CG]
+rank:
+  ccf: B
+  core: B
+  thcpl: B
+dblp: sca
+upstream:
+  ccfddl: CG/sca
+editions:
+  - year: 2026
+    id: sca26
+    link: https://computeranimation.org/
+    date: July 8-10, 2026
+    start: 2026-07-08
+    end: 2026-07-10
+    place: Facultat de Matemàtiques i Estadística, Universitat Politècnica de Catalunya, Barcelona, Spain
+    timezone: UTC
+    timeline:
+      - type: abstract
+        date: '2026-04-10 23:59:00'
+      - type: paper
+        date: '2026-04-17 23:59:00'
+      - type: rebuttal_start
+        date: '2026-05-12 23:59:59'
+      - type: rebuttal_end
+        date: '2026-05-19 23:59:59'
+      - type: notification
+        label: Provisional acceptance notification
+        date: '2026-05-29 23:59:59'
+      - type: other
+        label: Poster submission deadline
+        date: '2026-06-01 23:59:00'
+      - type: other
+        label: Poster notification
+        date: '2026-06-08 23:59:59'
+      - type: other
+        label: Revised paper deadline
+        date: '2026-06-10 23:59:59'
+      - type: notification
+        label: Journal (final) notification
+        date: '2026-06-12 23:59:59'
+      - type: camera_ready
+        date: '2026-06-17 23:59:59'
+    note: >-
+      Abstract, paper and poster deadlines are 23:59 UTC; the other dates are given without a time and are shown
+      as end of day UTC. Two-round review with accepted full papers published in Computer Graphics Forum; the CFP
+      text mentions first-round results on June 16 while the important-dates table lists May 29 (recorded here).
+    sources:
+      - https://computeranimation.org/
+      - https://computeranimation.org/deadline_table.js
+      - https://computeranimation.org/instructions.html
+      - https://computeranimation.org/venue.html
+      - https://srmv2.eg.org/COMFy/Conference/SCA_2026
+    checked: 2026-09-29
+  - year: 2025
+    id: sca25
+    link: https://computeranimation.org/2025/
+    date: August 8-10, 2025
+    start: 2025-08-08
+    end: 2025-08-10
+    place: Morris J. Wosk Centre for Dialogue, Simon Fraser University, Vancouver, BC, Canada
+    timezone: AoE
+    timeline:
+      - type: paper
+        date: '2025-04-07 23:59:00'
+      - type: notification
+        label: Notification of acceptance (first round)
+        date: '2025-05-12 23:59:59'
+      - type: other
+        label: Revised version deadline
+        date: '2025-06-12 23:59:00'
+      - type: notification
+        label: Journal (final) notification
+        date: '2025-06-30 23:59:59'
+      - type: camera_ready
+        date: '2025-07-10 23:59:00'
+      - type: other
+        label: Poster submission deadline
+        date: '2025-07-15 23:59:00'
+    note: >-
+      Paper deadline extended from April 3 to April 7, 2025 and poster deadline from June 15 to July 15, 2025
+      (23:59 AoE). Two rounds of review without rebuttal; papers published in PACMCGIT. Graduate school on
+      August 7.
+    sources:
+      - https://computeranimation.org/2025/
+      - https://computeranimation.org/2025/deadline_table.js
+      - https://computeranimation.org/2025/instructions.html
+      - https://computeranimation.org/2025/venue.html
+    checked: 2026-09-29

@@ -1,0 +1,81 @@
+id: ppopp
+title: PPoPP
+full_name: ACM SIGPLAN Symposium on Principles and Practice of Parallel Programming
+link: https://www.sigplan.org/Conferences/PPoPP/
+subs: [SYS]
+rank:
+  ccf: A
+  core: B
+  thcpl: A
+dblp: ppopp
+upstream:
+  ccfddl: DS/ppopp
+editions:
+  - year: 2027
+    id: ppopp27
+    link: https://ppopp27.sigplan.org/
+    date: March 20-24, 2027
+    start: 2027-03-20
+    end: 2027-03-24
+    place: Salt Lake City, UT, USA
+    timezone: AoE
+    timeline:
+      - type: paper
+        date: '2026-08-03 23:59:59'
+      - type: rebuttal_start
+        label: Author response period begins
+        date: '2026-10-08 23:59:59'
+      - type: rebuttal_end
+        label: Author response period ends
+        date: '2026-10-10 23:59:59'
+      - type: notification
+        date: '2026-10-26 23:59:59'
+      - type: other
+        label: Artifact submission to AE committee
+        date: '2026-11-09 23:59:59'
+      - type: other
+        label: Artifact notification by AE committee
+        date: '2026-12-14 23:59:59'
+      - type: camera_ready
+        label: Final paper due
+        date: '2026-12-18 23:59:59'
+    note: No separate abstract deadline. The important-dates table and dates page give the author response period as October 8-10, while the CFP text elsewhere says October 6-8; the table dates are recorded. Co-located with HPCA, CGO and CC 2027.
+    sources:
+      - https://ppopp27.sigplan.org/track/PPoPP-2027-papers
+      - https://ppopp27.sigplan.org/dates
+      - https://ppopp27.sigplan.org/
+    checked: 2026-09-29
+  - year: 2026
+    id: ppopp26
+    link: https://ppopp26.sigplan.org/
+    date: January 31 - February 4, 2026
+    start: 2026-01-31
+    end: 2026-02-04
+    place: Sydney, Australia
+    timezone: AoE
+    timeline:
+      - type: paper
+        date: '2025-09-01 23:59:59'
+      - type: rebuttal_start
+        label: Author response period begins
+        date: '2025-11-02 23:59:59'
+      - type: rebuttal_end
+        label: Author response period ends
+        date: '2025-11-04 23:59:59'
+      - type: notification
+        date: '2025-11-10 23:59:59'
+      - type: other
+        label: Artifact submission to AE committee
+        date: '2025-11-24 23:59:59'
+      - type: other
+        label: Artifact notification by AE committee
+        date: '2026-01-05 23:59:59'
+      - type: camera_ready
+        label: Final paper due
+        date: '2026-01-09 23:59:59'
+    note: The author response period was moved from October 27-29 to November 2-4, 2025 and artifact submission from November 17 to November 24; the final paper date was marked TBC. Held at ICC Sydney, co-located with HPCA, CGO and CC 2026.
+    sources:
+      - https://ppopp26.sigplan.org/track/PPoPP-2026-papers
+      - https://ppopp26.sigplan.org/dates
+      - https://ppopp26.sigplan.org/
+    checked: 2026-09-29

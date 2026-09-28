@@ -10,7 +10,9 @@ id: iclr                      # must equal the file name (without .yml)
 title: ICLR                   # short display name
 full_name: International Conference on Learning Representations
 link: https://iclr.cc/        # series homepage
-subs: [ML]                    # one or more of: ML CV CG NLP RO SP DM AP KR HCI
+subs: [ML]                    # one or more of: ML CV CG NLP RO SP DM AP KR HCI (AI areas)
+                              #   SYS NET SEC DB SE TH MX (systems, networking, security, databases,
+                              #   software engineering / PL, theory, interdisciplinary)
 rank:                         # omit a key (or use N) when unranked
   ccf: A                      # CCF (2022 list): A | B | C | N
   core: A*                    # CORE (latest ICORE/CORE list): A* | A | B | C | N

@@ -1,0 +1,108 @@
+id: nsdi
+title: NSDI
+full_name: USENIX Symposium on Networked Systems Design and Implementation
+link: https://www.usenix.org/conferences/byname/178
+subs: [NET, SYS]
+rank:
+  ccf: A
+  core: N
+  thcpl: A
+dblp: nsdi
+upstream:
+  ccfddl: NW/nsdi
+editions:
+  - year: 2028
+    id: nsdi28
+    link: https://www.usenix.org/conference/nsdi28
+    date: May 9-11, 2028
+    start: 2028-05-09
+    end: 2028-05-11
+    place: Santa Clara, CA, USA
+    timeline: []
+    note: The NSDI '28 page announces the dates and venue (Hyatt Regency Santa Clara); the call for papers and deadlines are not yet published.
+    sources:
+      - https://www.usenix.org/conference/nsdi28
+      - https://www.usenix.org/conferences/byname/178
+    checked: 2026-09-29
+  - year: 2027
+    id: nsdi27
+    link: https://www.usenix.org/conference/nsdi27
+    date: May 11-13, 2027
+    start: 2027-05-11
+    end: 2027-05-13
+    place: Providence, RI, USA
+    timezone: UTC-4
+    timeline:
+      - type: abstract
+        cycle: Spring
+        label: Paper titles and abstracts due
+        date: '2026-04-16 23:59:59'
+      - type: paper
+        cycle: Spring
+        date: '2026-04-23 23:59:59'
+      - type: notification
+        cycle: Spring
+        date: '2026-07-23 23:59:59'
+      - type: camera_ready
+        cycle: Spring
+        label: Final paper files due
+        date: '2026-10-20 23:59:59'
+      - type: abstract
+        cycle: Fall
+        label: Paper titles and abstracts due
+        date: '2026-09-10 23:59:59'
+      - type: paper
+        cycle: Fall
+        date: '2026-09-17 23:59:59'
+      - type: notification
+        cycle: Fall
+        date: '2026-12-08 23:59:59'
+      - type: camera_ready
+        cycle: Fall
+        label: Final paper files due
+        date: '2027-03-04 23:59:59'
+    note: Two submission deadlines (spring and fall), times are 11:59 pm US EDT. Three tracks (research, frontiers, operational systems); submissions are first prescreened on their introduction, and each author may appear on at most eight submissions across both deadlines.
+    sources:
+      - https://www.usenix.org/conference/nsdi27/call-for-papers
+    checked: 2026-09-29
+  - year: 2026
+    id: nsdi26
+    link: https://www.usenix.org/conference/nsdi26
+    date: May 4-6, 2026
+    start: 2026-05-04
+    end: 2026-05-06
+    place: Renton, WA, USA
+    timezone: UTC-7
+    timeline:
+      - type: abstract
+        cycle: Spring
+        label: Paper titles and abstracts due
+        date: '2025-04-18 23:59:59'
+      - type: paper
+        cycle: Spring
+        date: '2025-04-25 23:59:59'
+      - type: notification
+        cycle: Spring
+        date: '2025-07-24 23:59:59'
+      - type: camera_ready
+        cycle: Spring
+        label: Final paper files due
+        date: '2025-10-27 23:59:59'
+      - type: abstract
+        cycle: Fall
+        label: Paper titles and abstracts due
+        date: '2025-09-11 23:59:59'
+      - type: paper
+        cycle: Fall
+        date: '2025-09-18 23:59:59'
+      - type: notification
+        cycle: Fall
+        date: '2025-12-09 23:59:59'
+      - type: camera_ready
+        cycle: Fall
+        label: Final paper files due
+        date: '2026-03-05 23:59:59'
+    note: Two submission deadlines (spring and fall), times are 11:59 pm US PDT. The spring final-paper deadline was moved from October 21 to October 27, 2025.
+    sources:
+      - https://www.usenix.org/conference/nsdi26/call-for-papers
+    checked: 2026-09-29

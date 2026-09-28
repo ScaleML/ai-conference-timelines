@@ -1,0 +1,90 @@
+id: sosp
+title: SOSP
+full_name: ACM Symposium on Operating Systems Principles
+link: https://www.sosp.org/
+subs: [SYS]
+rank:
+  ccf: A
+  core: A*
+  thcpl: A
+dblp: sosp
+upstream:
+  ccfddl: SE/sosp
+editions:
+  - year: 2027
+    id: sosp27
+    link: https://sosp27.hotcrp.com/
+    place: Vancouver, BC, Canada
+    timeline: []
+    note: The SOSP 2027 (33rd SOSP) HotCRP submissions site is up but lists no deadlines, and ACM SIGOPS names Vancouver, Canada as the SOSP 2027 venue; no conference website, dates or call for papers have been published yet.
+    sources:
+      - https://sosp27.hotcrp.com/
+      - https://www.sigops.org/newsletter-issue/3952/
+    checked: 2026-09-29
+  - year: 2026
+    id: sosp26
+    link: https://sigops.org/s/conferences/sosp/2026/index.html
+    date: September 29 - October 2, 2026
+    start: 2026-09-29
+    end: 2026-10-02
+    place: Prague, Czechia
+    timezone: AoE
+    timeline:
+      - type: abstract
+        label: Abstract registration deadline
+        date: '2026-03-26 23:59:59'
+      - type: paper
+        date: '2026-04-01 23:59:59'
+      - type: rebuttal_start
+        label: Reviews available for author response
+        date: '2026-06-22 23:59:59'
+      - type: rebuttal_end
+        label: Author response due
+        date: '2026-06-24 23:59:59'
+      - type: notification
+        date: '2026-07-03 23:59:59'
+      - type: other
+        label: Artifact submission
+        date: '2026-07-13 23:59:59'
+      - type: camera_ready
+        date: '2026-08-28 23:59:59'
+    note: Only the abstract and paper deadlines are stated as AoE; the later dates are given without a time zone (AoE assumed). Workshops on September 29 and main conference from September 30 at the Clarion Congress Hotel Prague; SOSP has been held annually since 2024.
+    sources:
+      - https://sigops.org/s/conferences/sosp/2026/cfp.html
+      - https://sigops.org/s/conferences/sosp/2026/index.html
+      - https://sosp26.hotcrp.com/deadlines
+      - https://www.sosp.org/
+    checked: 2026-09-29
+  - year: 2025
+    id: sosp25
+    link: https://sigops.org/s/conferences/sosp/2025/index.html
+    date: October 13-16, 2025
+    start: 2025-10-13
+    end: 2025-10-16
+    place: Seoul, South Korea
+    timezone: UTC-7
+    timeline:
+      - type: abstract
+        label: Abstract registration deadline
+        date: '2025-04-10 23:59:59'
+      - type: paper
+        date: '2025-04-17 23:59:59'
+      - type: rebuttal_start
+        label: Reviews available for author response
+        date: '2025-07-01 23:59:59'
+      - type: rebuttal_end
+        label: Author response due
+        date: '2025-07-03 23:59:59'
+      - type: notification
+        date: '2025-07-15 23:59:59'
+      - type: other
+        label: Artifact registration & submission
+        date: '2025-08-01 23:59:59'
+      - type: camera_ready
+        date: '2025-09-01 23:59:59'
+    note: Abstract and paper deadlines were 23:59 PT (PDT); the paper deadline had no extensions, and later dates were given without a time. Workshops on October 13 and main conference October 14-16 at Lotte Hotel World.
+    sources:
+      - https://sigops.org/s/conferences/sosp/2025/cfp.html
+      - https://sigops.org/s/conferences/sosp/2025/index.html
+      - https://sysartifacts.github.io/sosp2025/
+    checked: 2026-09-29

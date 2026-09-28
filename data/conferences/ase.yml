@@ -1,0 +1,85 @@
+id: ase
+title: ASE
+full_name: IEEE/ACM International Conference on Automated Software Engineering
+link: https://ase-conferences.org/
+subs: [SE]
+rank:
+  ccf: A
+  core: A*
+  thcpl: A
+dblp: kbse
+upstream:
+  ccfddl: SE/ase
+editions:
+  - year: 2026
+    id: ase26
+    link: https://conf.researchr.org/home/ase-2026
+    date: October 12-16, 2026
+    start: 2026-10-12
+    end: 2026-10-16
+    place: Munich, Germany
+    timezone: AoE
+    timeline:
+      - type: paper
+        date: '2026-03-26 23:59:59'
+      - type: other
+        label: Early rejection notification
+        date: '2026-05-25 23:59:59'
+      - type: rebuttal_start
+        label: Author response period starts
+        date: '2026-05-25 23:59:59'
+      - type: rebuttal_end
+        label: Author response period ends
+        date: '2026-05-27 23:59:59'
+      - type: notification
+        label: Initial notification (accept / revision / reject)
+        date: '2026-06-18 23:59:59'
+      - type: other
+        label: Revision submission (major revisions only)
+        date: '2026-07-16 23:59:59'
+      - type: notification
+        label: Notification for major revisions
+        date: '2026-07-29 23:59:59'
+      - type: camera_ready
+        date: '2026-08-03 23:59:59'
+    note: >-
+      Research Papers track; new this year, papers with all-negative reviews are rejected early, before the author response.
+      Held at the Holiday Inn Munich - City Center.
+    sources:
+      - https://conf.researchr.org/track/ase-2026/ase-2026-research-track
+      - https://conf.researchr.org/dates/ase-2026
+      - https://conf.researchr.org/home/ase-2026
+    checked: 2026-09-29
+  - year: 2025
+    id: ase25
+    link: https://conf.researchr.org/home/ase-2025
+    date: November 16-20, 2025
+    start: 2025-11-16
+    end: 2025-11-20
+    place: Seoul, South Korea
+    timezone: AoE
+    timeline:
+      - type: paper
+        date: '2025-05-30 23:59:59'
+      - type: rebuttal_start
+        label: Author response period starts
+        date: '2025-07-22 23:59:59'
+      - type: rebuttal_end
+        label: Author response period ends
+        date: '2025-07-25 23:59:59'
+      - type: notification
+        label: Initial notification (accept / revision / reject)
+        date: '2025-08-14 23:59:59'
+      - type: other
+        label: Revised manuscript submission (major revisions only)
+        date: '2025-09-11 23:59:59'
+      - type: notification
+        label: Notification for major revisions
+        date: '2025-09-25 23:59:59'
+      - type: camera_ready
+        date: '2025-10-03 23:59:59'
+    note: Research Papers track (IEEE format, 10+2 pages); held at the Grand Walkerhill Seoul.
+    sources:
+      - https://conf.researchr.org/track/ase-2025/ase-2025-papers
+      - https://conf.researchr.org/home/ase-2025
+    checked: 2026-09-29

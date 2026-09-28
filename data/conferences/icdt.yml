@@ -1,0 +1,90 @@
+id: icdt
+title: ICDT
+full_name: International Conference on Database Theory
+link: https://databasetheory.org/icdt-pages
+subs: [DB, TH]
+rank:
+  ccf: B
+  core: A
+  thcpl: B
+dblp: icdt
+upstream:
+  ccfddl: DB/icdt
+editions:
+  - year: 2027
+    id: icdt27
+    link: https://edbticdt2027.github.io/
+    date: April 6-9, 2027
+    start: 2027-04-06
+    end: 2027-04-09
+    place: Lille, France
+    timezone: AoE
+    timeline:
+      - type: abstract
+        cycle: Cycle 1
+        date: '2026-03-03 23:59:59'
+      - type: paper
+        cycle: Cycle 1
+        date: '2026-03-10 23:59:59'
+      - type: notification
+        cycle: Cycle 1
+        date: '2026-06-01 23:59:59'
+      - type: abstract
+        cycle: Cycle 2
+        date: '2026-09-03 23:59:59'
+      - type: paper
+        cycle: Cycle 2
+        date: '2026-09-10 23:59:59'
+      - type: rebuttal_start
+        cycle: Cycle 2
+        date: '2026-11-03 23:59:59'
+      - type: rebuttal_end
+        cycle: Cycle 2
+        date: '2026-11-07 23:59:59'
+      - type: notification
+        cycle: Cycle 2
+        date: '2026-12-01 23:59:59'
+    note: >-
+      30th ICDT, held jointly with EDBT 2027 (the CFP on the conference site says April 6-8; the joint homepage and the
+      databasetheory.org CFP say April 6-9). Two submission cycles, each accepting regular papers (15 pages, anonymous)
+      and "Database Theory in Action" short papers (4 pages); papers rejected in Cycle 1 cannot be resubmitted to Cycle 2
+      unless the reviewers explicitly request it. Camera-ready dates not announced.
+    sources:
+      - https://edbticdt2027.github.io/?contents=ICDT_CFP.html
+      - https://edbticdt2027.github.io/?contents=important_dates.html
+      - https://edbticdt2027.github.io/
+      - https://databasetheory.org/node/154
+    checked: 2026-09-29
+  - year: 2026
+    id: icdt26
+    link: https://edbticdt2026.github.io/
+    date: March 24-27, 2026
+    start: 2026-03-24
+    end: 2026-03-27
+    place: Tampere, Finland
+    timezone: AoE
+    timeline:
+      - type: abstract
+        cycle: Cycle 1
+        date: '2025-03-13 23:59:59'
+      - type: paper
+        cycle: Cycle 1
+        date: '2025-03-20 23:59:59'
+      - type: notification
+        cycle: Cycle 1
+        date: '2025-06-01 23:59:59'
+      - type: abstract
+        cycle: Cycle 2
+        date: '2025-09-03 23:59:59'
+      - type: paper
+        cycle: Cycle 2
+        date: '2025-09-10 23:59:59'
+      - type: notification
+        cycle: Cycle 2
+        date: '2025-12-01 23:59:59'
+    note: 29th ICDT, held jointly with EDBT 2026 at Tampere University (City Campus). Two submission cycles, submissions via EasyChair.
+    sources:
+      - https://edbticdt2026.github.io/?contents=ICDT_CFP.html
+      - https://edbticdt2026.github.io/?contents=important_dates.html
+      - https://edbticdt2026.github.io/
+    checked: 2026-09-29

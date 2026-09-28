@@ -2,7 +2,7 @@ id: mlsys
 title: MLSys
 full_name: Conference on Machine Learning and Systems
 link: https://mlsys.org/
-subs: [ML]
+subs: [ML, SYS]
 rank:
   ccf: N
   core: N

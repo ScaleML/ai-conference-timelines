@@ -1,0 +1,67 @@
+id: dasfaa
+title: DASFAA
+full_name: International Conference on Database Systems for Advanced Applications
+link: https://www.dasfaa.net/
+subs: [DB]
+rank:
+  ccf: B
+  core: B
+  thcpl: B
+dblp: dasfaa
+upstream:
+  ccfddl: DB/dasfaa
+editions:
+  - year: 2027
+    id: dasfaa27
+    link: https://dasfaa2027.github.io/
+    date: May 27-30, 2027
+    start: 2027-05-27
+    end: 2027-05-30
+    place: Shenyang, China
+    timezone: AoE
+    timeline:
+      - type: paper
+        date: '2026-11-25 23:59:59'
+      - type: notification
+        date: '2027-01-25 23:59:59'
+      - type: camera_ready
+        date: '2027-02-20 23:59:59'
+    note: >-
+      Dates from the Research and Industry track CFPs (same deadlines, no extensions planned); the site's separate
+      "Important Dates" page lists placeholder dates (paper submission June 6, 2027, after the conference) that conflict with the CFPs.
+      Demo papers are due December 10, 2026 (AoE).
+    sources:
+      - https://dasfaa2027.github.io/CallforResearchTrack/list.htm
+      - https://dasfaa2027.github.io/CallforAppliedTrack/list.htm
+      - https://dasfaa2027.github.io/dates/list.htm
+      - https://dasfaa2027.github.io/CallforDemos/list.htm
+      - https://dasfaa2027.github.io/
+    checked: 2026-09-29
+  - year: 2026
+    id: dasfaa26
+    link: https://dasfaa2026.github.io/
+    date: April 27-30, 2026
+    start: 2026-04-27
+    end: 2026-04-30
+    place: Jeju Island, South Korea
+    timezone: AoE
+    timeline:
+      - type: abstract
+        date: '2025-10-20 23:59:59'
+      - type: paper
+        date: '2025-10-27 23:59:59'
+      - type: other
+        label: Industry track paper submission
+        date: '2025-11-03 23:59:59'
+      - type: notification
+        date: '2026-01-26 23:59:59'
+      - type: camera_ready
+        date: '2026-02-14 23:59:59'
+    note: >-
+      Notification was postponed from January 19 to January 26, 2026 (research and industry tracks). Held at ShinhwaWorld
+      Landing Resort, Jeju Island.
+    sources:
+      - https://dasfaa2026.github.io/calls/research-papers.html
+      - https://dasfaa2026.github.io/calls/industry-papers.html
+      - https://dasfaa2026.github.io/
+    checked: 2026-09-29

@@ -1,0 +1,70 @@
+id: eurocrypt
+title: EUROCRYPT
+full_name: Annual International Conference on the Theory and Applications of Cryptographic Techniques
+link: https://eurocrypt.iacr.org/
+subs: [SEC, TH]
+rank:
+  ccf: A
+  core: A*
+  thcpl: A
+dblp: eurocrypt
+upstream:
+  ccfddl: SC/eurocrypt
+editions:
+  - year: 2027
+    id: eurocrypt27
+    link: https://eurocrypt.iacr.org/2027/
+    date: April 11-15, 2027
+    start: 2027-04-11
+    end: 2027-04-15
+    place: Eindhoven, Netherlands
+    timezone: AoE
+    timeline:
+      - type: paper
+        date: '2026-09-17 23:59:59'
+      - type: rebuttal_start
+        label: Early-rejection notification & rebuttal period starts
+        date: '2026-11-30 23:59:59'
+      - type: rebuttal_end
+        date: '2026-12-05 23:59:59'
+      - type: notification
+        label: Final notification
+        date: '2027-01-18 23:59:59'
+      - type: camera_ready
+        date: '2027-02-08 23:59:59'
+    note: Submission deadline is 23:59 AoE; the other dates are listed without a time. Two-round review with a rebuttal phase; each author may submit at most 6 papers, and accepted papers must be presented in person.
+    sources:
+      - https://eurocrypt.iacr.org/2027/callforpapers.php
+      - https://eurocrypt.iacr.org/2027/papersubmission.php
+      - https://eurocrypt.iacr.org/2027/
+      - https://eurocrypt.iacr.org/2027/json/metadata.json
+      - https://www.iacr.org/events/
+      - https://github.com/ccfddl/ccf-deadlines/blob/main/conference/SC/eurocrypt.yml
+    checked: 2026-09-29
+  - year: 2026
+    id: eurocrypt26
+    link: https://eurocrypt.iacr.org/2026/
+    date: May 10-14, 2026
+    start: 2026-05-10
+    end: 2026-05-14
+    place: Rome, Italy
+    timezone: AoE
+    timeline:
+      - type: paper
+        date: '2025-10-02 23:59:59'
+      - type: rebuttal_start
+        label: Rebuttal period begins (first-round notification)
+        date: '2025-12-08 23:59:59'
+      - type: rebuttal_end
+        date: '2025-12-12 23:59:59'
+      - type: notification
+        label: Final notification
+        date: '2026-01-29 23:59:59'
+    note: Submission deadline was 23:59 AoE; no camera-ready date was listed. Two-round review with a rebuttal phase; held at the Auditorium Parco della Musica Ennio Morricone.
+    sources:
+      - https://eurocrypt.iacr.org/2026/callforpapers.php
+      - https://eurocrypt.iacr.org/2026/papersubmission.php
+      - https://eurocrypt.iacr.org/2026/json/metadata.json
+      - https://eurocrypt.iacr.org/2026/travel.php
+      - https://github.com/ccfddl/ccf-deadlines/blob/main/conference/SC/eurocrypt.yml
+    checked: 2026-09-29

@@ -1,0 +1,72 @@
+id: pldi
+title: PLDI
+full_name: ACM SIGPLAN Conference on Programming Language Design and Implementation
+link: https://www.sigplan.org/Conferences/PLDI/
+subs: [SE]
+rank:
+  ccf: A
+  core: A*
+  thcpl: A
+dblp: pldi
+upstream:
+  ccfddl: SE/pldi
+editions:
+  - year: 2027
+    id: pldi27
+    link: https://pldi27.sigplan.org/
+    date: June 5-11, 2027
+    start: 2027-06-05
+    end: 2027-06-11
+    place: Atlanta, GA, USA
+    timezone: AoE
+    timeline:
+      - type: paper
+        date: '2026-11-12 23:59:59'
+      - type: rebuttal_start
+        label: Author response period begins
+        date: '2027-02-16 23:59:59'
+      - type: rebuttal_end
+        label: Author response period ends
+        date: '2027-02-18 23:59:59'
+      - type: notification
+        label: Author notification (first-round decisions)
+        date: '2027-03-04 23:59:59'
+      - type: other
+        label: Revision deadline
+        date: '2027-03-23 23:59:59'
+      - type: notification
+        label: Final acceptance notification
+        date: '2027-04-01 23:59:59'
+      - type: camera_ready
+        date: '2027-04-15 23:59:59'
+    note: The full call for papers text was not yet posted; dates come from the Research Papers track's Important Dates list (AoE). PLDI 2027 is part of FCRC 2027 at the Hyatt Regency Atlanta; papers are published in PACMPL (PLDI issue).
+    sources:
+      - https://pldi27.sigplan.org/track/pldi-2027-papers
+      - https://pldi27.sigplan.org/
+    checked: 2026-09-29
+  - year: 2026
+    id: pldi26
+    link: https://pldi26.sigplan.org/
+    date: June 15-19, 2026
+    start: 2026-06-15
+    end: 2026-06-19
+    place: Boulder, CO, USA
+    timezone: AoE
+    timeline:
+      - type: paper
+        date: '2025-11-13 23:59:59'
+      - type: rebuttal_start
+        label: Author response period begins
+        date: '2026-02-17 23:59:59'
+      - type: rebuttal_end
+        label: Author response period ends
+        date: '2026-02-22 23:59:59'
+      - type: notification
+        date: '2026-03-05 23:59:59'
+      - type: camera_ready
+        date: '2026-04-16 23:59:59'
+    note: No separate abstract deadline; two-round review (conditional acceptance, then revision) with papers published in PACMPL (PLDI issue). Workshops/tutorials June 15-16, main conference June 17-19 at Limelight Boulder.
+    sources:
+      - https://pldi26.sigplan.org/track/pldi-2026-papers
+      - https://pldi26.sigplan.org/
+    checked: 2026-09-29

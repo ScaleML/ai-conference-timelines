@@ -1,0 +1,84 @@
+id: dac
+title: DAC
+full_name: Design Automation Conference
+link: https://www.dac.com/
+subs: [SYS]
+rank:
+  ccf: A
+  core: A*
+  thcpl: A
+dblp: dac
+upstream:
+  ccfddl: DS/dac
+editions:
+  - year: 2027
+    id: dac27
+    link: https://dac.com/2027
+    date: July 11-14, 2027
+    start: 2027-07-11
+    end: 2027-07-14
+    place: San Jose, CA, USA
+    timezone: UTC-8
+    timeline:
+      - type: abstract
+        label: Abstract submission deadline
+        date: '2026-11-11 17:00:00'
+      - type: paper
+        label: Manuscript submission deadline
+        date: '2026-11-18 17:00:00'
+      - type: other
+        label: Accepted research manuscript IDs published
+        date: '2027-02-22 23:59:59'
+      - type: notification
+        date: '2027-03-08 23:59:59'
+      - type: other
+        label: Manuscript confirmation due
+        date: '2027-03-22 23:59:59'
+      - type: camera_ready
+        label: Proceedings manuscript deadline
+        date: '2027-03-31 23:59:59'
+      - type: other
+        label: Author registration deadline
+        date: '2027-04-10 23:59:59'
+    note: Research-track deadlines are 5:00 PM US Pacific Time (PST); manuscripts are 6 pages plus 1 page of references. Held at the San Jose McEnery Convention Center.
+    sources:
+      - https://dac.com/2027/program/research-manuscript-submissions
+      - https://dac.com/2027/authors/call-for-contributions
+      - https://dac.com/2027
+      - https://dac.com/2027/travel/venue
+    checked: 2026-09-29
+  - year: 2026
+    id: dac26
+    link: https://dac.com/2026
+    date: July 26-29, 2026
+    start: 2026-07-26
+    end: 2026-07-29
+    place: Long Beach, CA, USA
+    timezone: UTC-8
+    timeline:
+      - type: abstract
+        label: Abstract submission deadline
+        date: '2025-11-11 17:00:00'
+      - type: paper
+        label: Manuscript submission deadline
+        date: '2025-11-19 17:00:00'
+      - type: other
+        label: Accepted research manuscript IDs published
+        date: '2026-02-23 23:59:59'
+      - type: notification
+        date: '2026-03-09 23:59:59'
+      - type: other
+        label: Manuscript confirmation due
+        date: '2026-03-23 23:59:59'
+      - type: camera_ready
+        label: Proceedings manuscript deadline
+        date: '2026-04-14 23:59:59'
+      - type: other
+        label: Author registration deadline
+        date: '2026-04-24 23:59:59'
+    note: The manuscript deadline was extended by one day (originally November 18, 2025, 5:00 PM PST) after submission-site problems, with no further extensions. Held at the Long Beach Convention Center.
+    sources:
+      - https://dac.com/2026/research-manuscript-submissions
+      - https://dac.com/2026/call-for-contributions
+      - https://dac.com/2026/venue-travel-information
+    checked: 2026-09-29

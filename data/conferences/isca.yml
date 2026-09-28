@@ -1,0 +1,80 @@
+id: isca
+title: ISCA
+full_name: International Symposium on Computer Architecture
+link: https://www.iscaconf.org/
+subs: [SYS]
+rank:
+  ccf: A
+  core: A*
+  thcpl: A
+dblp: isca
+upstream:
+  ccfddl: DS/isca
+editions:
+  - year: 2027
+    id: isca27
+    date: June 5-11, 2027 (FCRC week)
+    start: 2027-06-05
+    end: 2027-06-11
+    place: Atlanta, GA, USA
+    timeline: []
+    note: ISCA 2027 is part of ACM FCRC 2027 (June 5-11, 2027, Hyatt Regency Atlanta); ISCA's own days within FCRC, its website and its call for papers have not been published yet.
+    sources:
+      - https://fcrc.acm.org/
+      - https://pldi27.sigplan.org/
+      - https://www.sigarch.org/isca-2025-trip-report/
+      - https://www.iscaconf.org/
+    checked: 2026-09-29
+  - year: 2026
+    id: isca26
+    link: https://iscaconf.org/isca2026/
+    date: June 27 - July 1, 2026
+    start: 2026-06-27
+    end: 2026-07-01
+    place: Raleigh, NC, USA
+    timezone: AoE
+    timeline:
+      - type: abstract
+        cycle: Main track
+        date: '2025-11-10 23:59:59'
+      - type: paper
+        cycle: Main track
+        date: '2025-11-17 23:59:59'
+      - type: rebuttal_start
+        cycle: Main track
+        label: Rebuttal/revision period starts
+        date: '2026-02-16 23:59:59'
+      - type: rebuttal_end
+        cycle: Main track
+        label: Rebuttal/revision period ends
+        date: '2026-03-06 23:59:59'
+      - type: notification
+        cycle: Main track
+        date: '2026-03-27 23:59:59'
+      - type: abstract
+        cycle: Industry track
+        date: '2025-12-05 23:59:59'
+      - type: paper
+        cycle: Industry track
+        date: '2025-12-12 23:59:59'
+      - type: rebuttal_start
+        cycle: Industry track
+        date: '2026-02-16 23:59:59'
+      - type: rebuttal_end
+        cycle: Industry track
+        date: '2026-02-27 23:59:59'
+      - type: notification
+        cycle: Industry track
+        date: '2026-03-27 23:59:59'
+      - type: camera_ready
+        date: '2026-05-06 17:00:00'
+        timezone: UTC-7
+    note: Main and industry tracks had separate deadlines; the industry track had a rebuttal only (no revisions). Camera-ready was due May 6, 2026 at 5:00 PM PT. Workshops/tutorials June 27-28 and main program June 29 - July 1 at the Raleigh Convention Center.
+    sources:
+      - https://iscaconf.org/isca2026/submit/callforpapers.php
+      - https://iscaconf.org/isca2026/submit/industry.php
+      - https://iscaconf.org/isca2026/submit/cameraready.php
+      - https://isca26.hotcrp.com/deadlines
+      - https://isca26-industry.hotcrp.com/deadlines
+      - https://iscaconf.org/isca2026/
+    checked: 2026-09-29

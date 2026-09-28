@@ -1,0 +1,81 @@
+id: mobisys
+title: MobiSys
+full_name: ACM International Conference on Mobile Systems, Applications, and Services
+link: https://www.sigmobile.org/mobisys/
+subs: [NET]
+rank:
+  ccf: B
+  core: A
+  thcpl: A
+dblp: mobisys
+upstream:
+  ccfddl: NW/mobisys
+editions:
+  - year: 2027
+    id: mobisys27
+    link: https://www.sigmobile.org/mobisys/2027/
+    date: June 21-25, 2027
+    start: 2027-06-21
+    end: 2027-06-25
+    place: Ho Chi Minh City, Vietnam
+    timezone: AoE
+    timeline:
+      - type: abstract
+        label: Abstract registration
+        date: '2026-11-27 23:59:59'
+      - type: paper
+        date: '2026-12-04 23:59:59'
+      - type: other
+        label: Early-reject notification
+        date: '2027-01-26 23:59:59'
+      - type: rebuttal_start
+        date: '2027-02-08 23:59:59'
+      - type: rebuttal_end
+        date: '2027-02-12 23:59:59'
+      - type: notification
+        label: Final decision notification
+        date: '2027-03-06 23:59:59'
+      - type: camera_ready
+        date: '2027-04-14 23:59:59'
+    note: >-
+      Abstracts (at least 100 words) must be registered by the abstract deadline and there will be no extensions. Single-blind review (since 2026)
+      with early rejection after round 1, a 500-word rebuttal, conditional acceptance and shepherding; includes an Emerging Ideas track.
+      Dates without a time are recorded as end of day AoE.
+    sources:
+      - https://www.sigmobile.org/mobisys/2027/call_for_papers/
+      - https://www.sigmobile.org/mobisys/2027/
+    checked: 2026-09-29
+  - year: 2026
+    id: mobisys26
+    link: https://www.sigmobile.org/mobisys/2026/
+    date: June 21-25, 2026
+    start: 2026-06-21
+    end: 2026-06-25
+    place: Cambridge, UK
+    timezone: AoE
+    timeline:
+      - type: abstract
+        label: Abstract registration
+        date: '2025-11-28 23:59:59'
+      - type: paper
+        date: '2025-12-05 23:59:59'
+      - type: other
+        label: Early-reject notification
+        date: '2026-01-26 23:59:59'
+      - type: rebuttal_start
+        date: '2026-02-09 23:59:59'
+      - type: rebuttal_end
+        date: '2026-02-13 23:59:59'
+      - type: notification
+        label: Final decision notification
+        date: '2026-03-02 23:59:59'
+      - type: camera_ready
+        date: '2026-04-13 23:59:59'
+    note: >-
+      IoT Day, Rising Stars Forum and N2Women on June 21, main conference June 22-24, workshops June 25, at the University of Cambridge
+      (Ray Dolby Centre and William Gates Building). Review switched back to single-blind in 2026. Dates without a time are recorded as end of day AoE.
+    sources:
+      - https://www.sigmobile.org/mobisys/2026/call_for_papers/
+      - https://www.sigmobile.org/mobisys/2026/
+      - https://www.sigmobile.org/mobisys/2026/venue/
+    checked: 2026-09-29

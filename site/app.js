@@ -7,16 +7,27 @@ const DAY = 24 * HOUR;
 const SUBMIT_TYPES = new Set(['abstract', 'paper', 'commitment']);
 
 const SUBS = [
-  { id: 'ML', zh: '机器学习', en: 'Machine Learning' },
-  { id: 'CV', zh: '计算机视觉', en: 'Computer Vision' },
-  { id: 'NLP', zh: '自然语言处理', en: 'NLP' },
-  { id: 'RO', zh: '机器人', en: 'Robotics' },
-  { id: 'CG', zh: '图形学', en: 'Graphics' },
-  { id: 'SP', zh: '语音与信号', en: 'Speech & Signal' },
-  { id: 'DM', zh: '数据挖掘', en: 'Data Mining' },
-  { id: 'AP', zh: '自动规划', en: 'Planning' },
-  { id: 'KR', zh: '知识表示', en: 'Knowledge Repr.' },
-  { id: 'HCI', zh: '人机交互', en: 'HCI' },
+  { id: 'ML', group: 'ai', zh: '机器学习', en: 'Machine Learning' },
+  { id: 'CV', group: 'ai', zh: '计算机视觉', en: 'Computer Vision' },
+  { id: 'NLP', group: 'ai', zh: '自然语言处理', en: 'NLP' },
+  { id: 'RO', group: 'ai', zh: '机器人', en: 'Robotics' },
+  { id: 'CG', group: 'ai', zh: '图形学', en: 'Graphics' },
+  { id: 'SP', group: 'ai', zh: '语音与信号', en: 'Speech & Signal' },
+  { id: 'DM', group: 'ai', zh: '数据挖掘', en: 'Data Mining' },
+  { id: 'AP', group: 'ai', zh: '自动规划', en: 'Planning' },
+  { id: 'KR', group: 'ai', zh: '知识表示', en: 'Knowledge Repr.' },
+  { id: 'HCI', group: 'ai', zh: '人机交互', en: 'HCI' },
+  { id: 'SYS', group: 'cs', zh: '系统与体系结构', en: 'Systems & Arch.' },
+  { id: 'NET', group: 'cs', zh: '网络', en: 'Networking' },
+  { id: 'SEC', group: 'cs', zh: '安全与密码', en: 'Security & Crypto' },
+  { id: 'DB', group: 'cs', zh: '数据库', en: 'Databases' },
+  { id: 'SE', group: 'cs', zh: '软件工程与程序语言', en: 'SE & PL' },
+  { id: 'TH', group: 'cs', zh: '理论', en: 'Theory' },
+  { id: 'MX', group: 'cs', zh: '交叉学科', en: 'Interdisciplinary' },
+];
+const SUB_GROUPS = [
+  { id: 'ai', zh: 'AI', en: 'AI' },
+  { id: 'cs', zh: '系统及其他', en: 'Systems & more' },
 ];
 
 const TYPE_LABEL = {
@@ -99,6 +110,7 @@ const I18N = {
     starConf: (name) => `收藏 ${name}`,
     detailsOf: (name) => `${name} 详情`,
     confStarts: '会议',
+    toggleGroup: '选中 / 取消整组',
     legendReview: '审稿期',
     legendRebuttal: 'Rebuttal',
     legendConf: '会议',
@@ -170,6 +182,7 @@ const I18N = {
     starConf: (name) => `Star ${name}`,
     detailsOf: (name) => `Details for ${name}`,
     confStarts: 'Conference',
+    toggleGroup: 'Select / clear the whole group',
     legendReview: 'Review period',
     legendRebuttal: 'Rebuttal',
     legendConf: 'Conference',
@@ -1022,10 +1035,16 @@ function renderChips() {
   const counts = Object.fromEntries(SUBS.map((s) => [s.id, 0]));
   for (const it of items) for (const s of it.conf.subs) counts[s]++;
   const all = `<button type="button" class="chip all" data-sub="" aria-pressed="${state.subs.size === 0}">${esc(t('all'))}<span class="n">${items.length}</span></button>`;
-  $('#subs').innerHTML = all + SUBS.map((s) => `
-    <button type="button" class="chip" style="--c:var(--c-${s.id})" data-sub="${s.id}" aria-pressed="${state.subs.has(s.id)}" title="${esc(s.id)}">
-      <span class="dot"></span>${esc(s[state.lang])}<span class="n">${counts[s.id]}</span>
-    </button>`).join('');
+  // One row per group; the group name toggles the whole group.
+  $('#subs').innerHTML = SUB_GROUPS.map((g, i) => {
+    const members = SUBS.filter((s) => s.group === g.id);
+    const full = members.every((s) => state.subs.has(s.id));
+    const chips = members.map((s) => `
+      <button type="button" class="chip" style="--c:var(--c-${s.id})" data-sub="${s.id}" aria-pressed="${state.subs.has(s.id)}" title="${esc(s.id)}">
+        <span class="dot"></span>${esc(s[state.lang])}<span class="n">${counts[s.id]}</span>
+      </button>`).join('');
+    return `<div class="chip-row">${i === 0 ? all : ''}<button type="button" class="group-btn" data-group="${g.id}" aria-pressed="${full}" title="${esc(t('toggleGroup'))}">${esc(g[state.lang])}</button>${chips}</div>`;
+  }).join('');
 }
 
 // Re-rendering replaces the DOM; remember what had keyboard focus so it can be restored.
@@ -1033,7 +1052,9 @@ function renderChips() {
 function focusKey() {
   const ae = document.activeElement;
   if (!ae || ae === document.body) return null;
-  if (ae.closest('#subs')) return `#subs [data-sub="${CSS.escape(ae.dataset.sub ?? '')}"]`;
+  if (ae.closest('#subs')) {
+    return ae.dataset.group ? `#subs [data-group="${ae.dataset.group}"]` : `#subs [data-sub="${CSS.escape(ae.dataset.sub ?? '')}"]`;
+  }
   const card = ae.closest('#list-view [data-id]');
   if (card) {
     const base = `#list-view [data-id="${CSS.escape(card.dataset.id)}"]`;
@@ -1196,6 +1217,18 @@ function bindEvents() {
   });
 
   $('#subs').addEventListener('click', (e) => {
+    const g = e.target.closest('.group-btn');
+    if (g) {
+      const members = SUBS.filter((x) => x.group === g.dataset.group).map((x) => x.id);
+      const full = members.every((id) => state.subs.has(id));
+      for (const id of members) {
+        if (full) state.subs.delete(id);
+        else state.subs.add(id);
+      }
+      syncUrl();
+      render();
+      return;
+    }
     const b = e.target.closest('.chip');
     if (!b) return;
     const s = b.dataset.sub;

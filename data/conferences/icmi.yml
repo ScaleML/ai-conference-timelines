@@ -1,0 +1,76 @@
+id: icmi
+title: ICMI
+full_name: ACM International Conference on Multimodal Interaction
+link: https://icmi.acm.org/
+subs: [HCI, SP]
+rank:
+  ccf: C
+  core: B
+  thcpl: B
+dblp: icmi
+upstream:
+  ccfddl: HI/icmi
+editions:
+  - year: 2026
+    id: icmi26
+    link: https://icmi.acm.org/2026/
+    date: October 5-9, 2026
+    start: 2026-10-05
+    end: 2026-10-09
+    place: Royal Continental Hotel, Naples (Napoli), Italy
+    timezone: UTC-7
+    timeline:
+      - type: abstract
+        date: '2026-04-13 23:59:59'
+      - type: paper
+        date: '2026-04-23 23:59:59'
+        timezone: AoE
+      - type: rebuttal_start
+        date: '2026-06-08 23:59:59'
+      - type: rebuttal_end
+        date: '2026-06-13 23:59:59'
+      - type: notification
+        date: '2026-07-01 23:59:59'
+      - type: camera_ready
+        date: '2026-07-23 23:59:59'
+    note: >-
+      Deadlines are 23:59 PDT (GMT-7) except the paper deadline, which was extended to April 23 AoE (the organizers' second call
+      for papers gave April 20). Main conference October 6-8; workshops, tutorials and grand challenges October 5 and 9.
+    sources:
+      - https://icmi.acm.org/2026/important-dates/
+      - https://icmi.acm.org/2026/call-for-papers/
+      - https://icmi.acm.org/2026/
+      - https://icmi.acm.org/2026/conference-center/
+      - https://lists.robocup.org/archives/list/robocup-worldwide@lists.robocup.org/thread/UU54UC2SNDQHXFKEMRMQP5A5C634EJFK/
+    checked: 2026-09-29
+  - year: 2025
+    id: icmi25
+    link: https://icmi.acm.org/2025/
+    date: October 13-17, 2025
+    start: 2025-10-13
+    end: 2025-10-17
+    place: Hotel Realm, Canberra, Australia
+    timezone: AoE
+    timeline:
+      - type: abstract
+        date: '2025-04-25 23:59:59'
+      - type: paper
+        date: '2025-05-02 23:59:59'
+      - type: rebuttal_start
+        date: '2025-06-07 23:59:59'
+      - type: rebuttal_end
+        date: '2025-06-12 23:59:59'
+      - type: notification
+        date: '2025-07-07 23:59:59'
+      - type: camera_ready
+        date: '2025-08-01 23:59:59'
+    note: >-
+      The official pages give no timezone (AoE assumed). Abstract and paper deadlines were extended on April 17, 2025 (from April 18 /
+      April 25); the call for papers lists notification as July 1 while the important-dates page says July 7. Main conference
+      October 14-16, co-located after ACII 2025 at the same venue.
+    sources:
+      - https://icmi.acm.org/2025/important-dates/
+      - https://icmi.acm.org/2025/call-for-papers/
+      - https://icmi.acm.org/2025/
+      - https://icmi.acm.org/2025/venue/
+    checked: 2026-09-29

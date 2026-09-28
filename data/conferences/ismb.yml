@@ -1,0 +1,112 @@
+id: ismb
+title: ISMB
+full_name: International Conference on Intelligent Systems for Molecular Biology
+link: https://www.iscb.org/conferences-events/about-ismb
+subs: [MX, ML]
+rank:
+  ccf: B
+  core: A
+  thcpl: A
+dblp: ismb
+upstream:
+  ccfddl: MX/ismb
+editions:
+  - year: 2027
+    id: ismb27
+    link: https://www.iscb.org/ismbeccb2027/home
+    date: July 18-22, 2027
+    start: 2027-07-18
+    end: 2027-07-22
+    place: Copenhagen, Denmark
+    timezone: AoE
+    timeline:
+      - type: paper
+        label: Proceedings submission deadline
+        date: '2027-01-14 23:59:59'
+      - type: notification
+        label: Conditional acceptance notification
+        date: '2027-03-02 23:59:59'
+      - type: other
+        label: Revised papers deadline
+        date: '2027-03-18 23:59:59'
+      - type: notification
+        label: Final acceptance notification
+        date: '2027-03-30 23:59:59'
+      - type: other
+        label: Talk/poster abstract submission (non-proceedings)
+        date: '2027-04-08 23:59:59'
+    note: >-
+      35th ISMB, joint with the 26th ECCB, at the Bella Center Copenhagen (plus virtual participation). The 2027 proceedings
+      call page is still empty; dates come from the key-dates page, which marks them firm (no extensions) but "subject to change".
+    sources:
+      - https://www.iscb.org/ismbeccb2027/key-dates
+      - https://transition.iscb.org/cms_addon/conferences/ismbeccb2027/schedule/proceedings?keydate
+      - https://transition.iscb.org/cms_addon/conferences/ismbeccb2027/schedule/abstracts?keydate
+      - https://www.iscb.org/ismbeccb2027/call-for-submissions/proceedings
+      - https://www.iscb.org/ismbeccb2027/home
+    checked: 2026-09-29
+  - year: 2026
+    id: ismb26
+    link: https://www.iscb.org/ismb2026/home
+    date: July 12-16, 2026
+    start: 2026-07-12
+    end: 2026-07-16
+    place: Washington, DC, USA
+    timezone: AoE
+    timeline:
+      - type: paper
+        label: Proceedings submission deadline
+        date: '2026-01-20 23:59:59'
+      - type: notification
+        label: Conditional acceptance notification
+        date: '2026-03-10 23:59:59'
+      - type: other
+        label: Revised papers deadline
+        date: '2026-03-24 23:59:59'
+      - type: notification
+        label: Final acceptance notification
+        date: '2026-04-02 23:59:59'
+      - type: other
+        label: Talk/poster abstract submission (non-proceedings)
+        date: '2026-04-09 23:59:59'
+    note: Held at the Washington Hilton. Proceedings papers were published in an online-only section of a regular issue of Bioinformatics; no deadline extensions.
+    sources:
+      - https://www.iscb.org/ismb2026/call-for-submissions/proceedings
+      - https://www.iscb.org/ismb2026/key-dates
+      - https://transition.iscb.org/cms_addon/conferences/ismb2026/schedule/proceedings?keydate
+      - https://transition.iscb.org/cms_addon/conferences/ismb2026/schedule/abstracts?keydate
+      - https://www.iscb.org/ismb2026/general-info/venue-accommodation-and-travel
+      - https://www.iscb.org/conferences-events
+    checked: 2026-09-29
+  - year: 2025
+    id: ismb25
+    link: https://www.iscb.org/ismbeccb2025/home
+    date: July 20-24, 2025
+    start: 2025-07-20
+    end: 2025-07-24
+    place: Liverpool, UK
+    timezone: AoE
+    timeline:
+      - type: paper
+        label: Proceedings submission deadline
+        date: '2025-01-23 23:59:59'
+      - type: notification
+        label: Conditional acceptance notification
+        date: '2025-03-13 23:59:59'
+      - type: other
+        label: Revised papers deadline
+        date: '2025-03-27 23:59:59'
+      - type: notification
+        label: Final acceptance notification
+        date: '2025-04-08 23:59:59'
+      - type: other
+        label: Talk/poster abstract submission (non-proceedings)
+        date: '2025-04-17 23:59:59'
+    note: ISMB/ECCB 2025 (joint with ECCB) at ACC Liverpool. Proceedings papers were published in a special issue of Bioinformatics; no deadline extensions.
+    sources:
+      - https://www.iscb.org/ismbeccb2025/call-for-submissions/proceedings
+      - https://www.iscb.org/ismbeccb2025/key-dates
+      - https://transition.iscb.org/cms_addon/conferences/ismbeccb2025/schedule/proceedings?keydate
+      - https://transition.iscb.org/cms_addon/conferences/ismbeccb2025/schedule/abstracts?keydate
+      - https://www.iscb.org/ismbeccb2025/home
+    checked: 2026-09-29

@@ -1,0 +1,65 @@
+id: soda
+title: SODA
+full_name: ACM-SIAM Symposium on Discrete Algorithms
+link: https://www.siam.org/conferences-events/siam-conferences/soda27/
+subs: [TH]
+rank:
+  ccf: A
+  core: A*
+  thcpl: A
+dblp: soda
+upstream:
+  ccfddl: CT/soda
+editions:
+  - year: 2027
+    id: soda27
+    link: https://www.siam.org/conferences-events/siam-conferences/soda27/
+    date: January 24-27, 2027
+    start: 2027-01-24
+    end: 2027-01-27
+    place: Sheraton Philadelphia Downtown, Philadelphia, PA, USA
+    timezone: AoE
+    timeline:
+      - type: paper
+        date: '2026-07-09 23:59:59'
+      - type: review_release
+        label: Initial reviews released (rebuttal opens)
+        date: '2026-09-01 23:59:59'
+      - type: rebuttal_end
+        label: Author responses due
+        date: '2026-09-04 23:59:59'
+    note: >-
+      Submission deadline was 11:59 p.m. AoE (no separate abstract deadline). Initial reviews are released "by September 1" and responses are due September 4; neither states a timezone (AoE assumed).
+      Acceptance notices are only announced for "October 2026" (no exact date). Co-located with ALENEX27 and SOSA27.
+    sources:
+      - https://www.siam.org/conferences-events/siam-conferences/soda27/submissions/
+      - https://www.siam.org/conferences-events/siam-conferences/soda27/
+      - https://www.siam.org/conferences-events/siam-conferences/soda27/program/accepted-papers/
+      - https://soda27.hotcrp.com/deadlines
+    checked: 2026-09-29
+
+  - year: 2026
+    id: soda26
+    link: https://www.siam.org/conferences-events/past-event-archive/soda26/
+    date: January 11-14, 2026
+    start: 2026-01-11
+    end: 2026-01-14
+    place: Hyatt Regency Vancouver, Vancouver, BC, Canada
+    timezone: AoE
+    timeline:
+      - type: paper
+        date: '2025-07-14 23:59:59'
+      - type: review_release
+        label: Initial reviews released (rebuttal opens)
+        date: '2025-09-08 23:59:59'
+      - type: rebuttal_end
+        label: Author responses due
+        date: '2025-09-11 23:59:59'
+    note: >-
+      Submission deadline was 11:59 p.m. AoE. Initial reviews were released "by September 8" and responses were due September 11; neither states a timezone (AoE assumed). Acceptance notices
+      were only announced for "October 2025" (no exact date).
+    sources:
+      - https://www.siam.org/conferences-events/siam-conferences/soda26/submissions/
+      - https://www.siam.org/conferences-events/past-event-archive/soda26/
+      - https://soda26.hotcrp.com/deadlines
+    checked: 2026-09-29

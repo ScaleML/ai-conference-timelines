@@ -2,9 +2,10 @@
 
 **Live site: https://scaleml.github.io/ai-conference-timelines/**
 
-Countdowns and timelines for AI conference submission deadlines — ML, CV, NLP, Robotics,
-Graphics, Speech, Data Mining, Planning, Knowledge Representation and HCI. Maintained by the
-[ScaleML Lab](https://github.com/ScaleML).
+Countdowns and timelines for conference submission deadlines — AI (ML, CV, NLP, Robotics,
+Graphics, Speech, Data Mining, Planning, Knowledge Representation, HCI) plus the top venues in
+systems & architecture, networking, security & crypto, databases, SE & PL, theory and
+interdisciplinary CS (all TH-CPL A-class conferences). Maintained by the [ScaleML Lab](https://github.com/ScaleML).
 
 AI 会议截稿追踪：倒计时、完整时间线（摘要 / 全文 / rebuttal / 录用通知 / 会议）、CCF / CORE / TH-CPL 分级、
 时区换算、日历订阅。数据以各会议官网为准。
@@ -17,7 +18,8 @@ AI 会议截稿追踪：倒计时、完整时间线（摘要 / 全文 / rebuttal
   rebuttal window, review period, notification, conference).
 - **Estimates** for venues that have not announced their next edition yet, derived from the previous
   edition (clearly marked as *estimated*; can be hidden).
-- **Filters**: 10 categories (URL-compatible with aideadlin.es: `?sub=ML,CV,NLP`), CCF, CORE and
+- **Filters**: 17 categories in two groups — AI (URL-compatible with aideadlin.es: `?sub=ML,CV,NLP`) and
+  systems & more (`SYS NET SEC DB SE TH MX`) — plus CCF, CORE and
   [TH-CPL](https://numbda.cs.tsinghua.edu.cn/~yuwj/TH-CPL.pdf) rank,
   full-text search, starred venues (stored locally).
 - **Timezones**: every deadline is shown in the selected zone (local, Beijing, US Central/Pacific/Eastern,

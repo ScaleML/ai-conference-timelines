@@ -1,0 +1,177 @@
+id: ieee-sp
+title: IEEE S&P
+full_name: IEEE Symposium on Security and Privacy
+link: https://www.ieee-security.org/TC/SP-Index.html
+subs: [SEC]
+rank:
+  ccf: A
+  core: A*
+  thcpl: A
+dblp: sp
+upstream:
+  ccfddl: SC/sp
+editions:
+  - year: 2027
+    id: ieee-sp27
+    link: https://sp2027.ieee-security.org/
+    date: May 17-20, 2027
+    start: 2027-05-17
+    end: 2027-05-20
+    place: Montreal, Canada
+    timezone: AoE
+    timeline:
+      - type: abstract
+        cycle: Cycle 1
+        label: Abstract registration deadline (mandatory)
+        date: '2026-06-04 23:59:59'
+      - type: paper
+        cycle: Cycle 1
+        date: '2026-06-11 23:59:59'
+      - type: other
+        cycle: Cycle 1
+        label: Early-reject notification
+        date: '2026-07-27 23:59:59'
+      - type: review_release
+        cycle: Cycle 1
+        date: '2026-08-20 23:59:59'
+      - type: other
+        cycle: Cycle 1
+        label: Interactive rebuttal period begins (papers assigned an interactive rebuttal)
+        date: '2026-08-26 23:59:59'
+      - type: rebuttal_end
+        cycle: Cycle 1
+        label: Rebuttal text due
+        date: '2026-08-27 23:59:59'
+      - type: other
+        cycle: Cycle 1
+        label: Interactive rebuttal ends / revised manuscript due
+        date: '2026-09-03 23:59:59'
+      - type: notification
+        cycle: Cycle 1
+        date: '2026-09-11 23:59:59'
+      - type: other
+        cycle: Cycle 1
+        label: Submission to shepherd
+        date: '2026-10-02 23:59:59'
+      - type: camera_ready
+        cycle: Cycle 1
+        date: '2026-10-16 23:59:59'
+      - type: abstract
+        cycle: Cycle 2
+        label: Abstract registration deadline (mandatory)
+        date: '2026-11-10 23:59:59'
+      - type: paper
+        cycle: Cycle 2
+        date: '2026-11-17 23:59:59'
+      - type: other
+        cycle: Cycle 2
+        label: Early-reject notification
+        date: '2027-01-18 23:59:59'
+      - type: review_release
+        cycle: Cycle 2
+        date: '2027-02-11 23:59:59'
+      - type: rebuttal_end
+        cycle: Cycle 2
+        label: Rebuttal text due
+        date: '2027-02-16 23:59:59'
+      - type: other
+        cycle: Cycle 2
+        label: Interactive rebuttal period begins (papers assigned an interactive rebuttal)
+        date: '2027-02-17 23:59:59'
+      - type: other
+        cycle: Cycle 2
+        label: Interactive rebuttal ends / revised manuscript due
+        date: '2027-02-26 23:59:59'
+      - type: notification
+        cycle: Cycle 2
+        date: '2027-03-05 23:59:59'
+      - type: other
+        cycle: Cycle 2
+        label: Submission to shepherd
+        date: '2027-03-26 23:59:59'
+      - type: camera_ready
+        cycle: Cycle 2
+        date: '2027-04-08 23:59:59'
+    note: >-
+      Two submission deadlines; abstract registration (title, abstract, full author list with ORCIDs and conflicts)
+      is mandatory and fixed afterwards, and each author may register at most 6 papers per cycle. Symposium May 17-19
+      and Security and Privacy Workshops May 20, 2027 at Le Centre Sheraton Montreal Hotel.
+    sources:
+      - https://sp2027.ieee-security.org/cfpapers.html
+      - https://sp2027.ieee-security.org/
+      - https://cycle1.sp2027.ieee-security.org/deadlines
+    checked: 2026-09-29
+  - year: 2026
+    id: ieee-sp26
+    link: https://sp2026.ieee-security.org/
+    date: May 18-21, 2026
+    start: 2026-05-18
+    end: 2026-05-21
+    place: San Francisco, CA, USA
+    timezone: AoE
+    timeline:
+      - type: abstract
+        cycle: Cycle 1
+        label: Abstract registration deadline (mandatory)
+        date: '2025-05-29 23:59:59'
+      - type: paper
+        cycle: Cycle 1
+        date: '2025-06-05 23:59:59'
+      - type: other
+        cycle: Cycle 1
+        label: Early-reject notification
+        date: '2025-07-21 23:59:59'
+      - type: rebuttal_start
+        cycle: Cycle 1
+        label: Interactive rebuttal period begins
+        date: '2025-08-18 23:59:59'
+      - type: other
+        cycle: Cycle 1
+        label: Rebuttal text due
+        date: '2025-08-25 23:59:59'
+      - type: rebuttal_end
+        cycle: Cycle 1
+        label: Interactive rebuttal period ends
+        date: '2025-08-29 23:59:59'
+      - type: notification
+        cycle: Cycle 1
+        date: '2025-09-09 23:59:59'
+      - type: camera_ready
+        cycle: Cycle 1
+        date: '2025-10-17 23:59:59'
+      - type: abstract
+        cycle: Cycle 2
+        label: Abstract, author and conflict registration deadline (mandatory)
+        date: '2025-11-06 23:59:59'
+      - type: paper
+        cycle: Cycle 2
+        date: '2025-11-13 23:59:59'
+      - type: other
+        cycle: Cycle 2
+        label: Early-reject notification
+        date: '2026-01-19 23:59:59'
+      - type: rebuttal_start
+        cycle: Cycle 2
+        label: Interactive rebuttal period begins
+        date: '2026-02-12 23:59:59'
+      - type: other
+        cycle: Cycle 2
+        label: Rebuttal text due
+        date: '2026-02-17 23:59:59'
+      - type: rebuttal_end
+        cycle: Cycle 2
+        label: Interactive rebuttal period ends
+        date: '2026-02-23 23:59:59'
+      - type: notification
+        cycle: Cycle 2
+        date: '2026-03-09 23:59:59'
+      - type: camera_ready
+        cycle: Cycle 2
+        date: '2026-04-17 23:59:59'
+    note: >-
+      Two submission deadlines, each with a mandatory abstract registration one week before the paper deadline.
+      Symposium May 18-20 and Security and Privacy Workshops May 21, 2026 at the Hilton San Francisco Union Square.
+    sources:
+      - https://sp2026.ieee-security.org/cfpapers.html
+      - https://sp2026.ieee-security.org/
+    checked: 2026-09-29

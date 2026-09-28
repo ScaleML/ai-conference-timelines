@@ -1,0 +1,72 @@
+id: acm-ec
+title: EC
+full_name: ACM Conference on Economics and Computation
+link: https://www.sigecom.org/
+subs: [TH, MX]
+rank:
+  ccf: N
+  core: A*
+  thcpl: A
+dblp: sigecom
+editions:
+  - year: 2026
+    id: acm-ec26
+    link: https://ec26.sigecom.org/
+    date: July 6-10, 2026
+    start: 2026-07-06
+    end: 2026-07-10
+    place: Sapienza University of Rome, Rome, Italy
+    timezone: AoE
+    timeline:
+      - type: abstract
+        date: '2026-02-02 23:59:59'
+      - type: paper
+        date: '2026-02-09 23:59:59'
+      - type: other
+        label: First-round decisions
+        date: '2026-03-26 23:59:59'
+      - type: review_release
+        label: Second-round reviews released (rebuttal begins)
+        date: '2026-04-21 23:59:59'
+      - type: rebuttal_end
+        date: '2026-04-25 23:59:59'
+      - type: notification
+        date: '2026-05-18 23:59:59'
+    note: >-
+      Abstract registration required a week before the full paper; the decision and review-release dates carry no time
+      zone (AoE assumed). Camera-ready deadline was listed as TBA. The 27th EC (EC'26).
+    sources:
+      - https://ec26.sigecom.org/call-for-contributions-acm/papers/
+      - https://ec26.sigecom.org/
+    checked: 2026-09-29
+
+  - year: 2025
+    id: acm-ec25
+    link: https://ec25.sigecom.org/
+    date: July 7-10, 2025
+    start: 2025-07-07
+    end: 2025-07-10
+    place: Stanford University, Stanford, CA, USA
+    timezone: AoE
+    timeline:
+      - type: abstract
+        date: '2025-02-03 23:59:59'
+      - type: paper
+        date: '2025-02-10 23:59:59'
+      - type: other
+        label: First-round decisions
+        date: '2025-03-27 23:59:59'
+      - type: review_release
+        label: Second-round reviews released (rebuttal begins)
+        date: '2025-04-22 23:59:59'
+      - type: rebuttal_end
+        date: '2025-04-25 23:59:59'
+      - type: notification
+        date: '2025-05-17 23:59:59'
+    note: >-
+      Abstract registration required a week before the full paper; the decision and review-release dates carry no time
+      zone (AoE assumed). Camera-ready deadline was listed as TBA. The 26th EC (EC'25).
+    sources:
+      - https://ec25.sigecom.org/call-for-contributions-acm/papers/
+      - https://ec25.sigecom.org/
+    checked: 2026-09-29

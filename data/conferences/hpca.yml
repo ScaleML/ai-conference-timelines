@@ -1,0 +1,103 @@
+id: hpca
+title: HPCA
+full_name: IEEE International Symposium on High-Performance Computer Architecture
+link: https://hpca-conf.org/
+subs: [SYS]
+rank:
+  ccf: A
+  core: A*
+  thcpl: A
+dblp: hpca
+upstream:
+  ccfddl: DS/hpca
+editions:
+  - year: 2027
+    id: hpca27
+    link: https://conf.researchr.org/home/hpca-2027
+    date: March 20-24, 2027
+    start: 2027-03-20
+    end: 2027-03-24
+    place: Salt Lake City, UT, USA
+    timezone: AoE
+    timeline:
+      - type: abstract
+        label: Paper registration and abstract submission
+        date: '2026-07-24 23:59:59'
+      - type: paper
+        date: '2026-07-31 23:59:59'
+      - type: rebuttal_start
+        label: Revision/rebuttal period starts
+        date: '2026-09-28 23:59:59'
+      - type: rebuttal_end
+        label: Revision/rebuttal period ends
+        date: '2026-10-09 23:59:59'
+      - type: notification
+        date: '2026-11-06 23:59:59'
+    note: Main and Industry tracks share the same dates this year (the Industry Track CFP states that no extensions will be granted); camera-ready is TBA. Each paper must designate a senior author who may be asked to serve on the light PC. Co-located with CGO, PPoPP and CC.
+    sources:
+      - https://conf.researchr.org/track/hpca-2027/hpca-2027-main-conference
+      - https://conf.researchr.org/track/hpca-2027/hpca-2027-industry-track
+      - https://conf.researchr.org/home/hpca-2027
+      - https://hpca2027.hotcrp.com/deadlines
+      - https://hpca2027industry.hotcrp.com/deadlines
+      - https://hpca-conf.org/
+    checked: 2026-09-29
+  - year: 2026
+    id: hpca26
+    link: https://conf.researchr.org/home/hpca-2026
+    date: January 31 - February 4, 2026
+    start: 2026-01-31
+    end: 2026-02-04
+    place: Sydney, NSW, Australia
+    timezone: UTC
+    timeline:
+      - type: abstract
+        cycle: Main track
+        date: '2025-07-25 23:59:59'
+      - type: paper
+        cycle: Main track
+        date: '2025-08-01 23:59:59'
+      - type: rebuttal_start
+        cycle: Main track
+        label: Revision/rebuttal period starts
+        date: '2025-10-07 23:59:59'
+        timezone: AoE
+      - type: rebuttal_end
+        cycle: Main track
+        label: Revision/rebuttal period ends
+        date: '2025-10-20 23:59:59'
+        timezone: AoE
+      - type: notification
+        cycle: Main track
+        date: '2025-11-07 23:59:59'
+        timezone: AoE
+      - type: camera_ready
+        cycle: Main track
+        date: '2025-12-04 23:59:59'
+        timezone: AoE
+      - type: abstract
+        cycle: Industry track
+        date: '2025-09-12 23:59:59'
+      - type: paper
+        cycle: Industry track
+        date: '2025-09-19 23:59:59'
+      - type: rebuttal_start
+        cycle: Industry track
+        date: '2025-10-31 23:59:59'
+        timezone: AoE
+      - type: rebuttal_end
+        cycle: Industry track
+        date: '2025-11-07 23:59:59'
+        timezone: AoE
+      - type: notification
+        cycle: Industry track
+        date: '2025-11-14 23:59:59'
+        timezone: AoE
+    note: Main-track deadlines were 23:59 UTC (19:59 EDT); industry-track deadlines had no time on the CFP and follow HotCRP (23:59 UTC). Rebuttal, notification and final-paper dates had no time zone (AoE assumed). Co-located with CGO, PPoPP and CC at the International Convention Centre Sydney.
+    sources:
+      - https://conf.researchr.org/track/hpca-2026/hpca-2026-main-conference
+      - https://conf.researchr.org/track/hpca-2026/hpca-2026-industry-track
+      - https://conf.researchr.org/home/hpca-2026
+      - https://hpca2026.hotcrp.com/deadlines
+      - https://hpca2026industry.hotcrp.com/deadlines
+    checked: 2026-09-29

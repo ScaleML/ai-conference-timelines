@@ -1,0 +1,94 @@
+id: issta
+title: ISSTA
+full_name: ACM SIGSOFT International Symposium on Software Testing and Analysis
+link: https://conf.researchr.org/series/issta
+subs: [SE]
+rank:
+  ccf: A
+  core: A
+  thcpl: A
+dblp: issta
+upstream:
+  ccfddl: SE/issta
+editions:
+  - year: 2028
+    id: issta28
+    link: https://www.issta.org/
+    place: Shanghai, China
+    timeline: []
+    note: The ISSTA series site lists ISSTA 2028 in Shanghai, China; no edition website, dates or call for papers yet.
+    sources:
+      - https://www.issta.org/
+    checked: 2026-09-29
+  - year: 2027
+    id: issta27
+    link: https://conf.researchr.org/home/issta-2027
+    date: September 7-10, 2027
+    start: 2027-09-07
+    end: 2027-09-10
+    place: Singapore
+    timezone: AoE
+    timeline:
+      - type: abstract
+        label: Abstract submission (mandatory)
+        date: '2027-01-08 23:59:59'
+      - type: paper
+        date: '2027-01-11 23:59:59'
+      - type: rebuttal_start
+        label: Author response period starts
+        date: '2027-03-22 23:59:59'
+      - type: rebuttal_end
+        label: Author response period ends
+        date: '2027-03-25 23:59:59'
+      - type: notification
+        label: Initial notification (including early reject)
+        date: '2027-04-20 23:59:59'
+      - type: other
+        label: Major revision submission
+        date: '2027-05-20 23:59:59'
+      - type: notification
+        label: Final notification
+        date: '2027-06-17 23:59:59'
+      - type: camera_ready
+        date: '2027-07-22 23:59:59'
+    note: >-
+      Dates are from the Research Papers track's important-dates panel (AoE); the full call for papers is not yet published.
+    sources:
+      - https://conf.researchr.org/track/issta-2027/issta-2027-research-papers
+      - https://conf.researchr.org/home/issta-2027
+    checked: 2026-09-29
+  - year: 2026
+    id: issta26
+    link: https://conf.researchr.org/home/issta-2026
+    date: October 4-9, 2026
+    start: 2026-10-04
+    end: 2026-10-09
+    place: Oakland, CA, USA
+    timezone: AoE
+    timeline:
+      - type: paper
+        date: '2026-01-29 23:59:59'
+      - type: rebuttal_start
+        label: Author response period starts
+        date: '2026-03-24 23:59:59'
+      - type: rebuttal_end
+        label: Author response period ends
+        date: '2026-03-26 23:59:59'
+      - type: notification
+        label: Initial notification (accept / major revision / reject)
+        date: '2026-04-16 23:59:59'
+      - type: other
+        label: Major revision submission
+        date: '2026-05-21 23:59:59'
+      - type: notification
+        label: Final notification
+        date: '2026-06-25 23:59:59'
+      - type: camera_ready
+        date: '2026-07-23 23:59:59'
+    note: >-
+      Held jointly with SPLASH 2026 (ISSTA main program October 7-9; conference hotel: Oakland Marriott City Center);
+      research papers are published in PACMSE (issue ISSTA 2026).
+    sources:
+      - https://conf.researchr.org/track/issta-2026/issta-2026-research-papers
+      - https://conf.researchr.org/home/issta-2026
+    checked: 2026-09-29

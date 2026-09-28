@@ -1,0 +1,92 @@
+id: gecco
+title: GECCO
+full_name: Genetic and Evolutionary Computation Conference
+link: https://sig.sigevo.org/GECCOs
+subs: [ML, AP]
+rank:
+  ccf: C
+  core: A
+  thcpl: B
+dblp: gecco
+upstream:
+  ccfddl: AI/gecco
+editions:
+  - year: 2027
+    id: gecco27
+    link: https://gecco-2027.sigevo.org/HomePage
+    date: July 12-16, 2027
+    start: 2027-07-12
+    end: 2027-07-16
+    place: Kraków, Poland
+    timeline: []
+    note: >-
+      In-person-only conference. The website is online, but its Important Dates and Call for Papers pages still show the
+      GECCO 2026 dates (carried over), so no 2027 deadlines have been published yet.
+    sources:
+      - https://gecco-2027.sigevo.org/HomePage
+      - https://gecco-2027.sigevo.org/Important+Dates
+      - https://gecco-2027.sigevo.org/Call+for+Papers
+    checked: 2026-09-29
+  - year: 2026
+    id: gecco26
+    link: https://gecco-2026.sigevo.org/HomePage
+    date: July 13-17, 2026
+    start: 2026-07-13
+    end: 2026-07-17
+    place: CIC ANDE, San Antonio de Belén (San José area), Costa Rica (hybrid)
+    timezone: AoE
+    timeline:
+      - type: abstract
+        label: Abstract submission (full papers)
+        date: '2026-01-19 23:59:59'
+      - type: paper
+        label: Full paper and poster-only paper submission
+        date: '2026-01-26 23:59:59'
+      - type: notification
+        date: '2026-03-20 23:59:59'
+      - type: camera_ready
+        date: '2026-04-10 23:59:59'
+      - type: other
+        label: Presenter mandatory registration
+        date: '2026-05-11 23:59:59'
+    note: >-
+      The 2026 pages give no timezone (AoE assumed, as GECCO announced for 2025). Abstract and paper deadlines are non-extensible;
+      poster-only papers (max 4 pages) need no abstract and share the January 26 deadline. Hybrid conference.
+    sources:
+      - https://gecco-2026.sigevo.org/Important+Dates
+      - https://gecco-2026.sigevo.org/Call+for+Papers
+      - https://gecco-2026.sigevo.org/HomePage
+      - https://gecco-2026.sigevo.org/Venue
+    checked: 2026-09-29
+  - year: 2025
+    id: gecco25
+    link: https://gecco-2025.sigevo.org/HomePage
+    date: July 14-18, 2025
+    start: 2025-07-14
+    end: 2025-07-18
+    place: NH Málaga, Málaga, Spain (hybrid)
+    timezone: AoE
+    timeline:
+      - type: abstract
+        label: Abstract submission (full papers)
+        date: '2025-01-22 23:59:59'
+      - type: paper
+        label: Full paper and poster-only paper submission
+        date: '2025-01-29 23:59:59'
+      - type: notification
+        date: '2025-03-19 23:59:59'
+      - type: camera_ready
+        date: '2025-04-09 23:59:59'
+      - type: other
+        label: Presenter mandatory registration
+        date: '2025-05-15 23:59:59'
+    note: >-
+      Non-extensible abstract and full-paper deadlines, both AoE per the official GECCO account. Presenter registration was extended
+      from May 8 to May 15, 2025. Hybrid conference.
+    sources:
+      - https://gecco-2025.sigevo.org/Important+Dates
+      - https://gecco-2025.sigevo.org/Call+for+Papers
+      - https://gecco-2025.sigevo.org/HomePage
+      - https://gecco-2025.sigevo.org/Venue
+      - https://x.com/GeccoConf/status/1881488407815438405
+    checked: 2026-09-29

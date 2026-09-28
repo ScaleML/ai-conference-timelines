@@ -1,0 +1,158 @@
+id: pacificvis
+title: PacificVis
+full_name: IEEE Pacific Visualization Conference
+link: https://pacificvis.github.io/
+subs: [CG, HCI]
+rank:
+  ccf: C
+  core: B
+  thcpl: B
+dblp: pacificvis
+upstream:
+  ccfddl: CG/pacificvis
+editions:
+  - year: 2027
+    id: pacificvis27
+    link: https://pacificvis2027.github.io/
+    date: April 19-22, 2027
+    start: 2027-04-19
+    end: 2027-04-22
+    place: Paradise Hotel Busan, Busan, South Korea
+    timezone: AoE
+    timeline:
+      - type: abstract
+        cycle: TVCG Journal track
+        date: '2026-09-01 23:59:00'
+      - type: paper
+        cycle: TVCG Journal track
+        date: '2026-09-08 23:59:00'
+      - type: notification
+        cycle: TVCG Journal track
+        label: First-round notification
+        date: '2026-10-27 23:59:00'
+      - type: abstract
+        cycle: Conference track
+        date: '2026-11-02 23:59:00'
+      - type: paper
+        cycle: Conference track
+        date: '2026-11-09 23:59:00'
+      - type: other
+        cycle: TVCG Journal track
+        label: Revisions due (2nd round)
+        date: '2026-11-17 23:59:00'
+      - type: notification
+        cycle: TVCG Journal track
+        label: Final notification
+        date: '2026-12-15 23:59:00'
+      - type: notification
+        cycle: Conference track
+        label: First-round notification
+        date: '2026-12-16 23:59:00'
+      - type: paper
+        cycle: VisNotes (short papers)
+        date: '2027-01-04 23:59:00'
+      - type: camera_ready
+        cycle: TVCG Journal track
+        date: '2027-01-05 23:59:00'
+      - type: other
+        cycle: Conference track
+        label: Revisions due (2nd round)
+        date: '2027-01-11 23:59:00'
+      - type: notification
+        cycle: Conference track
+        label: Final notification
+        date: '2027-01-25 23:59:00'
+      - type: notification
+        cycle: VisNotes (short papers)
+        date: '2027-02-04 23:59:00'
+      - type: camera_ready
+        cycle: Conference track
+        date: '2027-02-08 23:59:00'
+      - type: camera_ready
+        cycle: VisNotes (short papers)
+        date: '2027-02-18 23:59:00'
+    note: >-
+      Three paper tracks with consecutive deadlines (all 23:59 AoE); abstract registration is required for the
+      journal and conference tracks, and papers rejected from the TVCG journal track may be resubmitted to the
+      conference track. Posters are due February 19, 2027 and Visual Data Storytelling Contest entries February 1,
+      2027.
+    sources:
+      - https://pacificvis2027.github.io/contribute/common-call-for-papers/
+      - https://pacificvis2027.github.io/contribute/tvcg-journal-papers/
+      - https://pacificvis2027.github.io/contribute/conference-papers/
+      - https://pacificvis2027.github.io/contribute/short-papers/
+      - https://pacificvis2027.github.io/venue/venue-information/
+      - https://pacificvis2027.github.io/
+    checked: 2026-09-29
+  - year: 2026
+    id: pacificvis26
+    link: https://pacificvis2026.github.io/
+    date: April 20-23, 2026
+    start: 2026-04-20
+    end: 2026-04-23
+    place: Sydney, NSW, Australia
+    timezone: AoE
+    timeline:
+      - type: abstract
+        cycle: TVCG Journal track
+        date: '2025-09-01 23:59:00'
+      - type: paper
+        cycle: TVCG Journal track
+        date: '2025-09-07 23:59:00'
+      - type: notification
+        cycle: TVCG Journal track
+        label: First-round notification
+        date: '2025-10-27 23:59:00'
+      - type: abstract
+        cycle: Conference track
+        date: '2025-11-01 23:59:00'
+      - type: paper
+        cycle: Conference track
+        date: '2025-11-08 23:59:00'
+      - type: other
+        cycle: TVCG Journal track
+        label: Revisions due (2nd round)
+        date: '2025-11-11 23:59:00'
+      - type: notification
+        cycle: TVCG Journal track
+        label: Final notification
+        date: '2025-12-02 23:59:00'
+      - type: notification
+        cycle: Conference track
+        label: First-round notification
+        date: '2025-12-15 23:59:00'
+      - type: camera_ready
+        cycle: TVCG Journal track
+        date: '2026-01-06 23:59:00'
+      - type: paper
+        cycle: VisNotes (short papers)
+        date: '2026-01-07 23:59:00'
+      - type: other
+        cycle: Conference track
+        label: Revisions due (2nd round)
+        date: '2026-01-08 23:59:00'
+      - type: notification
+        cycle: Conference track
+        label: Final notification
+        date: '2026-01-22 23:59:00'
+      - type: camera_ready
+        cycle: Conference track
+        date: '2026-02-05 23:59:00'
+      - type: notification
+        cycle: VisNotes (short papers)
+        date: '2026-02-08 23:59:00'
+      - type: camera_ready
+        cycle: VisNotes (short papers)
+        date: '2026-02-15 23:59:00'
+    note: >-
+      Three paper tracks with consecutive deadlines (all 23:59 AoE): TVCG journal papers, conference papers and
+      VisNotes short papers; poster summaries were due February 15, 2026. Held at the University of Technology
+      Sydney (UTS) city campus on April 20-21 and at the Australian Computer Society (Barangaroo) on April 22-23.
+    sources:
+      - https://pacificvis2026.github.io/common-call-for-papers.html
+      - https://pacificvis2026.github.io/TVCG-journal-papers.html
+      - https://pacificvis2026.github.io/conference-papers.html
+      - https://pacificvis2026.github.io/short-papers.html
+      - https://pacificvis2026.github.io/venue-information.html
+      - https://pacificvis2026.github.io/
+    checked: 2026-09-29

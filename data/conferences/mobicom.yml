@@ -1,0 +1,165 @@
+id: mobicom
+title: MobiCom
+full_name: ACM International Conference on Mobile Computing and Networking
+link: https://www.sigmobile.org/mobicom/
+subs: [NET]
+rank:
+  ccf: A
+  core: A*
+  thcpl: A
+dblp: mobicom
+upstream:
+  ccfddl: NW/mobicom
+editions:
+  - year: 2027
+    id: mobicom27
+    link: https://www.sigmobile.org/mobicom/2027/
+    date: October 18-22, 2027
+    start: 2027-10-18
+    end: 2027-10-22
+    timezone: AoE
+    timeline:
+      - type: abstract
+        cycle: Summer
+        label: Abstract registration
+        date: '2026-08-26 23:59:59'
+      - type: paper
+        cycle: Summer
+        date: '2026-09-02 23:59:59'
+      - type: other
+        cycle: Summer
+        label: Early-reject notification
+        date: '2026-10-23 23:59:59'
+      - type: rebuttal_start
+        cycle: Summer
+        date: '2026-11-03 23:59:59'
+      - type: rebuttal_end
+        cycle: Summer
+        date: '2026-11-06 23:59:59'
+      - type: notification
+        cycle: Summer
+        date: '2026-11-19 23:59:59'
+    note: >-
+      Two submission deadlines (Summer and Winter) with early-reject notification, a rebuttal period and one-shot revision; Winter deadline dates
+      are still TBD and the venue city is not announced yet. New for 2027 - the most senior author of each submission must serve as a reciprocal
+      reviewer, and there are no separate challenge/experience/verification paper categories; no deadline extensions. Dates without a time are recorded as end of day AoE.
+    sources:
+      - https://www.sigmobile.org/mobicom/2027/cfp.html
+      - https://www.sigmobile.org/mobicom/2027/
+      - https://mobicom27.hotcrp.com/deadlines
+    checked: 2026-09-29
+  - year: 2026
+    id: mobicom26
+    link: https://www.sigmobile.org/mobicom/2026/
+    date: October 26-30, 2026
+    start: 2026-10-26
+    end: 2026-10-30
+    place: Austin, TX, USA
+    timezone: AoE
+    timeline:
+      - type: abstract
+        cycle: Summer
+        label: Abstract registration
+        date: '2025-08-27 23:59:59'
+      - type: paper
+        cycle: Summer
+        date: '2025-09-03 23:59:59'
+      - type: other
+        cycle: Summer
+        label: Early-reject notification
+        date: '2025-10-28 23:59:59'
+      - type: rebuttal_start
+        cycle: Summer
+        date: '2025-11-11 23:59:59'
+      - type: rebuttal_end
+        cycle: Summer
+        date: '2025-11-14 23:59:59'
+      - type: notification
+        cycle: Summer
+        date: '2025-11-24 23:59:59'
+      - type: camera_ready
+        cycle: Summer
+        date: '2026-02-17 23:59:59'
+      - type: abstract
+        cycle: Winter
+        label: Abstract registration
+        date: '2026-03-06 23:59:59'
+      - type: paper
+        cycle: Winter
+        date: '2026-03-13 23:59:59'
+      - type: other
+        cycle: Winter
+        label: Early-reject notification
+        date: '2026-05-21 23:59:59'
+      - type: rebuttal_start
+        cycle: Winter
+        date: '2026-06-04 23:59:59'
+      - type: rebuttal_end
+        cycle: Winter
+        date: '2026-06-09 23:59:59'
+      - type: notification
+        cycle: Winter
+        date: '2026-06-29 23:59:59'
+      - type: camera_ready
+        cycle: Winter
+        date: '2026-08-31 23:59:59'
+    note: >-
+      Two submission deadlines (Summer 2025 and Winter 2026) with early-reject notification, rebuttal and one-shot revision. The Winter
+      notification was moved to June 29, 2026 (announced June 22). Held at The University of Texas at Austin (Hogg Memorial Auditorium); dates
+      without a time (notifications, camera-ready) are recorded as end of day AoE.
+    sources:
+      - https://www.sigmobile.org/mobicom/2026/cfp.html
+      - https://www.sigmobile.org/mobicom/2026/
+      - https://www.sigmobile.org/mobicom/2026/camera-ready-deadlines.html
+      - https://www.sigmobile.org/mobicom/2026/venue.html
+    checked: 2026-09-29
+  - year: 2025
+    id: mobicom25
+    link: https://www.sigmobile.org/mobicom/2025/
+    date: November 4-8, 2025
+    start: 2025-11-04
+    end: 2025-11-08
+    place: Hong Kong, China
+    timezone: AoE
+    timeline:
+      - type: abstract
+        cycle: Summer
+        label: Abstract registration
+        date: '2024-08-29 23:59:59'
+      - type: paper
+        cycle: Summer
+        date: '2024-09-05 23:59:59'
+      - type: other
+        cycle: Summer
+        label: Early-reject notification
+        date: '2024-10-25 23:59:59'
+      - type: notification
+        cycle: Summer
+        date: '2024-12-10 23:59:59'
+      - type: abstract
+        cycle: Winter
+        label: Abstract registration
+        date: '2025-03-11 23:59:59'
+      - type: paper
+        cycle: Winter
+        date: '2025-03-18 23:59:59'
+      - type: other
+        cycle: Winter
+        label: Early-reject notification
+        date: '2025-05-10 23:59:59'
+      - type: notification
+        cycle: Winter
+        date: '2025-06-24 23:59:59'
+      - type: camera_ready
+        cycle: Winter
+        date: '2025-09-08 23:59:59'
+    note: >-
+      Two submission deadlines (Summer 2024 and Winter 2025) with early notification and one-shot revision; the 2025 CFP also had a separate
+      category for challenge, experience and verification papers. Held at the Kerry Hotel, Hung Hom, Hong Kong; the Summer camera-ready date is
+      no longer listed on the official site.
+    sources:
+      - https://www.sigmobile.org/mobicom/2025/cfp.html
+      - https://www.sigmobile.org/mobicom/2025/
+      - https://www.sigmobile.org/mobicom/2025/camready.html
+      - https://www.sigmobile.org/mobicom/2025/venue.html
+    checked: 2026-09-29

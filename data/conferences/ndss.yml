@@ -1,0 +1,179 @@
+id: ndss
+title: NDSS
+full_name: Network and Distributed System Security Symposium
+link: https://www.ndss-symposium.org/
+subs: [SEC]
+rank:
+  ccf: A
+  core: A*
+  thcpl: A
+dblp: ndss
+upstream:
+  ccfddl: SC/ndss
+editions:
+  - year: 2027
+    id: ndss27
+    link: https://www.ndss-symposium.org/ndss2027/
+    date: March 22-26, 2027
+    start: 2027-03-22
+    end: 2027-03-26
+    place: Seoul, South Korea
+    timezone: AoE
+    timeline:
+      - type: paper
+        cycle: Summer
+        date: '2026-05-06 23:59:59'
+      - type: other
+        cycle: Summer
+        label: Early reject / Round 2 notification and Round 1 reviews
+        date: '2026-06-18 23:59:59'
+      - type: rebuttal_start
+        cycle: Summer
+        label: Author rebuttal begins (tentative)
+        date: '2026-07-15 23:59:59'
+      - type: rebuttal_end
+        cycle: Summer
+        label: Author rebuttal ends (tentative)
+        date: '2026-07-17 23:59:59'
+      - type: other
+        cycle: Summer
+        label: Interactive discussion with reviewers ends (tentative)
+        date: '2026-07-22 23:59:59'
+      - type: notification
+        cycle: Summer
+        label: Author notification (tentative)
+        date: '2026-07-29 23:59:59'
+      - type: other
+        cycle: Summer
+        label: Minor revision papers approved by shepherd
+        date: '2026-08-19 23:59:59'
+      - type: other
+        cycle: Summer
+        label: Resubmission of major revision papers
+        date: '2026-08-31 23:59:59'
+      - type: other
+        cycle: Summer
+        label: Author notification for major revision
+        date: '2026-09-16 23:59:59'
+      - type: camera_ready
+        cycle: Summer
+        date: '2026-09-30 23:59:59'
+      - type: paper
+        cycle: Fall
+        date: '2026-08-19 23:59:59'
+      - type: other
+        cycle: Fall
+        label: Round 2 notification
+        date: '2026-10-16 23:59:59'
+      - type: rebuttal_start
+        cycle: Fall
+        date: '2026-11-11 23:59:59'
+      - type: rebuttal_end
+        cycle: Fall
+        date: '2026-11-13 23:59:59'
+      - type: other
+        cycle: Fall
+        label: Interactive discussion with reviewers ends
+        date: '2026-11-18 23:59:59'
+      - type: notification
+        cycle: Fall
+        date: '2026-11-24 23:59:59'
+      - type: other
+        cycle: Fall
+        label: Resubmission of major revision papers; minor revision decision
+        date: '2026-12-22 23:59:59'
+      - type: other
+        cycle: Fall
+        label: Author notification for major revision
+        date: '2027-01-11 23:59:59'
+      - type: camera_ready
+        cycle: Fall
+        date: '2027-02-01 23:59:59'
+    note: >-
+      Two review cycles (summer and fall) with no separate abstract registration; each author may be listed on at most
+      six submissions per cycle. Decisions are accept, minor revision, major revision (resubmission within the same
+      edition) or reject.
+    sources:
+      - https://www.ndss-symposium.org/ndss2027/submissions/call-for-papers/
+      - https://www.ndss-symposium.org/ndss2027/
+      - https://ndss27-summer.hotcrp.com/deadlines
+      - https://ndss27-fall.hotcrp.com/deadlines
+    checked: 2026-09-29
+  - year: 2026
+    id: ndss26
+    link: https://www.ndss-symposium.org/ndss2026/
+    date: February 23-27, 2026
+    start: 2026-02-23
+    end: 2026-02-27
+    place: San Diego, CA, USA
+    timezone: AoE
+    timeline:
+      - type: paper
+        cycle: Summer
+        date: '2025-04-23 23:59:59'
+      - type: other
+        cycle: Summer
+        label: Early reject / Round 2 notification and Round 1 reviews
+        date: '2025-05-28 23:59:59'
+      - type: rebuttal_start
+        cycle: Summer
+        date: '2025-06-18 23:59:59'
+      - type: rebuttal_end
+        cycle: Summer
+        date: '2025-06-20 23:59:59'
+      - type: other
+        cycle: Summer
+        label: Interactive discussion with reviewers ends
+        date: '2025-06-25 23:59:59'
+      - type: notification
+        cycle: Summer
+        date: '2025-07-02 23:59:59'
+      - type: other
+        cycle: Summer
+        label: Resubmission of major revision papers; minor revision decision
+        date: '2025-07-30 23:59:59'
+      - type: other
+        cycle: Summer
+        label: Author notification for major revision
+        date: '2025-08-13 23:59:59'
+      - type: camera_ready
+        cycle: Summer
+        date: '2025-09-10 23:59:59'
+      - type: paper
+        cycle: Fall
+        date: '2025-08-06 23:59:59'
+      - type: other
+        cycle: Fall
+        label: Early reject / Round 2 notification and Round 1 reviews
+        date: '2025-09-17 23:59:59'
+      - type: rebuttal_start
+        cycle: Fall
+        date: '2025-10-08 23:59:59'
+      - type: rebuttal_end
+        cycle: Fall
+        date: '2025-10-10 23:59:59'
+      - type: other
+        cycle: Fall
+        label: Interactive discussion with reviewers ends
+        date: '2025-10-15 23:59:59'
+      - type: notification
+        cycle: Fall
+        date: '2025-10-22 23:59:59'
+      - type: other
+        cycle: Fall
+        label: Resubmission of major revision papers; minor revision decision
+        date: '2025-11-19 23:59:59'
+      - type: other
+        cycle: Fall
+        label: Author notification for major revision
+        date: '2025-12-03 23:59:59'
+      - type: camera_ready
+        cycle: Fall
+        date: '2025-12-17 23:59:59'
+    note: Two review cycles (summer and fall) with no separate abstract registration; all deadlines 11:59 PM AoE.
+    sources:
+      - https://www.ndss-symposium.org/ndss2026/submissions/call-for-papers/
+      - https://www.ndss-symposium.org/ndss2026/
+      - https://ndss26-summer.hotcrp.com/deadlines
+      - https://ndss26-fall.hotcrp.com/deadlines
+    checked: 2026-09-29

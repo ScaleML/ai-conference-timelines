@@ -1,0 +1,241 @@
+id: ches
+title: CHES
+full_name: Conference on Cryptographic Hardware and Embedded Systems (papers via IACR TCHES)
+link: https://ches.iacr.org/
+subs: [SEC]
+rank:
+  ccf: B
+  core: A
+  thcpl: A
+dblp: ches
+upstream:
+  ccfddl: SC/ches
+editions:
+  - year: 2027
+    id: ches27
+    link: https://ches.iacr.org/2027/
+    date: September 6-9, 2027
+    start: 2027-09-06
+    end: 2027-09-09
+    place: Cancún, Mexico
+    timezone: AoE
+    timeline:
+      - type: paper
+        cycle: TCHES 2027/1
+        date: '2026-07-15 23:59:59'
+      - type: rebuttal_start
+        cycle: TCHES 2027/1
+        date: '2026-08-23 23:59:59'
+      - type: rebuttal_end
+        cycle: TCHES 2027/1
+        date: '2026-08-28 23:59:59'
+      - type: notification
+        cycle: TCHES 2027/1
+        date: '2026-09-15 23:59:59'
+      - type: camera_ready
+        cycle: TCHES 2027/1
+        date: '2026-10-14 23:59:59'
+      - type: paper
+        cycle: TCHES 2027/2
+        date: '2026-10-15 23:59:59'
+      - type: rebuttal_start
+        cycle: TCHES 2027/2
+        date: '2026-11-23 23:59:59'
+      - type: rebuttal_end
+        cycle: TCHES 2027/2
+        date: '2026-11-28 23:59:59'
+      - type: notification
+        cycle: TCHES 2027/2
+        date: '2026-12-15 23:59:59'
+      - type: camera_ready
+        cycle: TCHES 2027/2
+        date: '2027-01-14 23:59:59'
+      - type: paper
+        cycle: TCHES 2027/3
+        date: '2027-01-15 23:59:59'
+      - type: rebuttal_start
+        cycle: TCHES 2027/3
+        date: '2027-02-23 23:59:59'
+      - type: rebuttal_end
+        cycle: TCHES 2027/3
+        date: '2027-02-28 23:59:59'
+      - type: notification
+        cycle: TCHES 2027/3
+        date: '2027-03-15 23:59:59'
+      - type: camera_ready
+        cycle: TCHES 2027/3
+        date: '2027-04-14 23:59:59'
+      - type: paper
+        cycle: TCHES 2027/4
+        date: '2027-04-15 23:59:59'
+      - type: rebuttal_start
+        cycle: TCHES 2027/4
+        date: '2027-05-23 23:59:59'
+      - type: rebuttal_end
+        cycle: TCHES 2027/4
+        date: '2027-05-28 23:59:59'
+      - type: notification
+        cycle: TCHES 2027/4
+        date: '2027-06-15 23:59:59'
+      - type: camera_ready
+        cycle: TCHES 2027/4
+        date: '2027-07-14 23:59:59'
+    note: Papers are submitted to the journal IACR TCHES, which has four quarterly deadlines (23:59:59 AoE) per volume; papers accepted in TCHES Volume 2027 are presented at CHES 2027. Dates are marked tentative; the 2027/2 deadline coincides with CHES 2026, and a new extended-review long-paper format may defer the rebuttal and decision to the next issue.
+    sources:
+      - https://ches.iacr.org/2027/
+      - https://ches.iacr.org/2027/papersubmission.php
+      - https://ches.iacr.org/2027/callforpapers.php
+      - https://github.com/ccfddl/ccf-deadlines/blob/main/conference/SC/ches.yml
+    checked: 2026-09-29
+  - year: 2026
+    id: ches26
+    link: https://ches.iacr.org/2026/
+    date: October 11-15, 2026
+    start: 2026-10-11
+    end: 2026-10-15
+    place: Antalya, Türkiye
+    timezone: AoE
+    timeline:
+      - type: paper
+        cycle: TCHES 2026/1
+        date: '2025-07-15 23:59:59'
+      - type: rebuttal_start
+        cycle: TCHES 2026/1
+        date: '2025-08-28 23:59:59'
+      - type: rebuttal_end
+        cycle: TCHES 2026/1
+        date: '2025-08-31 23:59:59'
+      - type: notification
+        cycle: TCHES 2026/1
+        date: '2025-09-15 23:59:59'
+      - type: camera_ready
+        cycle: TCHES 2026/1
+        date: '2025-10-14 23:59:59'
+      - type: paper
+        cycle: TCHES 2026/2
+        date: '2025-10-15 23:59:59'
+      - type: rebuttal_start
+        cycle: TCHES 2026/2
+        date: '2025-11-27 23:59:59'
+      - type: rebuttal_end
+        cycle: TCHES 2026/2
+        date: '2025-12-02 23:59:59'
+      - type: notification
+        cycle: TCHES 2026/2
+        date: '2025-12-15 23:59:59'
+      - type: camera_ready
+        cycle: TCHES 2026/2
+        date: '2026-01-14 23:59:59'
+      - type: paper
+        cycle: TCHES 2026/3
+        date: '2026-01-15 23:59:59'
+      - type: rebuttal_start
+        cycle: TCHES 2026/3
+        date: '2026-02-26 23:59:59'
+      - type: rebuttal_end
+        cycle: TCHES 2026/3
+        date: '2026-03-01 23:59:59'
+      - type: notification
+        cycle: TCHES 2026/3
+        date: '2026-03-15 23:59:59'
+      - type: camera_ready
+        cycle: TCHES 2026/3
+        date: '2026-04-14 23:59:59'
+      - type: paper
+        cycle: TCHES 2026/4
+        date: '2026-04-15 23:59:59'
+      - type: rebuttal_start
+        cycle: TCHES 2026/4
+        date: '2026-05-28 23:59:59'
+      - type: rebuttal_end
+        cycle: TCHES 2026/4
+        date: '2026-06-01 23:59:59'
+      - type: notification
+        cycle: TCHES 2026/4
+        date: '2026-06-15 23:59:59'
+      - type: camera_ready
+        cycle: TCHES 2026/4
+        date: '2026-07-14 23:59:59'
+    note: Papers are submitted to IACR TCHES Volume 2026 (four quarterly deadlines, 23:59:59 AoE). The 2026/2 rebuttal period was extended from Nov 27-30 to Nov 27-Dec 2, 2025, and the 2026/4 rebuttal period from May 28-31 to May 28-June 1, 2026. Held at the Royal Seginus Hotel, Antalya.
+    sources:
+      - https://ches.iacr.org/2026/
+      - https://ches.iacr.org/2026/travel.php
+      - https://ches.iacr.org/2026/json/metadata.json
+      - https://www.iacr.org/events/
+      - https://github.com/ccfddl/ccf-deadlines/blob/main/conference/SC/ches.yml
+    checked: 2026-09-29
+  - year: 2025
+    id: ches25
+    link: https://ches.iacr.org/2025/
+    date: September 14-18, 2025
+    start: 2025-09-14
+    end: 2025-09-18
+    place: Kuala Lumpur, Malaysia
+    timezone: AoE
+    timeline:
+      - type: paper
+        cycle: TCHES 2025/1
+        date: '2024-07-15 23:59:59'
+      - type: rebuttal_start
+        cycle: TCHES 2025/1
+        date: '2024-08-19 23:59:59'
+      - type: rebuttal_end
+        cycle: TCHES 2025/1
+        date: '2024-08-23 23:59:59'
+      - type: notification
+        cycle: TCHES 2025/1
+        date: '2024-09-15 23:59:59'
+      - type: camera_ready
+        cycle: TCHES 2025/1
+        date: '2024-10-14 23:59:59'
+      - type: paper
+        cycle: TCHES 2025/2
+        date: '2024-10-15 23:59:59'
+      - type: rebuttal_start
+        cycle: TCHES 2025/2
+        date: '2024-11-20 23:59:59'
+      - type: rebuttal_end
+        cycle: TCHES 2025/2
+        date: '2024-11-25 23:59:59'
+      - type: notification
+        cycle: TCHES 2025/2
+        date: '2024-12-15 23:59:59'
+      - type: camera_ready
+        cycle: TCHES 2025/2
+        date: '2025-01-14 23:59:59'
+      - type: paper
+        cycle: TCHES 2025/3
+        date: '2025-01-15 23:59:59'
+      - type: rebuttal_start
+        cycle: TCHES 2025/3
+        date: '2025-02-24 23:59:59'
+      - type: rebuttal_end
+        cycle: TCHES 2025/3
+        date: '2025-02-28 23:59:59'
+      - type: notification
+        cycle: TCHES 2025/3
+        date: '2025-03-15 23:59:59'
+      - type: camera_ready
+        cycle: TCHES 2025/3
+        date: '2025-04-14 23:59:59'
+      - type: paper
+        cycle: TCHES 2025/4
+        date: '2025-04-15 23:59:59'
+      - type: rebuttal_start
+        cycle: TCHES 2025/4
+        date: '2025-05-26 23:59:59'
+      - type: rebuttal_end
+        cycle: TCHES 2025/4
+        date: '2025-05-30 23:59:59'
+      - type: notification
+        cycle: TCHES 2025/4
+        date: '2025-06-15 23:59:59'
+      - type: camera_ready
+        cycle: TCHES 2025/4
+        date: '2025-07-14 23:59:59'
+    note: Papers were submitted to IACR TCHES Volume 2025 (four quarterly deadlines, 23:59:59 AoE); camera-ready dates apply to (conditionally) accepted papers. Held at the Kuala Lumpur Convention Centre.
+    sources:
+      - https://ches.iacr.org/2025/
+      - https://ches.iacr.org/2025/travel.php
+      - https://github.com/ccfddl/ccf-deadlines/blob/main/conference/SC/ches.yml
+    checked: 2026-09-29

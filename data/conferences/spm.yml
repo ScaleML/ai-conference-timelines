@@ -1,0 +1,97 @@
+id: spm
+title: SPM
+full_name: Symposium on Solid and Physical Modeling
+link: http://solidmodeling.org/spm-conferences/
+subs: [CG]
+rank:
+  ccf: B
+  core: C
+  thcpl: B
+dblp: sma
+upstream:
+  ccfddl: CG/spm
+editions:
+  - year: 2027
+    id: spm27
+    link: https://igs2027singapore.github.io/
+    date: June 21-25, 2027
+    start: 2027-06-21
+    end: 2027-06-25
+    place: Suntec Singapore Convention & Exhibition Centre, Singapore
+    timeline: []
+    note: >-
+      SPM 2027 is a partner conference of the 4th International Geometry Summit (IGS 2027) with SGP, SMI, GMP and
+      SIAM GD; its own website and call for papers are not online yet.
+    sources:
+      - https://igs2027singapore.github.io/
+      - http://solidmodeling.org/spm-conferences/
+    checked: 2026-09-29
+  - year: 2026
+    id: spm26
+    link: https://spmconf2026.github.io/
+    date: July 6-9, 2026
+    start: 2026-07-06
+    end: 2026-07-09
+    place: Istanbul Technical University (Gümüşsuyu Campus), Istanbul, Türkiye
+    timezone: AoE
+    timeline:
+      - type: abstract
+        date: '2026-02-08 23:59:59'
+      - type: paper
+        date: '2026-02-15 23:59:59'
+      - type: other
+        label: Poster submission deadline
+        date: '2026-03-29 23:59:59'
+      - type: notification
+        label: First review notification
+        date: '2026-04-03 23:59:59'
+      - type: other
+        label: Revised papers due
+        date: '2026-05-01 23:59:59'
+      - type: notification
+        label: Final notification
+        date: '2026-05-19 23:59:59'
+      - type: camera_ready
+        date: '2026-06-02 23:59:59'
+    note: >-
+      Deadlines were extended by two weeks (originally abstract January 25, paper February 1, 2026); the CFP gives
+      no timezone, so AoE is assumed. Co-located with SMI 2026; accepted papers are published in Computer-Aided
+      Design after a two-stage review.
+    sources:
+      - https://spmconf2026.github.io/cfp.html
+      - https://spmconf2026.github.io/
+      - http://solidmodeling.org/spm-conferences/
+    checked: 2026-09-29
+  - year: 2025
+    id: spm25
+    link: https://spmconf2025.github.io/SPM2025/
+    date: October 29 - November 2, 2025
+    start: 2025-10-29
+    end: 2025-11-02
+    place: Hangzhou Huanglong Hotel, Hangzhou, Zhejiang, China
+    timezone: AoE
+    timeline:
+      - type: abstract
+        date: '2025-03-08 23:59:59'
+      - type: paper
+        date: '2025-03-15 23:59:59'
+      - type: notification
+        label: First review notification
+        date: '2025-04-25 23:59:59'
+      - type: other
+        label: Revised papers due
+        date: '2025-05-30 23:59:59'
+      - type: camera_ready
+        date: '2025-07-30 23:59:59'
+      - type: notification
+        label: Final notification
+        date: '2025-08-10 23:59:59'
+    note: >-
+      Abstract and paper deadlines were split from the original March 1, 2025; first notification moved from April
+      15 and final notification from June 30 (the page still lists camera-ready on July 30). The CFP gives no
+      timezone, so AoE is assumed. Co-located with SMI 2025; papers published in Computer-Aided Design.
+    sources:
+      - https://spmconf2025.github.io/SPM2025/CfP.html
+      - https://spmconf2025.github.io/SPM2025/
+      - https://spmconf2025.github.io/SPM2025/Venue.html
+    checked: 2026-09-29

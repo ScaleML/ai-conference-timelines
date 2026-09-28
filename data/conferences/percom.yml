@@ -1,0 +1,76 @@
+id: percom
+title: PerCom
+full_name: IEEE International Conference on Pervasive Computing and Communications
+link: https://percom.org/
+subs: [HCI, NET]
+rank:
+  ccf: B
+  core: A*
+  thcpl: B
+dblp: percom
+upstream:
+  ccfddl: HI/percom
+editions:
+  - year: 2027
+    id: percom27
+    link: https://percom.org/
+    date: March 8-12, 2027
+    start: 2027-03-08
+    end: 2027-03-12
+    place: Goa, India
+    timezone: AoE
+    timeline:
+      - type: abstract
+        label: Paper registration
+        date: '2026-09-11 23:59:59'
+      - type: paper
+        date: '2026-09-18 23:59:59'
+      - type: review_release
+        label: Early rejection or rebuttal invitation
+        date: '2026-11-20 23:59:59'
+      - type: rebuttal_end
+        label: Rebuttal submission
+        date: '2026-11-27 23:59:59'
+      - type: notification
+        label: Final notification
+        date: '2026-12-18 23:59:59'
+    note: >-
+      Registration and submission deadlines were extended by one week (originally September 4 and September 11, 2026); submission via
+      HotCRP. Camera-ready is due in February 2027 (exact date TBA). Work-in-progress and workshop papers are due November 17, 2026.
+    sources:
+      - https://percom.org/dates/
+      - https://percom.org/call-for-papers/
+      - https://percom.org/
+      - https://percom.org/conference-venue/
+    checked: 2026-09-29
+  - year: 2026
+    id: percom26
+    link: https://percom.org/2026/
+    date: March 16-20, 2026
+    start: 2026-03-16
+    end: 2026-03-20
+    place: CNR Research Area, Pisa, Italy
+    timezone: AoE
+    timeline:
+      - type: abstract
+        label: Paper registration
+        date: '2025-10-03 23:59:59'
+      - type: paper
+        date: '2025-10-03 23:59:59'
+      - type: review_release
+        label: 1st stage notification (early rejection or rebuttal invitation)
+        date: '2025-11-28 23:59:59'
+      - type: rebuttal_end
+        label: Rebuttal submission
+        date: '2025-12-05 23:59:59'
+      - type: notification
+        label: Final notification
+        date: '2025-12-22 23:59:59'
+      - type: camera_ready
+        date: '2026-02-02 23:59:59'
+    note: Paper registration and submission deadlines were both extended to October 3, 2025 (originally September 12 and September 19, 2025); submission via EDAS.
+    sources:
+      - https://percom.org/2026/dates/
+      - https://percom.org/2026/
+      - https://www.ieee-security.org/Calendar/cfps/cfp-PerCom2026.html
+    checked: 2026-09-29

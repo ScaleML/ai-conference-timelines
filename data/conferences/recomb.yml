@@ -1,0 +1,62 @@
+id: recomb
+title: RECOMB
+full_name: International Conference on Research in Computational Molecular Biology
+link: https://recomb.org/
+subs: [MX]
+rank:
+  ccf: B
+  core: B
+  thcpl: A
+dblp: recomb
+upstream:
+  ccfddl: MX/recomb
+editions:
+  - year: 2027
+    id: recomb27
+    link: https://recomb.org/recomb2027/
+    date: May 17-20, 2027
+    start: 2027-05-17
+    end: 2027-05-20
+    place: Toronto, ON, Canada
+    timezone: AoE
+    timeline:
+      - type: abstract
+        label: Abstract submission deadline (mandatory)
+        date: '2026-10-28 23:59:59'
+      - type: paper
+        date: '2026-11-04 23:59:59'
+      - type: notification
+        date: '2026-12-22 23:59:59'
+    note: Abstract registration is mandatory; after it only existing submissions can be updated. Notification has no time given (AoE assumed); final-version date TBA, no separate proceedings volume. Satellite meetings May 15-16.
+    sources:
+      - https://recomb.org/recomb2027/keydates_and_deadlines
+      - https://recomb.org/recomb2027/call_for_papers
+      - https://recomb.org/recomb2027/
+    checked: 2026-09-29
+  - year: 2026
+    id: recomb26
+    link: https://recomb.org/recomb2026/
+    date: May 26-29, 2026
+    start: 2026-05-26
+    end: 2026-05-29
+    place: Thessaloniki, Greece
+    timezone: AoE
+    timeline:
+      - type: abstract
+        label: Abstract submission deadline (mandatory)
+        date: '2025-11-07 23:59:59'
+      - type: paper
+        date: '2025-11-20 23:59:59'
+      - type: notification
+        date: '2026-01-16 23:59:59'
+      - type: camera_ready
+        label: Final version due (posted on bioRxiv)
+        date: '2026-02-25 23:59:59'
+    note: Full-paper deadline was extended (final extension) from November 14 to November 20, 2025 and notification moved from January 12 to January 16, 2026 (no time given, AoE assumed). Held jointly with H.bioinfo'17 at the Thessaloniki Concert Hall; satellites May 24-25.
+    sources:
+      - https://recomb.org/recomb2026/keydates_and_deadlines
+      - https://recomb.org/recomb2026/call_for_papers
+      - https://recomb.org/recomb2026/venue_main
+      - https://recomb.org/recomb2026/
+      - https://easychair.org/cfp/RECOMB2026
+    checked: 2026-09-29

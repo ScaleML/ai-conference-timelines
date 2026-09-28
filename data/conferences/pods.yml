@@ -1,0 +1,144 @@
+id: pods
+title: PODS
+full_name: ACM SIGMOD-SIGACT-SIGAI Symposium on Principles of Database Systems
+link: https://sigmod.org/pods-home/
+subs: [DB, TH]
+rank:
+  ccf: B
+  core: A*
+  thcpl: A
+dblp: pods
+upstream:
+  ccfddl: DB/pods
+editions:
+  - year: 2027
+    id: pods27
+    link: https://2027.sigmod.org/calls_papers_pods_research.shtml
+    date: June 13-19, 2027
+    start: 2027-06-13
+    end: 2027-06-19
+    place: Huntington Beach, CA, USA
+    timezone: AoE
+    timeline:
+      - type: abstract
+        cycle: Cycle 1
+        date: '2026-05-23 23:59:59'
+      - type: paper
+        cycle: Cycle 1
+        date: '2026-05-30 23:59:59'
+      - type: rebuttal_start
+        cycle: Cycle 1
+        date: '2026-07-29 00:00:00'
+      - type: rebuttal_end
+        cycle: Cycle 1
+        date: '2026-08-01 23:59:59'
+      - type: notification
+        cycle: Cycle 1
+        label: Initial notification
+        date: '2026-08-11 23:59:59'
+      - type: other
+        cycle: Cycle 1
+        label: Revision submission deadline
+        date: '2026-08-25 23:59:59'
+      - type: notification
+        cycle: Cycle 1
+        label: Final notification
+        date: '2026-09-01 23:59:59'
+      - type: abstract
+        cycle: Cycle 2
+        date: '2026-12-03 23:59:59'
+      - type: paper
+        cycle: Cycle 2
+        date: '2026-12-10 23:59:59'
+      - type: rebuttal_start
+        cycle: Cycle 2
+        date: '2027-01-26 00:00:00'
+      - type: rebuttal_end
+        cycle: Cycle 2
+        date: '2027-01-29 23:59:59'
+      - type: notification
+        cycle: Cycle 2
+        label: Initial notification
+        date: '2027-02-08 23:59:59'
+      - type: other
+        cycle: Cycle 2
+        label: Revision submission deadline
+        date: '2027-02-22 23:59:59'
+      - type: notification
+        cycle: Cycle 2
+        label: Final notification
+        date: '2027-03-01 23:59:59'
+    note: >-
+      Two submission cycles with double-blind review, rebuttal and an optional revision round; accepted papers appear
+      in a PODS issue of PACMMOD and are presented at SIGMOD/PODS 2027.
+    sources:
+      - https://2027.sigmod.org/calls_papers_pods_research.shtml
+      - https://2027.sigmod.org/calls_papers_important_dates.shtml
+      - https://2027.sigmod.org/
+    checked: 2026-09-29
+  - year: 2026
+    id: pods26
+    link: https://2026.sigmod.org/calls_papers_pods_research.shtml
+    date: May 31 - June 5, 2026
+    start: 2026-05-31
+    end: 2026-06-05
+    place: Bengaluru, India
+    timezone: AoE
+    timeline:
+      - type: abstract
+        cycle: Cycle 1
+        date: '2025-06-03 23:59:59'
+      - type: paper
+        cycle: Cycle 1
+        date: '2025-06-10 23:59:59'
+      - type: rebuttal_start
+        cycle: Cycle 1
+        date: '2025-07-29 00:00:00'
+      - type: rebuttal_end
+        cycle: Cycle 1
+        date: '2025-08-01 23:59:59'
+      - type: notification
+        cycle: Cycle 1
+        label: Initial notification
+        date: '2025-08-11 23:59:59'
+      - type: other
+        cycle: Cycle 1
+        label: Revision submission deadline
+        date: '2025-08-25 23:59:59'
+      - type: notification
+        cycle: Cycle 1
+        label: Final notification
+        date: '2025-09-01 23:59:59'
+      - type: abstract
+        cycle: Cycle 2
+        date: '2025-12-03 23:59:59'
+      - type: paper
+        cycle: Cycle 2
+        date: '2025-12-10 23:59:59'
+      - type: rebuttal_start
+        cycle: Cycle 2
+        date: '2026-01-26 00:00:00'
+      - type: rebuttal_end
+        cycle: Cycle 2
+        date: '2026-01-29 23:59:59'
+      - type: notification
+        cycle: Cycle 2
+        label: Initial notification
+        date: '2026-02-08 23:59:59'
+      - type: other
+        cycle: Cycle 2
+        label: Revision submission deadline
+        date: '2026-02-22 23:59:59'
+      - type: notification
+        cycle: Cycle 2
+        label: Final notification
+        date: '2026-03-01 23:59:59'
+    note: >-
+      Two submission cycles; accepted papers appear in a PODS issue of PACMMOD. The PODS CFP page misprints the Cycle 2
+      rebuttal and initial notification as 2025; the SIGMOD/PODS Important Dates page gives January 26-29 and
+      February 8, 2026.
+    sources:
+      - https://2026.sigmod.org/calls_papers_pods_research.shtml
+      - https://2026.sigmod.org/calls_papers_important_dates.shtml
+      - https://2026.sigmod.org/
+    checked: 2026-09-29

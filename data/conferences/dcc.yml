@@ -1,0 +1,73 @@
+id: dcc
+title: DCC
+full_name: Data Compression Conference
+link: https://datacompressionconference.org/
+subs: [SP]
+rank:
+  ccf: B
+  core: B
+  thcpl: B
+dblp: dcc
+upstream:
+  ccfddl: CG/dcc
+editions:
+  - year: 2027
+    id: dcc27
+    link: https://datacompressionconference.org/
+    date: March 23-26, 2027
+    start: 2027-03-23
+    end: 2027-03-26
+    place: The Cliff Lodge, Snowbird, UT, USA
+    timezone: UTC-7
+    timeline:
+      - type: paper
+        date: '2026-10-02 23:59:00'
+      - type: notification
+        timezone: UTC-8
+        date: '2026-11-22 23:59:59'
+      - type: other
+        label: Author registration deadline
+        timezone: UTC-8
+        date: '2026-12-09 23:59:59'
+      - type: camera_ready
+        label: Final paper submission deadline
+        timezone: UTC-8
+        date: '2026-12-09 23:59:59'
+    note: >-
+      Papers (max. 10 pages) are due 11:59pm U.S. Pacific Time (PDT) via CMT; the later dates carry no time and
+      are shown as end of day Pacific Standard Time. Proceedings published by IEEE Computer Society Press.
+    sources:
+      - https://datacompressionconference.org/important-dates/
+      - https://datacompressionconference.org/call-for-papers/
+      - https://datacompressionconference.org/paper-submission/
+      - https://datacompressionconference.org/CfP/dcc2027_cfp.pdf
+      - https://datacompressionconference.org/
+    checked: 2026-09-29
+  - year: 2026
+    id: dcc26
+    link: https://datacompressionconference.org/
+    date: March 24-27, 2026
+    start: 2026-03-24
+    end: 2026-03-27
+    place: The Cliff Lodge, Snowbird, UT, USA
+    timezone: AoE
+    timeline:
+      - type: paper
+        date: '2025-10-11 23:59:59'
+      - type: notification
+        date: '2025-11-23 23:59:59'
+      - type: other
+        label: Author registration deadline
+        date: '2025-12-10 23:59:59'
+      - type: camera_ready
+        label: Final paper submission deadline
+        date: '2025-12-10 23:59:59'
+    note: >-
+      The call-for-papers PDF gave October 3, 2025; the important dates later listed October 11, 2025 (as
+      mirrored on the IEEE Information Theory Society event page). No timezone was available for this edition,
+      so AoE is assumed (DCC 2027 uses 11:59pm U.S. Pacific Time).
+    sources:
+      - https://datacompressionconference.org/CfP/dcc2026_cfp.pdf
+      - https://www.itsoc.org/event/dcc2026-data-compression-conference
+      - https://datacompressionconference.org/past-years/
+    checked: 2026-09-29

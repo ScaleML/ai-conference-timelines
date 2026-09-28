@@ -1,0 +1,90 @@
+id: osdi
+title: OSDI
+full_name: USENIX Symposium on Operating Systems Design and Implementation
+link: https://www.usenix.org/conferences/byname/179
+subs: [SYS]
+rank:
+  ccf: A
+  core: A*
+  thcpl: A
+dblp: osdi
+upstream:
+  ccfddl: SE/osdi
+editions:
+  - year: 2027
+    id: osdi27
+    link: https://www.usenix.org/conference/osdi27
+    date: July 7-9, 2027
+    start: 2027-07-07
+    end: 2027-07-09
+    place: Baltimore, MD, USA
+    timezone: UTC-5
+    timeline:
+      - type: abstract
+        label: Abstract registration deadline
+        date: '2026-12-01 17:59:59'
+      - type: paper
+        date: '2026-12-08 17:59:59'
+      - type: notification
+        date: '2027-03-16 23:59:59'
+      - type: camera_ready
+        label: Final papers due
+        date: '2027-06-03 23:59:59'
+    note: Preliminary CFP; abstract and paper deadlines are 5:59 pm EST (22:59 UTC) and are hard deadlines, while notification and final-paper dates are given without a time. Research and Operational Systems tracks, max eight submissions per author, and NSDI '27 Fall submissions may not be resubmitted to OSDI '27; held at the Hyatt Regency Baltimore Inner Harbor.
+    sources:
+      - https://www.usenix.org/conference/osdi27/call-for-papers
+    checked: 2026-09-29
+  - year: 2026
+    id: osdi26
+    link: https://www.usenix.org/conference/osdi26
+    date: July 13-15, 2026
+    start: 2026-07-13
+    end: 2026-07-15
+    place: Seattle, WA, USA
+    timezone: UTC-5
+    timeline:
+      - type: abstract
+        label: Abstract registration deadline
+        date: '2025-12-04 17:59:59'
+      - type: paper
+        date: '2025-12-11 17:59:59'
+      - type: notification
+        date: '2026-03-26 23:59:59'
+      - type: camera_ready
+        label: Final papers due
+        date: '2026-06-09 23:59:59'
+    note: Abstract and paper deadlines were 5:59 pm EST (22:59 UTC); notification and final-paper dates were given without a time. First edition with an Operational Systems track; held at The Westin Seattle.
+    sources:
+      - https://www.usenix.org/conference/osdi26/call-for-papers
+      - https://www.usenix.org/conference/osdi26
+    checked: 2026-09-29
+  - year: 2025
+    id: osdi25
+    link: https://www.usenix.org/conference/osdi25
+    date: July 7-9, 2025
+    start: 2025-07-07
+    end: 2025-07-09
+    place: Boston, MA, USA
+    timezone: UTC-5
+    timeline:
+      - type: abstract
+        label: Abstract registration deadline
+        date: '2024-12-03 17:59:59'
+      - type: paper
+        date: '2024-12-10 17:59:59'
+      - type: rebuttal_start
+        label: Reviews available
+        date: '2025-03-06 23:59:59'
+      - type: rebuttal_end
+        label: Author responses due
+        date: '2025-03-10 23:59:59'
+      - type: notification
+        date: '2025-03-25 23:59:59'
+      - type: camera_ready
+        label: Final papers due
+        date: '2025-06-05 23:59:59'
+    note: Abstract and paper deadlines were 5:59 pm EST (22:59 UTC); the later dates were given without a time. Co-located with USENIX ATC '25 at the Sheraton Boston.
+    sources:
+      - https://www.usenix.org/conference/osdi25/call-for-papers
+      - https://www.usenix.org/conference/osdi25
+    checked: 2026-09-29

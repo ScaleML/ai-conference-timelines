@@ -1,0 +1,166 @@
+id: conext
+title: CoNEXT
+full_name: ACM International Conference on emerging Networking EXperiments and Technologies
+link: https://www.sigcomm.org/events/conext-conference
+subs: [NET]
+rank:
+  ccf: B
+  core: A
+  thcpl: A
+dblp: conext
+upstream:
+  ccfddl: NW/conext
+editions:
+  - year: 2027
+    id: conext27
+    link: https://conferences.sigcomm.org/co-next/2027/
+    date: December 6-9, 2027
+    start: 2027-12-06
+    end: 2027-12-09
+    place: Rio de Janeiro, Brazil
+    timeline: []
+    note: The CoNEXT 2027 site lists the conference dates as "to be confirmed"; its Call for Papers page only says "More information soon!", so no deadlines are announced yet.
+    sources:
+      - https://conferences.sigcomm.org/co-next/2027/
+      - https://conferences.sigcomm.org/co-next/2027/partials/cfp.html
+    checked: 2026-09-29
+  - year: 2026
+    id: conext26
+    link: https://conferences.sigcomm.org/co-next/2026/
+    date: December 7-10, 2026
+    start: 2026-12-07
+    end: 2026-12-10
+    place: Utrecht, The Netherlands
+    timezone: AoE
+    timeline:
+      - type: abstract
+        cycle: December cycle
+        label: Paper registration
+        date: '2025-12-05 23:59:59'
+      - type: paper
+        cycle: December cycle
+        date: '2025-12-12 23:59:59'
+      - type: notification
+        cycle: December cycle
+        date: '2026-03-31 23:59:59'
+      - type: camera_ready
+        cycle: December cycle
+        date: '2026-04-30 23:59:59'
+      - type: other
+        cycle: December cycle
+        label: One-shot major revision due
+        date: '2026-05-29 23:59:59'
+      - type: other
+        cycle: December cycle
+        label: Final decision on major revisions
+        date: '2026-06-22 23:59:59'
+      - type: other
+        cycle: December cycle
+        label: Camera-ready for revised papers
+        date: '2026-07-31 23:59:59'
+      - type: abstract
+        cycle: June cycle
+        label: Paper registration
+        date: '2026-05-29 23:59:59'
+      - type: paper
+        cycle: June cycle
+        date: '2026-06-05 23:59:59'
+      - type: notification
+        cycle: June cycle
+        date: '2026-09-11 23:59:59'
+      - type: camera_ready
+        cycle: June cycle
+        date: '2026-10-12 23:59:59'
+      - type: other
+        cycle: June cycle
+        label: One-shot major revision due
+        date: '2026-11-12 23:59:59'
+      - type: other
+        cycle: June cycle
+        label: Final decision on major revisions
+        date: '2026-12-15 23:59:59'
+      - type: other
+        cycle: June cycle
+        label: Camera-ready for revised papers
+        date: '2027-01-21 23:59:59'
+    note: >-
+      Accepted papers appear in the Proceedings of the ACM on Networking (PACMNET) and are presented at the conference; all deadlines
+      are 24:00 AoE. Early-reject notifications were announced only as "February 2026" (December cycle) and "July 2026" (June cycle).
+    sources:
+      - https://conferences.sigcomm.org/co-next/2026/partials/cfp.html
+      - https://conferences.sigcomm.org/co-next/2026/partials/home.html
+      - https://conferences.sigcomm.org/co-next/2026/partials/submission.html
+      - https://conferences.sigcomm.org/co-next/2026/js/variables.js
+      - https://conext26-winter.hotcrp.com/deadlines
+      - https://conext26-june.hotcrp.com/deadlines
+    checked: 2026-09-29
+  - year: 2025
+    id: conext25
+    link: https://conferences.sigcomm.org/co-next/2025/
+    date: December 1-4, 2025
+    start: 2025-12-01
+    end: 2025-12-04
+    place: Hong Kong, China
+    timezone: AoE
+    timeline:
+      - type: abstract
+        cycle: December cycle
+        label: Paper registration
+        date: '2024-11-28 23:59:59'
+      - type: paper
+        cycle: December cycle
+        date: '2024-12-05 23:59:59'
+      - type: notification
+        cycle: December cycle
+        date: '2025-04-04 23:59:59'
+      - type: camera_ready
+        cycle: December cycle
+        date: '2025-04-30 23:59:59'
+      - type: other
+        cycle: December cycle
+        label: One-shot major revision due
+        date: '2025-05-29 23:59:59'
+      - type: other
+        cycle: December cycle
+        label: Final decision on major revisions
+        date: '2025-06-23 23:59:59'
+      - type: other
+        cycle: December cycle
+        label: Camera-ready for revised papers
+        date: '2025-07-24 23:59:59'
+      - type: abstract
+        cycle: June cycle
+        label: Paper registration
+        date: '2025-05-29 23:59:59'
+      - type: paper
+        cycle: June cycle
+        date: '2025-06-05 23:59:59'
+      - type: notification
+        cycle: June cycle
+        date: '2025-09-12 23:59:59'
+      - type: camera_ready
+        cycle: June cycle
+        date: '2025-10-08 23:59:59'
+      - type: other
+        cycle: June cycle
+        label: One-shot major revision due
+        date: '2025-11-14 23:59:59'
+      - type: other
+        cycle: June cycle
+        label: Final decision on major revisions
+        date: '2025-12-12 23:59:59'
+      - type: other
+        cycle: June cycle
+        label: Camera-ready for revised papers
+        date: '2026-01-20 23:59:59'
+    note: >-
+      Accepted papers appear in PACMNET; all deadlines are 24:00 AoE. Early-reject notifications were announced only as "February 2025"
+      (December cycle) and "August 2025" (June cycle); revision dates follow the CFP, although HotCRP later showed revision cutoffs of
+      June 26, 2025 (December cycle) and November 15, 2025 (June cycle), both AoE. Held at HKUST, Clear Water Bay, Hong Kong.
+    sources:
+      - https://conferences.sigcomm.org/co-next/2025/partials/cfp.html
+      - https://conferences.sigcomm.org/co-next/2025/partials/venue.html
+      - https://conferences.sigcomm.org/co-next/2025/js/variables.js
+      - https://conext25-winter.hotcrp.com/deadlines
+      - https://conext25-june.hotcrp.com/deadlines
+    checked: 2026-09-29

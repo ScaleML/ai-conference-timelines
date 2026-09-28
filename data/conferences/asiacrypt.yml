@@ -1,0 +1,77 @@
+id: asiacrypt
+title: ASIACRYPT
+full_name: International Conference on the Theory and Application of Cryptology and Information Security
+link: https://asiacrypt.iacr.org/
+subs: [SEC, TH]
+rank:
+  ccf: B
+  core: A
+  thcpl: A
+dblp: asiacrypt
+upstream:
+  ccfddl: SC/asiacrypt
+editions:
+  - year: 2026
+    id: asiacrypt26
+    link: https://asiacrypt.iacr.org/2026/
+    date: December 7-11, 2026
+    start: 2026-12-07
+    end: 2026-12-11
+    place: Hong Kong, China
+    timezone: AoE
+    timeline:
+      - type: paper
+        date: '2026-05-21 23:59:59'
+      - type: rebuttal_start
+        label: First-round notification & rebuttal starts
+        date: '2026-07-17 23:59:59'
+      - type: rebuttal_end
+        label: Rebuttal deadline
+        date: '2026-07-24 23:59:59'
+      - type: notification
+        label: Final notification
+        date: '2026-08-14 23:59:59'
+      - type: camera_ready
+        date: '2026-09-14 23:59:59'
+    note: Submission deadline was 11:59 pm AoE (May 22, 11:59 UTC); the other dates were listed without a time. Two-round review with a rebuttal phase; held at the Sheraton Hong Kong Hotel & Towers, with affiliated workshops at The Hong Kong Polytechnic University.
+    sources:
+      - https://asiacrypt.iacr.org/2026/callforpapers.php
+      - https://asiacrypt.iacr.org/2026/papersubmission.php
+      - https://asiacrypt.iacr.org/2026/json/metadata.json
+      - https://asiacrypt.iacr.org/2026/travel.php
+      - https://github.com/ccfddl/ccf-deadlines/blob/main/conference/SC/asiacrypt.yml
+    checked: 2026-09-29
+  - year: 2025
+    id: asiacrypt25
+    link: https://asiacrypt.iacr.org/2025/
+    date: December 8-12, 2025
+    start: 2025-12-08
+    end: 2025-12-12
+    place: Melbourne, Australia
+    timezone: AoE
+    timeline:
+      - type: paper
+        date: '2025-05-16 12:00:00'
+        timezone: UTC
+      - type: rebuttal_start
+        label: First-round notification & rebuttal starts
+        date: '2025-07-13 23:59:59'
+      - type: rebuttal_end
+        label: Rebuttals due
+        date: '2025-07-18 23:59:59'
+      - type: other
+        label: End of interactive rebuttals
+        date: '2025-07-25 23:59:59'
+      - type: notification
+        label: Final notification
+        date: '2025-08-10 23:59:59'
+      - type: camera_ready
+        date: '2025-09-10 23:59:59'
+    note: Submission deadline was 12:00 GMT (UTC); the other dates were listed without a timezone (recorded as AoE). Two-round review with a rebuttal and interactive discussion phase; held at Pullman Melbourne on the Park, with affiliated workshops at Monash University.
+    sources:
+      - https://asiacrypt.iacr.org/2025/callforpapers.php
+      - https://asiacrypt.iacr.org/2025/papersubmission.php
+      - https://asiacrypt.iacr.org/2025/json/metadata.json
+      - https://asiacrypt.iacr.org/2025/travel.php
+      - https://github.com/ccfddl/ccf-deadlines/blob/main/conference/SC/asiacrypt.yml
+    checked: 2026-09-29

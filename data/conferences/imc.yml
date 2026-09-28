@@ -1,0 +1,152 @@
+id: imc
+title: IMC
+full_name: ACM Internet Measurement Conference
+link: https://www.sigcomm.org/events/imc-conference
+subs: [NET]
+rank:
+  ccf: B
+  core: A
+  thcpl: A
+dblp: imc
+upstream:
+  ccfddl: NW/imc
+editions:
+  - year: 2026
+    id: imc26
+    link: https://conferences.sigcomm.org/imc/2026/
+    date: October 12-16, 2026
+    start: 2026-10-12
+    end: 2026-10-16
+    place: Karlsruhe, Germany
+    timezone: AoE
+    timeline:
+      - type: abstract
+        cycle: Cycle 1
+        label: Paper registration (with abstract)
+        date: '2025-11-13 23:59:59'
+      - type: paper
+        cycle: Cycle 1
+        date: '2025-11-20 23:59:59'
+      - type: other
+        cycle: Cycle 1
+        label: Early-reject notification
+        date: '2026-02-03 23:59:59'
+      - type: notification
+        cycle: Cycle 1
+        date: '2026-03-17 23:59:59'
+      - type: camera_ready
+        cycle: Cycle 1
+        label: Shepherd approval & camera-ready
+        date: '2026-04-14 23:59:59'
+      - type: other
+        cycle: Cycle 2
+        label: Replicability Track expression of interest
+        date: '2026-01-29 23:59:59'
+      - type: other
+        cycle: Cycle 2
+        label: Replicability Track EoI notification
+        date: '2026-03-02 23:59:59'
+      - type: abstract
+        cycle: Cycle 2
+        label: Paper registration (with abstract)
+        date: '2026-04-22 23:59:59'
+      - type: paper
+        cycle: Cycle 2
+        date: '2026-04-29 23:59:59'
+      - type: other
+        cycle: Cycle 2
+        label: One-shot revision resubmission (Cycle 1 papers)
+        date: '2026-06-04 23:59:59'
+      - type: other
+        cycle: Cycle 2
+        label: Early-reject notification
+        date: '2026-06-25 23:59:59'
+      - type: notification
+        cycle: Cycle 2
+        date: '2026-08-04 23:59:59'
+      - type: camera_ready
+        cycle: Cycle 2
+        label: Shepherd approval & camera-ready
+        date: '2026-09-01 23:59:59'
+    note: >-
+      Two submission cycles with an optional one-shot revision across cycles; submission deadlines are hard 11:59 PM AoE deadlines,
+      other dates carry no timezone. The dates table lists the Replicability Track EoI deadline as "January 29, 2025", a typo for
+      2026 (per the CFP submission-site text and HotCRP); the site says 11:59 PM AoE, although HotCRP showed 12 PM AoE. Conference dates were moved to October 12-16 in January 2026; held at the
+      KIT Audimax, Karlsruhe.
+    sources:
+      - https://conferences.sigcomm.org/imc/2026/cfp
+      - https://conferences.sigcomm.org/imc/2026/submission-instructions
+      - https://conferences.sigcomm.org/imc/2026/
+      - https://imc2026-cycle1.hotcrp.com/deadlines
+      - https://imc2026-cycle2.hotcrp.com/deadlines
+      - https://imc2026-repro.hotcrp.com/deadlines
+    checked: 2026-09-29
+  - year: 2025
+    id: imc25
+    link: https://conferences.sigcomm.org/imc/2025/
+    date: October 28-31, 2025
+    start: 2025-10-28
+    end: 2025-10-31
+    place: Madison, WI, USA
+    timezone: AoE
+    timeline:
+      - type: abstract
+        cycle: Cycle 1
+        label: Paper registration (with abstract)
+        date: '2024-11-14 23:59:59'
+      - type: paper
+        cycle: Cycle 1
+        date: '2024-11-21 23:59:59'
+      - type: other
+        cycle: Cycle 1
+        label: Early-reject notification
+        date: '2025-02-19 23:59:59'
+      - type: notification
+        cycle: Cycle 1
+        date: '2025-03-26 23:59:59'
+      - type: camera_ready
+        cycle: Cycle 1
+        date: '2025-04-26 23:59:59'
+      - type: other
+        cycle: Cycle 2
+        label: Replicability Track expression of interest
+        date: '2025-03-05 23:59:59'
+        timezone: UTC-8
+      - type: other
+        cycle: Cycle 2
+        label: Replicability Track EoI notification
+        date: '2025-03-07 23:59:59'
+      - type: abstract
+        cycle: Cycle 2
+        label: Paper registration (with abstract)
+        date: '2025-05-08 23:59:59'
+      - type: paper
+        cycle: Cycle 2
+        date: '2025-05-15 23:59:59'
+      - type: other
+        cycle: Cycle 2
+        label: One-shot revision resubmission (Cycle 1 papers)
+        date: '2025-06-20 23:59:59'
+      - type: other
+        cycle: Cycle 2
+        label: Early-reject notification
+        date: '2025-07-10 23:59:59'
+      - type: notification
+        cycle: Cycle 2
+        date: '2025-08-18 23:59:59'
+      - type: camera_ready
+        cycle: Cycle 2
+        label: Shepherd approval & camera-ready
+        date: '2025-09-30 23:59:59'
+    note: >-
+      First IMC with two submission cycles (November 2024 and May 2025) and an optional one-shot revision; submission deadlines were
+      11:59 PM AoE and the Replicability EoI closed at 11:59 PM Pacific per HotCRP, other dates carry no timezone. Held at the
+      Wisconsin Institute for Discovery, UW-Madison.
+    sources:
+      - https://conferences.sigcomm.org/imc/2025/cfp/
+      - https://conferences.sigcomm.org/imc/2025/submission-instructions/
+      - https://conferences.sigcomm.org/imc/2025/
+      - https://imc2025.hotcrp.com/deadlines
+      - https://imc2025-cycle2.hotcrp.com/deadlines
+      - https://imc2025-repro.hotcrp.com/deadlines
+    checked: 2026-09-29

@@ -1,0 +1,101 @@
+id: sensys
+title: SenSys
+full_name: ACM/IEEE International Conference on Embedded Artificial Intelligence and Sensing Systems (formerly ACM Conference on Embedded Networked Sensor Systems; incorporates IPSN since 2026)
+link: https://sensys.acm.org/
+subs: [NET]
+rank:
+  ccf: B
+  core: A*
+  thcpl: A
+dblp: sensys
+upstream:
+  ccfddl: NW/sensys
+editions:
+  - year: 2027
+    id: sensys27
+    link: https://sensys.acm.org/2027/
+    date: May 17-20, 2027
+    start: 2027-05-17
+    end: 2027-05-20
+    place: Boulder, CO, USA
+    timezone: AoE
+    timeline:
+      - type: abstract
+        cycle: 1st deadline
+        label: Abstract registration
+        date: '2026-05-29 23:59:59'
+      - type: paper
+        cycle: 1st deadline
+        date: '2026-06-05 23:59:59'
+      - type: other
+        cycle: 1st deadline
+        label: Early-reject notification
+        date: '2026-07-17 23:59:59'
+      - type: notification
+        cycle: 1st deadline
+        label: Review results notification
+        date: '2026-08-31 23:59:59'
+      - type: abstract
+        cycle: 2nd deadline
+        label: Abstract registration
+        date: '2026-10-29 23:59:59'
+      - type: paper
+        cycle: 2nd deadline
+        date: '2026-11-05 23:59:59'
+      - type: other
+        cycle: 2nd deadline
+        label: Early-reject notification
+        date: '2026-12-17 23:59:59'
+      - type: notification
+        cycle: 2nd deadline
+        label: Review results notification
+        date: '2027-01-28 23:59:59'
+    note: >-
+      Merged SenSys/IPSN/IoTDI conference, co-located with CPS-IoT Week; two self-contained deadlines, and papers rejected at the 1st deadline
+      may be resubmitted only with a substantive revision and a "Response to Reviewers" appendix. The official page lists the 1st-deadline early
+      notification as "Wednesday, July 17, 2026" (July 17 is a Friday); camera-ready date TBD. HotCRP kept 1st-deadline registration open until
+      June 3, 2026, 11:59 AM EDT, although the website still lists May 29.
+    sources:
+      - https://sensys.acm.org/2027/cfp.html
+      - https://sensys.acm.org/2027/
+      - https://sensys27.hotcrp.com/deadlines
+    checked: 2026-09-29
+  - year: 2026
+    id: sensys26
+    link: https://sensys.acm.org/2026/
+    date: May 11-14, 2026
+    start: 2026-05-11
+    end: 2026-05-14
+    place: Saint-Malo, France
+    timezone: AoE
+    timeline:
+      - type: abstract
+        cycle: 1st deadline
+        label: Abstract registration
+        date: '2025-07-01 23:59:59'
+      - type: paper
+        cycle: 1st deadline
+        date: '2025-07-01 23:59:59'
+      - type: notification
+        cycle: 1st deadline
+        date: '2025-09-21 23:59:59'
+      - type: abstract
+        cycle: 2nd deadline
+        label: Abstract registration
+        date: '2025-11-06 23:59:59'
+      - type: paper
+        cycle: 2nd deadline
+        date: '2025-11-13 23:59:59'
+      - type: notification
+        cycle: 2nd deadline
+        date: '2026-01-29 23:59:59'
+      - type: camera_ready
+        date: '2026-03-31 23:59:59'
+    note: >-
+      Inaugural edition of the merged conference (SenSys, IPSN and IoTDI; formerly the ACM Conference on Embedded Networked Sensor Systems),
+      co-located with CPS-IoT Week 2026. 1st-deadline abstract registration was extended from June 24 to July 1, 2025 (same day as the paper deadline);
+      notification dates have no time and are recorded as end of day AoE.
+    sources:
+      - https://sensys.acm.org/2026/
+      - https://sensys.acm.org/2026/cfp.html
+    checked: 2026-09-29

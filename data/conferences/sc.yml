@@ -1,0 +1,98 @@
+id: sc
+title: SC
+full_name: International Conference for High Performance Computing, Networking, Storage, and Analysis
+link: https://supercomputing.org/
+subs: [SYS]
+rank:
+  ccf: A
+  core: A
+  thcpl: A
+dblp: sc
+upstream:
+  ccfddl: DS/sc
+editions:
+  - year: 2026
+    id: sc26
+    link: https://sc26.supercomputing.org/
+    date: November 15-20, 2026
+    start: 2026-11-15
+    end: 2026-11-20
+    place: Chicago, IL, USA
+    timezone: AoE
+    timeline:
+      - type: abstract
+        date: '2026-04-01 23:59:00'
+      - type: paper
+        date: '2026-04-08 23:59:00'
+      - type: other
+        label: Artifact Description (AD) appendix due (mandatory)
+        date: '2026-04-28 23:59:00'
+      - type: rebuttal_start
+        label: Review/rebuttal period begins
+        date: '2026-06-08 23:59:59'
+      - type: rebuttal_end
+        label: Review/rebuttal period ends
+        date: '2026-06-11 23:59:59'
+      - type: notification
+        date: '2026-07-01 23:59:59'
+      - type: other
+        label: AE appendix (optional) and badge application (mandatory) due
+        date: '2026-07-24 23:59:00'
+      - type: other
+        label: Feedback from AD/AE committee
+        date: '2026-07-31 23:59:59'
+      - type: other
+        label: Revised AD and AE appendices due
+        date: '2026-08-07 23:59:00'
+      - type: other
+        label: Artifact freeze deadline
+        date: '2026-08-25 23:59:00'
+      - type: camera_ready
+        label: Final paper due
+        date: '2026-08-28 23:59:00'
+    note: All SC deadlines are 11:59 PM AoE; the paper deadline had no extensions. Technical paper presentations run Tuesday-Thursday, November 17-19, at McCormick Place.
+    sources:
+      - https://sc26.supercomputing.org/program/papers/
+      - https://sc26.supercomputing.org/all-dates-deadlines/
+      - https://submissions.supercomputing.org/
+      - https://sc26.supercomputing.org/
+    checked: 2026-09-29
+  - year: 2025
+    id: sc25
+    link: https://sc25.supercomputing.org/
+    date: November 16-21, 2025
+    start: 2025-11-16
+    end: 2025-11-21
+    place: St. Louis, MO, USA
+    timezone: AoE
+    timeline:
+      - type: abstract
+        date: '2025-04-07 23:59:00'
+      - type: paper
+        date: '2025-04-14 23:59:00'
+      - type: other
+        label: Artifact Description (AD) appendix due (mandatory)
+        date: '2025-04-28 23:59:00'
+      - type: rebuttal_start
+        label: Review/rebuttal period begins
+        date: '2025-06-03 23:59:59'
+      - type: rebuttal_end
+        label: Review/rebuttal period ends
+        date: '2025-06-06 23:59:59'
+      - type: notification
+        date: '2025-06-27 23:59:59'
+      - type: other
+        label: AE appendix and badge application due (optional)
+        date: '2025-07-14 23:59:00'
+      - type: other
+        label: Revised AD and AE appendices due
+        date: '2025-08-04 23:59:00'
+      - type: camera_ready
+        label: Final paper due
+        date: '2025-08-25 23:59:00'
+    note: All SC deadlines were 11:59 PM AoE; the full paper deadline had no extensions. Technical paper presentations ran Tuesday-Thursday, November 18-20, at America's Center.
+    sources:
+      - https://sc25.supercomputing.org/program/papers/
+      - https://sc25.supercomputing.org/all-dates-deadlines/
+      - https://sc25.supercomputing.org/
+    checked: 2026-09-29

@@ -1,0 +1,66 @@
+id: stoc
+title: STOC
+full_name: ACM Symposium on Theory of Computing
+link: https://acm-stoc.org/
+subs: [TH]
+rank:
+  ccf: A
+  core: A*
+  thcpl: A
+dblp: stoc
+upstream:
+  ccfddl: CT/stoc
+editions:
+  - year: 2027
+    id: stoc27
+    link: https://acm-stoc.org/stoc2027/
+    date: June 6-11, 2027
+    start: 2027-06-06
+    end: 2027-06-11
+    place: Atlanta, GA, USA
+    timezone: AoE
+    timeline:
+      - type: paper
+        date: '2026-11-02 23:59:59'
+      - type: notification
+        date: '2027-02-01 23:59:59'
+      - type: camera_ready
+        date: '2027-04-01 23:59:59'
+      - type: other
+        label: Workshop proposals due
+        date: '2027-04-01 23:59:59'
+    note: >-
+      Part of FCRC 2027: STOC talks June 6-10 plus a TCS+AI day on June 11. New policies require every submission
+      to be posted on arXiv before the deadline and a mandatory 20-30 minute video due 1-2 weeks after the paper
+      deadline (exact date not yet announced); at most five submissions per author. Only the paper deadline states
+      a timezone (AoE); AoE is assumed for the other dates, and the home page still lists the final-version deadline as TBA.
+    sources:
+      - https://acm-stoc.org/stoc2027/stoc2027-cfp.html
+      - https://acm-stoc.org/stoc2027/
+    checked: 2026-09-29
+
+  - year: 2026
+    id: stoc26
+    link: https://acm-stoc.org/stoc2026/
+    date: June 22-27, 2026
+    start: 2026-06-22
+    end: 2026-06-27
+    place: Salt Lake City, UT, USA
+    timezone: AoE
+    timeline:
+      - type: paper
+        timezone: UTC-5
+        date: '2025-11-04 16:59:00'
+      - type: notification
+        date: '2026-02-01 23:59:59'
+      - type: camera_ready
+        date: '2026-03-31 23:59:59'
+    note: >-
+      Paper deadline was 4:59pm EST (UTC-5); there was no separate abstract deadline and reviewing was double-blind.
+      Notification ("on or before February 1") has no timezone (AoE assumed); camera-ready was AoE. TheoryFest ran
+      June 22-26 with an added "Can AI do Theory?" workshop day on June 27.
+    sources:
+      - https://acm-stoc.org/stoc2026/stoc2026-cfp.html
+      - https://acm-stoc.org/stoc2026/
+      - https://stoc26.hotcrp.com/deadlines
+    checked: 2026-09-29

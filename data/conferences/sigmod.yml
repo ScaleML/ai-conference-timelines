@@ -1,0 +1,266 @@
+id: sigmod
+title: SIGMOD
+full_name: ACM SIGMOD International Conference on Management of Data (papers via PACMMOD)
+link: https://sigmod.org/
+subs: [DB]
+rank:
+  ccf: A
+  core: A*
+  thcpl: A
+dblp: sigmod
+upstream:
+  ccfddl: DB/sigmod
+editions:
+  - year: 2027
+    id: sigmod27
+    link: https://2027.sigmod.org/
+    date: June 13-19, 2027
+    start: 2027-06-13
+    end: 2027-06-19
+    place: Huntington Beach, CA, USA
+    timezone: AoE
+    timeline:
+      - type: abstract
+        cycle: Round 1
+        label: Abstract submission & COI declaration
+        date: '2026-01-10 23:59:59'
+      - type: paper
+        cycle: Round 1
+        date: '2026-01-17 23:59:59'
+      - type: rebuttal_start
+        cycle: Round 1
+        label: Author feedback phase begins
+        date: '2026-03-10 00:00:00'
+      - type: rebuttal_end
+        cycle: Round 1
+        label: Author feedback phase ends
+        date: '2026-03-17 23:59:59'
+      - type: notification
+        cycle: Round 1
+        label: Notification of accept/reject/revision
+        date: '2026-04-19 23:59:59'
+      - type: other
+        cycle: Round 1
+        label: Revised paper submission
+        date: '2026-05-19 23:59:59'
+      - type: notification
+        cycle: Round 1
+        label: Final notification of accept/reject
+        date: '2026-06-12 23:59:59'
+      - type: abstract
+        cycle: Round 2
+        label: Abstract submission & COI declaration
+        date: '2026-04-10 23:59:59'
+      - type: paper
+        cycle: Round 2
+        date: '2026-04-17 23:59:59'
+      - type: rebuttal_start
+        cycle: Round 2
+        label: Author feedback phase begins
+        date: '2026-06-10 00:00:00'
+      - type: rebuttal_end
+        cycle: Round 2
+        label: Author feedback phase ends
+        date: '2026-06-17 23:59:59'
+      - type: notification
+        cycle: Round 2
+        label: Notification of accept/reject/revision
+        date: '2026-07-19 23:59:59'
+      - type: other
+        cycle: Round 2
+        label: Revised paper submission
+        date: '2026-08-19 23:59:59'
+      - type: notification
+        cycle: Round 2
+        label: Final notification of accept/reject
+        date: '2026-09-12 23:59:59'
+      - type: abstract
+        cycle: Round 3
+        label: Abstract submission & COI declaration
+        date: '2026-07-10 23:59:59'
+      - type: paper
+        cycle: Round 3
+        date: '2026-07-17 23:59:59'
+      - type: rebuttal_start
+        cycle: Round 3
+        label: Author feedback phase begins
+        date: '2026-09-10 00:00:00'
+      - type: rebuttal_end
+        cycle: Round 3
+        label: Author feedback phase ends
+        date: '2026-09-17 23:59:59'
+      - type: notification
+        cycle: Round 3
+        label: Notification of accept/reject/revision
+        date: '2026-10-19 23:59:59'
+      - type: other
+        cycle: Round 3
+        label: Revised paper submission
+        date: '2026-11-19 23:59:59'
+      - type: notification
+        cycle: Round 3
+        label: Final notification of accept/reject
+        date: '2026-12-12 23:59:59'
+      - type: abstract
+        cycle: Round 4
+        label: Abstract submission & COI declaration
+        date: '2026-10-10 23:59:59'
+      - type: paper
+        cycle: Round 4
+        date: '2026-10-17 23:59:59'
+      - type: rebuttal_start
+        cycle: Round 4
+        label: Author feedback phase begins
+        date: '2026-12-10 00:00:00'
+      - type: rebuttal_end
+        cycle: Round 4
+        label: Author feedback phase ends
+        date: '2026-12-17 23:59:59'
+      - type: notification
+        cycle: Round 4
+        label: Notification of accept/reject/revision
+        date: '2027-01-19 23:59:59'
+      - type: other
+        cycle: Round 4
+        label: Revised paper submission
+        date: '2027-02-19 23:59:59'
+      - type: notification
+        cycle: Round 4
+        label: Final notification of accept/reject
+        date: '2027-03-12 23:59:59'
+    note: >-
+      Research track with four submission rounds (January, April, July, October 2026); accepted papers appear in
+      PACMMOD issues, one per round, and at most 10 submissions per author across all rounds. The Industrial track
+      deadline is November 24, 2026 and the Demonstration deadline January 11, 2027 (moved up from January 15).
+    sources:
+      - https://2027.sigmod.org/calls_papers_important_dates.shtml
+      - https://2027.sigmod.org/calls_papers_sigmod_research.shtml
+      - https://2027.sigmod.org/
+    checked: 2026-09-29
+  - year: 2026
+    id: sigmod26
+    link: https://2026.sigmod.org/
+    date: May 31 - June 5, 2026
+    start: 2026-05-31
+    end: 2026-06-05
+    place: Bengaluru, India
+    timezone: AoE
+    timeline:
+      - type: abstract
+        cycle: Round 1
+        label: Abstract submission & COI declaration
+        date: '2025-01-10 23:59:59'
+      - type: paper
+        cycle: Round 1
+        date: '2025-01-17 23:59:59'
+      - type: rebuttal_start
+        cycle: Round 1
+        label: Author feedback phase begins
+        date: '2025-03-01 00:00:00'
+      - type: rebuttal_end
+        cycle: Round 1
+        label: Author feedback phase ends
+        date: '2025-03-08 23:59:59'
+      - type: notification
+        cycle: Round 1
+        label: Notification of accept/reject/revision
+        date: '2025-04-04 23:59:59'
+      - type: other
+        cycle: Round 1
+        label: Revised paper submission
+        date: '2025-05-04 23:59:59'
+      - type: notification
+        cycle: Round 1
+        label: Final notification of accept/reject
+        date: '2025-05-23 23:59:59'
+      - type: abstract
+        cycle: Round 2
+        label: Abstract submission & COI declaration
+        date: '2025-04-10 23:59:59'
+      - type: paper
+        cycle: Round 2
+        date: '2025-04-17 23:59:59'
+      - type: rebuttal_start
+        cycle: Round 2
+        label: Author feedback phase begins
+        date: '2025-06-01 00:00:00'
+      - type: rebuttal_end
+        cycle: Round 2
+        label: Author feedback phase ends
+        date: '2025-06-08 23:59:59'
+      - type: notification
+        cycle: Round 2
+        label: Notification of accept/reject/revision
+        date: '2025-07-04 23:59:59'
+      - type: other
+        cycle: Round 2
+        label: Revised paper submission
+        date: '2025-08-04 23:59:59'
+      - type: notification
+        cycle: Round 2
+        label: Final notification of accept/reject
+        date: '2025-08-23 23:59:59'
+      - type: abstract
+        cycle: Round 3
+        label: Abstract submission & COI declaration
+        date: '2025-07-10 23:59:59'
+      - type: paper
+        cycle: Round 3
+        date: '2025-07-17 23:59:59'
+      - type: rebuttal_start
+        cycle: Round 3
+        label: Author feedback phase begins
+        date: '2025-09-01 00:00:00'
+      - type: rebuttal_end
+        cycle: Round 3
+        label: Author feedback phase ends
+        date: '2025-09-08 23:59:59'
+      - type: notification
+        cycle: Round 3
+        label: Notification of accept/reject/revision
+        date: '2025-10-04 23:59:59'
+      - type: other
+        cycle: Round 3
+        label: Revised paper submission
+        date: '2025-11-04 23:59:59'
+      - type: notification
+        cycle: Round 3
+        label: Final notification of accept/reject
+        date: '2025-11-23 23:59:59'
+      - type: abstract
+        cycle: Round 4
+        label: Abstract submission & COI declaration
+        date: '2025-10-10 23:59:59'
+      - type: paper
+        cycle: Round 4
+        date: '2025-10-17 23:59:59'
+      - type: rebuttal_start
+        cycle: Round 4
+        label: Author feedback phase begins
+        date: '2025-12-01 00:00:00'
+      - type: rebuttal_end
+        cycle: Round 4
+        label: Author feedback phase ends
+        date: '2025-12-08 23:59:59'
+      - type: notification
+        cycle: Round 4
+        label: Notification of accept/reject/revision
+        date: '2026-01-04 23:59:59'
+      - type: other
+        cycle: Round 4
+        label: Revised paper submission
+        date: '2026-02-04 23:59:59'
+      - type: notification
+        cycle: Round 4
+        label: Final notification of accept/reject
+        date: '2026-02-23 23:59:59'
+    note: >-
+      Research track with four submission rounds (January, April, July, October 2025), published in PACMMOD; each
+      author feedback week was followed by a one-week interactive discussion phase. The CFP page misprints the Round 4
+      first notification as January 4, 2025; the Important Dates page gives January 4, 2026. Held at the Sheraton Grand
+      Bengaluru Whitefield.
+    sources:
+      - https://2026.sigmod.org/calls_papers_important_dates.shtml
+      - https://2026.sigmod.org/calls_papers_sigmod_research.shtml
+      - https://2026.sigmod.org/
+    checked: 2026-09-29

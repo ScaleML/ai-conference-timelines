@@ -1,0 +1,112 @@
+id: icalp
+title: ICALP
+full_name: International Colloquium on Automata, Languages and Programming
+link: https://eatcs.org/index.php/international-colloquium
+subs: [TH]
+rank:
+  ccf: B
+  core: A*
+  thcpl: A
+dblp: icalp
+upstream:
+  ccfddl: CT/icalp
+editions:
+  - year: 2027
+    id: icalp27
+    link: https://icalp.uj.edu.pl/
+    date: July 5-9, 2027
+    start: 2027-07-05
+    end: 2027-07-09
+    place: Jagiellonian University, Kraków, Poland
+    timezone: AoE
+    timeline:
+      - type: paper
+        cycle: Track B Round 1
+        date: '2026-09-15 23:59:59'
+      - type: rebuttal_start
+        cycle: Track B Round 1
+        date: '2026-11-05 23:59:59'
+      - type: rebuttal_end
+        cycle: Track B Round 1
+        date: '2026-11-09 23:59:59'
+      - type: notification
+        cycle: Track B Round 1
+        date: '2026-12-08 23:59:59'
+    note: >-
+      Track B uses a two-round process for the first time (a paper may go to only one round; round-1 rejections cannot
+      be resubmitted to round 2). Only Track B round 1 is scheduled so far; the Track B round 2 / Track A (single round)
+      deadlines, rebuttal, notification and camera-ready are TBA. Rebuttal and notification dates carry no timezone (AoE assumed).
+      Main conference July 5-9; workshops on July 4 (call for workshops not yet issued).
+    sources:
+      - https://icalp.uj.edu.pl/track-b/
+      - https://icalp.uj.edu.pl/home/
+      - https://icalp.uj.edu.pl/workshops/
+      - https://icalp27-b.hotcrp.com/deadlines
+    checked: 2026-09-29
+
+  - year: 2026
+    id: icalp26
+    link: https://icalppodcspaa2026.cs.rhul.ac.uk/icalp/
+    date: July 7-10, 2026
+    start: 2026-07-07
+    end: 2026-07-10
+    place: Royal Holloway, University of London, UK
+    timezone: AoE
+    timeline:
+      - type: other
+        label: Workshop proposals due
+        date: '2026-02-02 23:59:00'
+      - type: abstract
+        label: Abstract registration deadline
+        date: '2026-02-03 23:59:59'
+      - type: paper
+        date: '2026-02-06 23:59:59'
+      - type: rebuttal_start
+        label: Rebuttal period starts (Track B only)
+        date: '2026-03-21 23:59:59'
+      - type: rebuttal_end
+        label: Rebuttal period ends (Track B only)
+        date: '2026-03-24 23:59:59'
+      - type: notification
+        date: '2026-04-20 23:59:59'
+      - type: camera_ready
+        date: '2026-05-11 23:59:59'
+    note: >-
+      Held jointly with PODC and SPAA 2026 (joint event incl. workshops July 6-10); ICALP main conference July 7-10, workshops July 6. Tracks A and B shared the
+      same deadlines; only Track B had a rebuttal (Track A authors were contacted only about correctness issues).
+      Rebuttal, notification and camera-ready dates carry no timezone (AoE assumed).
+    sources:
+      - https://icalppodcspaa2026.cs.rhul.ac.uk/icalp/
+      - https://icalppodcspaa2026.cs.rhul.ac.uk/
+      - https://icalppodcspaa2026.cs.rhul.ac.uk/icalp-cfp
+      - https://icalp26-a.hotcrp.com/deadlines
+      - https://icalp26-b.hotcrp.com/deadlines
+    checked: 2026-09-29
+
+  - year: 2025
+    id: icalp25
+    link: https://conferences.au.dk/icalp2025
+    date: July 8-11, 2025
+    start: 2025-07-08
+    end: 2025-07-11
+    place: Aarhus University, Aarhus, Denmark
+    timezone: AoE
+    timeline:
+      - type: paper
+        date: '2025-02-08 23:59:59'
+      - type: rebuttal_start
+        date: '2025-03-21 23:59:59'
+      - type: rebuttal_end
+        date: '2025-03-24 23:59:59'
+      - type: notification
+        date: '2025-04-14 23:59:59'
+      - type: camera_ready
+        date: '2025-04-28 23:59:59'
+    note: >-
+      Workshops July 7, main conference July 8-11. Tracks A and B shared the same deadlines and both had a rebuttal phase.
+      Only the submission deadline states a timezone (AoE); AoE is assumed for the other dates.
+    sources:
+      - https://conferences.au.dk/icalp2025
+      - https://conferences.au.dk/icalp2025/submission-guidelines
+      - https://icalp25-a.hotcrp.com/deadlines
+    checked: 2026-09-29

@@ -1,0 +1,137 @@
+id: fast
+title: FAST
+full_name: USENIX Conference on File and Storage Technologies
+link: https://www.usenix.org/conferences/byname/146
+subs: [SYS]
+rank:
+  ccf: A
+  core: A
+  thcpl: A
+dblp: fast
+upstream:
+  ccfddl: DS/fast
+editions:
+  - year: 2028
+    id: fast28
+    link: https://www.usenix.org/conference/fast28
+    date: February 28 - March 1, 2028
+    start: 2028-02-28
+    end: 2028-03-01
+    place: Seattle, WA, USA
+    timeline: []
+    note: Dates and location are listed on the USENIX FAST series page; no call for papers yet. Per the FAST '27 CFP, one-shot revisions from the FAST '27 fall deadline go to the first FAST '28 deadline.
+    sources:
+      - https://www.usenix.org/conferences/byname/146
+      - https://www.usenix.org/conference/fast28
+      - https://www.usenix.org/conference/fast27/call-for-papers
+    checked: 2026-09-29
+  - year: 2027
+    id: fast27
+    link: https://www.usenix.org/conference/fast27
+    date: February 23-25, 2027
+    start: 2027-02-23
+    end: 2027-02-25
+    place: Renton, WA, USA
+    timezone: AoE
+    timeline:
+      - type: paper
+        cycle: Spring
+        date: '2026-03-17 23:59:00'
+      - type: rebuttal_start
+        cycle: Spring
+        label: Author response period begins
+        date: '2026-05-18 23:59:59'
+      - type: rebuttal_end
+        cycle: Spring
+        label: Author response period ends
+        date: '2026-05-20 23:59:00'
+      - type: notification
+        cycle: Spring
+        date: '2026-06-04 23:59:59'
+      - type: other
+        cycle: Spring
+        label: Artifact submission deadline (optional)
+        date: '2026-06-16 23:59:00'
+      - type: camera_ready
+        cycle: Spring
+        label: Final paper files due
+        date: '2026-07-28 23:59:00'
+      - type: paper
+        cycle: Fall
+        date: '2026-09-15 23:59:00'
+      - type: rebuttal_start
+        cycle: Fall
+        label: Author response period begins
+        date: '2026-11-17 23:59:59'
+      - type: rebuttal_end
+        cycle: Fall
+        label: Author response period ends
+        date: '2026-11-19 23:59:00'
+      - type: notification
+        cycle: Fall
+        date: '2026-12-08 23:59:59'
+      - type: other
+        cycle: Fall
+        label: Artifact submission deadline (optional)
+        date: '2026-12-17 23:59:00'
+      - type: camera_ready
+        cycle: Fall
+        label: Final paper files due
+        date: '2027-01-26 23:59:00'
+    note: Two submission deadlines (Spring and Fall) with no separate abstract deadline; some papers receive a one-shot revision to be resubmitted at the next deadline. Artifact evaluation is optional for accepted papers. Held at the Hyatt Regency Lake Washington.
+    sources:
+      - https://www.usenix.org/conference/fast27/call-for-papers
+      - https://www.usenix.org/conference/fast27/call-for-artifacts
+      - https://fast27fall.usenix.hotcrp.com/deadlines
+      - https://www.usenix.org/conference/fast27
+    checked: 2026-09-29
+  - year: 2026
+    id: fast26
+    link: https://www.usenix.org/conference/fast26
+    date: February 24-26, 2026
+    start: 2026-02-24
+    end: 2026-02-26
+    place: Santa Clara, CA, USA
+    timezone: AoE
+    timeline:
+      - type: paper
+        cycle: Spring
+        date: '2025-03-18 23:59:00'
+      - type: rebuttal_start
+        cycle: Spring
+        label: Author response period begins
+        date: '2025-05-20 23:59:59'
+      - type: rebuttal_end
+        cycle: Spring
+        label: Author response period ends
+        date: '2025-05-22 23:59:00'
+      - type: notification
+        cycle: Spring
+        date: '2025-06-05 23:59:59'
+      - type: camera_ready
+        cycle: Spring
+        label: Final paper files due
+        date: '2025-07-29 23:59:00'
+      - type: paper
+        cycle: Fall
+        date: '2025-09-16 23:59:00'
+      - type: rebuttal_start
+        cycle: Fall
+        label: Author response period begins
+        date: '2025-11-18 23:59:59'
+      - type: rebuttal_end
+        cycle: Fall
+        label: Author response period ends
+        date: '2025-11-20 23:59:00'
+      - type: notification
+        cycle: Fall
+        date: '2025-12-08 23:59:59'
+      - type: camera_ready
+        cycle: Fall
+        label: Final paper files due
+        date: '2026-01-27 23:59:00'
+    note: First FAST edition with two submission deadlines (Spring and Fall) and one-shot revisions; no separate abstract deadline. Held at the Hyatt Regency Santa Clara.
+    sources:
+      - https://www.usenix.org/conference/fast26/call-for-papers
+      - https://www.usenix.org/conference/fast26
+    checked: 2026-09-29

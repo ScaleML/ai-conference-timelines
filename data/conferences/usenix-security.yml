@@ -1,0 +1,261 @@
+id: usenix-security
+title: USENIX Security
+full_name: USENIX Security Symposium
+link: https://www.usenix.org/conferences/byname/108
+subs: [SEC]
+rank:
+  ccf: A
+  core: A*
+  thcpl: A
+dblp: uss
+upstream:
+  ccfddl: SC/uss
+editions:
+  - year: 2028
+    id: usenix-security28
+    link: https://www.usenix.org/conference/usenixsecurity28
+    date: August 16-18, 2028
+    start: 2028-08-16
+    end: 2028-08-18
+    place: Seattle, WA, USA
+    timeline: []
+    note: >-
+      USENIX lists the 37th USENIX Security Symposium for August 16-18, 2028 at the Hyatt Regency Seattle; the
+      conference page has no content and no call for papers or deadlines yet.
+    sources:
+      - https://www.usenix.org/conferences/byname/108
+      - https://www.usenix.org/conferences/upcoming?page=1
+      - https://www.usenix.org/conference/usenixsecurity28
+    checked: 2026-09-29
+  - year: 2027
+    id: usenix-security27
+    link: https://www.usenix.org/conference/usenixsecurity27
+    date: August 11-13, 2027
+    start: 2027-08-11
+    end: 2027-08-13
+    place: Denver, CO, USA
+    timezone: AoE
+    timeline:
+      - type: abstract
+        cycle: Cycle 1
+        label: Mandatory paper registration (fixed title, authors and topics)
+        date: '2026-08-18 23:59:59'
+      - type: paper
+        cycle: Cycle 1
+        date: '2026-08-25 23:59:59'
+      - type: supplementary
+        cycle: Cycle 1
+        label: Submission artifacts due
+        date: '2026-08-28 23:59:59'
+      - type: other
+        cycle: Cycle 1
+        label: Early reject notification
+        date: '2026-10-06 23:59:59'
+      - type: rebuttal_start
+        cycle: Cycle 1
+        date: '2026-11-05 23:59:59'
+      - type: rebuttal_end
+        cycle: Cycle 1
+        date: '2026-11-12 23:59:59'
+      - type: notification
+        cycle: Cycle 1
+        date: '2026-12-03 23:59:59'
+      - type: other
+        cycle: Cycle 1
+        label: Shepherded approval due
+        date: '2026-12-15 23:59:59'
+      - type: camera_ready
+        cycle: Cycle 1
+        label: Final papers due
+        date: '2027-01-14 23:59:59'
+      - type: abstract
+        cycle: Cycle 2
+        label: Mandatory paper registration (fixed title, authors and topics)
+        date: '2027-01-19 23:59:59'
+      - type: paper
+        cycle: Cycle 2
+        date: '2027-01-26 23:59:59'
+      - type: supplementary
+        cycle: Cycle 2
+        label: Submission artifacts due
+        date: '2027-01-29 23:59:59'
+      - type: other
+        cycle: Cycle 2
+        label: Early reject notification
+        date: '2027-03-09 23:59:59'
+      - type: rebuttal_start
+        cycle: Cycle 2
+        date: '2027-04-08 23:59:59'
+      - type: rebuttal_end
+        cycle: Cycle 2
+        date: '2027-04-15 23:59:59'
+      - type: notification
+        cycle: Cycle 2
+        date: '2027-05-06 23:59:59'
+      - type: other
+        cycle: Cycle 2
+        label: Shepherded approval due
+        date: '2027-05-18 23:59:59'
+      - type: camera_ready
+        cycle: Cycle 2
+        label: Final papers due
+        date: '2027-06-03 23:59:59'
+    note: >-
+      Two submission cycles; registration one week before each paper deadline is mandatory, with at most seven
+      papers per author per cycle, and artifacts get a 3-day grace period after the paper deadline. Held at the Hyatt
+      Regency Denver at Colorado Convention Center.
+    sources:
+      - https://www.usenix.org/conference/usenixsecurity27/call-for-papers
+      - https://www.usenix.org/conference/usenixsecurity27
+      - https://sec27cycle1.usenix.hotcrp.com/deadlines
+    checked: 2026-09-29
+  - year: 2026
+    id: usenix-security26
+    link: https://www.usenix.org/conference/usenixsecurity26
+    date: August 12-14, 2026
+    start: 2026-08-12
+    end: 2026-08-14
+    place: Baltimore, MD, USA
+    timezone: AoE
+    timeline:
+      - type: abstract
+        cycle: Cycle 1
+        label: Mandatory paper registration (title, authors, tentative abstract, topics)
+        date: '2025-08-19 23:59:59'
+      - type: paper
+        cycle: Cycle 1
+        label: Paper submission deadline (including artifacts)
+        date: '2025-08-26 23:59:59'
+      - type: other
+        cycle: Cycle 1
+        label: Early reject notification
+        date: '2025-10-07 23:59:59'
+      - type: rebuttal_start
+        cycle: Cycle 1
+        date: '2025-11-06 23:59:59'
+      - type: rebuttal_end
+        cycle: Cycle 1
+        date: '2025-11-13 23:59:59'
+      - type: notification
+        cycle: Cycle 1
+        date: '2025-12-04 23:59:59'
+      - type: other
+        cycle: Cycle 1
+        label: Shepherded approval due
+        date: '2025-12-18 23:59:59'
+      - type: camera_ready
+        cycle: Cycle 1
+        label: Final paper files due
+        date: '2026-01-15 23:59:59'
+      - type: abstract
+        cycle: Cycle 2
+        label: Mandatory paper registration (title, authors, tentative abstract, topics)
+        date: '2026-01-29 23:59:59'
+      - type: paper
+        cycle: Cycle 2
+        date: '2026-02-05 23:59:59'
+      - type: other
+        cycle: Cycle 2
+        label: Early reject notification
+        date: '2026-03-17 23:59:59'
+      - type: rebuttal_start
+        cycle: Cycle 2
+        date: '2026-04-16 23:59:59'
+      - type: rebuttal_end
+        cycle: Cycle 2
+        date: '2026-04-23 23:59:59'
+      - type: notification
+        cycle: Cycle 2
+        date: '2026-05-14 23:59:59'
+      - type: other
+        cycle: Cycle 2
+        label: Shepherded approval due
+        date: '2026-05-28 23:59:59'
+      - type: camera_ready
+        cycle: Cycle 2
+        label: Final paper files due
+        date: '2026-06-11 23:59:59'
+    note: >-
+      Two submission cycles with mandatory registration one week before each paper deadline (11:59 pm AoE); major
+      revisions were dropped in 2026 in favour of at most a two-week shepherding. Held at the Baltimore Marriott Waterfront.
+    sources:
+      - https://www.usenix.org/conference/usenixsecurity26/call-for-papers
+      - https://www.usenix.org/conference/usenixsecurity26
+      - https://sec26cycle1.usenix.hotcrp.com/deadlines
+      - https://sec26cycle2.usenix.hotcrp.com/deadlines
+    checked: 2026-09-29
+  - year: 2025
+    id: usenix-security25
+    link: https://www.usenix.org/conference/usenixsecurity25
+    date: August 13-15, 2025
+    start: 2025-08-13
+    end: 2025-08-15
+    place: Seattle, WA, USA
+    timezone: AoE
+    timeline:
+      - type: paper
+        cycle: Cycle 1
+        date: '2024-09-04 23:59:59'
+      - type: other
+        cycle: Cycle 1
+        label: Early reject notification
+        date: '2024-10-15 23:59:59'
+      - type: rebuttal_start
+        cycle: Cycle 1
+        date: '2024-11-18 23:59:59'
+      - type: rebuttal_end
+        cycle: Cycle 1
+        date: '2024-11-25 23:59:59'
+      - type: notification
+        cycle: Cycle 1
+        date: '2024-12-11 23:59:59'
+      - type: other
+        cycle: Cycle 1
+        label: Shepherding/revision period ends; artifacts due for availability verification
+        date: '2025-01-16 23:59:59'
+      - type: other
+        cycle: Cycle 1
+        label: Shepherding/revision author notification
+        date: '2025-01-23 23:59:59'
+      - type: camera_ready
+        cycle: Cycle 1
+        label: Final papers due
+        date: '2025-01-30 23:59:59'
+      - type: paper
+        cycle: Cycle 2
+        date: '2025-01-22 23:59:59'
+      - type: other
+        cycle: Cycle 2
+        label: Early reject notification
+        date: '2025-03-04 23:59:59'
+      - type: rebuttal_start
+        cycle: Cycle 2
+        date: '2025-04-07 23:59:59'
+      - type: rebuttal_end
+        cycle: Cycle 2
+        date: '2025-04-14 23:59:59'
+      - type: notification
+        cycle: Cycle 2
+        date: '2025-04-30 23:59:59'
+      - type: other
+        cycle: Cycle 2
+        label: Shepherding/revision period ends; artifacts due for availability verification
+        date: '2025-05-29 23:59:59'
+      - type: other
+        cycle: Cycle 2
+        label: Shepherding/revision author notification
+        date: '2025-06-05 23:59:59'
+      - type: camera_ready
+        cycle: Cycle 2
+        label: Final papers due
+        date: '2025-06-12 23:59:59'
+    note: >-
+      First year with two submission cycles instead of three. The CFP page gives no time of day; AoE is used, which
+      matches the Cycle 2 HotCRP deadline (Jan 23, 2025, 6:59 AM EST), while the Cycle 1 HotCRP closed Sep 5, 2024,
+      8:30 AM EDT. Held at the Seattle Convention Center (Arch).
+    sources:
+      - https://www.usenix.org/conference/usenixsecurity25/call-for-papers
+      - https://www.usenix.org/conference/usenixsecurity25
+      - https://sec25cycle1.usenix.hotcrp.com/deadlines
+      - https://sec25cycle2.usenix.hotcrp.com/deadlines
+    checked: 2026-09-29
