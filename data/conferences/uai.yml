@@ -1,0 +1,69 @@
+id: uai
+title: UAI
+full_name: Conference on Uncertainty in Artificial Intelligence
+link: https://www.auai.org/
+subs: [ML]
+rank:
+  ccf: B
+  core: A
+  thcpl: B
+dblp: uai
+upstream:
+  ccfddl: AI/uai
+  hf: uai
+editions:
+  - year: 2026
+    id: uai26
+    link: https://www.auai.org/uai2026/
+    date: August 17-21, 2026
+    start: 2026-08-17
+    end: 2026-08-21
+    place: KIT Events, Amsterdam, Netherlands
+    timezone: AoE
+    timeline:
+      - type: paper
+        label: Paper submission deadline (incl. supplementary material)
+        date: '2026-02-25 23:59:59'
+      - type: review_release
+        label: Reviews released; author response/discussion begins
+        date: '2026-04-23 23:59:59'
+      - type: rebuttal_end
+        label: Author response/discussion period ends
+        date: '2026-05-02 23:59:59'
+      - type: notification
+        date: '2026-06-01 23:59:59'
+      - type: camera_ready
+        date: '2026-07-08 23:59:59'
+    note: No separate abstract deadline; submission opened January 25, 2026 on OpenReview.
+    sources:
+      - https://www.auai.org/uai2026/important_dates
+      - https://www.auai.org/uai2026/call_for_papers
+      - https://www.auai.org/uai2026/
+    checked: 2026-09-28
+  - year: 2025
+    id: uai25
+    link: https://www.auai.org/uai2025/
+    date: July 21-25, 2025
+    start: 2025-07-21
+    end: 2025-07-25
+    place: Rio Othon Palace, Rio de Janeiro, Brazil
+    timezone: AoE
+    timeline:
+      - type: paper
+        label: Paper submission deadline (incl. supplementary material)
+        date: '2025-02-10 23:59:59'
+      - type: review_release
+        label: Reviews released; author response/discussion begins
+        date: '2025-04-03 23:59:59'
+      - type: rebuttal_end
+        label: Author response/discussion period ends
+        date: '2025-04-12 23:59:59'
+      - type: notification
+        date: '2025-05-06 23:59:59'
+      - type: camera_ready
+        date: '2025-06-12 23:59:59'
+    note: Camera-ready deadline was extended from June 6 to June 12, 2025.
+    sources:
+      - https://www.auai.org/uai2025/important_dates
+      - https://www.auai.org/uai2025/
+    checked: 2026-09-28

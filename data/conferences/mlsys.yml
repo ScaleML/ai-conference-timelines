@@ -1,0 +1,73 @@
+id: mlsys
+title: MLSys
+full_name: Conference on Machine Learning and Systems
+link: https://mlsys.org/
+subs: [ML]
+rank:
+  ccf: N
+  core: N
+  thcpl: N
+dblp: mlsys
+upstream:
+  ccfddl: MX/mlsys
+editions:
+  - year: 2027
+    id: mlsys27
+    link: https://mlsys.org/Conferences/2027
+    date: June 21-25, 2027
+    start: 2027-06-21
+    end: 2027-06-25
+    place: Bellevue, WA, USA
+    timezone: UTC-8
+    timeline:
+      - type: other
+        label: Submission site opens
+        date: '2026-10-10 12:00:00'
+        timezone: UTC-7
+      - type: paper
+        date: '2026-10-30 12:00:00'
+        timezone: UTC-7
+      - type: review_release
+        date: '2027-01-18 12:00:00'
+      - type: rebuttal_end
+        label: Author responses due
+        date: '2027-01-21 12:00:00'
+      - type: notification
+        date: '2027-02-28 13:00:00'
+    note: The Dates page lists the paper deadline as 12:00 PM PDT (19:00 UTC), while the call for papers says 20:00 UTC; the earlier time is recorded. Research and industrial tracks share the deadline (OpenReview).
+    sources:
+      - https://mlsys.org/Conferences/2027/Dates
+      - https://mlsys.org/Conferences/2027/CallForResearchPapers
+      - https://mlsys.org/
+    checked: 2026-09-28
+
+  - year: 2026
+    id: mlsys26
+    link: https://mlsys.org/Conferences/2026
+    date: May 18-22, 2026
+    start: 2026-05-18
+    end: 2026-05-22
+    place: Bellevue, WA, USA
+    timezone: UTC
+    timeline:
+      - type: other
+        label: Submission site opens
+        date: '2025-09-15 20:00:00'
+      - type: paper
+        date: '2025-10-30 20:00:00'
+      - type: review_release
+        date: '2026-01-12 23:59:59'
+        timezone: AoE
+      - type: rebuttal_end
+        label: Author responses due
+        date: '2026-01-16 23:59:59'
+        timezone: AoE
+      - type: notification
+        date: '2026-01-26 13:00:00'
+        timezone: UTC-8
+    note: Review and response dates were given without a time zone (AoE assumed). The call for papers lists notification as January 25; the Dates page gives January 26, 1:00 PM PST.
+    sources:
+      - https://mlsys.org/Conferences/2026/CallForResearchPapers
+      - https://mlsys.org/Conferences/2026/Dates
+      - https://mlsys.org/Conferences/2026
+    checked: 2026-09-28

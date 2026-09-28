@@ -1,0 +1,76 @@
+id: icpr
+title: ICPR
+full_name: International Conference on Pattern Recognition
+link: https://iapr.org/conferences/international-conference-on-pattern-recognition/
+subs: [CV, ML]
+rank:
+  ccf: C
+  core: B
+  thcpl: B
+dblp: icpr
+upstream:
+  ccfddl: AI/icpr
+editions:
+  - year: 2028
+    id: icpr28
+    link: https://icpr2028.org/
+    date: August 20-24, 2028
+    start: 2028-08-20
+    end: 2028-08-24
+    place: Sydney, Australia
+    timeline: []
+    note: The preliminary call for papers gives the paper submission deadline only as "January 2028".
+    sources:
+      - https://icpr2028.org/
+      - https://icpr2028.org/important-dates/
+      - http://icpr2028.org/wp-content/uploads/2026/08/ICPR-2028-CALL-FOR-PAPERS.pdf
+    checked: 2026-09-28
+  - year: 2027
+    id: icpr27
+    link: https://www.icpr2027.com/
+    date: October 4-6 and 14-15, 2027
+    start: 2027-10-04
+    end: 2027-10-15
+    place: Virtual
+    timezone: AoE
+    timeline:
+      - type: paper
+        date: '2027-03-01 23:59:59'
+      - type: review_release
+        date: '2027-04-09 23:59:59'
+      - type: rebuttal_end
+        label: Author rebuttal (provisional)
+        date: '2027-04-16 23:59:59'
+      - type: notification
+        date: '2027-05-24 23:59:59'
+      - type: camera_ready
+        date: '2027-06-07 23:59:59'
+    note: First fully virtual ICPR (ICPRv, 29th ICPR), held between the in-person 2026 and 2028 editions; all dates are marked tentative and only the paper deadline states a timezone (AoE).
+    sources:
+      - https://www.icpr2027.com/web/dates
+      - https://www.icpr2027.com/web/cfp
+      - https://www.icpr2027.com/
+      - https://iapr.org/conferences/conference-schedule/
+    checked: 2026-09-28
+  - year: 2026
+    id: icpr26
+    link: https://icpr2026.org/
+    date: August 17-22, 2026
+    start: 2026-08-17
+    end: 2026-08-22
+    place: Lyon, France
+    timezone: AoE
+    timeline:
+      - type: paper
+        date: '2026-01-10 23:59:59'
+      - type: notification
+        date: '2026-03-31 23:59:59'
+      - type: camera_ready
+        label: Camera-ready upload to Springer
+        date: '2026-05-04 23:59:59'
+    note: The paper deadline was extended by about three weeks (from December 2025) to January 10, 2026 AoE; there was no author response phase.
+    sources:
+      - https://icpr2026.org/dates.html
+      - https://icpr2026.org/news.html
+      - https://icpr2026.org/2025/12/18/deadlineExtend.html
+    checked: 2026-09-28

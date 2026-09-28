@@ -1,0 +1,122 @@
+id: wacv
+title: WACV
+full_name: IEEE/CVF Winter Conference on Applications of Computer Vision
+link: https://wacv.thecvf.com/
+subs: [CV]
+rank:
+  ccf: N
+  core: A
+  thcpl: N
+dblp: wacv
+upstream:
+  ccfddl: AI/wacv
+  hf: wacv
+editions:
+  - year: 2027
+    id: wacv27
+    link: https://wacv.thecvf.com/Conferences/2027
+    date: January 4-8, 2027
+    start: 2027-01-04
+    end: 2027-01-08
+    place: Disney Springs, Buena Vista, FL, USA
+    timezone: AoE
+    timeline:
+      - type: abstract
+        cycle: Round 1
+        label: Paper registration
+        date: '2026-06-19 23:59:59'
+      - type: paper
+        cycle: Round 1
+        date: '2026-06-26 23:59:59'
+      - type: supplementary
+        cycle: Round 1
+        date: '2026-06-28 23:59:59'
+      - type: review_release
+        cycle: Round 1
+        label: Reviews and decisions to authors
+        date: '2026-08-09 23:59:59'
+      - type: abstract
+        cycle: Round 2
+        label: New paper registration
+        date: '2026-08-21 23:59:59'
+      - type: paper
+        cycle: Round 2
+        date: '2026-08-28 23:59:59'
+      - type: rebuttal_end
+        cycle: Round 1
+        label: Rebuttal and revision submission
+        date: '2026-08-28 23:59:59'
+      - type: supplementary
+        cycle: Round 2
+        date: '2026-08-30 23:59:59'
+      - type: notification
+        cycle: Round 1
+        label: Final decisions
+        date: '2026-10-09 23:59:59'
+      - type: notification
+        cycle: Round 2
+        label: Reviews and final decisions
+        date: '2026-10-09 23:59:59'
+      - type: camera_ready
+        label: Camera-ready (both rounds)
+        date: '2026-11-02 23:59:59'
+    note: Two submission rounds; Round 1 papers may receive accept/reject/revise decisions and revise for Round 2, and resubmitted Round 1 papers must re-register. The CFP lists Round 1 reviews on Aug 7, the dates page on Aug 9.
+    sources:
+      - https://wacv.thecvf.com/Conferences/2027/Dates
+      - https://wacv.thecvf.com/Conferences/2027/CallForPapers
+      - https://wacv.thecvf.com/Conferences/2027
+    checked: 2026-09-28
+  - year: 2026
+    id: wacv26
+    link: https://wacv.thecvf.com/Conferences/2026
+    date: March 6-10, 2026
+    start: 2026-03-06
+    end: 2026-03-10
+    place: Tucson, AZ, USA
+    timezone: AoE
+    timeline:
+      - type: abstract
+        cycle: Round 1
+        label: Paper registration
+        date: '2025-07-11 23:59:59'
+      - type: paper
+        cycle: Round 1
+        date: '2025-07-18 23:59:59'
+      - type: supplementary
+        cycle: Round 1
+        date: '2025-07-18 23:59:59'
+      - type: review_release
+        cycle: Round 1
+        label: Reviews and decisions to authors
+        date: '2025-09-05 06:39:00'
+        timezone: UTC
+      - type: abstract
+        cycle: Round 2
+        label: New paper registration
+        date: '2025-09-12 23:59:59'
+      - type: paper
+        cycle: Round 2
+        date: '2025-09-19 23:59:59'
+      - type: rebuttal_end
+        cycle: Round 1
+        label: Rebuttal and revision submission
+        date: '2025-09-19 23:59:59'
+      - type: supplementary
+        cycle: Round 2
+        date: '2025-09-19 23:59:59'
+      - type: notification
+        cycle: Round 1
+        label: Final decisions
+        date: '2025-11-05 23:59:00'
+        timezone: UTC-8
+      - type: notification
+        cycle: Round 2
+        label: Reviews and final decisions
+        date: '2025-11-05 23:59:00'
+        timezone: UTC-8
+    note: Two submission rounds at JW Marriott Starr Pass. The CFP planned Round 1 reviews for Sept 3 and decisions for Nov 5; the dates page lists the actual release times used here.
+    sources:
+      - https://wacv.thecvf.com/Conferences/2026/Dates
+      - https://wacv.thecvf.com/Conferences/2026/CallForPapers
+      - https://wacv.thecvf.com/Conferences/2026
+    checked: 2026-09-28

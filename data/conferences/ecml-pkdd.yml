@@ -1,0 +1,82 @@
+id: ecml-pkdd
+title: ECML PKDD
+full_name: European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases
+link: https://ecmlpkdd.org/
+subs: [ML, DM]
+rank:
+  ccf: B
+  core: A
+  thcpl: N
+dblp: pkdd
+upstream:
+  ccfddl: DB/pkdd
+  hf: ecml_pkdd
+editions:
+  - year: 2027
+    id: ecml-pkdd27
+    link: https://ecmlpkdd.org/2027/
+    date: August 30 - September 3, 2027
+    start: 2027-08-30
+    end: 2027-09-03
+    place: Eindhoven, The Netherlands
+    timezone: AoE
+    timeline: []
+    note: The 2027 website announces dates and location only; the call for papers has not been published yet.
+    sources:
+      - https://ecmlpkdd.org/2027/
+    checked: 2026-09-28
+  - year: 2026
+    id: ecml-pkdd26
+    link: https://ecmlpkdd.org/2026/
+    date: September 7-11, 2026
+    start: 2026-09-07
+    end: 2026-09-11
+    place: Naples, Italy
+    timezone: AoE
+    timeline:
+      - type: other
+        label: Journal track 1st submission deadline
+        date: '2025-10-30 23:59:59'
+      - type: other
+        label: Journal track 2nd submission deadline
+        date: '2026-01-15 23:59:59'
+      - type: abstract
+        label: Abstract submission deadline (Research & ADS tracks)
+        date: '2026-03-05 23:59:59'
+      - type: paper
+        label: Paper submission deadline (Research & ADS tracks)
+        date: '2026-03-12 23:59:59'
+      - type: notification
+        date: '2026-05-27 23:59:59'
+      - type: camera_ready
+        date: '2026-06-20 23:59:59'
+    note: Research and Applied Data Science tracks share the same dates; the camera-ready deadline was extended from 2026-06-18. Journal-track papers go through the Machine Learning / Data Mining and Knowledge Discovery journals.
+    sources:
+      - https://ecmlpkdd.org/2026/submissions-research-track
+      - https://ecmlpkdd.org/2026/submissions-ads-track
+      - https://ecmlpkdd.org/2026/submissions-journal-track
+      - https://ecmlpkdd.org/2026/
+    checked: 2026-09-28
+  - year: 2025
+    id: ecml-pkdd25
+    link: https://ecmlpkdd.org/2025/
+    date: September 15-19, 2025
+    start: 2025-09-15
+    end: 2025-09-19
+    place: Porto, Portugal
+    timezone: AoE
+    timeline:
+      - type: abstract
+        label: Abstract submission deadline (Research track)
+        date: '2025-03-07 23:59:59'
+      - type: paper
+        label: Paper submission deadline (Research track)
+        date: '2025-03-14 23:59:59'
+      - type: notification
+        date: '2025-05-26 23:59:59'
+      - type: camera_ready
+        date: '2025-06-19 23:59:59'
+    sources:
+      - https://ecmlpkdd.org/2025/submissions-research-track
+      - https://ecmlpkdd.org/2025/
+    checked: 2026-09-28

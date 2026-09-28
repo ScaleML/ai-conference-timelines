@@ -1,0 +1,75 @@
+id: ieee-vis
+title: IEEE VIS
+full_name: IEEE Visualization and Visual Analytics Conference
+link: https://ieeevis.org/
+subs: [CG, HCI]
+rank:
+  ccf: A
+  core: A
+  thcpl: A
+dblp: visualization
+upstream:
+  ccfddl: CG/vis
+editions:
+  - year: 2026
+    id: ieee-vis26
+    link: https://ieeevis.org/year/2026/welcome
+    date: November 9-13, 2026
+    start: 2026-11-09
+    end: 2026-11-13
+    place: Boston, MA, USA
+    timezone: AoE
+    timeline:
+      - type: abstract
+        label: Abstract submission (mandatory)
+        date: '2026-03-21 23:59:59'
+      - type: paper
+        date: '2026-03-31 23:59:59'
+      - type: supplementary
+        date: '2026-04-07 23:59:59'
+      - type: other
+        label: First-round notification (conditional acceptance)
+        date: '2026-06-06 23:59:59'
+      - type: other
+        label: Revised paper due (second review cycle)
+        date: '2026-07-01 23:59:59'
+      - type: notification
+        label: Final notification
+        date: '2026-07-15 23:59:59'
+      - type: camera_ready
+        date: '2026-08-08 23:59:59'
+    note: Full papers track (published in IEEE TVCG); two-round review with conditional acceptance. Satellite events are held in Paris and Tianjin.
+    sources:
+      - https://ieeevis.org/year/2026/info/call-participation/call-for-participation
+      - https://ieeevis.org/year/2026/welcome
+    checked: 2026-09-28
+  - year: 2025
+    id: ieee-vis25
+    link: https://ieeevis.org/year/2025/welcome
+    date: November 2-7, 2025
+    start: 2025-11-02
+    end: 2025-11-07
+    place: Vienna, Austria
+    timezone: AoE
+    timeline:
+      - type: abstract
+        label: Abstract submission (mandatory)
+        date: '2025-03-21 23:59:59'
+      - type: paper
+        date: '2025-03-31 23:59:59'
+      - type: other
+        label: First-round notification (conditional acceptance)
+        date: '2025-06-06 23:59:59'
+      - type: other
+        label: Revised paper due (second review cycle)
+        date: '2025-07-01 23:59:59'
+      - type: notification
+        label: Final notification
+        date: '2025-07-15 23:59:59'
+      - type: camera_ready
+        date: '2025-08-08 23:59:59'
+    note: Full papers track (published in IEEE TVCG); two-round review with conditional acceptance.
+    sources:
+      - https://ieeevis.org/year/2025/info/call-participation/call-for-participation
+      - https://ieeevis.org/year/2025/welcome
+    checked: 2026-09-28

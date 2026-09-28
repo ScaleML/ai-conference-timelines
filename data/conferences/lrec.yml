@@ -1,0 +1,38 @@
+id: lrec
+title: LREC
+full_name: Language Resources and Evaluation Conference
+link: https://www.elra.info/elra-events/lrec/
+subs: [NLP]
+rank:
+  core: B
+dblp: lrec
+interval: 2
+upstream:
+  hf: lrec
+editions:
+  - year: 2026
+    id: lrec26
+    link: https://lrec2026.info/
+    date: May 11-16, 2026
+    start: 2026-05-11
+    end: 2026-05-16
+    place: Palma, Mallorca, Spain
+    timezone: AoE
+    timeline:
+      - type: paper
+        label: Paper submission (oral and poster / poster+demo)
+        date: '2025-10-24 23:59:59'
+      - type: notification
+        date: '2026-02-13 23:59:59'
+      - type: camera_ready
+        date: '2026-03-15 23:59:59'
+    note: >-
+      Submission deadline extended from October 17, 2025 and camera-ready from March 6, 2026. Main
+      conference May 13-15, 2026, with workshops and tutorials on May 11-12 and 16. LREC is biennial;
+      the host of LREC 2028 has not been announced.
+    sources:
+      - https://lrec2026.info/third-call-for-papers/
+      - https://lrec2026.info/calls/second-call-for-papers/
+      - https://lrec2026.info/
+      - https://www.elra.info/elra-events/lrec/
+    checked: 2026-09-28

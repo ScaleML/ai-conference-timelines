@@ -1,0 +1,88 @@
+id: aaai
+title: AAAI
+full_name: AAAI Conference on Artificial Intelligence
+link: https://aaai.org/conference/aaai/
+subs: [ML, AP, KR]
+rank:
+  ccf: A
+  core: A*
+  thcpl: A
+dblp: aaai
+upstream:
+  ccfddl: AI/aaai
+  hf: aaai
+editions:
+  - year: 2027
+    id: aaai27
+    link: https://aaai.org/conference/aaai/aaai-27/
+    date: February 16-23, 2027
+    start: 2027-02-16
+    end: 2027-02-23
+    place: Montréal, Québec, Canada
+    timezone: AoE
+    timeline:
+      - type: abstract
+        date: '2026-07-21 23:59:59'
+      - type: paper
+        date: '2026-07-28 23:59:59'
+      - type: supplementary
+        label: Supplementary material and code
+        date: '2026-07-31 23:59:59'
+      - type: notification
+        label: Phase 1 rejection notification
+        date: '2026-09-24 23:59:59'
+      - type: rebuttal_start
+        label: Author feedback window opens
+        date: '2026-10-19 23:59:59'
+      - type: rebuttal_end
+        label: Author feedback window closes
+        date: '2026-10-25 23:59:59'
+      - type: notification
+        label: Final acceptance/rejection notification
+        date: '2026-11-30 23:59:59'
+      - type: camera_ready
+        date: '2026-12-14 23:59:59'
+    note: Dates are for the Main Technical Track (two-phase reviewing; other tracks have their own deadlines). All deadlines are 11:59 PM UTC-12 (AoE).
+    sources:
+      - https://aaai.org/conference/aaai/aaai-27/main-technical-track-call/
+      - https://aaai.org/conference/aaai/aaai-27/
+      - https://github.com/ccfddl/ccf-deadlines/blob/main/conference/AI/aaai.yml
+      - https://github.com/huggingface/ai-deadlines/blob/main/src/data/conferences/aaai.yml
+    checked: 2026-09-28
+  - year: 2026
+    id: aaai26
+    link: https://aaai.org/conference/aaai/aaai-26/
+    date: January 20-27, 2026
+    start: 2026-01-20
+    end: 2026-01-27
+    place: Singapore EXPO, Singapore
+    timezone: AoE
+    timeline:
+      - type: abstract
+        date: '2025-07-25 23:59:59'
+      - type: paper
+        date: '2025-08-01 23:59:59'
+      - type: supplementary
+        label: Supplementary material and code
+        date: '2025-08-04 23:59:59'
+      - type: notification
+        label: Phase 1 rejection notification
+        date: '2025-09-15 23:59:59'
+      - type: rebuttal_start
+        label: Author feedback window opens
+        date: '2025-10-07 23:59:59'
+      - type: rebuttal_end
+        label: Author feedback window closes
+        date: '2025-10-13 23:59:59'
+      - type: notification
+        label: Final acceptance/rejection notification
+        date: '2025-11-08 23:59:59'
+      - type: camera_ready
+        label: Camera-ready submission (extended)
+        date: '2025-11-16 23:59:59'
+    note: Dates are for the Main Technical Track (two-phase reviewing). All deadlines are 11:59 PM UTC-12 (AoE). The camera-ready deadline was extended from Nov 13 to Nov 16, 2025.
+    sources:
+      - https://aaai.org/conference/aaai/aaai-26/main-technical-track-call/
+      - https://aaai.org/conference/aaai/aaai-26/
+      - https://github.com/huggingface/ai-deadlines/blob/main/src/data/conferences/aaai.yml
+    checked: 2026-09-28

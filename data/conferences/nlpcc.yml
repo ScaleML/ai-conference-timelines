@@ -1,0 +1,62 @@
+id: nlpcc
+title: NLPCC
+full_name: CCF International Conference on Natural Language Processing and Chinese Computing
+link: http://tcci.ccf.org.cn/conference/2026/
+subs: [NLP]
+rank:
+  ccf: C
+  core: N
+  thcpl: N
+dblp: nlpcc
+upstream:
+  ccfddl: AI/nlpcc
+editions:
+  - year: 2026
+    id: nlpcc26
+    link: http://tcci.ccf.org.cn/conference/2026/
+    date: November 3-5, 2026
+    start: 2026-11-03
+    end: 2026-11-05
+    place: Macau, China
+    timezone: UTC+8
+    timeline:
+      - type: paper
+        date: '2026-06-20 23:59:59'
+      - type: rebuttal_start
+        date: '2026-07-10 23:59:59'
+      - type: rebuttal_end
+        date: '2026-07-15 23:59:59'
+      - type: notification
+        date: '2026-08-04 23:59:59'
+      - type: camera_ready
+        date: '2026-08-15 23:59:59'
+    note: >-
+      Submission deadline extended from May 26, 2026; deadlines are 23:59 Beijing Time. English-only
+      submissions. Tutorials on November 3, main conference November 4-5 at the Galaxy International
+      Convention Center.
+    sources:
+      - http://tcci.ccf.org.cn/conference/2026/important-dates/
+      - http://tcci.ccf.org.cn/conference/2026/
+    checked: 2026-09-28
+  - year: 2025
+    id: nlpcc25
+    link: http://tcci.ccf.org.cn/conference/2025/
+    date: August 7-9, 2025
+    start: 2025-08-07
+    end: 2025-08-09
+    place: Urumqi, China
+    timezone: UTC+8
+    timeline:
+      - type: paper
+        date: '2025-04-20 23:59:59'
+      - type: notification
+        date: '2025-07-02 23:59:59'
+      - type: camera_ready
+        date: '2025-07-04 23:59:59'
+    note: >-
+      Submission deadline extended from April 6, 2025; notification and camera-ready were moved from
+      June 30 and July 2. Deadlines are 23:59 Beijing Time.
+    sources:
+      - http://tcci.ccf.org.cn/conference/2025/cfp.php
+      - http://tcci.ccf.org.cn/conference/2025/index.php
+    checked: 2026-09-28

@@ -1,0 +1,74 @@
+id: icann
+title: ICANN
+full_name: International Conference on Artificial Neural Networks
+link: https://e-nns.org/icanns/
+subs: [ML]
+rank:
+  ccf: C
+  core: C
+  thcpl: N
+dblp: icann
+upstream:
+  ccfddl: AI/icann
+  hf: icann
+editions:
+  - year: 2026
+    id: icann26
+    link: https://e-nns.org/icann2026/
+    date: September 14-17, 2026
+    start: 2026-09-14
+    end: 2026-09-17
+    place: Conference center of the School of Psychology, University of Padua, Padua, Italy
+    timezone: AoE
+    timeline:
+      - type: paper
+        label: Paper submission (main track & special sessions)
+        date: '2026-03-30 23:59:59'
+      - type: notification
+        date: '2026-05-29 23:59:59'
+      - type: other
+        label: Workshop paper submission
+        date: '2026-06-06 23:59:59'
+      - type: camera_ready
+        date: '2026-06-24 23:59:59'
+      - type: other
+        label: Author registration
+        date: '2026-06-29 23:59:59'
+      - type: other
+        label: Workshop paper notification
+        date: '2026-07-10 23:59:59'
+    note: Paper deadline extended from March 9, 2026; camera-ready extended from June 15, 2026.
+    sources:
+      - https://e-nns.org/icann2026/important-dates/
+      - https://e-nns.org/icann2026/call-for-papers-2/
+      - https://e-nns.org/icann2026/submission/
+    checked: 2026-09-28
+  - year: 2025
+    id: icann25
+    link: https://e-nns.org/icann2025/
+    date: September 9-12, 2025
+    start: 2025-09-09
+    end: 2025-09-12
+    place: Vytautas Magnus University & Lithuanian University of Health Sciences, Kaunas, Lithuania
+    timezone: AoE
+    timeline:
+      - type: paper
+        date: '2025-03-29 23:59:59'
+      - type: notification
+        date: '2025-05-29 23:59:59'
+      - type: camera_ready
+        date: '2025-06-15 23:59:59'
+      - type: other
+        label: Notification (revision-required papers)
+        date: '2025-06-22 23:59:59'
+      - type: other
+        label: Camera-ready (revision-required papers)
+        date: '2025-06-28 23:59:59'
+      - type: other
+        label: Author registration
+        date: '2025-06-29 23:59:59'
+    note: Paper deadline extended from March 15, 2025; notification moved from May 15 and camera-ready from June 1.
+    sources:
+      - https://e-nns.org/icann2025/important-dates/
+      - https://e-nns.org/icann2025/
+    checked: 2026-09-28

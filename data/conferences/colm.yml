@@ -1,0 +1,78 @@
+id: colm
+title: COLM
+full_name: Conference on Language Modeling
+link: https://colm.cc/
+subs: [ML, NLP]
+rank:
+  ccf: N
+  core: N
+  thcpl: N
+dblp: colm
+upstream:
+  ccfddl: AI/colm
+  hf: colm
+editions:
+  - year: 2026
+    id: colm26
+    link: https://colm.cc/Conferences/2026
+    date: October 6-9, 2026
+    start: 2026-10-06
+    end: 2026-10-09
+    place: Hilton San Francisco Union Square, San Francisco, CA, USA
+    timezone: AoE
+    timeline:
+      - type: abstract
+        date: '2026-03-26 23:59:59'
+      - type: paper
+        date: '2026-03-31 23:59:59'
+      - type: other
+        label: Workshop proposal deadline
+        date: '2026-04-14 23:59:59'
+      - type: rebuttal_start
+        date: '2026-05-22 23:59:59'
+      - type: rebuttal_end
+        date: '2026-06-08 23:59:59'
+      - type: notification
+        date: '2026-07-08 23:59:59'
+      - type: camera_ready
+        date: '2026-08-08 23:59:59'
+    note: >-
+      Main conference October 6-8, workshops October 9. Abstract submission is required before the full-paper deadline (OpenReview).
+      The camera-ready deadline (Aug 8) was announced on COLM's official Bluesky account without a time zone (AoE assumed).
+    sources:
+      - https://colm.cc/Conferences/2026/CallForPapers
+      - https://colm.cc/Conferences/2026/Dates
+      - https://colm.cc/
+      - https://bsky.app/profile/colmweb.org/post/3mr2ar6vkbs2i
+    checked: 2026-09-28
+
+  - year: 2025
+    id: colm25
+    link: https://colmweb.org/2025/
+    date: October 7-10, 2025
+    start: 2025-10-07
+    end: 2025-10-10
+    place: Palais des Congrès, Montreal, Canada
+    timezone: AoE
+    timeline:
+      - type: abstract
+        date: '2025-03-22 23:59:59'
+      - type: paper
+        date: '2025-03-28 23:59:59'
+      - type: other
+        label: Workshop proposal deadline
+        date: '2025-04-14 23:59:59'
+      - type: rebuttal_start
+        date: '2025-05-27 23:59:59'
+      - type: rebuttal_end
+        date: '2025-06-10 23:59:59'
+      - type: notification
+        date: '2025-07-07 23:59:59'
+      - type: camera_ready
+        date: '2025-08-07 23:59:59'
+    note: Main conference October 7-9, workshops October 10.
+    sources:
+      - https://colmweb.org/2025/cfp.html
+      - https://colmweb.org/2025/dates.html
+      - https://colmweb.org/2025/index.html
+    checked: 2026-09-28

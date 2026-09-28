@@ -1,0 +1,88 @@
+id: collas
+title: CoLLAs
+full_name: Conference on Lifelong Learning Agents
+link: https://lifelong-ml.cc/
+subs: [ML]
+rank:
+  core: N
+dblp: collas
+upstream:
+  hf: collas
+editions:
+  - year: 2026
+    id: collas26
+    link: https://lifelong-ml.cc/Conferences/2026
+    date: September 14-17, 2026
+    start: 2026-09-14
+    end: 2026-09-17
+    place: National University of Science and Technology POLITEHNICA Bucharest, Bucharest, Romania
+    timezone: AoE
+    timeline:
+      - type: abstract
+        date: '2026-04-10 23:59:00'
+      - type: paper
+        date: '2026-04-15 23:59:00'
+      - type: review_release
+        date: '2026-05-22 23:59:00'
+      - type: rebuttal_end
+        label: Author rebuttals due
+        date: '2026-05-29 23:59:00'
+      - type: notification
+        date: '2026-06-24 23:59:00'
+      - type: other
+        label: Non-archival track submission deadline
+        date: '2026-07-01 23:59:00'
+      - type: other
+        label: Resubmission deadline (revise-and-resubmit papers)
+        date: '2026-07-22 23:59:00'
+      - type: other
+        label: Decision on resubmissions
+        date: '2026-07-29 23:59:00'
+      - type: camera_ready
+        date: '2026-08-12 23:59:00'
+    note: >-
+      Main-track papers are published in PMLR; papers rejected with a revise-and-resubmit decision may be resubmitted.
+      The non-archival track (published papers / work in progress) reviews on a rolling basis from April 15.
+    sources:
+      - https://lifelong-ml.cc/Conferences/2026/call
+      - https://api.lifelong-ml.cc/conference_important_dates/2026
+      - https://api.lifelong-ml.cc/getall_program_days/5
+      - https://github.com/huggingface/ai-deadlines/blob/main/src/data/conferences/collas.yml
+    checked: 2026-09-28
+  - year: 2025
+    id: collas25
+    link: https://lifelong-ml.cc/Conferences/2025
+    date: August 11-14, 2025
+    start: 2025-08-11
+    end: 2025-08-14
+    place: University of Pennsylvania, Philadelphia, PA, USA
+    timezone: AoE
+    timeline:
+      - type: abstract
+        date: '2025-02-26 23:59:00'
+      - type: paper
+        date: '2025-03-03 23:59:00'
+      - type: review_release
+        date: '2025-04-07 23:59:00'
+      - type: rebuttal_end
+        label: Author rebuttals due
+        date: '2025-04-15 23:59:00'
+      - type: notification
+        date: '2025-05-12 23:59:00'
+      - type: other
+        label: Workshop track submission deadline
+        date: '2025-05-22 23:59:00'
+      - type: other
+        label: Resubmission deadline (revise-and-resubmit papers)
+        date: '2025-06-12 23:59:00'
+      - type: other
+        label: Decision on resubmissions
+        date: '2025-06-23 23:59:00'
+      - type: other
+        label: Journal/sister conference track submission deadline
+        date: '2025-07-05 23:59:00'
+    sources:
+      - https://lifelong-ml.cc/Conferences/2025/call
+      - https://api.lifelong-ml.cc/conference_important_dates/2025
+      - https://github.com/huggingface/ai-deadlines/blob/main/src/data/conferences/collas.yml
+    checked: 2026-09-28

@@ -1,0 +1,57 @@
+id: humanoids
+title: Humanoids
+full_name: IEEE-RAS International Conference on Humanoid Robots
+link: https://www.ieee-ras.org/conferences-workshops/fully-sponsored/
+subs: [RO]
+rank:
+  ccf: N
+dblp: humanoids
+editions:
+  - year: 2026
+    id: humanoids26
+    link: https://2026.ieee-humanoids.org/
+    date: December 6-9, 2026
+    start: 2026-12-06
+    end: 2026-12-09
+    place: Santa Clara, CA, USA (Santa Clara Convention Center)
+    timezone: UTC-7
+    timeline:
+      - type: paper
+        date: '2026-07-27 23:59:59'
+      - type: supplementary
+        label: Supplementary video deadline (optional)
+        date: '2026-07-30 23:59:59'
+      - type: notification
+        date: '2026-10-06 23:59:59'
+      - type: camera_ready
+        date: '2026-10-26 23:59:59'
+    note: Paper deadline extended from July 24, 2026 (AoE) to July 27, 2026, 11:59 pm Pacific Time (PDT); max 8 pages including references, double-anonymous review. Main paper sessions run December 8-9.
+    sources:
+      - https://2026.ieee-humanoids.org/call-for-papers/
+      - https://2026.ieee-humanoids.org/
+      - https://2026.ieee-humanoids.org/program-overview/
+      - https://2026.ieee-humanoids.org/venue-information/
+      - https://lists.robocup.org/archives/list/robocup-humanoid@lists.robocup.org/thread/6SOWCLVVCNRBVUSZGTQ3XWWZAYFCEPGO/
+    checked: 2026-09-28
+  - year: 2025
+    id: humanoids25
+    link: https://2025humanoids.org/
+    date: September 30 - October 2, 2025
+    start: 2025-09-30
+    end: 2025-10-02
+    place: Seoul, Korea (COEX; co-located with CoRL 2025)
+    timezone: AoE
+    timeline:
+      - type: paper
+        date: '2025-05-15 23:59:59'
+      - type: notification
+        date: '2025-07-21 23:59:59'
+      - type: camera_ready
+        date: '2025-08-15 23:59:59'
+    note: Paper deadline extended from May 1, 2025; the official site gives no timezone, so AoE is assumed. An optional video could be uploaded up to 3 days after the paper deadline.
+    sources:
+      - https://2025humanoids.org/
+      - https://2025humanoids.org/paper-submission/
+      - https://2025humanoids.org/final-paper-submission/
+      - https://2025humanoids.org/humanoids-2025/
+    checked: 2026-09-28

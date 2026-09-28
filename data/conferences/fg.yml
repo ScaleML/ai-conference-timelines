@@ -1,0 +1,82 @@
+id: fg
+title: FG
+full_name: IEEE International Conference on Automatic Face and Gesture Recognition
+link: https://ieee-biometrics.org/conferences/flagship/fg/
+subs: [CV]
+rank:
+  ccf: C
+  core: B
+  thcpl: B
+dblp: fg
+upstream:
+  ccfddl: AI/fg
+  hf: fg
+editions:
+  - year: 2027
+    id: fg27
+    link: https://fg2027.ieee-biometrics.org/
+    date: April 26-30, 2027
+    start: 2027-04-26
+    end: 2027-04-30
+    place: Marrakesh, Morocco
+    timezone: AoE
+    timeline:
+      - type: abstract
+        date: '2026-10-09 23:59:59'
+      - type: paper
+        date: '2026-10-16 23:59:59'
+      - type: notification
+        date: '2026-12-20 23:59:59'
+      - type: camera_ready
+        date: '2027-01-26 23:59:59'
+      - type: other
+        label: Author registration deadline
+        date: '2027-01-26 23:59:59'
+    note: Single-round review this year (no Round 2); the author list is frozen at the abstract deadline and supplementary material is due with the paper. Main conference Apr 27-29, workshops/tutorials Apr 26 and 30; in-person presentation required.
+    sources:
+      - https://fg2027.ieee-biometrics.org/dates/
+      - https://fg2027.ieee-biometrics.org/call-for-papers/
+      - https://fg2027.ieee-biometrics.org/news/
+      - https://github.com/ccfddl/ccf-deadlines/blob/main/conference/AI/fg.yml
+    checked: 2026-09-28
+  - year: 2026
+    id: fg26
+    link: https://fg2026.ieee-biometrics.org/
+    date: May 25-29, 2026
+    start: 2026-05-25
+    end: 2026-05-29
+    place: Kyoto Research Park, Kyoto, Japan
+    timezone: AoE
+    timeline:
+      - type: abstract
+        cycle: Round 1
+        date: '2025-09-25 23:59:59'
+      - type: paper
+        cycle: Round 1
+        date: '2025-10-06 23:59:59'
+      - type: notification
+        cycle: Round 1
+        date: '2025-12-11 23:59:59'
+      - type: other
+        cycle: Round 1
+        label: Revised papers due (Round 1 revise-and-resubmit)
+        date: '2026-01-25 23:59:59'
+      - type: abstract
+        cycle: Round 2
+        label: Abstract submission (new submissions only)
+        date: '2026-01-25 23:59:59'
+      - type: paper
+        cycle: Round 2
+        date: '2026-01-25 23:59:59'
+      - type: notification
+        cycle: Round 2
+        date: '2026-04-02 23:59:59'
+      - type: camera_ready
+        date: '2026-04-21 23:59:59'
+    note: Two-round review. Round 1 paper deadline extended from Oct 2, 2025; Round 2 abstract and paper deadlines extended to Jan 25, 2026 (originally Jan 9 and Jan 15).
+    sources:
+      - https://fg2026.ieee-biometrics.org/cfp
+      - https://fg2026.ieee-biometrics.org/location
+      - https://github.com/ccfddl/ccf-deadlines/blob/main/conference/AI/fg.yml
+      - https://github.com/huggingface/ai-deadlines/blob/main/src/data/conferences/fg.yml
+    checked: 2026-09-28

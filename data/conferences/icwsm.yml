@@ -1,0 +1,82 @@
+id: icwsm
+title: ICWSM
+full_name: International AAAI Conference on Web and Social Media
+link: https://www.icwsm.org/
+subs: [DM, HCI]
+rank:
+  ccf: B
+  core: A
+  thcpl: N
+dblp: icwsm
+upstream:
+  ccfddl: HI/icwsm
+editions:
+  - year: 2027
+    id: icwsm27
+    link: https://www.icwsm.org/2027/
+    place: Edinburgh, Scotland, UK
+    timezone: AoE
+    timeline:
+      - type: paper
+        cycle: May 2026
+        label: Full papers (new + R&R from Jan 2026)
+        date: '2026-05-15 23:59:59'
+      - type: notification
+        cycle: May 2026
+        date: '2026-07-15 23:59:59'
+      - type: paper
+        cycle: Sep 2026
+        label: Full papers (new + R&R from May 2026)
+        date: '2026-09-15 23:59:59'
+      - type: notification
+        cycle: Sep 2026
+        date: '2026-11-15 23:59:59'
+      - type: paper
+        cycle: Jan 2027
+        label: Full papers, posters, demos, datasets, workshop & tutorial proposals
+        date: '2027-01-15 23:59:59'
+      - type: notification
+        cycle: Jan 2027
+        date: '2027-03-15 23:59:59'
+    note: Three submission rounds; papers must be accepted in one of these rounds to appear at ICWSM 2027 (an R&R from the January 2027 round moves to ICWSM 2028). Conference dates and venue in Edinburgh are not announced yet.
+    sources:
+      - https://www.icwsm.org/2027/submit/
+      - https://www.icwsm.org/2027/
+      - https://www.icwsm.org/2026/submit.html
+    checked: 2026-09-28
+  - year: 2026
+    id: icwsm26
+    link: https://www.icwsm.org/2026/
+    date: May 26-29, 2026
+    start: 2026-05-26
+    end: 2026-05-29
+    place: Los Angeles, CA, USA
+    timezone: AoE
+    timeline:
+      - type: paper
+        cycle: May 2025
+        label: Full papers (new + R&R from Jan 2025)
+        date: '2025-05-15 23:59:59'
+      - type: notification
+        cycle: May 2025
+        date: '2025-07-15 23:59:59'
+      - type: paper
+        cycle: Sep 2025
+        label: Full papers (new + R&R from May 2025)
+        date: '2025-09-15 23:59:59'
+      - type: notification
+        cycle: Sep 2025
+        date: '2025-11-15 23:59:59'
+      - type: paper
+        cycle: Jan 2026
+        label: Full papers, posters, demos, datasets
+        date: '2026-01-15 23:59:59'
+      - type: notification
+        cycle: Jan 2026
+        date: '2026-03-15 23:59:59'
+    note: Workshops and tutorials on May 26 at USC ISI; main conference May 27-29 at the Los Angeles Airport Marriott.
+    sources:
+      - https://www.icwsm.org/2026/submit.html
+      - https://www.icwsm.org/2026/attend.html
+      - https://www.icwsm.org/2026/index.html
+    checked: 2026-09-28

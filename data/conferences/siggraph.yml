@@ -1,0 +1,102 @@
+id: siggraph
+title: SIGGRAPH
+full_name: ACM SIGGRAPH Conference on Computer Graphics and Interactive Techniques
+link: https://www.siggraph.org/
+subs: [CG]
+rank:
+  ccf: A
+  core: A*
+  thcpl: A
+dblp: siggraph
+upstream:
+  ccfddl: CG/sig
+  hf: siggraph
+editions:
+  - year: 2027
+    id: siggraph27
+    link: https://www.siggraph.org/
+    date: August 8-12, 2027
+    start: 2027-08-08
+    end: 2027-08-12
+    place: Anaheim Convention Center, Anaheim, CA, USA
+    timeline: []
+    note: Dates and venue announced by ACM SIGGRAPH; the Technical Papers call for SIGGRAPH 2027 has not been published yet (s2027.siggraph.org is not live at check time).
+    sources:
+      - https://s2026.siggraph.org/siggraph-2026-unites-global-computer-graphics-community-in-los-angeles-with-landmark-keynotes-inaugural-games-summit-and-ai-innovation/
+      - https://s2026.siggraph.org/
+      - https://x.com/siggraph/status/2080465516708123061
+    checked: 2026-09-28
+  - year: 2026
+    id: siggraph26
+    link: https://s2026.siggraph.org/
+    date: July 19-23, 2026
+    start: 2026-07-19
+    end: 2026-07-23
+    place: Los Angeles Convention Center, Los Angeles, CA, USA
+    timezone: UTC
+    timeline:
+      - type: abstract
+        label: Submission form deadline (title, abstract, full author list)
+        date: '2026-01-15 22:00:00'
+      - type: paper
+        label: Paper deadline (PDF or MD5 checksums, incl. supplemental material)
+        date: '2026-01-22 22:00:00'
+      - type: other
+        label: Upload deadline (files matching MD5 checksums, conflicts of interest)
+        date: '2026-01-23 22:00:00'
+      - type: rebuttal_start
+        label: Reviews available & rebuttal begins
+        date: '2026-03-05 23:59:59'
+      - type: rebuttal_end
+        label: Rebuttals due
+        date: '2026-03-12 22:00:00'
+      - type: notification
+        label: Decisions announced (conditional acceptance)
+        date: '2026-03-30 23:59:59'
+      - type: other
+        label: Revised paper due for final review
+        date: '2026-04-29 22:00:00'
+      - type: camera_ready
+        label: Final version deadline
+        date: '2026-05-06 22:00:00'
+    note: Technical Papers (Journal/TOG and Conference tracks share one deadline). All deadlines are 22:00 UTC/GMT.
+    sources:
+      - https://s2026.siggraph.org/program/technical-papers/
+    checked: 2026-09-28
+  - year: 2025
+    id: siggraph25
+    link: https://s2025.siggraph.org/
+    date: August 10-14, 2025
+    start: 2025-08-10
+    end: 2025-08-14
+    place: Vancouver Convention Centre, Vancouver, BC, Canada
+    timezone: UTC
+    timeline:
+      - type: abstract
+        label: Submission form deadline (title, full author list, conflicts)
+        date: '2025-01-16 22:00:00'
+      - type: paper
+        label: Paper deadline (PDF or MD5 checksums, incl. supplemental material)
+        date: '2025-01-23 22:00:00'
+      - type: other
+        label: Upload deadline (files matching MD5 checksums)
+        date: '2025-01-24 22:00:00'
+      - type: rebuttal_start
+        label: Reviews available & rebuttal begins
+        date: '2025-03-06 23:59:59'
+      - type: rebuttal_end
+        label: Rebuttals due
+        date: '2025-03-13 22:00:00'
+      - type: notification
+        label: Decisions announced (conditional acceptance)
+        date: '2025-03-31 23:59:59'
+      - type: other
+        label: Revised paper due for final review
+        date: '2025-04-29 22:00:00'
+      - type: camera_ready
+        label: Final version deadline
+        date: '2025-05-06 22:00:00'
+    note: Technical Papers (Journal/TOG and Conference tracks share one deadline). All deadlines are 22:00 UTC/GMT.
+    sources:
+      - https://s2025.siggraph.org/program/technical-papers/
+    checked: 2026-09-28

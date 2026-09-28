@@ -1,0 +1,74 @@
+id: aamas
+title: AAMAS
+full_name: International Conference on Autonomous Agents and Multiagent Systems
+link: https://www.ifaamas.org/
+subs: [ML, AP]
+rank:
+  ccf: B
+  core: A*
+  thcpl: B
+dblp: ifaamas
+upstream:
+  ccfddl: AI/aamas
+  hf: aamas
+editions:
+  - year: 2027
+    id: aamas27
+    link: https://warwick.ac.uk/fac/sci/dcs/aamas2027/
+    date: May 3-7, 2027
+    start: 2027-05-03
+    end: 2027-05-07
+    place: JW Marriott Hotel, Hanoi, Vietnam
+    timezone: AoE
+    timeline:
+      - type: abstract
+        date: '2026-10-01 23:59:59'
+      - type: paper
+        date: '2026-10-08 23:59:59'
+      - type: rebuttal_start
+        label: Rebuttal period opens
+        date: '2026-11-20 23:59:59'
+      - type: rebuttal_end
+        label: Rebuttal period closes
+        date: '2026-11-24 23:59:59'
+      - type: notification
+        date: '2026-12-21 23:59:59'
+      - type: camera_ready
+        date: '2027-01-25 23:59:59'
+    note: Main-track dates (OpenReview author registration by Sep 17, 2026); all deadlines end of day AoE (UTC-12). Blue Sky Ideas track has later deadlines (abstract Nov 5, paper Nov 12, 2026).
+    sources:
+      - https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-main-track/
+      - https://warwick.ac.uk/fac/sci/dcs/aamas2027/
+      - https://github.com/ccfddl/ccf-deadlines/blob/main/conference/AI/aamas.yml
+      - https://github.com/huggingface/ai-deadlines/blob/main/src/data/conferences/aamas.yml
+    checked: 2026-09-28
+  - year: 2026
+    id: aamas26
+    link: https://cyprusconferences.org/aamas2026/
+    date: May 25-29, 2026
+    start: 2026-05-25
+    end: 2026-05-29
+    place: Paphos, Cyprus
+    timezone: AoE
+    timeline:
+      - type: abstract
+        date: '2025-10-01 23:59:59'
+      - type: paper
+        date: '2025-10-08 23:59:59'
+      - type: rebuttal_start
+        label: Rebuttal period opens
+        date: '2025-11-21 23:59:59'
+      - type: rebuttal_end
+        label: Rebuttal period closes
+        date: '2025-11-25 23:59:59'
+      - type: notification
+        date: '2025-12-22 23:59:59'
+      - type: camera_ready
+        date: '2026-02-18 23:59:59'
+    note: Main-track dates; all deadlines end of day AoE (UTC-12). Camera-ready deadline was extended from Feb 11 to Feb 18, 2026.
+    sources:
+      - https://cyprusconferences.org/aamas2026/call-for-papers-main-track/
+      - https://cyprusconferences.org/aamas2026/important-dates/
+      - https://cyprusconferences.org/aamas2026/
+      - https://github.com/huggingface/ai-deadlines/blob/main/src/data/conferences/aamas.yml
+    checked: 2026-09-28

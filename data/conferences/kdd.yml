@@ -1,0 +1,149 @@
+id: kdd
+title: KDD
+full_name: ACM SIGKDD Conference on Knowledge Discovery and Data Mining
+link: https://kdd.org/
+subs: [DM]
+rank:
+  ccf: A
+  core: A*
+  thcpl: A
+dblp: kdd
+upstream:
+  ccfddl: DB/sigkdd
+  hf: kdd
+editions:
+  - year: 2027
+    id: kdd27
+    link: https://kdd2027.kdd.org/
+    date: August 1-5, 2027
+    start: 2027-08-01
+    end: 2027-08-05
+    place: San Jose, CA, USA
+    timezone: AoE
+    timeline:
+      - type: abstract
+        cycle: Cycle 1
+        date: '2026-07-19 23:59:59'
+      - type: paper
+        cycle: Cycle 1
+        date: '2026-07-26 23:59:59'
+      - type: rebuttal_start
+        cycle: Cycle 1
+        date: '2026-09-29 23:59:59'
+      - type: rebuttal_end
+        cycle: Cycle 1
+        date: '2026-10-13 23:59:59'
+      - type: notification
+        cycle: Cycle 1
+        date: '2026-11-14 23:59:59'
+    note: Two submission cycles; the CFP mentions a February 2027 (Cycle 2) deadline but its dates are not announced yet. Cycle 1 dates are shared by the Research, ADS, Datasets & Benchmarks and AI for Sciences tracks; held at the San Jose McEnery Convention Center.
+    sources:
+      - https://kdd2027.kdd.org/research-track-call-for-papers/
+      - https://kdd2027.kdd.org/applied-data-science-ads-track-call-for-papers/
+      - https://kdd2027.kdd.org/datasets-and-benchmarks-track-call-for-papers/
+      - https://kdd2027.kdd.org/ai4sciences-track-call-for-papers/
+      - https://kdd2027.kdd.org/frequently-asked-questions/
+      - https://kdd2027.kdd.org/
+    checked: 2026-09-28
+  - year: 2026
+    id: kdd26
+    link: https://kdd2026.kdd.org/
+    date: August 9-13, 2026
+    start: 2026-08-09
+    end: 2026-08-13
+    place: Jeju, South Korea
+    timezone: AoE
+    timeline:
+      - type: abstract
+        cycle: Cycle 1
+        date: '2025-07-24 23:59:59'
+      - type: paper
+        cycle: Cycle 1
+        date: '2025-07-31 23:59:59'
+      - type: rebuttal_start
+        cycle: Cycle 1
+        date: '2025-10-04 23:59:59'
+      - type: rebuttal_end
+        cycle: Cycle 1
+        date: '2025-10-18 23:59:59'
+      - type: notification
+        cycle: Cycle 1
+        date: '2025-11-23 23:59:59'
+      - type: abstract
+        cycle: Cycle 2
+        date: '2026-02-01 23:59:59'
+      - type: paper
+        cycle: Cycle 2
+        date: '2026-02-08 23:59:59'
+      - type: rebuttal_start
+        cycle: Cycle 2
+        date: '2026-04-04 23:59:59'
+      - type: rebuttal_end
+        cycle: Cycle 2
+        date: '2026-04-17 23:59:59'
+      - type: notification
+        cycle: Cycle 2
+        date: '2026-05-16 23:59:59'
+      - type: camera_ready
+        cycle: Cycle 2
+        date: '2026-06-01 23:59:59'
+    note: Two submission cycles (July 2025 and February 2026); Research, ADS and Datasets & Benchmarks tracks ran in both cycles, while the new AI for Sciences track accepted submissions only in Cycle 2. Cycle 1 camera-ready was listed as TBD. Held at ICC Jeju.
+    sources:
+      - https://kdd2026.kdd.org/research-track-call-for-papers/
+      - https://kdd2026.kdd.org/datasets-and-benchmarks-track-call-for-papers/
+      - https://kdd2026.kdd.org/ai4sciences-track-call-for-papers/
+      - https://kdd2026.kdd.org/
+    checked: 2026-09-28
+  - year: 2025
+    id: kdd25
+    link: https://kdd2025.kdd.org/
+    date: August 3-7, 2025
+    start: 2025-08-03
+    end: 2025-08-07
+    place: Toronto, ON, Canada
+    timezone: AoE
+    timeline:
+      - type: abstract
+        cycle: Cycle 1
+        date: '2024-08-01 23:59:59'
+      - type: paper
+        cycle: Cycle 1
+        date: '2024-08-08 23:59:59'
+      - type: rebuttal_start
+        cycle: Cycle 1
+        date: '2024-10-04 23:59:59'
+      - type: rebuttal_end
+        cycle: Cycle 1
+        date: '2024-10-18 23:59:59'
+      - type: notification
+        cycle: Cycle 1
+        date: '2024-11-16 23:59:59'
+      - type: camera_ready
+        cycle: Cycle 1
+        date: '2025-01-12 23:59:59'
+      - type: abstract
+        cycle: Cycle 2
+        date: '2025-02-03 23:59:59'
+      - type: paper
+        cycle: Cycle 2
+        date: '2025-02-10 23:59:59'
+      - type: rebuttal_start
+        cycle: Cycle 2
+        date: '2025-04-04 23:59:59'
+      - type: rebuttal_end
+        cycle: Cycle 2
+        date: '2025-04-18 23:59:59'
+      - type: notification
+        cycle: Cycle 2
+        date: '2025-05-16 23:59:59'
+      - type: camera_ready
+        cycle: Cycle 2
+        date: '2025-06-01 23:59:59'
+      - type: other
+        cycle: Cycle 2
+        label: Author registration deadline
+        date: '2025-06-18 23:59:59'
+    note: Two submission cycles (August 2024 and February 2025). Cycle 1 camera-ready was extended from December 19, 2024 to January 12, 2025.
+    sources:
+      - https://kdd2025.kdd.org/research-track-call-for-papers/
+    checked: 2026-09-28

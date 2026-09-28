@@ -1,0 +1,84 @@
+id: satml
+title: SaTML
+full_name: IEEE Conference on Secure and Trustworthy Machine Learning
+link: https://satml.org/
+subs: [ML]
+rank:
+  ccf: N
+  core: N
+  thcpl: N
+dblp: satml
+upstream:
+  ccfddl: SC/satml
+editions:
+  - year: 2027
+    id: satml27
+    link: https://satml.org/
+    date: Early May 2027
+    place: Reykjavik, Iceland
+    timezone: AoE
+    timeline:
+      - type: abstract
+        label: Mandatory abstract registration
+        date: '2026-09-22 23:59:59'
+      - type: paper
+        date: '2026-09-29 23:59:59'
+      - type: supplementary
+        label: Anonymized artifacts updated
+        date: '2026-10-02 23:59:59'
+      - type: other
+        label: Early-reject notification
+        date: '2026-11-04 23:59:59'
+      - type: rebuttal_start
+        label: Interactive discussion & revision phase begins
+        date: '2026-11-25 23:59:59'
+      - type: rebuttal_end
+        label: Interactive discussion & revision phase ends
+        date: '2026-12-09 23:59:59'
+      - type: notification
+        label: Decision notification
+        date: '2026-12-16 23:59:59'
+      - type: other
+        label: Final artifacts of accepted papers on Zenodo
+        date: '2027-01-14 23:59:59'
+      - type: other
+        label: Revisions due
+        date: '2027-01-21 23:59:59'
+      - type: other
+        label: Revision notification
+        date: '2027-02-01 23:59:59'
+    note: >-
+      Abstract registration (with fixed authors and affiliations) is mandatory. Camera-ready is due
+      mid-February 2027 (exact date TBC); exact conference dates in early May 2027 are not yet announced.
+      The CFP warns that the early-reject and decision dates may be pushed back if submissions exceed planned capacity.
+    sources:
+      - https://satml.org/
+      - https://satml.org/call-for-papers/
+    checked: 2026-09-28
+  - year: 2026
+    id: satml26
+    link: https://satml.org/2026/
+    date: March 23-25, 2026
+    start: 2026-03-23
+    end: 2026-03-25
+    place: Technical University of Munich, Munich, Germany
+    timezone: AoE
+    timeline:
+      - type: paper
+        date: '2025-09-24 23:59:59'
+      - type: other
+        label: Early-reject notification
+        date: '2025-10-29 23:59:59'
+      - type: rebuttal_start
+        label: Interactive discussion & revision phase begins
+        date: '2025-11-19 23:59:59'
+      - type: rebuttal_end
+        label: Interactive discussion & revision phase ends
+        date: '2025-12-03 23:59:59'
+      - type: notification
+        label: Decision notification
+        date: '2025-12-10 23:59:59'
+    sources:
+      - https://satml.org/2026/
+      - https://satml.org/2026/call-for-papers/
+    checked: 2026-09-28

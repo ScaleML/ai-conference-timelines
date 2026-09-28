@@ -1,0 +1,84 @@
+id: acml
+title: ACML
+full_name: Asian Conference on Machine Learning
+link: https://www.acml-conf.org/
+subs: [ML]
+rank:
+  ccf: C
+  core: C
+  thcpl: N
+dblp: acml
+upstream:
+  ccfddl: AI/acml
+editions:
+  - year: 2026
+    id: acml26
+    link: https://www.acml-conf.org/2026/
+    date: December 1-4, 2026
+    start: 2026-12-01
+    end: 2026-12-04
+    place: RMIT University (Swanston Academic Building), Melbourne, Australia
+    timezone: AoE
+    timeline:
+      - type: other
+        label: Journal track submission deadline (Machine Learning journal)
+        date: '2026-06-20 23:59:59'
+      - type: paper
+        label: Conference track submission deadline
+        date: '2026-07-05 23:59:59'
+      - type: review_release
+        date: '2026-08-30 23:59:59'
+      - type: rebuttal_end
+        label: Author rebuttal deadline
+        date: '2026-09-05 23:59:59'
+      - type: notification
+        date: '2026-09-22 23:59:59'
+      - type: camera_ready
+        date: '2026-09-29 23:59:59'
+      - type: other
+        label: Journal track acceptance notification
+        date: '2026-09-30 23:59:59'
+      - type: other
+        label: Encore track submission deadline (rolling)
+        date: '2026-10-18 23:59:59'
+    note: >-
+      Conference track (PMLR, 16 pages) deadline extended from June 26; reviews, rebuttal and notification were also
+      postponed (originally Aug 25, Aug 30, Sep 15). The camera-ready date is marked "to be adjusted soon".
+    sources:
+      - https://www.acml-conf.org/2026/calls/papers/
+      - https://www.acml-conf.org/2026/
+      - https://www.acml-conf.org/2026/venues/venue/
+      - https://github.com/ccfddl/ccf-deadlines/blob/main/conference/AI/acml.yml
+    checked: 2026-09-28
+  - year: 2025
+    id: acml25
+    link: https://www.acml-conf.org/2025/
+    date: December 9-12, 2025
+    start: 2025-12-09
+    end: 2025-12-12
+    place: HNBK International Convention Center, Taipei, Taiwan
+    timezone: AoE
+    timeline:
+      - type: other
+        label: Journal track submission deadline (Machine Learning journal)
+        date: '2025-05-30 23:59:59'
+      - type: paper
+        label: Conference track submission deadline
+        date: '2025-06-26 23:59:59'
+      - type: review_release
+        date: '2025-08-04 23:59:59'
+      - type: rebuttal_end
+        label: Author rebuttal deadline
+        date: '2025-08-11 23:59:59'
+      - type: notification
+        label: Acceptance notification (both tracks)
+        date: '2025-09-01 23:59:59'
+      - type: camera_ready
+        date: '2025-09-22 23:59:59'
+    note: The conference track deadline of June 26 was an extended deadline.
+    sources:
+      - https://www.acml-conf.org/2025/papers.htm
+      - https://www.acml-conf.org/2025/
+      - https://www.acml-conf.org/2025/venue.htm
+      - https://github.com/ccfddl/ccf-deadlines/blob/main/conference/AI/acml.yml
+    checked: 2026-09-28

@@ -1,0 +1,67 @@
+id: ismir
+title: ISMIR
+full_name: International Society for Music Information Retrieval Conference
+link: https://ismir.net/
+subs: [SP]
+rank:
+  ccf: N
+  core: N
+dblp: ismir
+editions:
+  - year: 2027
+    id: ismir27
+    link: https://ismir.net/
+    date: September 12-16, 2027
+    start: 2027-09-12
+    end: 2027-09-16
+    place: London, UK
+    timezone: AoE
+    timeline: []
+    note: Dates and place are from the ISMIR society's upcoming-conferences list; no ISMIR 2027 website or call for papers has been published yet.
+    sources:
+      - https://ismir.net/
+    checked: 2026-09-28
+  - year: 2026
+    id: ismir26
+    link: https://ismir2026.ismir.net/
+    date: November 8-12, 2026
+    start: 2026-11-08
+    end: 2026-11-12
+    place: Abu Dhabi, UAE
+    timezone: AoE
+    timeline:
+      - type: abstract
+        date: '2026-04-20 23:59:59'
+      - type: paper
+        date: '2026-04-27 23:59:59'
+      - type: notification
+        date: '2026-07-10 23:59:59'
+      - type: camera_ready
+        date: '2026-07-31 23:59:59'
+    note: All deadlines are AoE. Hybrid conference at the Cultural Foundation, Abu Dhabi.
+    sources:
+      - https://ismir2026.ismir.net/authors/call-for-papers
+      - https://ismir2026.ismir.net/
+    checked: 2026-09-28
+  - year: 2025
+    id: ismir25
+    link: https://ismir2025.ismir.net/
+    date: September 21-25, 2025
+    start: 2025-09-21
+    end: 2025-09-25
+    place: Daejeon, South Korea
+    timezone: AoE
+    timeline:
+      - type: abstract
+        date: '2025-03-21 23:59:59'
+      - type: paper
+        date: '2025-03-28 23:59:59'
+      - type: notification
+        date: '2025-06-06 23:59:59'
+      - type: camera_ready
+        date: '2025-06-28 23:59:59'
+    note: All deadlines were 23:59 AoE.
+    sources:
+      - https://ismir2025.ismir.net/call-for-papers
+      - https://ismir.net/conferences/
+    checked: 2026-09-28

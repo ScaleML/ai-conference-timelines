@@ -1,0 +1,88 @@
+id: acmmm
+title: ACM MM
+full_name: ACM International Conference on Multimedia
+link: https://acmmm.org/
+subs: [CV, SP]
+rank:
+  ccf: A
+  core: A*
+  thcpl: A
+dblp: mm
+upstream:
+  ccfddl: CG/mm
+  hf: acm_mm
+editions:
+  - year: 2027
+    id: acmmm27
+    link: https://2027.acmmm.org/
+    place: Hong Kong, China
+    timeline: []
+    note: The ACM MM steering site announces Hong Kong as the 2027 venue; dates and deadlines have not been published yet.
+    sources:
+      - https://acmmm.org/
+      - https://2027.acmmm.org/
+    checked: 2026-09-28
+  - year: 2026
+    id: acmmm26
+    link: https://2026.acmmm.org/
+    date: November 10-14, 2026
+    start: 2026-11-10
+    end: 2026-11-14
+    place: Rio de Janeiro, Brazil
+    timezone: AoE
+    timeline:
+      - type: abstract
+        label: Contribution registration (abstract)
+        date: '2026-03-25 23:59:00'
+      - type: paper
+        label: Regular paper submission
+        date: '2026-04-01 23:59:00'
+      - type: supplementary
+        date: '2026-04-08 23:59:00'
+      - type: other
+        label: Rebuttal
+        date: '2026-06-04 23:59:00'
+      - type: notification
+        date: '2026-07-09 23:59:00'
+      - type: camera_ready
+        date: '2026-08-06 23:59:00'
+      - type: other
+        label: Author registration
+        date: '2026-08-31 23:59:00'
+    note: Main track (also Brave New Ideas and Datasets) submitted via OpenReview; the dates page lists the main-track rebuttal only as June 4 (BNI rebuttal runs May 28 - June 4). The CFP text says notification July 7, while the Important Dates page says July 9.
+    sources:
+      - https://2026.acmmm.org/site/important-dates.html
+      - https://2026.acmmm.org/site/cfp-guidelines.html
+      - https://2026.acmmm.org/site/call-datasets.html
+      - https://2026.acmmm.org/
+    checked: 2026-09-28
+  - year: 2025
+    id: acmmm25
+    link: https://acmmm2025.org/
+    date: October 27-31, 2025
+    start: 2025-10-27
+    end: 2025-10-31
+    place: Dublin, Ireland
+    timezone: AoE
+    timeline:
+      - type: abstract
+        label: Abstract submission (regular papers)
+        date: '2025-04-04 23:59:00'
+      - type: paper
+        label: Regular paper submission (incl. supplementary material)
+        date: '2025-04-11 23:59:00'
+      - type: rebuttal_start
+        date: '2025-06-09 23:59:00'
+      - type: rebuttal_end
+        date: '2025-06-19 23:59:00'
+      - type: notification
+        label: Notification (regular papers, demos and videos)
+        date: '2025-07-04 23:59:00'
+      - type: camera_ready
+        label: Camera-ready (regular papers, demos, videos)
+        date: '2025-08-03 23:59:00'
+    note: All deadlines are 23:59 AoE.
+    sources:
+      - https://acmmm2025.org/important-dates/
+      - https://acmmm2025.org/call-for-papers/
+    checked: 2026-09-28

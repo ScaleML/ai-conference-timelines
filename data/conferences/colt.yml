@@ -1,0 +1,103 @@
+id: colt
+title: COLT
+full_name: Annual Conference on Learning Theory
+link: https://learningtheory.org/
+subs: [ML]
+rank:
+  ccf: B
+  core: A*
+  thcpl: A
+dblp: colt
+upstream:
+  ccfddl: AI/colt
+  hf: colt
+editions:
+  - year: 2027
+    id: colt27
+    link: https://learningtheory.org/colt2027/
+    date: June 28 - July 2, 2027
+    start: 2027-06-28
+    end: 2027-07-02
+    place: Tokyo, Japan
+    timezone: AoE
+    timeline: []
+    note: >-
+      The COLT 2027 site lists all important dates (submission, reviews, rebuttal, notification) as TBD.
+      Its Call for Papers page still shows the COLT 2025 text, so its dates do not apply to 2027.
+    sources:
+      - https://learningtheory.org/colt2027/
+      - https://learningtheory.org/colt2027/cfp.html
+    checked: 2026-09-28
+
+  - year: 2026
+    id: colt26
+    link: https://learningtheory.org/colt2026/
+    date: June 29 - July 3, 2026
+    start: 2026-06-29
+    end: 2026-07-03
+    place: Bahia Resort Hotel, San Diego, CA, USA
+    timezone: AoE
+    timeline:
+      - type: paper
+        date: '2026-02-04 23:59:59'
+      - type: review_release
+        date: '2026-04-03 23:59:59'
+      - type: rebuttal_end
+        label: Initial author response due
+        date: '2026-04-10 23:59:59'
+      - type: other
+        label: Author-reviewer discussion period ends
+        date: '2026-04-20 23:59:59'
+      - type: notification
+        label: Author notification (on or before)
+        date: '2026-05-04 23:59:59'
+      - type: other
+        label: Workshop/tutorial/community event proposals due
+        date: '2026-05-07 23:59:59'
+      - type: other
+        label: Open problems submission deadline
+        date: '2026-05-25 23:59:59'
+    note: >-
+      Submissions via CMT. The paper, workshop-proposal and open-problems deadlines are stated as AoE;
+      the review, response and notification dates carry no time zone (AoE assumed). Discussion period ran April 10-20.
+    sources:
+      - https://learningtheory.org/colt2026/
+      - https://learningtheory.org/colt2026/cfp.html
+      - https://learningtheory.org/colt2026/workshops.html
+      - https://learningtheory.org/colt2026/openproblems.html
+    checked: 2026-09-28
+
+  - year: 2025
+    id: colt25
+    link: https://learningtheory.org/colt2025/
+    date: June 30 - July 4, 2025
+    start: 2025-06-30
+    end: 2025-07-04
+    place: Lyon, France
+    timezone: AoE
+    timeline:
+      - type: paper
+        date: '2025-02-06 17:00:00'
+        timezone: UTC-5
+      - type: review_release
+        date: '2025-03-28 23:59:59'
+      - type: rebuttal_end
+        label: Initial author response due
+        date: '2025-04-04 23:59:59'
+      - type: other
+        label: Author-reviewer discussion period ends
+        date: '2025-04-11 23:59:59'
+      - type: notification
+        label: Author notification (on or before)
+        date: '2025-05-02 23:59:59'
+      - type: other
+        label: Open problems submission deadline
+        date: '2025-06-06 23:59:59'
+    note: >-
+      Paper deadline was 5:00 PM EST (UTC-5); the open-problems deadline was AoE.
+      Review, response and notification dates were given without a time zone (AoE assumed).
+    sources:
+      - https://learningtheory.org/colt2025/
+      - https://learningtheory.org/colt2025/cfp.html
+      - https://learningtheory.org/colt2025/openproblems.html
+    checked: 2026-09-28

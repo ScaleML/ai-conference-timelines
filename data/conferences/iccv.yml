@@ -1,0 +1,55 @@
+id: iccv
+title: ICCV
+full_name: IEEE/CVF International Conference on Computer Vision
+link: https://iccv.thecvf.com/
+subs: [CV]
+rank:
+  ccf: A
+  core: A*
+  thcpl: A
+dblp: iccv
+interval: 2
+upstream:
+  ccfddl: AI/iccv
+  hf: iccv
+editions:
+  - year: 2027
+    id: iccv27
+    link: https://iccv.thecvf.com/Conferences/2027
+    date: October 2-8, 2027
+    start: 2027-10-02
+    end: 2027-10-08
+    place: Hong Kong, China
+    timeline: []
+    note: Biennial (odd years). To be held at the Hong Kong Convention and Exhibition Centre; submission dates not yet announced.
+    sources:
+      - https://iccv.thecvf.com/Conferences/2027
+      - https://iccv.thecvf.com/Conferences/2027/Dates
+    checked: 2026-09-28
+  - year: 2025
+    id: iccv25
+    link: https://iccv.thecvf.com/Conferences/2025
+    date: October 19-23, 2025
+    start: 2025-10-19
+    end: 2025-10-23
+    place: Honolulu, Hawaii, USA
+    timezone: UTC-10
+    timeline:
+      - type: abstract
+        label: Paper registration deadline
+        date: '2025-03-03 23:59:00'
+      - type: paper
+        label: Paper & supplementary materials deadline
+        date: '2025-03-07 23:59:00'
+      - type: review_release
+        date: '2025-05-09 23:59:00'
+      - type: rebuttal_end
+        date: '2025-05-16 23:59:00'
+      - type: notification
+        date: '2025-06-25 23:59:00'
+    note: All deadlines in Hawaii time (HST, UTC-10); the paper and supplementary deadline was shared and fixed. The CFP page lists final decisions as June 26, the dates page as June 25 HST.
+    sources:
+      - https://iccv.thecvf.com/Conferences/2025/Dates
+      - https://iccv.thecvf.com/Conferences/2025/CallForPapers
+      - https://iccv.thecvf.com/Conferences/2025
+    checked: 2026-09-28

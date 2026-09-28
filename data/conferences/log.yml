@@ -1,0 +1,90 @@
+id: log
+title: LoG
+full_name: Learning on Graphs Conference
+link: https://logconference.org/
+subs: [ML, DM]
+rank:
+  ccf: N
+  core: N
+  thcpl: N
+dblp: log
+upstream:
+  ccfddl: AI/log
+editions:
+  - year: 2026
+    id: log26
+    link: https://logconference.org/
+    date: November 20-22, 2026
+    start: 2026-11-20
+    end: 2026-11-22
+    place: Northeastern University, Boston, MA, USA
+    timezone: AoE
+    timeline:
+      - type: abstract
+        label: Abstract submission deadline (both tracks)
+        date: '2026-08-05 23:59:59'
+      - type: paper
+        label: Full paper submission deadline (both tracks)
+        date: '2026-08-07 23:59:59'
+      - type: rebuttal_start
+        date: '2026-08-25 23:59:59'
+      - type: rebuttal_end
+        label: Rebuttal ends, author-reviewer discussion starts
+        date: '2026-09-01 23:59:59'
+      - type: other
+        label: Author-reviewer discussion ends
+        date: '2026-09-08 23:59:59'
+      - type: notification
+        date: '2026-09-13 23:59:59'
+      - type: other
+        label: TMLR journal track submission deadline
+        date: '2026-09-30 23:59:59'
+      - type: camera_ready
+        date: '2026-10-15 23:59:59'
+    note: >-
+      Deadlines were extended (abstract originally July 29, full paper originally August 1, 2026).
+      Proceedings track (PMLR, 9 pages) and non-archival extended abstract track (4 pages) share one OpenReview
+      submission; in-person conference.
+    sources:
+      - https://logconference.org/cfp/
+      - https://logconference.org/
+      - https://github.com/ccfddl/ccf-deadlines/blob/main/conference/AI/log.yml
+    checked: 2026-09-28
+  - year: 2025
+    id: log25
+    link: https://log2025.logconference.org/
+    date: December 10-12, 2025
+    start: 2025-12-10
+    end: 2025-12-12
+    place: Arizona State University West Valley Campus, Phoenix, AZ, USA
+    timezone: AoE
+    timeline:
+      - type: abstract
+        label: Abstract submission deadline (both tracks)
+        date: '2025-08-24 23:59:59'
+      - type: paper
+        label: Paper submission deadline (both tracks)
+        date: '2025-08-29 23:59:59'
+      - type: other
+        label: NeurIPS 2025 fast track submission deadline
+        date: '2025-09-29 23:59:59'
+      - type: other
+        label: TMLR journal track submission deadline
+        date: '2025-09-30 23:59:59'
+      - type: rebuttal_start
+        date: '2025-10-01 23:59:59'
+      - type: rebuttal_end
+        label: Rebuttal ends, author-reviewer discussion starts
+        date: '2025-10-08 23:59:59'
+      - type: other
+        label: Author-reviewer discussion ends
+        date: '2025-10-15 23:59:59'
+      - type: notification
+        date: '2025-10-20 23:59:59'
+      - type: camera_ready
+        date: '2025-11-05 23:59:59'
+    note: First in-person edition. The NeurIPS 2025 fast track accepted NeurIPS 2025 rejections with an average score of at least 4.0.
+    sources:
+      - https://log2025.logconference.org/cfp/
+      - https://log2025.logconference.org/
+    checked: 2026-09-28

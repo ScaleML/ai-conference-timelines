@@ -1,0 +1,49 @@
+id: slt
+title: SLT
+full_name: IEEE Spoken Language Technology Workshop
+link: https://signalprocessingsociety.org/event-names/slt
+subs: [SP]
+rank:
+  ccf: C
+  core: N
+  thcpl: N
+dblp: slt
+interval: 2
+upstream:
+  ccfddl: CG/slt
+editions:
+  - year: 2026
+    id: slt26
+    link: https://attend.ieee.org/slt-2026/
+    date: December 13-16, 2026
+    start: 2026-12-13
+    end: 2026-12-16
+    place: Palermo, Sicily, Italy
+    timezone: AoE
+    timeline:
+      - type: paper
+        label: Regular & special session paper submission
+        date: '2026-06-24 23:59:59'
+      - type: other
+        label: Paper revision deadline
+        date: '2026-07-01 23:59:59'
+      - type: other
+        label: Challenge & demo paper submission
+        date: '2026-07-08 23:59:59'
+      - type: rebuttal_start
+        date: '2026-08-10 00:00:00'
+      - type: rebuttal_end
+        date: '2026-08-16 23:59:59'
+      - type: notification
+        date: '2026-09-08 23:59:59'
+      - type: camera_ready
+        date: '2026-09-20 23:59:59'
+      - type: other
+        label: Author and early registration deadline
+        date: '2026-10-04 23:59:59'
+    note: All deadlines are 23:59 AoE. Several dates were extended by one week (paper submission from June 17, revision from June 24, rebuttal from July 29-Aug 4, notification from Sept 1).
+    sources:
+      - https://attend.ieee.org/slt-2026/call-for-papers/
+      - https://attend.ieee.org/slt-2026/
+      - https://attend.ieee.org/slt-2026/important-dates/
+    checked: 2026-09-28

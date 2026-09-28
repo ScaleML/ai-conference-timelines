@@ -1,0 +1,38 @@
+id: sdm
+title: SDM
+full_name: SIAM International Conference on Data Mining
+link: https://www.siam.org/conferences-events/siam-conferences/sdm26/
+subs: [DM]
+rank:
+  ccf: B
+  core: A
+  thcpl: B
+dblp: sdm
+upstream:
+  ccfddl: DB/sdm
+editions:
+  - year: 2026
+    id: sdm26
+    link: https://www.siam.org/conferences-events/siam-conferences/sdm26/
+    date: November 19-20, 2026
+    start: 2026-11-19
+    end: 2026-11-20
+    place: Salt Palace Convention Center, Salt Lake City, Utah, USA
+    timezone: AoE
+    timeline:
+      - type: abstract
+        label: Abstract submission (required)
+        date: '2026-04-10 23:59:59'
+      - type: paper
+        label: Full paper submission
+        date: '2026-04-17 23:59:59'
+      - type: other
+        label: Doctoral Forum application deadline (extended)
+        date: '2026-07-15 23:59:59'
+    note: SDM26 moved to November and is held jointly with SIAM MDS26 and IS26. Papers up to 8 pages (SIAM double-column macro), triple-blind via OpenReview; decisions were announced for July 2026 without an exact date (the page says both "early July" and "late July"). The Doctoral Forum application deadline was extended from May 15 to July 15, 2026.
+    sources:
+      - https://www.siam.org/conferences-events/siam-conferences/sdm26/
+      - https://www.siam.org/conferences-events/siam-conferences/sdm26/submissions/
+      - https://www.siam.org/conferences-events/siam-conferences/sdm26/program/special-events/
+      - https://groups.google.com/g/ml-news/c/K0gI_9aldQg
+    checked: 2026-09-28

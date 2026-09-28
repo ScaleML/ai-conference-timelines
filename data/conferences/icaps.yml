@@ -1,0 +1,101 @@
+id: icaps
+title: ICAPS
+full_name: International Conference on Automated Planning and Scheduling
+link: https://www.icaps-conference.org/
+subs: [AP]
+rank:
+  ccf: B
+  core: A*
+  thcpl: B
+dblp: icaps
+upstream:
+  ccfddl: AI/icaps
+editions:
+  - year: 2027
+    id: icaps27
+    link: https://icaps27.icaps-conference.org/
+    date: June 27 - July 2, 2027
+    start: 2027-06-27
+    end: 2027-07-02
+    place: Columbia, SC, USA
+    timezone: AoE
+    timeline:
+      - type: abstract
+        date: '2026-12-07 23:59:59'
+      - type: paper
+        date: '2026-12-14 23:59:59'
+      - type: rebuttal_start
+        label: Author response period opens
+        date: '2027-02-01 23:59:59'
+      - type: rebuttal_end
+        label: Author response period closes
+        date: '2027-02-04 23:59:59'
+      - type: notification
+        date: '2027-02-26 23:59:59'
+    note: All deadlines 11:59 PM UTC-12; the same dates apply to the special track "Planning Under a Different Name". Main conference June 30 - July 2 (DC June 27, workshops/tutorials June 28-29).
+    sources:
+      - https://icaps27.icaps-conference.org/calls/cfp/
+      - https://icaps27.icaps-conference.org/dates/
+      - https://icaps27.icaps-conference.org/news/call-for-papers-2027/
+      - https://github.com/ccfddl/ccf-deadlines/blob/main/conference/AI/icaps.yml
+    checked: 2026-09-28
+  - year: 2026
+    id: icaps26
+    link: https://icaps26.icaps-conference.org/
+    date: June 27 - July 2, 2026
+    start: 2026-06-27
+    end: 2026-07-02
+    place: Dublin, Ireland
+    timezone: AoE
+    timeline:
+      - type: abstract
+        date: '2025-12-02 23:59:59'
+      - type: paper
+        date: '2025-12-08 23:59:59'
+      - type: rebuttal_start
+        label: Author response period opens
+        date: '2026-02-02 23:59:59'
+      - type: rebuttal_end
+        label: Author response period closes
+        date: '2026-02-04 23:59:59'
+      - type: notification
+        date: '2026-02-20 23:59:59'
+    note: Single-round review with an author feedback period; all deadlines UTC-12.
+    sources:
+      - https://icaps26.icaps-conference.org/calls/cfp/
+      - https://icaps26.icaps-conference.org/dates/
+    checked: 2026-09-28
+  - year: 2025
+    id: icaps25
+    link: https://icaps25.icaps-conference.org/
+    date: November 9-14, 2025
+    start: 2025-11-09
+    end: 2025-11-14
+    place: Melbourne, Victoria, Australia
+    timezone: AoE
+    timeline:
+      - type: abstract
+        date: '2024-10-25 23:59:59'
+      - type: paper
+        date: '2024-11-01 23:59:59'
+      - type: other
+        label: Desk reject notification
+        date: '2024-11-15 23:59:59'
+      - type: notification
+        label: Phase 1 reject notification
+        date: '2024-12-16 23:59:59'
+      - type: rebuttal_start
+        label: Author feedback period opens
+        date: '2025-01-30 23:59:59'
+      - type: rebuttal_end
+        label: Author feedback period closes
+        date: '2025-02-04 23:59:59'
+      - type: notification
+        label: Final notification
+        date: '2025-03-01 23:59:59'
+    note: Two-phase review; all deadlines UTC-12. Co-located with KR 2025 and CPAIOR 2025; feedback period and final notification follow the updated Dates page (the CFP listed Jan 27-31 and Feb 28).
+    sources:
+      - https://icaps25.icaps-conference.org/dates/
+      - https://icaps25.icaps-conference.org/calls/main_track/
+      - https://github.com/ccfddl/ccf-deadlines/blob/main/conference/AI/icaps.yml
+    checked: 2026-09-28

@@ -1,0 +1,86 @@
+id: neurips
+title: NeurIPS
+full_name: Conference on Neural Information Processing Systems
+link: https://neurips.cc/
+subs: [ML]
+rank:
+  ccf: A
+  core: A*
+  thcpl: A
+dblp: nips
+upstream:
+  ccfddl: AI/nips
+  hf: neurips
+editions:
+  - year: 2026
+    id: neurips26
+    link: https://neurips.cc/Conferences/2026
+    date: December 6-12, 2026 (Sydney); December 9-13, 2026 (Atlanta and Paris)
+    start: 2026-12-06
+    end: 2026-12-13
+    place: Sydney, Australia (main venue); satellite venues in Atlanta, USA and Paris, France
+    timezone: AoE
+    timeline:
+      - type: abstract
+        date: '2026-05-04 23:59:59'
+      - type: paper
+        label: Full paper submission deadline (incl. supplementary material)
+        date: '2026-05-06 23:59:59'
+      - type: review_release
+        date: '2026-07-22 23:59:59'
+      - type: rebuttal_start
+        label: Author + reviewer + AC discussion starts
+        date: '2026-07-27 23:59:59'
+      - type: rebuttal_end
+        label: Author + reviewer + AC discussion ends
+        date: '2026-08-03 23:59:59'
+      - type: notification
+        date: '2026-09-24 23:59:59'
+      - type: other
+        label: Presentation site preference form deadline
+        date: '2026-09-30 23:59:59'
+      - type: other
+        label: Presentation location assignment notifications
+        date: '2026-10-06 17:00:00'
+        timezone: UTC
+    note: >-
+      Supplementary material is due with the full paper (no separate deadline). The Evaluations & Datasets
+      and Position Paper tracks share the same abstract/paper deadlines. Camera-ready deadline not yet posted.
+    sources:
+      - https://neurips.cc/Conferences/2026/Dates
+      - https://neurips.cc/Conferences/2026/CallForPapers
+      - https://neurips.cc/Conferences/FutureMeetings
+    checked: 2026-09-28
+  - year: 2025
+    id: neurips25
+    link: https://neurips.cc/Conferences/2025
+    date: December 2-7, 2025 (San Diego); November 30-December 5, 2025 (Mexico City)
+    start: 2025-11-30
+    end: 2025-12-07
+    place: San Diego, CA, USA & Mexico City, Mexico
+    timezone: AoE
+    timeline:
+      - type: abstract
+        date: '2025-05-11 23:59:59'
+      - type: paper
+        date: '2025-05-15 23:59:59'
+      - type: supplementary
+        date: '2025-05-22 23:59:59'
+      - type: rebuttal_start
+        date: '2025-07-24 23:59:59'
+      - type: rebuttal_end
+        date: '2025-07-30 23:59:59'
+      - type: other
+        label: Reviewer-author discussion ends
+        date: '2025-08-06 23:59:59'
+      - type: notification
+        date: '2025-09-18 23:59:59'
+      - type: other
+        label: Choose San Diego or Mexico City
+        date: '2025-10-03 23:59:59'
+      - type: camera_ready
+        date: '2025-10-23 23:59:59'
+    sources:
+      - https://neurips.cc/Conferences/2025/Dates
+      - https://neurips.cc/Conferences/2025
+    checked: 2026-09-28

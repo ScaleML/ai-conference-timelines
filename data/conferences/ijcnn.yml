@@ -1,0 +1,89 @@
+id: ijcnn
+title: IJCNN
+full_name: International Joint Conference on Neural Networks
+link: https://ijcnn.org/
+subs: [ML]
+rank:
+  ccf: C
+  core: B
+  thcpl: B
+dblp: ijcnn
+upstream:
+  ccfddl: AI/ijcnn
+  hf: ijcnn
+editions:
+  - year: 2027
+    id: ijcnn27
+    link: https://ijcnn.org/2027
+    date: June 14-18, 2027
+    start: 2027-06-14
+    end: 2027-06-18
+    place: Cape Town International Convention Centre, Cape Town, South Africa
+    timezone: AoE
+    timeline:
+      - type: paper
+        label: Regular & special session paper submission
+        date: '2027-01-31 23:59:59'
+      - type: notification
+        date: '2027-03-15 23:59:59'
+      - type: camera_ready
+        label: Camera-ready & author registration
+        date: '2027-04-12 23:59:59'
+    note: >-
+      The paper deadline is given without a timezone (AoE assumed); the author instructions state the Apr 12
+      camera-ready/registration deadline as 11:59 PM AoE. Special session/workshop proposals are due
+      Nov 15, 2026 and competition/tutorial proposals Nov 30, 2026.
+    sources:
+      - https://ijcnn.org/2027/authors/call-for-papers
+      - https://ijcnn.org/2027/events/regular-papers-deadline
+      - https://ijcnn.org/2027/events/special-session-paper-submission-deadline
+      - https://ijcnn.org/2027/authors/initial-author-instructions
+      - https://confcats-siteplex.s3.amazonaws.com/ijcnn/files/ijcnn27-cfp_web-19.pdf
+    checked: 2026-09-28
+  - year: 2026
+    id: ijcnn26
+    link: https://attend.ieee.org/wcci-2026/
+    date: June 21-26, 2026
+    start: 2026-06-21
+    end: 2026-06-26
+    place: MECC Maastricht, Maastricht, Netherlands
+    timezone: AoE
+    timeline:
+      - type: paper
+        date: '2026-01-31 23:59:59'
+      - type: other
+        label: Late-breaking paper deadline
+        date: '2026-03-10 23:59:59'
+      - type: notification
+        label: Acceptance notification (16-22 March)
+        date: '2026-03-22 23:59:59'
+      - type: camera_ready
+        date: '2026-04-15 23:59:59'
+    note: Held as part of IEEE WCCI 2026 (with FUZZ-IEEE and IEEE CEC); no deadline extension was given.
+    sources:
+      - https://attend.ieee.org/wcci-2026/important-dates-deadlines/
+      - https://attend.ieee.org/wcci-2026/
+    checked: 2026-09-28
+  - year: 2025
+    id: ijcnn25
+    link: https://2025.ijcnn.org/
+    date: June 30 - July 5, 2025
+    start: 2025-06-30
+    end: 2025-07-05
+    place: Pontifical Gregorian University, Rome, Italy
+    timezone: AoE
+    timeline:
+      - type: paper
+        date: '2025-01-30 23:59:59'
+      - type: other
+        label: Position paper deadline
+        date: '2025-02-15 23:59:59'
+      - type: notification
+        date: '2025-03-31 23:59:59'
+      - type: camera_ready
+        date: '2025-05-01 23:59:59'
+    note: The January 30, 2025 paper deadline is the extended one.
+    sources:
+      - https://2025.ijcnn.org/authors/important-dates
+      - https://2025.ijcnn.org/authors/call-for-papers
+    checked: 2026-09-28

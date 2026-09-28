@@ -1,0 +1,82 @@
+id: ro-man
+title: RO-MAN
+full_name: IEEE International Conference on Robot and Human Interactive Communication
+link: https://ro-man.org/
+subs: [RO, HCI]
+rank:
+  ccf: N
+  core: B
+dblp: ro-man
+editions:
+  - year: 2027
+    id: ro-man27
+    link: https://ro-man2027.ca/
+    date: August 23-27, 2027
+    start: 2027-08-23
+    end: 2027-08-27
+    place: Waterloo, Ontario, Canada (University of Waterloo; hybrid)
+    timezone: AoE
+    timeline:
+      - type: paper
+        label: Regular & special session paper submission
+        date: '2027-03-07 23:59:59'
+      - type: notification
+        date: '2027-05-07 23:59:59'
+      - type: other
+        label: Late breaking report submission
+        date: '2027-06-01 23:59:59'
+    note: Review will be double-anonymized and the deadline is strict (no extension). The site gives no timezone yet, so AoE is assumed; RO-MAN 2025/2026 used Pacific Time.
+    sources:
+      - https://ro-man2027.ca/
+      - https://ro-man2027.ca/call-for-papers/
+      - https://ro-man.org/
+    checked: 2026-09-28
+  - year: 2026
+    id: ro-man26
+    link: https://ro-man2026.org/
+    date: August 24-28, 2026
+    start: 2026-08-24
+    end: 2026-08-28
+    place: Kitakyushu, Japan (Kitakyushu International Conference Center; hybrid)
+    timezone: UTC-7
+    timeline:
+      - type: paper
+        label: Regular & special session paper submission
+        date: '2026-03-29 23:59:59'
+      - type: notification
+        date: '2026-05-29 23:59:59'
+      - type: other
+        label: Late breaking report submission
+        date: '2026-06-12 23:59:59'
+      - type: camera_ready
+        date: '2026-06-20 23:59:59'
+    note: Paper deadline extended from March 15, 2026; deadlines are 23:59:59 Pacific Time (PDT, UTC-7). Initial submissions 6-8 pages, single-blind.
+    sources:
+      - https://ro-man2026.org/papersubmission/
+      - https://ro-man2026.org/
+      - https://ro-man2026.org/call-for-papers/
+    checked: 2026-09-28
+  - year: 2025
+    id: ro-man25
+    link: https://www.ro-man2025.org/
+    date: August 25-29, 2025
+    start: 2025-08-25
+    end: 2025-08-29
+    place: Eindhoven, Netherlands (Eindhoven University of Technology; hybrid)
+    timezone: UTC-7
+    timeline:
+      - type: paper
+        label: Regular & special session paper submission
+        date: '2025-03-31 23:59:59'
+      - type: notification
+        date: '2025-06-09 23:59:59'
+      - type: other
+        label: Late breaking report submission
+        date: '2025-06-13 23:59:59'
+      - type: camera_ready
+        date: '2025-07-15 23:59:59'
+    note: The CFP says "23:59:59 PST"; converted as Pacific daylight time (UTC-7) for these dates.
+    sources:
+      - https://www.ro-man2025.org/
+      - https://www.ro-man2025.org/contributing/callforpapers
+    checked: 2026-09-28

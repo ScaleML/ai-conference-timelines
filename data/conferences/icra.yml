@@ -1,0 +1,101 @@
+id: icra
+title: ICRA
+full_name: IEEE International Conference on Robotics and Automation
+link: https://www.ieee-ras.org/conferences-workshops/fully-sponsored/icra/
+subs: [RO]
+rank:
+  ccf: B
+  core: A*
+  thcpl: A
+dblp: icra
+upstream:
+  ccfddl: AI/icra
+  hf: icra
+editions:
+  - year: 2028
+    id: icra28
+    link: https://www.ieee-ras.org/event/2028-ieee-international-conference-on-robotics-and-automation-icra-74101/
+    date: May 15-19, 2028
+    start: 2028-05-15
+    end: 2028-05-19
+    place: Riocentro, Rio de Janeiro, Brazil
+    timeline: []
+    note: >-
+      Dates and venue are from IEEE RAS; the conference website (2028.ieee-icra.org) is not live yet and no CFP has been published.
+      The RAS event listing shows a tentative paper deadline of Sep 15, 2027, but an older RAS listing for Guadalajara, Mexico, gives Aug 16, 2027, so neither is recorded.
+    sources:
+      - https://www.ieee-ras.org/conferences-workshops/fully-sponsored/icra/icra-venues-and-archive/
+      - https://www.ieee-ras.org/event/2028-ieee-international-conference-on-robotics-and-automation-icra-74101/
+      - https://www.ieee-ras.org/event/2028-ieee-international-conference-on-robotics-and-automation-icra-64236/
+    checked: 2026-09-28
+  - year: 2027
+    id: icra27
+    link: https://2027.ieee-icra.org/
+    date: May 24-28, 2027
+    start: 2027-05-24
+    end: 2027-05-28
+    place: COEX, Seoul, South Korea
+    timezone: UTC-8
+    timeline:
+      - type: paper
+        date: '2026-09-16 23:59:00'
+      - type: supplementary
+        label: Accompanying video submission (second window, Sep 18-22)
+        date: '2026-09-22 23:59:00'
+      - type: other
+        label: Deadline for transfer of RAS journal papers
+        date: '2026-12-31 23:59:59'
+      - type: notification
+        date: '2027-01-31 23:59:59'
+      - type: other
+        label: PaperPlaza opens for final paper submission
+        date: '2027-02-06 23:59:59'
+      - type: other
+        label: Author registration deadline
+        date: '2027-03-05 23:59:59'
+    note: >-
+      Paper deadline extended by 24 hours from Sep 15, 2026. The CFP says 23:59 PST, recorded here as UTC-8; the IEEE RAS ICRA page says "11:59 PM Pacific time", which in September is PDT (UTC-7), one hour earlier.
+      Videos can only be uploaded in two windows (Aug 5-Sep 9 and Sep 18-22, 2026). 8-page limit incl. references, double-anonymous review via PaperPlaza.
+      The IEEE RAS page lists final paper submission as Mar 6, 2027; the conference CFP gives only the author registration deadline (Mar 5).
+    sources:
+      - https://2027.ieee-icra.org/contribute/call-for-icra-2027-papers-now-accepting-submissions/
+      - https://2027.ieee-icra.org/announcements/call-for-papers-submission-deadline-extended/
+      - https://2027.ieee-icra.org/announcements/call-for-papers-accompanying-video-submission-period-updated/
+      - https://2027.ieee-icra.org/announcements/call-for-technical-papers/
+      - https://2027.ieee-icra.org/
+      - https://www.ieee-ras.org/conferences-workshops/fully-sponsored/icra/
+    checked: 2026-09-28
+  - year: 2026
+    id: icra26
+    link: https://2026.ieee-icra.org/
+    date: June 1-5, 2026
+    start: 2026-06-01
+    end: 2026-06-05
+    place: Messe Wien, Vienna, Austria
+    timezone: UTC-8
+    timeline:
+      - type: paper
+        date: '2025-09-16 23:59:00'
+      - type: notification
+        date: '2026-01-31 23:59:59'
+      - type: other
+        label: PaperPlaza opens for final paper submission
+        date: '2026-02-06 23:59:59'
+      - type: other
+        label: Author registration deadline (extended)
+        date: '2026-03-13 23:59:59'
+      - type: camera_ready
+        label: Final paper submission (extended)
+        date: '2026-03-31 23:59:00'
+    note: >-
+      Paper deadline was extended by one day from Sep 15, 2025 (23:59 PST, taken as UTC-8); the extension notice has since been removed from the site.
+      Author registration was extended from Mar 6 to Mar 13, 2026. Record 5,088 submissions.
+    sources:
+      - https://2026.ieee-icra.org/contribute/call-for-icra-2026-papers-now-accepting-submissions/
+      - https://2026.ieee-icra.org/announcements/paper-submission-deadline-is-extended-to-sept-16-2359-pst/
+      - https://2026.ieee-icra.org/contribute/final-paper-submission-instructions/
+      - https://2026.ieee-icra.org/announcements/author-extended-registration-deadline/
+      - https://2026.ieee-icra.org/announcements/record-of-submissions/
+      - https://www.linkedin.com/posts/ieee-icra_final-reminder-icra-2026-paper-submission-activity-7372306265139474432-Ath8
+      - https://2026.ieee-icra.org/
+    checked: 2026-09-28

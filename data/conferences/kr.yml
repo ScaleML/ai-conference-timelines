@@ -1,0 +1,84 @@
+id: kr
+title: KR
+full_name: International Conference on Principles of Knowledge Representation and Reasoning
+link: https://kr.org/
+subs: [KR]
+rank:
+  ccf: B
+  core: A*
+  thcpl: N
+dblp: kr
+upstream:
+  ccfddl: AI/kr
+editions:
+  - year: 2027
+    id: kr27
+    link: https://kr.org/conferences.html
+    place: Buenos Aires, Argentina
+    timeline: []
+    note: KR Inc. has announced Buenos Aires as the venue of the 24th KR conference (2027); dates and the call for papers are not yet published.
+    sources:
+      - https://kr.org/conferences.html
+      - https://kr.org/js/data.js
+    checked: 2026-09-28
+  - year: 2026
+    id: kr26
+    link: https://kr.org/KR2026/
+    date: July 20-23, 2026
+    start: 2026-07-20
+    end: 2026-07-23
+    place: Lisbon, Portugal
+    timezone: AoE
+    timeline:
+      - type: abstract
+        label: Title and abstract submission (Main Track)
+        date: '2026-02-08 23:59:59'
+      - type: paper
+        label: Paper submission deadline (Main Track)
+        date: '2026-02-13 23:59:59'
+      - type: rebuttal_start
+        label: Author response period starts
+        date: '2026-03-24 23:59:59'
+      - type: rebuttal_end
+        label: Author response period ends
+        date: '2026-03-28 23:59:59'
+      - type: notification
+        date: '2026-04-13 23:59:59'
+      - type: camera_ready
+        date: '2026-05-03 23:59:59'
+    note: Part of FLoC 2026 (workshops July 18-19 and 24-25). The KR in the Wild track shares the Main Track dates; the KR meets Machine Learning and Explanation track had abstract Feb 12 / paper Feb 19, 2026 (AoE).
+    sources:
+      - https://kr.org/KR2026/dates.html
+      - https://kr.org/KR2026/call_main_track.html
+      - https://kr.org/KR2026/
+    checked: 2026-09-28
+  - year: 2025
+    id: kr25
+    link: https://kr.org/KR2025/
+    date: November 11-17, 2025
+    start: 2025-11-11
+    end: 2025-11-17
+    place: Melbourne, Australia
+    timezone: AoE
+    timeline:
+      - type: abstract
+        label: Title and abstract submission (Main Track)
+        date: '2025-05-07 23:59:59'
+      - type: paper
+        label: Paper submission deadline (Main Track)
+        date: '2025-05-12 23:59:59'
+      - type: rebuttal_start
+        label: Author response period starts
+        date: '2025-06-25 23:59:59'
+      - type: rebuttal_end
+        label: Author response period ends
+        date: '2025-07-01 23:59:59'
+      - type: notification
+        date: '2025-07-10 23:59:59'
+      - type: camera_ready
+        date: '2025-08-15 23:59:59'
+    note: Co-located with ICAPS, CPAIOR and NMR 2025. Special tracks (KR in the Wild, KR&R in Planning & Scheduling, KR and Constraints) had abstract May 21 / paper May 28, 2025 (AoE).
+    sources:
+      - https://kr.org/KR2025/dates.html
+      - https://kr.org/KR2025/
+    checked: 2026-09-28

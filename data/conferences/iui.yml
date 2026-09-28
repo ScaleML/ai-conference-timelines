@@ -1,0 +1,74 @@
+id: iui
+title: IUI
+full_name: ACM Conference on Intelligent User Interfaces
+link: https://iui.acm.org/
+subs: [HCI]
+rank:
+  ccf: B
+  core: A
+  thcpl: B
+dblp: iui
+upstream:
+  ccfddl: HI/iui
+  hf: iui
+editions:
+  - year: 2027
+    id: iui27
+    link: https://iui.acm.org/2027/
+    date: February 8-11, 2027
+    start: 2027-02-08
+    end: 2027-02-11
+    place: Helsinki Congress Paasitorni, Helsinki, Finland
+    timezone: AoE
+    timeline:
+      - type: abstract
+        date: '2026-08-13 23:59:59'
+      - type: paper
+        label: Full paper
+        date: '2026-08-20 23:59:59'
+      - type: review_release
+        label: Initial paper notifications (rebuttal invitations)
+        date: '2026-10-29 23:59:59'
+      - type: rebuttal_end
+        label: Invited rebuttal deadline
+        date: '2026-11-05 23:59:59'
+      - type: notification
+        label: Final decision notification
+        date: '2026-11-23 23:59:59'
+      - type: camera_ready
+        date: '2026-12-03 23:59:59'
+    note: >-
+      Rebuttals are by invitation, sent with the initial paper notifications. Workshop proposals were due July 6 and tutorial proposals
+      August 20, 2026; doctoral consortium submissions are due October 19 and posters & demos November 10, 2026 (all AoE).
+    sources:
+      - https://iui.acm.org/2027/call-for-papers/
+      - https://iui.acm.org/2027/
+      - https://sigchi.org/events/iui-2027/
+    checked: 2026-09-28
+  - year: 2026
+    id: iui26
+    link: https://iui.acm.org/2026/
+    date: July 13-16, 2026
+    start: 2026-07-13
+    end: 2026-07-16
+    place: St. Raphael Resort & Marina, Limassol, Cyprus
+    timezone: AoE
+    timeline:
+      - type: abstract
+        date: '2025-10-03 23:59:59'
+      - type: paper
+        label: Full paper
+        date: '2025-10-10 23:59:59'
+      - type: notification
+        date: '2025-12-12 23:59:59'
+      - type: camera_ready
+        label: Camera-ready and author registration
+        date: '2026-01-23 23:59:59'
+    note: The conference was originally scheduled for March 23-26, 2026 and was moved to July 13-16, 2026.
+    sources:
+      - https://iui.acm.org/2026/call-for-papers/
+      - https://iui.acm.org/2026/
+      - https://iui.acm.org/2026/registration/
+      - https://iui.acm.org/2026/venue/
+      - https://sigchi.org/events/iui-2026/
+    checked: 2026-09-28

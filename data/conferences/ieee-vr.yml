@@ -1,0 +1,73 @@
+id: ieee-vr
+title: IEEE VR
+full_name: IEEE Conference on Virtual Reality and 3D User Interfaces
+link: https://ieeevr.org/
+subs: [CG, HCI]
+rank:
+  ccf: A
+  core: A*
+  thcpl: A
+dblp: vr
+upstream:
+  ccfddl: CG/vr
+editions:
+  - year: 2027
+    id: ieee-vr27
+    link: https://ieeevr.org/2027/
+    date: February 27 - March 3, 2027
+    start: 2027-02-27
+    end: 2027-03-03
+    place: Melbourne, Australia
+    timezone: AoE
+    timeline:
+      - type: abstract
+        label: Abstract submission (required)
+        date: '2026-08-24 23:59:59'
+      - type: paper
+        date: '2026-08-31 23:59:59'
+      - type: other
+        label: Initial notification (conditional acceptance)
+        date: '2026-11-30 23:59:59'
+      - type: other
+        label: Revised submission due
+        date: '2026-12-31 23:59:59'
+      - type: notification
+        label: Final notification
+        date: '2027-01-07 23:59:59'
+      - type: camera_ready
+        date: '2027-01-12 23:59:59'
+    note: Single deadline with a unified review for IEEE TVCG journal papers and conference-only papers; two review cycles.
+    sources:
+      - https://ieeevr.org/2027/contribute/papers/
+      - https://ieeevr.org/2027/
+    checked: 2026-09-28
+  - year: 2026
+    id: ieee-vr26
+    link: https://ieeevr.org/2026/
+    date: March 21-25, 2026
+    start: 2026-03-21
+    end: 2026-03-25
+    place: Daegu, South Korea
+    timezone: AoE
+    timeline:
+      - type: abstract
+        label: Abstract submission (required)
+        date: '2025-09-05 23:59:59'
+      - type: paper
+        date: '2025-09-12 23:59:59'
+      - type: other
+        label: Initial notification (conditional acceptance)
+        date: '2025-12-12 23:59:59'
+      - type: other
+        label: Revised submission due
+        date: '2026-01-16 23:59:59'
+      - type: notification
+        label: Final notification
+        date: '2026-01-23 23:59:59'
+      - type: camera_ready
+        date: '2026-01-30 23:59:59'
+    note: Single deadline with a unified review for IEEE TVCG journal papers and conference-only papers; two review cycles.
+    sources:
+      - https://ieeevr.org/2026/contribute/papers/
+      - https://ieeevr.org/2026/attend/registration/
+    checked: 2026-09-28

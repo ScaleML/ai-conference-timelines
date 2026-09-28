@@ -1,0 +1,54 @@
+id: ksem
+title: KSEM
+full_name: International Conference on Knowledge Science, Engineering and Management
+link: https://www.ksem.conferences.academy/
+subs: [KR]
+rank:
+  ccf: C
+  core: C
+  thcpl: N
+dblp: ksem
+upstream:
+  ccfddl: AI/ksem
+  hf: ksem
+editions:
+  - year: 2026
+    id: ksem26
+    link: https://ksem2026.rosc.org.cn/
+    date: July 17-19, 2026
+    start: 2026-07-17
+    end: 2026-07-19
+    place: Beijing, China
+    timezone: AoE
+    timeline:
+      - type: paper
+        date: '2026-02-28 23:59:59'
+      - type: notification
+        date: '2026-03-31 23:59:59'
+      - type: camera_ready
+        date: '2026-04-30 23:59:59'
+    note: Held at Beihang University. The official site gives no timezone; AoE assumed.
+    sources:
+      - https://ksem2026.rosc.org.cn/
+      - https://www.ksem.conferences.academy/
+    checked: 2026-09-28
+  - year: 2025
+    id: ksem25
+    link: https://ksem2025.scimeeting.cn/
+    date: August 4-7, 2025
+    start: 2025-08-04
+    end: 2025-08-07
+    place: Macao SAR, China
+    timezone: AoE
+    timeline:
+      - type: paper
+        date: '2025-03-20 23:59:59'
+      - type: notification
+        date: '2025-05-30 23:59:59'
+      - type: camera_ready
+        date: '2025-06-15 23:59:59'
+    note: Held at Wynn Palace, Macao (on-site registration Aug 4, sessions Aug 5-7).
+    sources:
+      - https://ksem2025.scimeeting.cn/
+      - https://www.ksem.conferences.academy/
+    checked: 2026-09-28

@@ -1,0 +1,101 @@
+id: siggraph-asia
+title: SIGGRAPH Asia
+full_name: ACM SIGGRAPH Conference and Exhibition on Computer Graphics and Interactive Techniques in Asia
+link: https://asia.siggraph.org/
+subs: [CG]
+rank:
+  ccf: N
+  core: A*
+  thcpl: N
+dblp: siggrapha
+upstream:
+  ccfddl: CG/siga
+editions:
+  - year: 2027
+    id: siggraph-asia27
+    link: https://asia.siggraph.org/2026/about-the-event/siggraph-asia-2027/
+    date: November 30 - December 3, 2027
+    start: 2027-11-30
+    end: 2027-12-03
+    place: Tokyo International Forum, Tokyo, Japan
+    timeline: []
+    note: Dates and venue announced on the SIGGRAPH Asia 2026 site; no SIGGRAPH Asia 2027 website or Technical Papers call yet.
+    sources:
+      - https://asia.siggraph.org/2026/about-the-event/siggraph-asia-2027/
+    checked: 2026-09-28
+  - year: 2026
+    id: siggraph-asia26
+    link: https://asia.siggraph.org/2026/
+    date: December 1-4, 2026
+    start: 2026-12-01
+    end: 2026-12-04
+    place: Kuala Lumpur Convention Centre (KLCC), Kuala Lumpur, Malaysia
+    timezone: AoE
+    timeline:
+      - type: abstract
+        label: Submission form (abstract) deadline
+        date: '2026-05-05 23:59:00'
+      - type: paper
+        label: Paper deadline (PDF or MD5 checksums, incl. supplemental material)
+        date: '2026-05-12 23:59:00'
+      - type: other
+        label: Upload deadline (files matching MD5 checksums, conflicts of interest)
+        date: '2026-05-13 23:59:00'
+      - type: rebuttal_start
+        label: Reviews available & rebuttal begins
+        date: '2026-06-29 23:59:59'
+      - type: rebuttal_end
+        label: Rebuttals due
+        date: '2026-07-03 23:59:00'
+      - type: notification
+        label: Decisions announced (conditional acceptance)
+        date: '2026-07-19 23:59:59'
+      - type: other
+        label: Revised paper due for final review
+        date: '2026-08-28 23:59:00'
+      - type: camera_ready
+        label: Final version deadline
+        date: '2026-09-03 23:59:00'
+    note: Technical Papers (Journal/TOG and Conference tracks share one deadline). All deadlines are 23:59 AoE.
+    sources:
+      - https://asia.siggraph.org/2026/submissions/technical-papers/
+      - https://asia.siggraph.org/2026/
+    checked: 2026-09-28
+  - year: 2025
+    id: siggraph-asia25
+    link: https://asia.siggraph.org/2025/
+    date: December 15-18, 2025
+    start: 2025-12-15
+    end: 2025-12-18
+    place: Hong Kong Convention and Exhibition Centre (HKCEC), Hong Kong, China
+    timezone: AoE
+    timeline:
+      - type: abstract
+        label: Submission form deadline (full author list, conflicts)
+        date: '2025-05-16 23:59:00'
+      - type: paper
+        label: Paper deadline (PDF or MD5 checksums, incl. supplemental material)
+        date: '2025-05-23 23:59:00'
+      - type: other
+        label: Upload deadline (files matching MD5 checksums)
+        date: '2025-05-24 23:59:00'
+      - type: rebuttal_start
+        label: Reviews available & rebuttal begins
+        date: '2025-07-14 23:59:59'
+      - type: rebuttal_end
+        label: Rebuttals due
+        date: '2025-07-19 23:59:00'
+      - type: notification
+        label: Decisions announced (conditional acceptance)
+        date: '2025-08-10 23:59:59'
+      - type: other
+        label: Revised paper due for final review
+        date: '2025-09-19 23:59:00'
+      - type: camera_ready
+        label: Final version deadline
+        date: '2025-09-25 23:59:00'
+    note: Technical Papers (Journal/TOG and Conference tracks share one deadline). All deadlines are 23:59 AoE.
+    sources:
+      - https://asia.siggraph.org/2025/submissions/technical-papers/
+      - https://asia.siggraph.org/2025/
+    checked: 2026-09-28

@@ -1,0 +1,97 @@
+id: ijcai
+title: IJCAI
+full_name: International Joint Conference on Artificial Intelligence
+link: https://www.ijcai.org/
+subs: [ML, AP, KR]
+rank:
+  ccf: B
+  core: A*
+  thcpl: B
+dblp: ijcai
+upstream:
+  ccfddl: AI/ijcai
+  hf: ijcai
+editions:
+  - year: 2027
+    id: ijcai27
+    link: https://www.ijcai.org/future_conferences
+    date: August 7-13, 2027 (Kyoto) and August 15-17, 2027 (Hengqin)
+    start: 2027-08-07
+    end: 2027-08-17
+    place: Kyoto, Japan and Hengqin, China
+    timeline: []
+    note: Dates and locations are announced on ijcai.org; the IJCAI-27 call for papers and deadlines have not been published yet.
+    sources:
+      - https://www.ijcai.org/future_conferences
+      - https://www.ijcai.org/
+    checked: 2026-09-28
+  - year: 2026
+    id: ijcai26
+    link: https://2026.ijcai.org/
+    date: August 15-21, 2026
+    start: 2026-08-15
+    end: 2026-08-21
+    place: Bremen, Germany
+    timezone: AoE
+    timeline:
+      - type: abstract
+        date: '2026-01-12 23:59:59'
+      - type: paper
+        label: Author information and full paper submission
+        date: '2026-01-19 23:59:59'
+      - type: other
+        label: Non-primary paper payment deadline
+        date: '2026-01-26 23:59:59'
+      - type: notification
+        label: Phase I (summary reject) notification
+        date: '2026-03-04 23:59:59'
+      - type: rebuttal_start
+        label: Author response period opens
+        date: '2026-04-07 23:59:59'
+      - type: rebuttal_end
+        label: Author response period closes
+        date: '2026-04-10 23:59:59'
+      - type: notification
+        label: Paper notification
+        date: '2026-04-29 23:59:59'
+      - type: camera_ready
+        date: '2026-05-20 23:59:59'
+    note: Held jointly with ECAI as IJCAI-ECAI 2026 (workshops/tutorials Aug 15-17, main conference Aug 18-21 at Congress Centrum Bremen). Main-track dates; all times 23:59 AoE (UTC-12).
+    sources:
+      - https://2026.ijcai.org/important-dates/
+      - https://2026.ijcai.org/ijcai-ecai-2026-call-for-papers-main-track/
+      - https://2026.ijcai.org/venues/
+      - https://github.com/ccfddl/ccf-deadlines/blob/main/conference/AI/ijcai.yml
+      - https://github.com/huggingface/ai-deadlines/blob/main/src/data/conferences/ijcai.yml
+    checked: 2026-09-28
+  - year: 2025
+    id: ijcai25
+    link: https://2025.ijcai.org/
+    date: August 16-22, 2025
+    start: 2025-08-16
+    end: 2025-08-22
+    place: Montreal, Canada
+    timezone: AoE
+    timeline:
+      - type: abstract
+        date: '2025-01-16 23:59:59'
+      - type: paper
+        label: Author information and full paper submission
+        date: '2025-01-23 23:59:59'
+      - type: notification
+        label: Summary reject notification
+        date: '2025-03-07 23:59:59'
+      - type: rebuttal_start
+        label: Author response period opens
+        date: '2025-04-06 23:59:59'
+      - type: rebuttal_end
+        label: Author response period closes
+        date: '2025-04-09 23:59:59'
+      - type: notification
+        label: Paper notification
+        date: '2025-04-28 23:59:59'
+    note: Main-track dates; all times 23:59 AoE (UTC-12). A satellite event was held in Guangzhou, China, August 29-31, 2025.
+    sources:
+      - https://2025.ijcai.org/important-dates/
+      - https://2025.ijcai.org/call-for-papers-main-track/
+    checked: 2026-09-28

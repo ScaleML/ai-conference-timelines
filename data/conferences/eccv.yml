@@ -1,0 +1,51 @@
+id: eccv
+title: ECCV
+full_name: European Conference on Computer Vision
+link: https://eccv.ecva.net/
+subs: [CV]
+rank:
+  ccf: B
+  core: A*
+  thcpl: A
+dblp: eccv
+interval: 2
+upstream:
+  ccfddl: AI/eccv
+  hf: eccv
+editions:
+  - year: 2026
+    id: eccv26
+    link: https://eccv.ecva.net/Conferences/2026
+    date: September 8-12, 2026
+    start: 2026-09-08
+    end: 2026-09-12
+    place: Malmö, Sweden
+    timezone: UTC
+    timeline:
+      - type: abstract
+        label: Paper registration deadline
+        date: '2026-02-26 22:00:00'
+      - type: paper
+        date: '2026-03-05 22:00:00'
+      - type: other
+        label: OpenReview profile & author enrollment deadline
+        date: '2026-03-06 22:00:00'
+      - type: supplementary
+        date: '2026-03-12 22:00:00'
+      - type: review_release
+        date: '2026-05-02 23:59:59'
+        timezone: AoE
+      - type: rebuttal_end
+        date: '2026-05-11 21:00:00'
+      - type: notification
+        date: '2026-06-17 23:59:59'
+        timezone: AoE
+      - type: camera_ready
+        date: '2026-06-30 23:59:59'
+        timezone: AoE
+    note: Deadlines are 11 PM CET (CEST for the rebuttal); review release and decisions were announced without a time (AoE assumed). Profile/enrollment deadline was extended to March 6, and camera-ready was extended to June 30 AoE.
+    sources:
+      - https://eccv.ecva.net/Conferences/2026/Dates
+      - https://eccv.ecva.net/Conferences/2026/CallForPapers
+      - https://eccv.ecva.net/Conferences/2026
+    checked: 2026-09-28

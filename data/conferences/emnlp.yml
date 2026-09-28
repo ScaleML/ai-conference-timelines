@@ -1,0 +1,92 @@
+id: emnlp
+title: EMNLP
+full_name: Conference on Empirical Methods in Natural Language Processing
+link: https://www.sigdat.org/
+subs: [NLP]
+rank:
+  ccf: B
+  core: A*
+  thcpl: A
+dblp: emnlp
+upstream:
+  ccfddl: AI/emnlp
+  hf: emnlp
+editions:
+  - year: 2026
+    id: emnlp26
+    link: https://2026.emnlp.org/
+    date: October 24-29, 2026
+    start: 2026-10-24
+    end: 2026-10-29
+    place: Budapest, Hungary
+    timezone: AoE
+    timeline:
+      - type: paper
+        label: ARR submission deadline (May cycle)
+        date: '2026-05-25 23:59:59'
+      - type: other
+        label: ARR reviewer registration deadline (all authors)
+        date: '2026-05-27 23:59:59'
+      - type: rebuttal_start
+        label: Author response & discussion starts
+        date: '2026-07-08 23:59:59'
+      - type: rebuttal_end
+        label: Author response & discussion ends
+        date: '2026-07-14 23:59:59'
+      - type: review_release
+        label: Meta-reviews released
+        date: '2026-07-30 23:59:59'
+      - type: commitment
+        label: EMNLP commitment deadline
+        date: '2026-08-02 23:59:59'
+      - type: notification
+        date: '2026-08-20 23:59:59'
+      - type: camera_ready
+        date: '2026-08-30 23:59:59'
+    note: >-
+      All papers go through ACL Rolling Review; ARR May 2026 submissions had to select EMNLP 2026 (vs. AACL 2026)
+      at submission time to be eligible to commit to EMNLP. Author response follows ARR's updated May 2026 schedule
+      (July 8-14); the EMNLP site still lists the original July 7-13.
+    sources:
+      - https://2026.emnlp.org/calls/main_conference_papers/
+      - https://2026.emnlp.org/
+      - https://aclrollingreview.org/dates
+      - https://github.com/acl-org/aclrollingreview/commit/18f453ceb152b0f44b56d359e16fb3a426a0d8e5
+    checked: 2026-09-28
+  - year: 2025
+    id: emnlp25
+    link: https://2025.emnlp.org/
+    date: November 4-9, 2025
+    start: 2025-11-04
+    end: 2025-11-09
+    place: Suzhou, China
+    timezone: AoE
+    timeline:
+      - type: paper
+        label: ARR submission deadline (May cycle)
+        date: '2025-05-19 23:59:59'
+      - type: other
+        label: ARR reviewer registration deadline (all authors)
+        date: '2025-05-21 23:59:59'
+      - type: rebuttal_start
+        label: Author response & discussion starts
+        date: '2025-06-26 23:59:59'
+      - type: rebuttal_end
+        label: Author response & discussion ends
+        date: '2025-07-02 23:59:59'
+      - type: review_release
+        label: ARR meta-reviews released
+        date: '2025-07-23 23:59:59'
+      - type: commitment
+        label: EMNLP commitment deadline
+        date: '2025-08-01 23:59:59'
+      - type: notification
+        date: '2025-08-20 23:59:59'
+      - type: camera_ready
+        date: '2025-09-19 23:59:59'
+    note: All papers went through ACL Rolling Review (May 2025 cycle); meta-review release date is from the ARR schedule.
+    sources:
+      - https://2025.emnlp.org/calls/main_conference_papers/
+      - https://2025.emnlp.org/
+      - https://github.com/acl-org/aclrollingreview/blob/d8ecb16ae8e35e4d4615041ff5cd3aa03e010b43/dates.md
+    checked: 2026-09-28

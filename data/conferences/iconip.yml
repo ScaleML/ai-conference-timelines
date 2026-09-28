@@ -1,0 +1,57 @@
+id: iconip
+title: ICONIP
+full_name: International Conference on Neural Information Processing
+link: https://www.apnns.org/conferences/
+subs: [ML]
+rank:
+  ccf: C
+  core: B
+  thcpl: N
+dblp: iconip
+upstream:
+  ccfddl: AI/iconip
+editions:
+  - year: 2026
+    id: iconip26
+    link: https://www.iconip2026.org/
+    date: November 23-27, 2026
+    start: 2026-11-23
+    end: 2026-11-27
+    place: Melbourne Convention & Exhibition Centre (MCEC), Melbourne, Australia
+    timezone: AoE
+    timeline:
+      - type: paper
+        date: '2026-05-31 23:59:59'
+      - type: notification
+        date: '2026-08-14 23:59:59'
+      - type: camera_ready
+        date: '2026-09-15 23:59:59'
+    note: >-
+      Paper deadline extended from May 10, 2026; notification postponed from July 15 (then Aug 10) to Aug 14.
+      Camera-ready was set to Sep 15 for Springer's schedule (replacing the Sep 30 date in acceptance emails);
+      early-bird registration closes Sep 30, 2026. The official site gives no timezone (AoE assumed).
+    sources:
+      - https://www.iconip2026.org/
+      - https://www.iconip2026.org/news
+      - https://www.iconip2026.org/registration
+      - https://www.iconip2026.org/call-for-papers
+    checked: 2026-09-28
+  - year: 2025
+    id: iconip25
+    link: https://iconip2025.apnns.org/
+    date: November 20-24, 2025
+    start: 2025-11-20
+    end: 2025-11-24
+    place: Okinawa Institute of Science and Technology (OIST), Okinawa, Japan
+    timezone: AoE
+    timeline:
+      - type: paper
+        date: '2025-05-22 23:59:59'
+      - type: notification
+        date: '2025-07-25 23:59:59'
+      - type: camera_ready
+        date: '2025-08-25 23:59:59'
+    note: Paper deadline extended from May 15, 2025; notification moved from July 15, 2025.
+    sources:
+      - https://iconip2025.apnns.org/
+    checked: 2026-09-28

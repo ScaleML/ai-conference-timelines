@@ -1,0 +1,95 @@
+id: midl
+title: MIDL
+full_name: Medical Imaging with Deep Learning
+link: https://www.midl.io/
+subs: [CV, ML]
+dblp: midl
+editions:
+  - year: 2027
+    id: midl27
+    link: https://2027.midl.io/
+    date: July 14-16, 2027
+    start: 2027-07-14
+    end: 2027-07-16
+    place: Porto, Portugal
+    timeline: []
+    sources:
+      - https://2027.midl.io/
+      - https://www.midl.io/
+    checked: 2026-09-28
+  - year: 2026
+    id: midl26
+    link: https://2026.midl.io/
+    date: July 8-10, 2026
+    start: 2026-07-08
+    end: 2026-07-10
+    place: Taipei, Taiwan, China
+    timezone: AoE
+    timeline:
+      - type: abstract
+        label: Full paper registration
+        date: '2025-12-03 23:59:00'
+      - type: paper
+        label: Full paper submission (main and validation-studies tracks)
+        date: '2025-12-10 23:59:00'
+      - type: rebuttal_start
+        date: '2026-01-17 23:59:00'
+      - type: rebuttal_end
+        date: '2026-01-24 23:59:00'
+      - type: notification
+        label: Final decisions (full papers)
+        date: '2026-02-14 23:59:00'
+      - type: camera_ready
+        label: Camera-ready (full papers)
+        date: '2026-04-15 23:59:00'
+      - type: other
+        label: Short paper submission deadline
+        date: '2026-04-15 23:59:00'
+      - type: other
+        label: Short paper decisions
+        date: '2026-05-09 23:59:00'
+      - type: other
+        label: Short paper camera-ready
+        date: '2026-05-15 23:59:00'
+    note: Full-paper deadlines were extended (registration from Dec 1, submission from Dec 5, 2025; decisions moved from Feb 11 to Feb 14, 2026). Held at the Chientan Youth Activity Center.
+    sources:
+      - https://2026.midl.io/dates
+      - https://2026.midl.io/call-for-papers
+      - https://2026.midl.io/venue
+    checked: 2026-09-28
+  - year: 2025
+    id: midl25
+    link: https://2025.midl.io/
+    date: July 9-11, 2025
+    start: 2025-07-09
+    end: 2025-07-11
+    place: Salt Lake City, UT, USA
+    timezone: AoE
+    timeline:
+      - type: abstract
+        label: Full paper registration
+        date: '2025-01-17 23:59:00'
+      - type: paper
+        label: Full paper submission
+        date: '2025-01-31 23:59:00'
+      - type: rebuttal_start
+        date: '2025-03-01 23:59:00'
+      - type: rebuttal_end
+        date: '2025-03-07 23:59:00'
+      - type: notification
+        label: Final decisions (full papers)
+        date: '2025-03-25 23:59:00'
+      - type: other
+        label: Short paper submission deadline
+        date: '2025-04-11 23:59:00'
+      - type: other
+        label: Short paper decisions
+        date: '2025-05-01 23:59:00'
+      - type: camera_ready
+        label: Camera-ready (full and short papers)
+        date: '2025-06-01 23:59:00'
+    note: Full-paper submission was extended from January 24 to January 31, 2025, shifting the rebuttal (originally Feb 21-28) and decisions (originally March 21).
+    sources:
+      - https://2025.midl.io/dates
+      - https://2025.midl.io/venue
+    checked: 2026-09-28

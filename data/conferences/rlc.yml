@@ -1,0 +1,81 @@
+id: rlc
+title: RLC
+full_name: Reinforcement Learning Conference
+link: https://rl-conference.cc/
+subs: [ML]
+rank:
+  core: N
+dblp: rlc
+upstream:
+  hf: rlc
+editions:
+  - year: 2027
+    id: rlc27
+    link: https://rl-conference.cc/
+    date: early August 2027 (Providence) and late August 2027 (Odense)
+    place: Brown University, Providence, RI, USA & Odense, Denmark (joint with EWRL)
+    timeline: []
+    note: >-
+      Officially announced as a one-time two-location edition; authors of accepted papers choose where to present.
+      No dates or CFP published yet.
+    sources:
+      - https://rl-conference.cc/2026/index.html
+      - https://ewrl-org.github.io/
+    checked: 2026-09-28
+  - year: 2026
+    id: rlc26
+    link: https://rl-conference.cc/2026/index.html
+    date: August 15-18, 2026
+    start: 2026-08-15
+    end: 2026-08-18
+    place: Jean-Brillant Building, Université de Montréal, Montréal, QC, Canada
+    timezone: AoE
+    timeline:
+      - type: abstract
+        date: '2026-03-05 23:59:59'
+      - type: paper
+        date: '2026-03-05 23:59:59'
+      - type: rebuttal_start
+        label: Author response phase starts
+        date: '2026-04-11 23:59:59'
+      - type: rebuttal_end
+        label: Author response phase ends
+        date: '2026-04-17 23:59:59'
+      - type: notification
+        date: '2026-05-05 23:59:59'
+      - type: camera_ready
+        date: '2026-07-18 23:59:59'
+    note: >-
+      Abstract deadline extended from March 1 to March 5 (same day as the paper deadline); notification moved from
+      May 8 to May 5. Accepted papers are published in the Reinforcement Learning Journal (RLJ).
+    sources:
+      - https://rl-conference.cc/2026/callforpapers.html
+      - https://rl-conference.cc/2026/index.html
+      - https://github.com/huggingface/ai-deadlines/blob/main/src/data/conferences/rlc.yml
+    checked: 2026-09-28
+  - year: 2025
+    id: rlc25
+    link: https://rl-conference.cc/2025/index.html
+    date: August 5-9, 2025
+    start: 2025-08-05
+    end: 2025-08-09
+    place: CCIS, University of Alberta, Edmonton, AB, Canada
+    timezone: AoE
+    timeline:
+      - type: abstract
+        date: '2025-02-21 23:59:59'
+      - type: paper
+        date: '2025-02-28 23:59:59'
+      - type: notification
+        date: '2025-05-09 23:59:59'
+      - type: camera_ready
+        date: '2025-07-11 23:59:59'
+    note: >-
+      Deadlines were extended by one week (abstract originally Feb 14, paper originally Feb 21, notification originally
+      May 2); camera-ready originally June 30. Accepted papers are published in the Reinforcement Learning Journal (RLJ).
+    sources:
+      - https://rl-conference.cc/2025/callforpapers.html
+      - https://docs.google.com/document/d/e/2PACX-1vR2Efs86COegIlozRE4KS1HkKfxDMiI8WtKwB6NFy12CWuOP_wWvIQ32-ysf0EySw/pub
+      - https://rl-conference.cc/2025/index.html
+      - https://rl-conference.cc/2025/schedule.html
+    checked: 2026-09-28

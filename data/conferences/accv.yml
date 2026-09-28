@@ -1,0 +1,49 @@
+id: accv
+title: ACCV
+full_name: Asian Conference on Computer Vision
+link: https://accv2026.org/
+subs: [CV]
+rank:
+  ccf: C
+  core: B
+  thcpl: N
+dblp: accv
+interval: 2
+upstream:
+  ccfddl: AI/accv
+editions:
+  - year: 2026
+    id: accv26
+    link: https://accv2026.org/
+    date: December 14-18, 2026
+    start: 2026-12-14
+    end: 2026-12-18
+    place: Osaka International Convention Center (Grand Cube Osaka), Osaka, Japan
+    timezone: UTC
+    timeline:
+      - type: abstract
+        label: Paper registration deadline (OpenReview)
+        date: '2026-07-03 23:59:00'
+      - type: paper
+        date: '2026-07-05 23:59:00'
+      - type: supplementary
+        date: '2026-07-08 23:59:00'
+      - type: review_release
+        date: '2026-08-26 23:59:00'
+      - type: rebuttal_end
+        date: '2026-09-02 23:59:00'
+      - type: notification
+        date: '2026-09-20 23:59:00'
+      - type: camera_ready
+        date: '2026-10-04 23:59:00'
+      - type: other
+        label: Author registration deadline
+        date: '2026-10-07 23:59:00'
+    note: All deadlines are 23:59 GMT. Paper registration (title, abstract, full author list) on OpenReview is mandatory by July 3; workshops/tutorials Dec 14-15, main conference Dec 16-18. ACCV is biennial (even years).
+    sources:
+      - https://accv2026.org/
+      - https://accv2026.org/submissions/
+      - https://accv2026.org/submissions/author-guidelines/
+      - https://accv2026.org/venue/
+      - https://github.com/ccfddl/ccf-deadlines/blob/main/conference/AI/accv.yml
+    checked: 2026-09-28

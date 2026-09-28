@@ -1,0 +1,55 @@
+id: l4dc
+title: L4DC
+full_name: Learning for Dynamics and Control Conference
+link: https://l4dc.org/
+subs: [ML, RO]
+dblp: l4dc
+editions:
+  - year: 2027
+    id: l4dc27
+    link: https://l4dc2027.control.ee.ethz.ch/
+    date: June 16-18, 2027
+    start: 2027-06-16
+    end: 2027-06-18
+    place: Stockholm, Sweden
+    timezone: AoE
+    timeline:
+      - type: paper
+        date: '2026-11-13 23:59:59'
+      - type: notification
+        date: '2027-01-25 23:59:59'
+      - type: other
+        label: Late-breaking results submission
+        date: '2027-04-05 23:59:59'
+      - type: camera_ready
+        date: '2027-04-19 23:59:59'
+    note: No timezone is given on the 2027 website or CFP flyer, so AoE is assumed (L4DC 2026 used AoE). Hosted by KTH Royal Institute of Technology; submissions via OpenReview.
+    sources:
+      - https://l4dc2027.control.ee.ethz.ch/
+      - https://drive.google.com/file/d/117dcBVbEKf5VvAR87gwmkt8Okm4GEIQ9/view
+      - https://openreview.net/group?id=L4DC.org/2027/Conference
+    checked: 2026-09-28
+  - year: 2026
+    id: l4dc26
+    link: https://sites.google.com/usc.edu/l4dc2026/
+    date: June 17-19, 2026
+    start: 2026-06-17
+    end: 2026-06-19
+    place: Los Angeles, CA, USA
+    timezone: AoE
+    timeline:
+      - type: paper
+        date: '2025-11-10 23:59:59'
+      - type: notification
+        date: '2026-01-22 23:59:59'
+      - type: other
+        label: Late-breaking results submission
+        date: '2026-04-03 23:59:59'
+      - type: camera_ready
+        date: '2026-04-15 23:59:59'
+    note: Paper deadline extended from 2025-11-08. Held at the University of Southern California (tutorials June 17, main conference June 18-19), co-located with NeuS.
+    sources:
+      - https://sites.google.com/usc.edu/l4dc2026/author-information
+      - https://sites.google.com/usc.edu/l4dc2026/author-information/late-breaking-results
+      - https://sites.google.com/usc.edu/l4dc2026/
+    checked: 2026-09-28

@@ -1,0 +1,76 @@
+id: iclr
+title: ICLR
+full_name: International Conference on Learning Representations
+link: https://iclr.cc/
+subs: [ML]
+rank:
+  ccf: A
+  core: A*
+  thcpl: A
+dblp: iclr
+upstream:
+  ccfddl: AI/iclr
+  hf: iclr
+editions:
+  - year: 2027
+    id: iclr27
+    link: https://iclr.cc/Conferences/2027
+    date: April 26-30, 2027
+    start: 2027-04-26
+    end: 2027-04-30
+    place: San Francisco, CA, USA
+    timezone: AoE
+    timeline:
+      - type: abstract
+        date: '2026-09-18 23:59:59'
+      - type: paper
+        date: '2026-09-25 23:59:59'
+      - type: review_release
+        date: '2026-11-05 23:59:59'
+      - type: rebuttal_start
+        label: Author-reviewer discussion begins
+        date: '2026-11-05 23:59:59'
+      - type: rebuttal_end
+        label: Author-reviewer discussion ends
+        date: '2026-11-18 23:59:59'
+      - type: notification
+        label: Final decisions
+        date: '2026-12-16 23:59:59'
+    note: >-
+      Abstract registration is mandatory; no authors can be added or removed after the abstract deadline.
+      Main conference April 26-28, workshops April 29-30. Camera-ready instructions go out mid-February 2027.
+    sources:
+      - https://iclr.cc/Conferences/2027/Dates
+      - https://iclr.cc/Conferences/2027/CallForPapers
+      - https://iclr.cc/Conferences/2027/AuthorGuidelines
+      - https://iclr.cc/Conferences/2027/CallForWorkshops
+    checked: 2026-09-28
+  - year: 2026
+    id: iclr26
+    link: https://iclr.cc/Conferences/2026
+    date: April 23-27, 2026
+    start: 2026-04-23
+    end: 2026-04-27
+    place: Riocentro Convention and Event Center, Rio de Janeiro, Brazil
+    timezone: AoE
+    timeline:
+      - type: abstract
+        date: '2025-09-19 23:59:59'
+      - type: paper
+        date: '2025-09-24 23:59:59'
+      - type: review_release
+        date: '2025-11-11 21:00:00'
+        timezone: UTC
+      - type: rebuttal_end
+        label: Author-reviewer discussion ends
+        date: '2025-12-03 21:00:00'
+        timezone: UTC
+      - type: notification
+        date: '2026-01-25 23:59:59'
+    note: Abstract registration was mandatory. Main conference April 23-25, workshops April 26-27.
+    sources:
+      - https://iclr.cc/Conferences/2026/Dates
+      - https://iclr.cc/Conferences/2026/CallForPapers
+      - https://iclr.cc/Conferences/2026/AuthorGuide
+      - https://iclr.cc/Conferences/2026
+    checked: 2026-09-28

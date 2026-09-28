@@ -1,0 +1,106 @@
+id: ecai
+title: ECAI
+full_name: European Conference on Artificial Intelligence
+link: https://eurai.org/ecai
+subs: [ML, AP, KR]
+rank:
+  ccf: B
+  core: A
+  thcpl: N
+dblp: ecai
+upstream:
+  ccfddl: AI/ecai
+  hf: ecai
+editions:
+  - year: 2027
+    id: ecai27
+    link: https://ecai2027.org/
+    date: October 2-7, 2027
+    start: 2027-10-02
+    end: 2027-10-07
+    place: Athens, Greece
+    timezone: AoE
+    timeline:
+      - type: paper
+        date: '2027-04-14 23:59:59'
+      - type: notification
+        label: Phase 1 notification
+        date: '2027-05-15 23:59:59'
+      - type: rebuttal_start
+        label: Rebuttal period opens
+        date: '2027-06-15 23:59:59'
+      - type: rebuttal_end
+        label: Rebuttal period closes
+        date: '2027-06-18 23:59:59'
+      - type: notification
+        label: Author notification
+        date: '2027-07-15 23:59:59'
+    note: Key dates from the ECAI 2027 homepage; the call for papers (abstract deadline, timezone) is not out yet, so AoE is assumed. Pre-conference Oct 2-3, main conference Oct 4-7 at the Megaron Athens International Conference Center.
+    sources:
+      - https://ecai2027.org/
+      - https://github.com/ccfddl/ccf-deadlines/blob/main/conference/AI/ecai.yml
+    checked: 2026-09-28
+  - year: 2026
+    id: ecai26
+    link: https://2026.ijcai.org/
+    date: August 15-21, 2026
+    start: 2026-08-15
+    end: 2026-08-21
+    place: Bremen, Germany
+    timezone: AoE
+    timeline:
+      - type: abstract
+        date: '2026-01-12 23:59:59'
+      - type: paper
+        label: Author information and full paper submission
+        date: '2026-01-19 23:59:59'
+      - type: notification
+        label: Phase I (summary reject) notification
+        date: '2026-03-04 23:59:59'
+      - type: rebuttal_start
+        label: Author response period opens
+        date: '2026-04-07 23:59:59'
+      - type: rebuttal_end
+        label: Author response period closes
+        date: '2026-04-10 23:59:59'
+      - type: notification
+        label: Paper notification
+        date: '2026-04-29 23:59:59'
+      - type: camera_ready
+        date: '2026-05-20 23:59:59'
+    note: Held jointly with IJCAI as IJCAI-ECAI 2026 (same submission process and dates as IJCAI 2026). All times 23:59 AoE (UTC-12).
+    sources:
+      - https://2026.ijcai.org/important-dates/
+      - https://2026.ijcai.org/ijcai-ecai-2026-call-for-papers-main-track/
+      - https://eurai.org/ecai
+      - https://github.com/huggingface/ai-deadlines/blob/main/src/data/conferences/ecai.yml
+    checked: 2026-09-28
+  - year: 2025
+    id: ecai25
+    link: https://ecai2025.org/
+    date: October 25-30, 2025
+    start: 2025-10-25
+    end: 2025-10-30
+    place: Bologna, Italy
+    timezone: AoE
+    timeline:
+      - type: abstract
+        date: '2025-04-29 23:59:59'
+      - type: paper
+        date: '2025-05-06 23:59:59'
+      - type: rebuttal_start
+        label: Rebuttal period opens (72 hours)
+        date: '2025-06-23 23:59:59'
+      - type: rebuttal_end
+        label: Rebuttal period closes
+        date: '2025-06-25 23:59:59'
+      - type: notification
+        date: '2025-07-10 23:59:59'
+      - type: camera_ready
+        date: '2025-08-26 23:59:59'
+    note: Abstract registration was mandatory. All deadlines are end of day AoE (UTC-12).
+    sources:
+      - https://ecai2025.org/call-for-papers/
+      - https://ecai2025.org/deadlines/
+      - https://github.com/huggingface/ai-deadlines/blob/main/src/data/conferences/ecai.yml
+    checked: 2026-09-28

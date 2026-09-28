@@ -1,0 +1,100 @@
+id: recsys
+title: RecSys
+full_name: ACM Conference on Recommender Systems
+link: https://recsys.acm.org/
+subs: [DM]
+rank:
+  ccf: B
+  core: A
+  thcpl: B
+dblp: recsys
+upstream:
+  ccfddl: DB/recsys
+editions:
+  - year: 2027
+    id: recsys27
+    link: https://recsys.acm.org/recsys27/
+    date: August 23-27, 2027
+    start: 2027-08-23
+    end: 2027-08-27
+    place: Honolulu, O'ahu, Hawaii, USA
+    timezone: AoE
+    timeline: []
+    note: Venue is the Hilton Hawaiian Village Waikiki Beach Resort; the call for papers has not been published yet.
+    sources:
+      - https://recsys.acm.org/recsys27/
+    checked: 2026-09-28
+  - year: 2026
+    id: recsys26
+    link: https://recsys.acm.org/recsys26/
+    date: September 28 - October 2, 2026
+    start: 2026-09-28
+    end: 2026-10-02
+    place: Minneapolis, Minnesota, USA
+    timezone: AoE
+    timeline:
+      - type: abstract
+        label: Paper abstracts due (long, short, past/present/future)
+        date: '2026-04-14 23:59:59'
+      - type: paper
+        label: Papers due (long, short, past/present/future)
+        date: '2026-04-21 23:59:59'
+      - type: rebuttal_start
+        date: '2026-06-04 23:59:59'
+      - type: rebuttal_end
+        date: '2026-06-09 23:59:59'
+      - type: notification
+        date: '2026-07-09 23:59:59'
+      - type: camera_ready
+        date: '2026-07-27 23:59:59'
+    note: Doctoral Symposium on September 27, main sessions September 29 - October 1 (Marriott City Center). Reproducibility and resource papers were due May 5 (abstracts April 28), industry papers May 21, demos and Research & Practice Notes July 15, 2026.
+    sources:
+      - https://recsys.acm.org/recsys26/call/
+      - https://recsys.acm.org/recsys26/
+    checked: 2026-09-28
+  - year: 2025
+    id: recsys25
+    link: https://recsys.acm.org/recsys25/
+    date: September 22-26, 2025
+    start: 2025-09-22
+    end: 2025-09-26
+    place: Prague, Czech Republic
+    timezone: AoE
+    timeline:
+      - type: abstract
+        label: Full paper abstracts due
+        cycle: Full papers
+        date: '2025-04-01 23:59:59'
+      - type: paper
+        label: Full papers due
+        cycle: Full papers
+        date: '2025-04-08 23:59:59'
+      - type: abstract
+        label: Short paper abstracts due
+        cycle: Short papers
+        date: '2025-04-22 23:59:59'
+      - type: paper
+        label: Short papers due
+        cycle: Short papers
+        date: '2025-04-30 23:59:59'
+      - type: rebuttal_start
+        label: Rebuttal start (full papers)
+        date: '2025-05-20 23:59:59'
+      - type: rebuttal_end
+        label: Rebuttal end (full papers)
+        date: '2025-05-26 23:59:59'
+      - type: rebuttal_start
+        label: Rebuttal start (short papers)
+        date: '2025-06-05 23:59:59'
+      - type: rebuttal_end
+        label: Rebuttal end (short papers)
+        date: '2025-06-10 23:59:59'
+      - type: notification
+        date: '2025-07-03 23:59:59'
+      - type: camera_ready
+        date: '2025-07-21 23:59:59'
+    note: Full and short papers had separate deadlines in 2025; notification and camera-ready dates were shared.
+    sources:
+      - https://recsys.acm.org/recsys25/call/
+      - https://recsys.acm.org/recsys25/
+    checked: 2026-09-28

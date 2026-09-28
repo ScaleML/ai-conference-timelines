@@ -1,0 +1,58 @@
+id: eurovis
+title: EuroVis
+full_name: Eurographics Conference on Visualization
+link: https://www.eg.org/wp/eg-events/eurovis-annual-conference/
+subs: [CG, HCI]
+rank:
+  ccf: B
+  core: B
+  thcpl: B
+dblp: vissym
+upstream:
+  ccfddl: CG/eurovis
+editions:
+  - year: 2027
+    id: eurovis27
+    link: https://eurovis27.github.io/web/
+    date: May 31 - June 6, 2027
+    start: 2027-05-31
+    end: 2027-06-06
+    place: Stuttgart, Germany
+    timeline: []
+    note: Full-paper dates not yet announced; the workshop proposal deadline is October 12, 2026 (AoE).
+    sources:
+      - https://eurovis27.github.io/web/
+      - https://eurovis27.github.io/web/submissions/full-papers/
+      - https://eurovis27.github.io/web/submissions/workshops/
+      - https://www.eg.org/wp/
+    checked: 2026-09-28
+  - year: 2026
+    id: eurovis26
+    link: https://eurovis.org.uk/
+    date: June 8-12, 2026
+    start: 2026-06-08
+    end: 2026-06-12
+    place: Nottingham, UK
+    timezone: AoE
+    timeline:
+      - type: abstract
+        date: '2025-11-26 23:59:59'
+      - type: paper
+        date: '2025-12-03 23:59:59'
+      - type: other
+        label: First-round notification
+        date: '2026-02-11 23:59:59'
+      - type: other
+        label: Revision submission
+        date: '2026-03-04 23:59:59'
+      - type: notification
+        label: Final notification
+        date: '2026-03-18 23:59:59'
+      - type: camera_ready
+        date: '2026-04-15 23:59:59'
+    note: Full papers track (published in Computer Graphics Forum); abstract submission is mandatory. Two-stage review.
+    sources:
+      - https://eurovis.org.uk/important-dates/
+      - https://eurovis.org.uk/full-papers/
+      - https://eurovis.org.uk/
+    checked: 2026-09-28

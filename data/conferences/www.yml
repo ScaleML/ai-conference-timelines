@@ -1,0 +1,79 @@
+id: www
+title: WWW
+full_name: The ACM Web Conference
+link: https://thewebconf.org/
+subs: [DM]
+rank:
+  ccf: A
+  core: A*
+  thcpl: A
+dblp: www
+upstream:
+  ccfddl: MX/www
+  hf: www
+editions:
+  - year: 2027
+    id: www27
+    link: https://www2027.thewebconf.org/
+    date: May 10-14, 2027
+    start: 2027-05-10
+    end: 2027-05-14
+    place: Dublin, Ireland
+    timezone: AoE
+    timeline:
+      - type: abstract
+        date: '2026-10-18 23:59:59'
+      - type: paper
+        date: '2026-10-25 23:59:59'
+      - type: other
+        label: Short paper abstract deadline
+        date: '2026-11-09 23:59:59'
+      - type: other
+        label: Short paper submission deadline
+        date: '2026-11-16 23:59:59'
+      - type: review_release
+        date: '2026-12-15 23:59:59'
+      - type: rebuttal_start
+        date: '2026-12-15 23:59:59'
+      - type: rebuttal_end
+        date: '2026-12-20 23:59:59'
+      - type: notification
+        date: '2027-01-04 23:59:59'
+      - type: camera_ready
+        date: '2027-01-31 23:59:59'
+    note: Research and Industry tracks share these dates (OpenReview); short papers and the Web4Good special track are due Nov 9 (abstract) / Nov 16, 2026. The Important Dates page and Industry call list results on Dec 15 and rebuttal Dec 15-20, while the Research Track CFP (last edited Sep 25, 2026) shows Dec 21 and Dec 21-31; confirm with the organizers.
+    sources:
+      - https://www2027.thewebconf.org/important-dates/
+      - https://www2027.thewebconf.org/research-track-papers/
+      - https://www2027.thewebconf.org/call-for-industry-submissions/
+      - https://www2027.thewebconf.org/
+    checked: 2026-09-28
+  - year: 2026
+    id: www26
+    link: https://www2026.thewebconf.org/
+    date: June 29 - July 3, 2026
+    start: 2026-06-29
+    end: 2026-07-03
+    place: Dubai, UAE
+    timezone: AoE
+    timeline:
+      - type: abstract
+        date: '2025-09-30 23:59:59'
+      - type: paper
+        date: '2025-10-07 23:59:59'
+      - type: rebuttal_start
+        date: '2025-11-24 23:59:59'
+      - type: rebuttal_end
+        date: '2025-12-01 23:59:59'
+      - type: notification
+        date: '2026-01-13 23:59:59'
+      - type: camera_ready
+        date: '2026-01-25 23:59:59'
+    note: Originally scheduled for April 13-17, 2026, the conference was postponed to June 29 - July 3, 2026 due to the regional situation. Abstract submission was compulsory; Industry track shared the research-track dates.
+    sources:
+      - https://www2026.thewebconf.org/
+      - https://www2026.thewebconf.org/calls/research-tracks.html
+      - https://www2026.thewebconf.org/data/important-dates.json
+      - https://www2026.thewebconf.org/attending/registration.html
+      - https://www2026.thewebconf.org/about.html
+    checked: 2026-09-28

@@ -1,0 +1,106 @@
+id: chi
+title: CHI
+full_name: ACM CHI Conference on Human Factors in Computing Systems
+link: https://chi.acm.org/
+subs: [HCI]
+rank:
+  ccf: A
+  core: A*
+  thcpl: A
+dblp: chi
+upstream:
+  ccfddl: HI/chi
+  hf: chi
+editions:
+  - year: 2027
+    id: chi27
+    link: https://chi2027.acm.org/
+    date: May 10-14, 2027
+    start: 2027-05-10
+    end: 2027-05-14
+    place: David L. Lawrence Convention Center, Pittsburgh, PA, USA
+    timezone: AoE
+    timeline:
+      - type: paper
+        label: Paper submission (incl. videos and supplementary material)
+        date: '2026-09-10 23:59:59'
+      - type: review_release
+        label: Reviews released
+        date: '2026-11-05 23:59:59'
+      - type: rebuttal_start
+        label: Revise-and-resubmit phase begins
+        date: '2026-11-05 23:59:59'
+      - type: rebuttal_end
+        label: Resubmission deadline (revised papers)
+        date: '2026-12-03 23:59:59'
+      - type: notification
+        label: Final notification
+        date: '2026-12-17 23:59:59'
+      - type: other
+        label: E-Rights completion deadline
+        date: '2027-01-07 23:59:59'
+      - type: other
+        label: TAPS upload deadline
+        date: '2027-01-14 23:59:59'
+      - type: camera_ready
+        label: Publication-ready deadline (final TAPS-approved version to PCS)
+        date: '2027-02-18 23:59:59'
+      - type: other
+        label: Conference registration and video presentation deadline
+        date: '2027-03-04 23:59:59'
+    note: >-
+      No abstract deadline for CHI 2027; all author names must be listed by the paper deadline (no additions or removals afterwards).
+      Papers above a threshold enter a revise-and-resubmit phase; submission site opened August 13, 2026.
+    sources:
+      - https://chi2027.acm.org/authors/papers/
+      - https://chi2027.acm.org/
+      - https://sigchi.org/events/chi-2027/
+    checked: 2026-09-28
+  - year: 2026
+    id: chi26
+    link: https://chi2026.acm.org/
+    date: April 13-17, 2026
+    start: 2026-04-13
+    end: 2026-04-17
+    place: Centre de Convencions Internacional de Barcelona (CCIB), Barcelona, Spain
+    timezone: AoE
+    timeline:
+      - type: abstract
+        label: Abstract/metadata deadline (author list frozen)
+        date: '2025-09-04 23:59:59'
+      - type: paper
+        label: Full paper deadline
+        date: '2025-09-11 23:59:59'
+      - type: supplementary
+        label: Video figures and supplementary material
+        date: '2025-09-18 23:59:59'
+      - type: review_release
+        label: Reviews released
+        date: '2025-11-04 23:59:59'
+      - type: rebuttal_start
+        label: Revise-and-resubmit phase begins
+        date: '2025-11-05 23:59:59'
+      - type: rebuttal_end
+        label: Resubmission deadline (revised papers)
+        date: '2025-12-04 23:59:59'
+      - type: notification
+        label: Decision notification
+        date: '2026-01-15 23:59:59'
+      - type: other
+        label: E-Rights completion deadline
+        date: '2026-01-22 23:59:59'
+      - type: other
+        label: Initial TAPS upload deadline
+        date: '2026-01-26 23:59:59'
+      - type: camera_ready
+        label: Publication-ready deadline (final TAPS-approved version to PCS)
+        date: '2026-02-06 23:59:59'
+      - type: other
+        label: Optional video presentation deadline
+        date: '2026-03-12 23:59:59'
+    note: Abstract/metadata registration was mandatory and author lists could not change afterwards. Papers above a threshold went through a revise-and-resubmit phase.
+    sources:
+      - https://chi2026.acm.org/authors/papers/
+      - https://chi2026.acm.org/
+      - https://sigchi.org/events/chi-2026/
+    checked: 2026-09-28

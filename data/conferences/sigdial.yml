@@ -1,0 +1,71 @@
+id: sigdial
+title: SIGDIAL
+full_name: Annual Meeting of the Special Interest Group on Discourse and Dialogue
+link: https://www.sigdial.org/
+subs: [NLP]
+rank:
+  core: B
+dblp: sigdial
+editions:
+  - year: 2026
+    id: sigdial26
+    link: https://2026.sigdial.org/
+    date: August 2-5, 2026
+    start: 2026-08-02
+    end: 2026-08-05
+    place: Atlanta, Georgia, USA
+    timezone: AoE
+    timeline:
+      - type: abstract
+        label: Title and abstract submission deadline
+        date: '2026-04-13 23:59:59'
+      - type: paper
+        label: Paper submission (PDF only)
+        date: '2026-04-20 23:59:59'
+      - type: commitment
+        label: ARR commitment deadline
+        date: '2026-05-25 23:59:59'
+      - type: notification
+        date: '2026-06-01 23:59:59'
+      - type: camera_ready
+        date: '2026-06-29 23:59:59'
+    note: >-
+      Held at Emory University; rescheduled to August 2-5 because of the 2026 FIFA World Cup. Workshops and
+      tutorials on August 2, main conference August 3-5.
+    sources:
+      - https://2026.sigdial.org/calls/main_conference/
+      - https://2026.sigdial.org/
+      - https://2026.sigdial.org/date-reschedule/
+    checked: 2026-09-28
+  - year: 2025
+    id: sigdial25
+    link: https://2025.sigdial.org/
+    date: August 25-27, 2025
+    start: 2025-08-25
+    end: 2025-08-27
+    place: Avignon, France
+    timezone: AoE
+    timeline:
+      - type: paper
+        date: '2025-04-21 23:59:59'
+        timezone: UTC-11
+      - type: other
+        label: Paper update deadline (PDF only)
+        date: '2025-04-28 23:59:59'
+        timezone: UTC-11
+      - type: commitment
+        label: ARR commitment deadline
+        date: '2025-06-06 23:59:59'
+        timezone: UTC-11
+      - type: notification
+        date: '2025-06-23 23:59:59'
+      - type: camera_ready
+        date: '2025-07-08 23:59:59'
+    note: >-
+      The CFP gives submission and ARR commitment deadlines as 23:59 GMT-11 (the dates page says AoE).
+      Notification was delayed from June 20, 2025. Satellite workshops (incl. YRRSDS) on August 28-29.
+    sources:
+      - https://2025.sigdial.org/call-for-papers/
+      - https://2025.sigdial.org/dates/
+      - https://2025.sigdial.org/
+    checked: 2026-09-28

@@ -1,0 +1,73 @@
+id: isbi
+title: ISBI
+full_name: IEEE International Symposium on Biomedical Imaging
+link: https://biomedicalimaging.org/
+subs: [CV]
+rank:
+  ccf: N
+dblp: isbi
+editions:
+  - year: 2027
+    id: isbi27
+    link: https://biomedicalimaging.org/2027/
+    date: May 25-28, 2027
+    start: 2027-05-25
+    end: 2027-05-28
+    place: Lausanne, Switzerland (SwissTech Convention Center, EPFL)
+    timezone: UTC-4
+    timeline:
+      - type: paper
+        label: Four-page paper submission
+        date: '2026-10-26 23:59:59'
+      - type: notification
+        label: Four-page paper notification
+        date: '2027-01-12 23:59:59'
+        timezone: UTC-5
+      - type: camera_ready
+        label: Four-page paper final submission
+        date: '2027-01-26 23:59:59'
+        timezone: UTC-5
+      - type: other
+        label: One-page abstract submission (non-archival poster track)
+        date: '2027-02-01 23:59:59'
+        timezone: UTC-5
+      - type: other
+        label: One-page abstract notification
+        date: '2027-02-15 23:59:59'
+        timezone: UTC-5
+    note: All deadlines are 11:59 pm US Eastern time (the site says "EDT"; dates after November 1, 2026 are converted as EST, UTC-5). Four-page papers (single-blind) appear in IEEE Xplore; challenge papers are due February 26, 2027.
+    sources:
+      - https://biomedicalimaging.org/2027/
+      - https://biomedicalimaging.org/2027/papers/
+    checked: 2026-09-28
+  - year: 2026
+    id: isbi26
+    link: https://biomedicalimaging.org/2026/
+    date: April 8-11, 2026
+    start: 2026-04-08
+    end: 2026-04-11
+    place: London, UK (ExCeL London)
+    timezone: UTC-6
+    timeline:
+      - type: paper
+        label: Four-page paper submission
+        date: '2025-11-14 23:59:59'
+      - type: notification
+        label: Four-page paper notification
+        date: '2026-01-12 23:59:59'
+      - type: other
+        label: One-page abstract submission (non-archival poster track)
+        date: '2026-01-20 23:59:59'
+      - type: camera_ready
+        label: Four-page paper final submission & author registration
+        date: '2026-01-26 23:59:59'
+      - type: other
+        label: One-page abstract notification
+        date: '2026-02-03 23:59:59'
+    note: Four-page paper deadline extended (originally October 31, 2025); deadlines are 11:59 pm US Central time (the site says "CDT"; converted as CST, UTC-6, for these winter dates).
+    sources:
+      - https://biomedicalimaging.org/2026/
+      - https://confcats-event-sessions.s3.us-east-1.amazonaws.com/isbi26/uploads/isbi26-cfp_web-05.pdf
+      - https://biomedicalimaging.org/2026/initial-author-instructions/
+      - https://biomedicalimaging.org/2026/conference-venue/
+    checked: 2026-09-28

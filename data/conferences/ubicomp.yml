@@ -1,0 +1,132 @@
+id: ubicomp
+title: UbiComp/IMWUT
+full_name: ACM International Joint Conference on Pervasive and Ubiquitous Computing (papers via PACM IMWUT)
+link: https://www.ubicomp.org/
+subs: [HCI]
+rank:
+  ccf: A
+  core: N
+  thcpl: A
+dblp: huc
+upstream:
+  ccfddl: HI/ubicomp
+editions:
+  - year: 2027
+    id: ubicomp27
+    link: https://www.ubicomp.org/
+    date: October 3-7, 2027
+    start: 2027-10-03
+    end: 2027-10-07
+    place: Seoul Dragon City, Seoul, Republic of Korea
+    timezone: AoE
+    timeline:
+      - type: paper
+        cycle: IMWUT Nov 2026
+        label: IMWUT new-submission deadline
+        date: '2026-11-01 23:59:59'
+      - type: paper
+        cycle: IMWUT Feb 2027
+        label: IMWUT new-submission deadline
+        date: '2027-02-01 23:59:59'
+      - type: paper
+        cycle: IMWUT May 2027
+        label: IMWUT new-submission deadline
+        date: '2027-05-01 23:59:59'
+    note: >-
+      Full papers go to PACM IMWUT (new submissions Feb 1, May 1, Nov 1; Aug 1 is for major-revision resubmissions only); UbiComp/ISWC N presents
+      IMWUT (N-1) Issue 4 + N Issues 1-3, so with minor revisions the Nov 1 2026, Feb 1 and May 1 2027 deadlines (Issues 1-3) feed UbiComp 2027.
+      Official pages give dates only (AoE is our convention); dates/venue from the SIGCHI event listing, the 2027 site is not up yet.
+    sources:
+      - https://dl.acm.org/journal/imwut/how-to-submit
+      - https://www.ubicomp.org/ubicomp-iswc-2026/iswc-cfp/
+      - https://www.ubicomp.org/ubicomp-iswc-2026/imwut-papers/
+      - https://www.ubicomp.org/ubicomp-iswc-2023/cfp/imwut_papers/
+      - https://sigchi.org/events/ubicomp-2027/
+    checked: 2026-09-28
+  - year: 2026
+    id: ubicomp26
+    link: https://www.ubicomp.org/ubicomp-iswc-2026/
+    date: October 11-15, 2026
+    start: 2026-10-11
+    end: 2026-10-15
+    place: Shanghai International Convention Center (SICC), Shanghai, China
+    timezone: AoE
+    timeline:
+      - type: paper
+        cycle: IMWUT Nov 2025
+        label: IMWUT new-submission deadline
+        date: '2025-11-01 23:59:59'
+      - type: paper
+        cycle: IMWUT Feb 2026
+        label: IMWUT new-submission deadline
+        date: '2026-02-01 23:59:59'
+      - type: paper
+        cycle: IMWUT May 2026
+        label: IMWUT new-submission deadline
+        date: '2026-05-01 23:59:59'
+      - type: other
+        cycle: ISWC Notes & Briefs
+        label: ISWC Notes and Briefs submission deadline
+        date: '2026-05-24 23:59:00'
+      - type: notification
+        cycle: ISWC Notes & Briefs
+        label: ISWC Notes and Briefs notification
+        date: '2026-07-01 23:59:59'
+      - type: camera_ready
+        cycle: ISWC Notes & Briefs
+        label: ISWC Notes and Briefs camera-ready
+        date: '2026-07-31 23:59:59'
+    note: >-
+      Main track = IMWUT 2025 Issue 4 + 2026 Issues 1-3, i.e. the Nov 1 2025, Feb 1 and May 1 2026 IMWUT deadlines (minor-revision path; no time/timezone
+      stated, AoE is our convention). Main conference Oct 13-15, workshops/tutorials Oct 11-12; ISWC Notes & Briefs (separate short-paper track, not IMWUT)
+      deadline extended from May 17, camera-ready moved from July 24.
+    sources:
+      - https://www.ubicomp.org/ubicomp-iswc-2026/imwut-papers/
+      - https://www.ubicomp.org/ubicomp-iswc-2026/iswc-cfp/
+      - https://www.ubicomp.org/ubicomp-iswc-2023/cfp/imwut_papers/
+      - https://www.ubicomp.org/ubicomp-iswc-2026/author/
+      - https://www.ubicomp.org/ubicomp-iswc-2026/
+      - https://dl.acm.org/journal/imwut/how-to-submit
+      - https://sigchi.org/events/ubicomp-iswc-2026/
+    checked: 2026-09-28
+  - year: 2025
+    id: ubicomp25
+    link: https://www.ubicomp.org/ubicomp-iswc-2025/
+    date: October 12-16, 2025
+    start: 2025-10-12
+    end: 2025-10-16
+    place: Aalto University, Espoo, Finland
+    timezone: AoE
+    timeline:
+      - type: paper
+        cycle: IMWUT Nov 2024
+        label: IMWUT new-submission deadline
+        date: '2024-11-01 23:59:59'
+      - type: paper
+        cycle: IMWUT Feb 2025
+        label: IMWUT new-submission deadline
+        date: '2025-02-01 23:59:59'
+      - type: paper
+        cycle: IMWUT May 2025
+        label: IMWUT new-submission deadline
+        date: '2025-05-01 23:59:59'
+      - type: other
+        cycle: ISWC Notes & Briefs
+        label: ISWC Notes and Briefs submission deadline
+        date: '2025-05-25 23:59:00'
+      - type: notification
+        cycle: ISWC Notes & Briefs
+        label: ISWC Notes and Briefs notification
+        date: '2025-07-04 23:59:59'
+      - type: camera_ready
+        cycle: ISWC Notes & Briefs
+        label: ISWC Notes and Briefs camera-ready
+        date: '2025-07-25 23:59:59'
+    note: >-
+      Main track = papers in IMWUT 2024 Issue 4 and 2025 Issues 1-3 (minor-revision path; major revisions may slip a year).
+      IMWUT dates have no stated time/timezone; AoE is our convention. Main conference Oct 14-16, pre-conference Oct 12-13. ISWC Notes & Briefs deadline extended from May 18 (hard deadline May 25).
+    sources:
+      - https://www.ubicomp.org/ubicomp-iswc-2025/imwut_papers/
+      - https://www.ubicomp.org/ubicomp-iswc-2025/iswc-notes-and-briefs/
+      - https://www.ubicomp.org/ubicomp-iswc-2025/
+    checked: 2026-09-28

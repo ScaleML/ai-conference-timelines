@@ -1,0 +1,67 @@
+id: inlg
+title: INLG
+full_name: International Natural Language Generation Conference
+link: https://inlgmeeting.org/
+subs: [NLP]
+rank:
+  core: B
+dblp: inlg
+upstream:
+  hf: inlg
+editions:
+  - year: 2026
+    id: inlg26
+    link: https://2026.inlgmeeting.org/
+    date: October 17-21, 2026
+    start: 2026-10-17
+    end: 2026-10-21
+    place: Utrecht, Netherlands
+    timezone: AoE
+    timeline:
+      - type: paper
+        label: Regular and system demo paper submission (direct)
+        date: '2026-07-18 23:59:59'
+      - type: commitment
+        label: ARR commitment deadline
+        date: '2026-08-05 23:59:59'
+      - type: notification
+        date: '2026-08-15 23:59:59'
+      - type: other
+        label: Non-archival submission deadline
+        date: '2026-08-22 23:59:59'
+      - type: camera_ready
+        date: '2026-09-07 23:59:59'
+    note: >-
+      Direct submission deadline extended from July 15, 2026. Workshops on October 17-18, main conference
+      October 19-21 (just before EMNLP 2026).
+    sources:
+      - https://2026.inlgmeeting.org/calls.html
+      - https://2026.inlgmeeting.org/
+    checked: 2026-09-28
+  - year: 2025
+    id: inlg25
+    link: https://2025.inlgmeeting.org/
+    date: October 29 - November 2, 2025
+    start: 2025-10-29
+    end: 2025-11-02
+    place: Hanoi, Vietnam
+    timezone: AoE
+    timeline:
+      - type: paper
+        label: Regular paper submission (START)
+        date: '2025-07-18 23:59:59'
+      - type: other
+        label: System demo paper submission
+        date: '2025-07-24 23:59:59'
+      - type: commitment
+        label: ARR commitment deadline
+        date: '2025-08-07 23:59:59'
+      - type: notification
+        date: '2025-08-21 23:59:59'
+      - type: camera_ready
+        date: '2025-09-15 23:59:59'
+    note: Regular paper deadline extended from July 14, 2025. Held before EMNLP 2025.
+    sources:
+      - https://2025.inlgmeeting.org/calls.html
+      - https://2025.inlgmeeting.org/
+    checked: 2026-09-28

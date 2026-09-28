@@ -1,0 +1,64 @@
+id: automl
+title: AutoML
+full_name: International Conference on Automated Machine Learning
+link: https://automl.cc/
+subs: [ML]
+rank:
+  core: N
+dblp: automl
+editions:
+  - year: 2026
+    id: automl26
+    link: https://2026.automl.cc/
+    date: September 28 - October 1, 2026
+    start: 2026-09-28
+    end: 2026-10-01
+    place: Faculty of Computer and Information Science, University of Ljubljana, Ljubljana, Slovenia
+    timezone: AoE
+    timeline:
+      - type: paper
+        label: Paper submission deadline (Methods & ABCD tracks)
+        date: '2026-05-14 23:59:59'
+      - type: notification
+        date: '2026-06-26 23:59:59'
+      - type: camera_ready
+        date: '2026-07-30 23:59:59'
+      - type: other
+        label: Hot-off-the-press track submission deadline
+        date: '2026-08-10 23:59:59'
+      - type: other
+        label: Late-breaking abstracts submission deadline
+        date: '2026-08-31 23:59:59'
+    note: >-
+      Two parallel archival tracks (Methods; Applications, Benchmarks, Challenges and Datasets) with PMLR proceedings.
+      No rebuttal phase; authors may appeal a rejection.
+    sources:
+      - https://2026.automl.cc/dates/
+      - https://2026.automl.cc/call-for-papers/
+      - https://2026.automl.cc/call-hot-off-the-press/
+      - https://2026.automl.cc/call-for-late-breaking-abstracts/
+      - https://2026.automl.cc/
+    checked: 2026-09-28
+  - year: 2025
+    id: automl25
+    link: https://2025.automl.cc/
+    date: September 8-11, 2025
+    start: 2025-09-08
+    end: 2025-09-11
+    place: Cornell Tech, Roosevelt Island, New York City, NY, USA
+    timezone: AoE
+    timeline:
+      - type: paper
+        label: Paper submission deadline (Methods & ABCD tracks)
+        date: '2025-03-31 23:59:59'
+      - type: notification
+        date: '2025-05-13 23:59:59'
+      - type: other
+        label: Non-archival track submission deadline
+        date: '2025-08-04 23:59:59'
+    note: No rebuttal phase; authors may appeal a rejection.
+    sources:
+      - https://2025.automl.cc/dates/
+      - https://2025.automl.cc/call-for-papers/
+      - https://2025.automl.cc/
+    checked: 2026-09-28

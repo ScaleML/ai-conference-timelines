@@ -1,0 +1,53 @@
+id: ruleml-rr
+title: RuleML+RR
+full_name: International Joint Conference on Rules and Reasoning
+link: https://www.declarativeai.net/
+subs: [KR]
+rank:
+  ccf: N
+  core: B
+  thcpl: N
+dblp: rulemlrr
+upstream:
+  ccfddl: AI/rulemlrr
+  hf: ruleml+rr
+editions:
+  - year: 2026
+    id: ruleml-rr26
+    link: https://2026.declarativeai.net/ruleml-rr
+    date: August 24-26, 2026
+    start: 2026-08-24
+    end: 2026-08-26
+    place: Vilnius, Lithuania
+    timezone: AoE
+    timeline:
+      - type: abstract
+        date: '2026-05-15 23:59:59'
+      - type: paper
+        date: '2026-05-22 23:59:59'
+      - type: notification
+        date: '2026-07-03 23:59:59'
+    note: Part of Declarative AI 2026. Deadlines extended from abstract May 8 / paper May 15 / notification June 26, 2026.
+    sources:
+      - https://2026.declarativeai.net/ruleml-rr/main-track
+      - https://2026.declarativeai.net/important-dates
+    checked: 2026-09-28
+  - year: 2025
+    id: ruleml-rr25
+    link: https://2025.declarativeai.net/events/ruleml-rr
+    date: September 22-24, 2025
+    start: 2025-09-22
+    end: 2025-09-24
+    place: Istanbul, Türkiye
+    timezone: AoE
+    timeline:
+      - type: abstract
+        date: '2025-06-20 23:59:59'
+      - type: paper
+        date: '2025-06-20 23:59:59'
+      - type: notification
+        date: '2025-07-28 23:59:59'
+    note: Part of Declarative AI 2025. Abstract and paper deadlines extended to June 20, 2025 (originally June 2 and June 9).
+    sources:
+      - https://2025.declarativeai.net/events/ruleml-rr/cfp
+    checked: 2026-09-28

@@ -1,0 +1,93 @@
+id: aacl
+title: AACL-IJCNLP
+full_name: Conference of the Asia-Pacific Chapter of the ACL and International Joint Conference on Natural Language Processing
+link: https://aaclnet.org/
+subs: [NLP]
+rank:
+  ccf: N
+  core: B
+  thcpl: N
+dblp: ijcnlp
+upstream:
+  ccfddl: AI/ijcnlp
+  hf: ijcnlp_and_aacl
+editions:
+  - year: 2026
+    id: aacl26
+    link: https://2026.aaclnet.org/
+    date: November 6-10, 2026
+    start: 2026-11-06
+    end: 2026-11-10
+    place: Hengqin (Zhuhai), China
+    timezone: AoE
+    timeline:
+      - type: paper
+        label: ARR submission deadline (May cycle)
+        date: '2026-05-25 23:59:59'
+      - type: other
+        label: ARR reviewer registration deadline (all authors)
+        date: '2026-05-27 23:59:59'
+      - type: rebuttal_start
+        label: Author response & discussion starts
+        date: '2026-07-08 23:59:59'
+      - type: rebuttal_end
+        label: Author response & discussion ends
+        date: '2026-07-14 23:59:59'
+      - type: review_release
+        label: Meta-reviews released
+        date: '2026-07-30 23:59:59'
+      - type: commitment
+        label: Commitment deadline (extended)
+        date: '2026-08-07 23:59:59'
+      - type: commitment
+        label: Second-round commitment deadline
+        date: '2026-08-25 23:59:59'
+      - type: notification
+        date: '2026-09-07 23:59:59'
+      - type: camera_ready
+        date: '2026-09-30 23:59:59'
+    note: >-
+      The 5th AACL & 15th IJCNLP; papers go through the ARR May 2026 cycle (shared with EMNLP 2026). The commitment
+      deadline was extended from Aug 2 to Aug 7, and a second commitment round ran Aug 18-25, 2026. Author response
+      follows ARR's updated May 2026 schedule (July 8-14); the AACL site still lists the original July 7-13.
+    sources:
+      - https://2026.aaclnet.org/calls/main_conference_papers/
+      - https://2026.aaclnet.org/
+      - https://aclrollingreview.org/dates
+      - https://github.com/acl-org/aclrollingreview/commit/18f453ceb152b0f44b56d359e16fb3a426a0d8e5
+    checked: 2026-09-28
+  - year: 2025
+    id: aacl25
+    link: https://2025.aaclnet.org/
+    date: December 20-24, 2025
+    start: 2025-12-20
+    end: 2025-12-24
+    place: Mumbai, India
+    timezone: AoE
+    timeline:
+      - type: paper
+        label: ARR submission deadline (July cycle)
+        date: '2025-07-28 23:59:59'
+      - type: other
+        label: ARR reviewer registration deadline (all authors)
+        date: '2025-07-30 23:59:59'
+      - type: rebuttal_start
+        label: Author response & discussion starts
+        date: '2025-09-09 23:59:59'
+      - type: rebuttal_end
+        label: Author response & discussion ends
+        date: '2025-09-15 23:59:59'
+      - type: review_release
+        label: Meta-reviews released
+        date: '2025-10-02 23:59:59'
+      - type: commitment
+        label: Commitment deadline
+        date: '2025-10-10 23:59:59'
+      - type: notification
+        date: '2025-10-25 23:59:59'
+      - type: camera_ready
+        date: '2025-11-10 23:59:59'
+    note: IJCNLP-AACL 2025 (the 14th IJCNLP & 4th AACL); all papers went through the ARR July 2025 cycle.
+    sources:
+      - https://2025.aaclnet.org/
+    checked: 2026-09-28

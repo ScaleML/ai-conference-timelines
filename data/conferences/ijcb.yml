@@ -1,0 +1,91 @@
+id: ijcb
+title: IJCB
+full_name: IEEE/IAPR International Joint Conference on Biometrics
+link: https://ieee-biometrics.org/conferences/flagship/ijcb/
+subs: [CV]
+rank:
+  ccf: C
+  core: B
+  thcpl: B
+dblp: icb
+upstream:
+  ccfddl: AI/ijcb
+editions:
+  - year: 2027
+    id: ijcb27
+    link: https://ijcb2027.ieee-biometrics.org/
+    date: September 13-17, 2027
+    start: 2027-09-13
+    end: 2027-09-17
+    place: Foz do Iguaçu, Brazil (Mabu Thermas Grand Resort)
+    timezone: AoE
+    timeline:
+      - type: paper
+        date: '2027-04-09 23:59:59'
+      - type: supplementary
+        date: '2027-04-16 23:59:59'
+      - type: review_release
+        date: '2027-06-14 23:59:59'
+      - type: rebuttal_end
+        date: '2027-06-21 23:59:59'
+      - type: notification
+        date: '2027-07-12 23:59:59'
+      - type: camera_ready
+        date: '2027-08-02 23:59:59'
+    note: Main conference papers (max 8 pages excluding references, double-blind); submission opens March 15, 2027, supplementary material is due one week after the paper; all dates are 23:59 AoE.
+    sources:
+      - https://ijcb2027.ieee-biometrics.org/important-dates/
+      - https://ijcb2027.ieee-biometrics.org/call-for-papers/
+      - https://ijcb2027.ieee-biometrics.org/
+    checked: 2026-09-28
+  - year: 2026
+    id: ijcb26
+    link: https://ijcb2026.ieee-biometrics.org/
+    date: September 1-4, 2026
+    start: 2026-09-01
+    end: 2026-09-04
+    place: Rome, Italy (Roma Tre University)
+    timezone: UTC-7
+    timeline:
+      - type: paper
+        date: '2026-04-30 23:59:59'
+      - type: review_release
+        date: '2026-06-15 23:59:59'
+      - type: rebuttal_end
+        date: '2026-06-25 23:59:59'
+      - type: notification
+        date: '2026-07-07 23:59:59'
+      - type: camera_ready
+        date: '2026-07-20 23:59:59'
+    note: Full paper deadline extended from April 10, 2026 (rebuttal from June 20, decisions from June 30); the site says "23:59 PST", interpreted as Pacific daylight time (UTC-7).
+    sources:
+      - https://ijcb2026.ieee-biometrics.org/important-dates/
+      - https://ijcb2026.ieee-biometrics.org/call-for-papers/
+      - https://ijcb2026.ieee-biometrics.org/
+      - https://ijcb2026.ieee-biometrics.org/venue/
+    checked: 2026-09-28
+  - year: 2025
+    id: ijcb25
+    link: https://ijcb2025.ieee-biometrics.org/
+    date: September 8-11, 2025
+    start: 2025-09-08
+    end: 2025-09-11
+    place: Osaka, Japan
+    timezone: UTC-7
+    timeline:
+      - type: paper
+        label: Abstract and paper submission deadline
+        date: '2025-05-05 23:59:59'
+      - type: review_release
+        date: '2025-06-17 23:59:59'
+      - type: rebuttal_end
+        date: '2025-06-20 23:59:59'
+      - type: notification
+        date: '2025-07-10 23:59:59'
+      - type: camera_ready
+        date: '2025-07-25 23:59:59'
+    note: Submission deadline extended from April 11, 2025 (11:59 pm Pacific time, i.e. PDT).
+    sources:
+      - https://ijcb2025.ieee-biometrics.org/important-dates/
+      - https://ijcb2025.ieee-biometrics.org/
+    checked: 2026-09-28

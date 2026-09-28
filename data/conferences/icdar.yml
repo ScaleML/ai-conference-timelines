@@ -1,0 +1,114 @@
+id: icdar
+title: ICDAR
+full_name: International Conference on Document Analysis and Recognition
+link: https://www.icdar.org/
+subs: [CV]
+rank:
+  ccf: C
+  core: A
+  thcpl: B
+dblp: icdar
+upstream:
+  ccfddl: AI/icdar
+  hf: icdar
+editions:
+  - year: 2027
+    id: icdar27
+    link: https://icdar2027.org/
+    date: August 18-22, 2027
+    start: 2027-08-18
+    end: 2027-08-22
+    place: Kuala Lumpur, Malaysia
+    timezone: AoE
+    timeline:
+      - type: other
+        label: ICDAR-IJDAR journal track submission deadline
+        date: '2026-11-15 23:59:00'
+      - type: abstract
+        date: '2027-01-31 23:59:00'
+      - type: paper
+        date: '2027-02-20 23:59:00'
+      - type: review_release
+        date: '2027-04-20 23:59:00'
+      - type: rebuttal_end
+        date: '2027-04-27 23:59:00'
+      - type: notification
+        date: '2027-05-15 23:59:00'
+      - type: camera_ready
+        date: '2027-06-05 23:59:00'
+    note: Dates follow the Call for Papers (strict 23:59 AoE, no extension); the site's Important Dates page instead lists a full-paper deadline of February 28, 2027 and no abstract deadline.
+    sources:
+      - https://icdar2027.org/call-for-papers
+      - https://icdar2027.org/important-dates
+      - https://icdar2027.org/call-for-journal-track
+      - https://icdar2027.org/
+    checked: 2026-09-28
+  - year: 2026
+    id: icdar26
+    link: https://icdar2026.org/
+    date: August 30 - September 4, 2026
+    start: 2026-08-30
+    end: 2026-09-04
+    place: Vienna, Austria
+    timezone: AoE
+    timeline:
+      - type: other
+        label: ICDAR-IJDAR journal track submission deadline
+        date: '2025-11-14 23:59:00'
+      - type: abstract
+        date: '2026-02-13 23:59:00'
+      - type: paper
+        date: '2026-02-27 23:59:00'
+      - type: review_release
+        date: '2026-04-20 23:59:00'
+      - type: rebuttal_end
+        date: '2026-04-24 23:59:00'
+      - type: notification
+        date: '2026-05-15 23:59:00'
+      - type: camera_ready
+        date: '2026-06-15 23:59:00'
+    note: Main conference August 31 - September 2 at TU Wien (tutorials August 30, workshops September 3-4); reviews release moved from April 17 to April 20, 2026.
+    sources:
+      - https://icdar2026.org/index.php/important-dates/
+      - https://icdar2026.org/index.php/venue/
+    checked: 2026-09-28
+  - year: 2025
+    id: icdar25
+    link: https://www.icdar2025.com/
+    date: September 16-21, 2025
+    start: 2025-09-16
+    end: 2025-09-21
+    place: Wuhan, China
+    timezone: UTC-8
+    timeline:
+      - type: other
+        label: Journal track submission deadline
+        date: '2024-11-15 23:59:59'
+        timezone: AoE
+      - type: abstract
+        label: Title and abstract submission
+        date: '2025-02-28 11:59:00'
+      - type: paper
+        date: '2025-03-14 23:59:00'
+      - type: supplementary
+        date: '2025-03-19 23:59:59'
+        timezone: AoE
+      - type: review_release
+        date: '2025-05-09 23:59:59'
+        timezone: AoE
+      - type: rebuttal_end
+        date: '2025-05-16 23:59:59'
+        timezone: AoE
+      - type: notification
+        date: '2025-06-06 23:59:59'
+        timezone: AoE
+      - type: camera_ready
+        label: Camera-ready and author registration
+        date: '2025-06-27 23:59:59'
+        timezone: AoE
+    note: The abstract deadline is given as "11:59 PST" and the paper deadline as "23:59 PST"; other dates state no timezone (AoE assumed).
+    sources:
+      - https://www.icdar2025.com/submission
+      - https://www.icdar2025.com/submission/call-for-journal-track
+      - https://www.icdar2025.com/home
+    checked: 2026-09-28

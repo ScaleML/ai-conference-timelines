@@ -1,0 +1,61 @@
+id: pakdd
+title: PAKDD
+full_name: Pacific-Asia Conference on Knowledge Discovery and Data Mining
+link: https://pakdd.org/
+subs: [DM]
+rank:
+  ccf: C
+  core: B
+  thcpl: N
+dblp: pakdd
+upstream:
+  ccfddl: DB/pakdd
+editions:
+  - year: 2027
+    id: pakdd27
+    link: https://www.pakdd2027.org/
+    date: June 29 - July 2, 2027
+    start: 2027-06-29
+    end: 2027-07-02
+    place: Wellington, New Zealand
+    timezone: AoE
+    timeline:
+      - type: paper
+        label: Paper submission (all tracks)
+        date: '2026-11-20 23:59:59'
+      - type: notification
+        date: '2027-02-26 23:59:59'
+      - type: camera_ready
+        date: '2027-03-19 23:59:59'
+    note: Research, Applied Data Science, Survey and the Special Track on LLMs and Agentic AI share this deadline; Springer LNCS format, double-blind. Page limit and submission site not yet announced.
+    sources:
+      - https://www.pakdd2027.org/pages/dates
+      - https://www.pakdd2027.org/pages/calls/research
+      - https://www.pakdd2027.org/pages/calls/llm-agentic
+      - https://www.pakdd2027.org/
+    checked: 2026-09-28
+  - year: 2026
+    id: pakdd26
+    link: https://www.pakdd2026.org/
+    date: June 9-12, 2026
+    start: 2026-06-09
+    end: 2026-06-12
+    place: Hong Kong, China
+    timezone: UTC-8
+    timeline:
+      - type: paper
+        label: Paper submission (Main, Survey & LLM tracks)
+        date: '2025-11-25 23:59:59'
+      - type: notification
+        date: '2026-02-08 23:59:59'
+      - type: camera_ready
+        date: '2026-03-01 23:59:59'
+      - type: other
+        label: Author registration deadline
+        date: '2026-03-01 23:59:59'
+    note: Deadline extended from November 15, 2025; all deadlines are 23:59 PST. Workshop, tutorial, consortium and AI forum day on June 9 (Regal Riverside Hotel).
+    sources:
+      - https://www.pakdd2026.org/important-dates
+      - https://www.pakdd2026.org/
+      - https://www.pakdd2026.org/venue
+    checked: 2026-09-28

@@ -1,0 +1,66 @@
+id: iswc
+title: ISWC
+full_name: International Semantic Web Conference
+link: https://swsa.semanticweb.org/conferences/
+subs: [KR]
+rank:
+  ccf: B
+  core: A
+  thcpl: B
+dblp: semweb
+upstream:
+  ccfddl: DB/iswc
+editions:
+  - year: 2026
+    id: iswc26
+    link: https://iswc2026.semanticweb.org/
+    date: October 25-29, 2026
+    start: 2026-10-25
+    end: 2026-10-29
+    place: Bari, Italy
+    timezone: AoE
+    timeline:
+      - type: abstract
+        date: '2026-05-02 23:59:59'
+      - type: paper
+        date: '2026-05-07 23:59:59'
+      - type: rebuttal_start
+        date: '2026-06-11 23:59:59'
+      - type: rebuttal_end
+        date: '2026-06-18 23:59:59'
+      - type: notification
+        date: '2026-07-16 23:59:59'
+      - type: camera_ready
+        date: '2026-08-06 23:59:59'
+    note: Dates for the Research, Resource and In-Use tracks; abstract pre-submission is mandatory. Workshops/tutorials Oct 25-26, main conference Oct 27-29, 2026.
+    sources:
+      - https://iswc2026.semanticweb.org/#/calls/research
+      - https://iswc2026.semanticweb.org/#/importantdates
+      - https://swsa.semanticweb.org/conferences/
+    checked: 2026-09-28
+  - year: 2025
+    id: iswc25
+    link: https://iswc2025.semanticweb.org/
+    date: November 2-6, 2025
+    start: 2025-11-02
+    end: 2025-11-06
+    place: Nara, Japan
+    timezone: AoE
+    timeline:
+      - type: abstract
+        date: '2025-05-06 23:59:59'
+      - type: paper
+        date: '2025-05-13 23:59:59'
+      - type: rebuttal_start
+        date: '2025-06-17 23:59:59'
+      - type: rebuttal_end
+        date: '2025-06-20 23:59:59'
+      - type: notification
+        date: '2025-07-17 23:59:59'
+      - type: camera_ready
+        date: '2025-07-31 23:59:59'
+    note: Dates for the Research, Resource and In-Use tracks; abstract pre-submission is mandatory. Workshops/tutorials Nov 2-3, main conference Nov 4-6, 2025.
+    sources:
+      - https://iswc2025.semanticweb.org/
+      - https://swsa.semanticweb.org/conferences/
+    checked: 2026-09-28

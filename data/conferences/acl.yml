@@ -1,0 +1,109 @@
+id: acl
+title: ACL
+full_name: Annual Meeting of the Association for Computational Linguistics
+link: https://www.aclweb.org/
+subs: [NLP]
+rank:
+  ccf: A
+  core: A*
+  thcpl: A
+dblp: acl
+upstream:
+  ccfddl: AI/acl
+  hf: acl
+editions:
+  - year: 2027
+    id: acl27
+    link: https://2027.aclweb.org/
+    date: August 17-22, 2027
+    start: 2027-08-17
+    end: 2027-08-22
+    place: Kyoto, Japan
+    timezone: AoE
+    timeline: []
+    note: >-
+      All papers go through ACL Rolling Review (ARR). The ACL 2027 site lists all dates as TBA;
+      ARR lists the final ARR submission deadline for ACL 2027 only as "January 2027".
+    sources:
+      - https://2027.aclweb.org/
+      - https://2027.aclweb.org/calls/main_conference_papers/
+      - https://aclrollingreview.org/dates
+    checked: 2026-09-28
+  - year: 2026
+    id: acl26
+    link: https://2026.aclweb.org/
+    date: July 2-7, 2026
+    start: 2026-07-02
+    end: 2026-07-07
+    place: San Diego, California, USA
+    timezone: AoE
+    timeline:
+      - type: paper
+        label: ARR submission deadline (January cycle)
+        date: '2026-01-05 23:59:59'
+      - type: other
+        label: ARR reviewer registration deadline (all authors)
+        date: '2026-01-07 23:59:59'
+      - type: rebuttal_start
+        label: ARR author response starts
+        date: '2026-02-15 23:59:59'
+      - type: rebuttal_end
+        label: ARR author response ends
+        date: '2026-02-21 23:59:59'
+      - type: review_release
+        label: ARR reviews & meta-reviews available
+        date: '2026-03-10 23:59:59'
+      - type: commitment
+        label: Commitment deadline for ACL 2026
+        date: '2026-03-14 23:59:59'
+      - type: notification
+        date: '2026-04-04 23:59:59'
+      - type: other
+        label: Withdrawal deadline
+        date: '2026-04-19 23:59:59'
+      - type: camera_ready
+        date: '2026-04-19 23:59:59'
+    note: >-
+      Papers could be submitted to the ARR October 2025 or January 2026 cycle (papers reviewed in earlier
+      cycles could also be committed). Author-response dates are from the ARR cycle schedule.
+    sources:
+      - https://2026.aclweb.org/calls/main_conference_papers/
+      - https://2026.aclweb.org/
+      - https://github.com/acl-org/aclrollingreview/blob/d8ecb16ae8e35e4d4615041ff5cd3aa03e010b43/dates.md
+    checked: 2026-09-28
+  - year: 2025
+    id: acl25
+    link: https://2025.aclweb.org/
+    date: July 27 - August 1, 2025
+    start: 2025-07-27
+    end: 2025-08-01
+    place: Vienna, Austria
+    timezone: AoE
+    timeline:
+      - type: paper
+        label: ARR submission deadline (February cycle)
+        date: '2025-02-15 23:59:59'
+      - type: rebuttal_start
+        label: ARR author response starts
+        date: '2025-03-27 23:59:59'
+      - type: rebuttal_end
+        label: ARR author response ends
+        date: '2025-04-03 23:59:59'
+      - type: review_release
+        label: ARR reviews & meta-reviews available
+        date: '2025-04-15 23:59:59'
+      - type: commitment
+        label: Commitment deadline for ACL 2025
+        date: '2025-04-20 23:59:59'
+      - type: notification
+        date: '2025-05-15 23:59:59'
+      - type: other
+        label: Withdrawal deadline
+        date: '2025-05-30 23:59:59'
+      - type: camera_ready
+        date: '2025-05-30 23:59:59'
+    note: All papers were submitted via ACL Rolling Review (February 2025 cycle) and then committed to ACL 2025.
+    sources:
+      - https://2025.aclweb.org/calls/main_conference_papers/
+      - https://2025.aclweb.org/
+    checked: 2026-09-28

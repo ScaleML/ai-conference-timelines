@@ -1,0 +1,61 @@
+id: coling
+title: COLING
+full_name: International Conference on Computational Linguistics
+link: https://coling-iccl.org/
+subs: [NLP]
+rank:
+  ccf: B
+  core: B
+  thcpl: B
+dblp: coling
+interval: 2
+upstream:
+  ccfddl: AI/coling
+  hf: coling
+editions:
+  - year: 2027
+    id: coling27
+    link: https://2027.coling-iccl.org/
+    date: May 9-14, 2027
+    start: 2027-05-09
+    end: 2027-05-14
+    place: Macau, China
+    timezone: AoE
+    timeline:
+      - type: paper
+        label: ARR submission deadline (October cycle)
+        date: '2026-10-12 23:59:59'
+      - type: other
+        label: ARR reviewer registration deadline (all authors)
+        date: '2026-10-14 23:59:59'
+      - type: rebuttal_start
+        label: ARR author response starts
+        date: '2026-11-24 23:59:59'
+      - type: rebuttal_end
+        label: ARR author response ends
+        date: '2026-11-30 23:59:59'
+      - type: other
+        label: Industry track paper submission deadline
+        date: '2026-11-30 23:59:59'
+      - type: review_release
+        label: ARR meta-reviews released
+        date: '2026-12-17 23:59:59'
+      - type: commitment
+        label: Commitment deadline (after ARR meta-reviews)
+        date: '2026-12-23 23:59:59'
+      - type: notification
+        date: '2027-02-10 23:59:59'
+      - type: other
+        label: Industry track notification
+        date: '2027-03-15 23:59:59'
+    note: >-
+      All main-conference papers go through ACL Rolling Review; the October 2026 ARR cycle is the last one
+      and is shared with NAACL 2027 (papers with earlier ARR meta-reviews can also commit). Virtual
+      presentations are on May 6-7, 2027; the in-person main conference is May 9-14.
+    sources:
+      - https://2027.coling-iccl.org/
+      - https://2027.coling-iccl.org/calls/main_conference_papers/
+      - https://2027.coling-iccl.org/calls/industry_track/
+      - https://2027.coling-iccl.org/about/
+      - https://aclrollingreview.org/dates
+    checked: 2026-09-28

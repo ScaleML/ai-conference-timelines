@@ -1,0 +1,140 @@
+id: cscw
+title: CSCW
+full_name: ACM Conference on Computer-Supported Cooperative Work and Social Computing
+link: https://cscw.acm.org/
+subs: [HCI]
+rank:
+  ccf: A
+  core: A
+  thcpl: A
+dblp: cscw
+estimate: false  # PACM HCI rolling submissions from CSCW 2027 on — no conference deadlines to estimate
+upstream:
+  ccfddl: HI/cscw
+editions:
+  - year: 2027
+    id: cscw27
+    link: https://cscw.acm.org/rolling.html
+    timeline: []
+    note: >-
+      From CSCW 2027 on there are no conference submission deadlines: papers go to PACM HCI (CSCW track) via rolling,
+      journal-style submission on Manuscript Central (or ToCHI), and accepted papers are invited to present at the next CSCW.
+      Conference dates and location not yet announced.
+    sources:
+      - https://cscw.acm.org/rolling.html
+      - https://acm-cscw.medium.com/call-for-papers-cscws-soft-launch-of-rolling-deadlines-5a6426f4679d
+    checked: 2026-09-28
+  - year: 2026
+    id: cscw26
+    link: https://cscw.acm.org/2026/
+    date: October 10-14, 2026
+    start: 2026-10-10
+    end: 2026-10-14
+    place: Salt Lake Marriott Downtown City Creek, Salt Lake City, UT, USA
+    timezone: AoE
+    timeline:
+      - type: paper
+        label: New paper submissions (12:00 EDT)
+        date: '2025-05-14 12:00:00'
+        timezone: UTC-4
+      - type: notification
+        label: First-round decisions (revise for external review / assisted desk reject)
+        date: '2025-08-19 23:59:59'
+      - type: other
+        label: Resubmission for external review due
+        date: '2025-09-16 23:59:00'
+      - type: notification
+        label: Decisions after external review (conditional accept / revise and resubmit / reject)
+        date: '2025-11-11 23:59:59'
+      - type: other
+        label: Major-revision resubmission due
+        date: '2026-01-13 23:59:00'
+    note: >-
+      Single submission cycle (May 2025), the last fixed deadline before CSCW moved to rolling submissions.
+      Final decisions on major revisions were expected in late March 2026; accepted papers appear in PACM HCI.
+    sources:
+      - https://cscw.acm.org/2026/papers.html
+      - https://cscw.acm.org/2026/
+      - https://cscw.acm.org/2026/venue.html
+      - https://sigchi.org/events/cscw-2026/
+    checked: 2026-09-28
+  - year: 2025
+    id: cscw25
+    link: https://cscw.acm.org/2025/
+    date: October 18-22, 2025
+    start: 2025-10-18
+    end: 2025-10-22
+    place: Grieghallen, Bergen, Norway
+    timezone: AoE
+    timeline:
+      - type: paper
+        cycle: July 2024
+        label: New paper submissions
+        date: '2024-07-02 23:59:00'
+      - type: notification
+        cycle: July 2024
+        label: First-round decisions
+        date: '2024-10-09 23:59:59'
+      - type: paper
+        cycle: October 2024
+        label: New paper submissions
+        date: '2024-10-29 23:59:00'
+      - type: other
+        cycle: July 2024
+        label: Minor-revision resubmission due
+        date: '2024-10-29 23:59:00'
+      - type: notification
+        cycle: July 2024
+        label: Decisions on minor revisions
+        date: '2024-11-19 23:59:59'
+      - type: other
+        cycle: July 2024
+        label: Major-revision resubmission due
+        date: '2024-12-10 23:59:00'
+      - type: notification
+        cycle: July 2024
+        label: Decisions on major revisions
+        date: '2025-02-12 23:59:59'
+      - type: notification
+        cycle: October 2024
+        label: First-round decisions
+        date: '2025-02-12 23:59:59'
+      - type: other
+        cycle: July 2024
+        label: Minor revision after major revision due
+        date: '2025-03-04 23:59:00'
+      - type: other
+        cycle: October 2024
+        label: Minor-revision resubmission due
+        date: '2025-03-04 23:59:00'
+      - type: notification
+        cycle: July 2024
+        label: Final decisions
+        date: '2025-03-26 23:59:59'
+      - type: notification
+        cycle: October 2024
+        label: Decisions on minor revisions
+        date: '2025-03-26 23:59:59'
+      - type: other
+        cycle: October 2024
+        label: Major-revision resubmission due
+        date: '2025-04-15 23:59:00'
+      - type: notification
+        cycle: October 2024
+        label: Decisions on major revisions
+        date: '2025-06-11 23:59:59'
+      - type: other
+        cycle: October 2024
+        label: Minor revision after major revision due
+        date: '2025-07-01 23:59:00'
+      - type: notification
+        cycle: October 2024
+        label: Final decisions
+        date: '2025-08-06 23:59:59'
+    note: Two submission cycles (July and October 2024) with revise-and-resubmit rounds; notification dates were listed as expected dates.
+    sources:
+      - https://cscw.acm.org/2025/index.php/submit-papers/
+      - https://cscw.acm.org/2025/
+      - https://cscw.acm.org/2025/index.php/attend/
+      - https://sigchi.org/events/cscw-2025/
+    checked: 2026-09-28

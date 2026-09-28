@@ -1,0 +1,80 @@
+id: icmr
+title: ICMR
+full_name: ACM International Conference on Multimedia Retrieval
+link: https://www.acmicmr.org/
+subs: [CV, DM]
+rank:
+  ccf: B
+  core: B
+  thcpl: B
+dblp: mir
+upstream:
+  ccfddl: CG/icmr
+editions:
+  - year: 2027
+    id: icmr27
+    link: https://www.icmr2027.org/
+    date: June 7-10, 2027
+    start: 2027-06-07
+    end: 2027-06-10
+    place: Singapore
+    timezone: AoE
+    timeline:
+      - type: other
+        label: Reproducibility paper submission
+        date: '2026-12-22 23:59:59'
+      - type: paper
+        label: Regular papers (full & short) submission
+        date: '2027-01-31 23:59:59'
+      - type: notification
+        date: '2027-04-01 23:59:59'
+      - type: camera_ready
+        label: Camera-ready & author registration
+        date: '2027-04-10 23:59:59'
+    note: Long papers up to 8 pages and short papers up to 4 pages (+2 pages references), double-blind; Brave New Ideas papers share the January 31 deadline.
+    sources:
+      - https://www.icmr2027.org/date
+      - https://www.icmr2027.org/cfc
+      - https://www.icmr2027.org/
+    checked: 2026-09-28
+  - year: 2026
+    id: icmr26
+    link: https://icmr2026.org/
+    date: June 16-19, 2026
+    start: 2026-06-16
+    end: 2026-06-19
+    place: Amsterdam, Netherlands
+    timezone: AoE
+    timeline:
+      - type: paper
+        label: Regular papers (full & short) submission
+        date: '2026-02-13 23:59:59'
+      - type: notification
+        date: '2026-04-15 23:59:59'
+      - type: camera_ready
+        label: Camera-ready & author registration
+        date: '2026-04-25 23:59:59'
+    note: The originally circulated CFP listed February 6, 2026 for regular papers; the official dates page shows February 13, 2026 (23:59 AoE).
+    sources:
+      - https://icmr2026.org/dates.html
+      - https://icmr2026.org/calls.html
+      - http://conferences.visionbib.com/2026/icmr-6-26-call.html
+    checked: 2026-09-28
+  - year: 2025
+    id: icmr25
+    link: https://www.icmr-2025.org/
+    date: June 30 - July 3, 2025
+    start: 2025-06-30
+    end: 2025-07-03
+    place: Chicago, IL, USA
+    timezone: AoE
+    timeline:
+      - type: paper
+        label: Regular papers (full & short) submission
+        date: '2025-02-23 23:59:59'
+    note: Deadline extended from February 16, 2025 (AoE, per the CFP reposted by the CCF TC-MT). The official 2025 site is no longer online, so the extended date comes from ccfddl and search-engine copies of the official Important Dates page.
+    sources:
+      - https://github.com/ccfddl/ccf-deadlines/blob/main/conference/CG/icmr.yml
+      - http://tc.ccf.org.cn/tcmt/xsdt/zwhdt/2025-02-12/837961.shtml
+      - https://dblp.org/db/conf/mir/icmr2025.html
+    checked: 2026-09-28

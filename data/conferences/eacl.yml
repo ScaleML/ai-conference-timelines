@@ -1,0 +1,86 @@
+id: eacl
+title: EACL
+full_name: Conference of the European Chapter of the Association for Computational Linguistics
+link: https://eacl.org/
+subs: [NLP]
+rank:
+  ccf: N
+  core: A
+  thcpl: N
+dblp: eacl
+upstream:
+  ccfddl: AI/eacl
+editions:
+  - year: 2027
+    id: eacl27
+    link: https://2027.eacl.org/
+    date: March 9-14, 2027
+    start: 2027-03-09
+    end: 2027-03-14
+    place: Athens, Greece
+    timezone: AoE
+    timeline:
+      - type: paper
+        label: ARR submission deadline (August cycle)
+        date: '2026-08-03 23:59:59'
+      - type: other
+        label: ARR reviewer registration deadline (all authors)
+        date: '2026-08-05 23:59:59'
+      - type: rebuttal_start
+        label: Author response starts
+        date: '2026-09-14 23:59:59'
+      - type: other
+        label: Author response ends (discussion phase Sep 20-24)
+        date: '2026-09-19 23:59:59'
+      - type: rebuttal_end
+        label: Author-reviewer discussion ends
+        date: '2026-09-24 23:59:59'
+      - type: review_release
+        label: Meta-reviews released
+        date: '2026-10-08 23:59:59'
+      - type: commitment
+        label: EACL 2027 commitment deadline
+        date: '2026-10-11 23:59:59'
+      - type: notification
+        date: '2026-11-12 23:59:59'
+      - type: camera_ready
+        date: '2026-11-26 23:59:59'
+    note: >-
+      All papers go through ACL Rolling Review (August 2026 cycle). This cycle splits author response (Sep 14-19)
+      and author-reviewer discussion (Sep 20-24) into separate stages.
+    sources:
+      - https://2027.eacl.org/calls/papers/
+      - https://2027.eacl.org/
+      - https://aclrollingreview.org/dates
+    checked: 2026-09-28
+  - year: 2026
+    id: eacl26
+    link: https://2026.eacl.org/
+    date: March 24-29, 2026
+    start: 2026-03-24
+    end: 2026-03-29
+    place: Rabat, Morocco
+    timezone: AoE
+    timeline:
+      - type: paper
+        label: ARR submission deadline (October cycle)
+        date: '2025-10-06 23:59:59'
+      - type: rebuttal_start
+        label: Author response & reviewer discussion starts
+        date: '2025-11-18 23:59:59'
+      - type: rebuttal_end
+        label: Author response & reviewer discussion ends
+        date: '2025-11-24 23:59:59'
+      - type: review_release
+        label: Meta-reviews released
+        date: '2025-12-11 23:59:59'
+      - type: commitment
+        label: EACL commitment deadline
+        date: '2025-12-14 23:59:59'
+      - type: notification
+        date: '2026-01-03 23:59:59'
+    note: All papers went through ACL Rolling Review (October 2025 cycle) and were then committed to EACL 2026.
+    sources:
+      - https://2026.eacl.org/calls/papers/
+      - https://2026.eacl.org/
+    checked: 2026-09-28

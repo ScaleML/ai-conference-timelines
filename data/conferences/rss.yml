@@ -1,0 +1,81 @@
+id: rss
+title: RSS
+full_name: 'Robotics: Science and Systems'
+link: https://roboticsconference.org/
+subs: [RO]
+rank:
+  ccf: N
+  thcpl: A
+dblp: rss
+upstream:
+  ccfddl: AI/rss
+  hf: rss
+editions:
+  - year: 2027
+    id: rss27
+    link: https://roboticsconference.org/
+    date: July 6-11, 2027
+    start: 2027-07-06
+    end: 2027-07-11
+    place: Athens, Greece
+    timezone: AoE
+    timeline:
+      - type: paper
+        label: Stage 1 extended abstract submission
+        date: '2026-12-04 23:59:00'
+      - type: review_release
+        label: Stage 1 decision (reject or invitation to rebuttal)
+        date: '2027-02-05 23:59:00'
+      - type: rebuttal_end
+        label: Rebuttal submission deadline
+        date: '2027-02-12 23:59:00'
+      - type: other
+        label: Stage 2 decision (reject or Extension Charter)
+        date: '2027-02-26 23:59:00'
+      - type: other
+        label: Stage 2 final paper submission
+        date: '2027-04-16 23:59:00'
+      - type: supplementary
+        date: '2027-04-19 23:59:00'
+      - type: notification
+        date: '2027-04-30 23:59:00'
+      - type: camera_ready
+        date: '2027-05-14 23:59:00'
+    note: >-
+      New two-stage process: a 6-page extended abstract (5 pages + 1 page references) is due Dec 4, 2026; invited papers
+      execute an Extension Charter and submit the final 8-page paper by Apr 16, 2027. Submission via OpenReview.
+    sources:
+      - https://roboticsconference.org/information/cfp/
+      - https://roboticsconference.org/
+    checked: 2026-09-28
+  - year: 2026
+    id: rss26
+    link: https://roboticsconference.org/2026/
+    date: July 13-17, 2026
+    start: 2026-07-13
+    end: 2026-07-17
+    place: Sydney, Australia
+    timezone: AoE
+    timeline:
+      - type: abstract
+        label: Abstract/title submission
+        date: '2026-01-23 23:59:00'
+      - type: paper
+        date: '2026-01-30 23:59:00'
+      - type: supplementary
+        date: '2026-02-06 23:59:00'
+      - type: review_release
+        label: Reviews released and rebuttal invitations
+        date: '2026-03-20 23:59:00'
+      - type: rebuttal_end
+        label: Rebuttal submission deadline
+        date: '2026-03-27 23:59:00'
+      - type: notification
+        date: '2026-04-27 23:59:00'
+      - type: camera_ready
+        date: '2026-05-11 23:59:00'
+    note: Title/abstract registration one week before the paper deadline; 8-page limit excluding references, double-blind via OpenReview.
+    sources:
+      - https://roboticsconference.org/2026/information/cfp/
+      - https://roboticsconference.org/2026/
+    checked: 2026-09-28

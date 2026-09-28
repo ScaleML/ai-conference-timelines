@@ -1,0 +1,90 @@
+id: ecir
+title: ECIR
+full_name: European Conference on Information Retrieval
+link: https://www.ecir2027.co.uk/
+subs: [DM]
+rank:
+  ccf: C
+  core: A
+  thcpl: B
+dblp: ecir
+upstream:
+  ccfddl: DB/ecir
+  hf: ecir
+editions:
+  - year: 2027
+    id: ecir27
+    link: https://www.ecir2027.co.uk/
+    date: March 21-25, 2027
+    start: 2027-03-21
+    end: 2027-03-25
+    place: St Mary's Stadium (Southampton Football Club), Southampton, UK
+    timezone: AoE
+    timeline:
+      - type: abstract
+        label: Full paper abstract submission
+        cycle: Full papers
+        date: '2026-09-21 23:59:59'
+      - type: paper
+        label: Full paper submission
+        cycle: Full papers
+        date: '2026-10-05 23:59:59'
+      - type: abstract
+        label: Short paper abstract submission
+        cycle: Short papers
+        date: '2026-10-05 23:59:59'
+      - type: paper
+        label: Short paper submission
+        cycle: Short papers
+        date: '2026-10-12 23:59:59'
+      - type: notification
+        label: Notification (full & short papers)
+        date: '2026-12-07 23:59:59'
+      - type: other
+        label: Author registration deadline
+        date: '2026-12-21 23:59:59'
+    note: The official site labels these as "current proposed" deadlines. The full-paper CFP states 11:59pm AoE; the short-paper CFP gives no timezone, so AoE is assumed. Full papers up to 12 pages, short papers up to 6 pages (plus references); IR for Good papers are due October 5, reproducibility papers October 19 (abstract October 12), demo/resource/industry-day submissions November 2, 2026.
+    sources:
+      - https://www.ecir2027.co.uk/
+      - https://www.ecir2027.co.uk/call-for-full-papers
+      - https://www.ecir2027.co.uk/call-for-short-papers
+      - https://www.ecir2027.co.uk/calls
+    checked: 2026-09-28
+  - year: 2026
+    id: ecir26
+    link: https://ecir2026.eu/
+    date: March 29 - April 2, 2026
+    start: 2026-03-29
+    end: 2026-04-02
+    place: Delft, The Netherlands
+    timezone: AoE
+    timeline:
+      - type: abstract
+        label: Full paper abstract submission
+        cycle: Full papers
+        date: '2025-09-25 23:59:59'
+      - type: paper
+        label: Full paper submission
+        cycle: Full papers
+        date: '2025-10-02 23:59:59'
+      - type: abstract
+        label: Short paper abstract submission
+        cycle: Short papers
+        date: '2025-10-07 23:59:59'
+      - type: paper
+        label: Short paper submission
+        cycle: Short papers
+        date: '2025-10-14 23:59:59'
+      - type: notification
+        label: Notification (full & short papers)
+        date: '2025-12-16 23:59:59'
+      - type: other
+        label: Author registration deadline
+        date: '2026-02-02 23:59:59'
+    note: Tutorials on March 29 at TU Delft, main conference March 30 - April 1 at Lijm & Cultuur, workshops and industry day on April 2.
+    sources:
+      - https://ecir2026.eu/calls
+      - https://ecir2026.eu/calls/call-for-full-papers
+      - https://ecir2026.eu/calls/call-for-short-papers
+      - https://ecir2026.eu/
+    checked: 2026-09-28

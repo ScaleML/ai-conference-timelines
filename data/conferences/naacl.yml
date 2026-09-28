@@ -1,0 +1,51 @@
+id: naacl
+title: NAACL
+full_name: Annual Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics
+link: https://naacl.org/
+subs: [NLP]
+rank:
+  ccf: B
+  core: A
+  thcpl: B
+dblp: naacl
+upstream:
+  ccfddl: AI/naacl
+  hf: naacl
+editions:
+  - year: 2027
+    id: naacl27
+    link: https://2027.naacl.org/
+    date: June 1-5, 2027
+    start: 2027-06-01
+    end: 2027-06-05
+    place: San Francisco, California, USA
+    timezone: AoE
+    timeline:
+      - type: paper
+        label: ARR submission deadline (October cycle)
+        date: '2026-10-12 23:59:59'
+      - type: rebuttal_start
+        label: ARR author response starts
+        date: '2026-11-24 23:59:59'
+      - type: rebuttal_end
+        label: ARR author response ends
+        date: '2026-11-30 23:59:59'
+      - type: review_release
+        label: ARR meta-reviews released
+        date: '2026-12-17 23:59:59'
+      - type: commitment
+        label: NAACL commitment deadline
+        date: '2026-12-23 23:59:59'
+      - type: notification
+        date: '2027-02-10 23:59:59'
+      - type: camera_ready
+        date: '2027-03-03 23:59:59'
+    note: >-
+      The ARR October 2026 cycle is shared with COLING 2027; a primary venue is chosen at commitment. Author-response
+      and meta-review dates follow the ARR schedule (the NAACL CFP lists meta-review release as Dec 18 and reviewer
+      registration as Oct 12, while ARR lists Dec 17 and Oct 14).
+    sources:
+      - https://2027.naacl.org/calls/main_conference_papers/
+      - https://2027.naacl.org/
+      - https://aclrollingreview.org/dates
+    checked: 2026-09-28

@@ -1,0 +1,79 @@
+id: pg
+title: Pacific Graphics
+full_name: Pacific Conference on Computer Graphics and Applications
+link: https://www.asiagraphics.org/pg/
+subs: [CG]
+rank:
+  ccf: B
+  core: N
+  thcpl: B
+dblp: pg
+upstream:
+  ccfddl: CG/pg
+editions:
+  - year: 2026
+    id: pg26
+    link: https://pacificgraphics2026.github.io/
+    date: October 6-9, 2026
+    start: 2026-10-06
+    end: 2026-10-09
+    place: Singapore Management University, Singapore
+    timezone: AoE
+    timeline:
+      - type: abstract
+        label: Abstract due (title, abstract and author list frozen)
+        date: '2026-06-01 23:59:59'
+      - type: paper
+        date: '2026-06-08 23:59:59'
+      - type: rebuttal_start
+        label: Rebuttal period begins
+        date: '2026-07-21 23:59:59'
+      - type: rebuttal_end
+        label: Rebuttal period ends
+        date: '2026-07-25 23:59:59'
+      - type: notification
+        label: Decision notification
+        date: '2026-08-04 23:59:59'
+      - type: other
+        label: Final revision due
+        date: '2026-08-21 23:59:59'
+      - type: notification
+        label: Final acceptance notification
+        date: '2026-08-25 23:59:59'
+      - type: camera_ready
+        date: '2026-08-31 23:59:59'
+    note: Journal (Computer Graphics Forum) and Conference tracks share one deadline. Post-submission dates were shifted from the original schedule (rebuttal July 17-21, decision July 31, final revision August 18, final acceptance August 21).
+    sources:
+      - https://pacificgraphics2026.github.io/cfp.html
+      - https://pacificgraphics2026.github.io/
+      - https://pacificgraphics2026.github.io/venue.html
+    checked: 2026-09-28
+  - year: 2025
+    id: pg25
+    link: https://pg2025.nccu.edu.tw/
+    date: October 14-17, 2025
+    start: 2025-10-14
+    end: 2025-10-17
+    place: National Chengchi University, Taipei, Taiwan
+    timezone: AoE
+    timeline:
+      - type: abstract
+        label: Paper abstract due
+        date: '2025-05-30 23:59:00'
+      - type: paper
+        date: '2025-06-06 23:59:00'
+      - type: review_release
+        label: Reviews to authors
+        date: '2025-07-21 23:59:00'
+      - type: rebuttal_end
+        label: Rebuttal due
+        date: '2025-07-28 23:59:00'
+      - type: notification
+        label: Decision notification
+        date: '2025-08-08 23:59:00'
+      - type: camera_ready
+        date: '2025-08-22 23:59:00'
+    note: Journal (Computer Graphics Forum) and Conference tracks share one deadline. All deadlines are 23:59 AoE; the rebuttal deadline was moved from July 27 to July 28.
+    sources:
+      - https://pg2025.nccu.edu.tw/
+    checked: 2026-09-28

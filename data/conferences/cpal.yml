@@ -1,0 +1,94 @@
+id: cpal
+title: CPAL
+full_name: Conference on Parsimony and Learning
+link: https://cpal.cc/
+subs: [ML]
+rank:
+  ccf: N
+  core: N
+  thcpl: N
+dblp: cpal
+upstream:
+  ccfddl: AI/cpal
+  hf: cpal
+editions:
+  - year: 2027
+    id: cpal27
+    link: https://cpal.cc/
+    date: March 23-26, 2027
+    start: 2027-03-23
+    end: 2027-03-26
+    place: Hitotsubashi Hall, Tokyo, Japan
+    timezone: AoE
+    timeline:
+      - type: abstract
+        label: Abstract registration (Proceedings Track)
+        date: '2026-11-23 23:59:59'
+      - type: paper
+        label: Paper deadline (Proceedings Track)
+        date: '2026-12-05 23:59:59'
+      - type: other
+        label: Tutorial proposal deadline
+        date: '2026-12-10 23:59:59'
+      - type: other
+        label: Rising Stars Award application deadline
+        date: '2026-12-15 23:59:59'
+      - type: review_release
+        date: '2027-01-11 23:59:59'
+      - type: rebuttal_start
+        date: '2027-01-11 23:59:59'
+      - type: rebuttal_end
+        date: '2027-01-17 23:59:59'
+      - type: other
+        label: Recent Spotlight Track submission deadline (non-archival)
+        date: '2027-01-18 23:59:59'
+      - type: other
+        label: Author-reviewer discussion ends
+        date: '2027-01-22 23:59:59'
+      - type: notification
+        label: Notification (Proceedings and Recent Spotlight tracks)
+        date: '2027-02-01 23:59:59'
+      - type: camera_ready
+        label: Camera-ready deadline (Proceedings Track)
+        date: '2027-02-12 23:59:59'
+    note: Proceedings Track papers are archival (PMLR, double-blind, 9 pages); the Recent Spotlight Track is non-archival and single-blind.
+    sources:
+      - https://cpal.cc/deadlines/
+      - https://cpal.cc/call_for_papers/
+      - https://cpal.cc/
+    checked: 2026-09-28
+
+  - year: 2026
+    id: cpal26
+    link: https://cpal.cc/2026/
+    date: March 23-26, 2026
+    start: 2026-03-23
+    end: 2026-03-26
+    place: Max-Planck-Haus, Tübingen, Germany
+    timezone: AoE
+    timeline:
+      - type: other
+        label: Tutorial proposal deadline
+        date: '2025-12-10 23:59:59'
+      - type: paper
+        label: Paper deadline (Proceedings Track)
+        date: '2025-12-12 23:59:59'
+      - type: other
+        label: Rising Stars Award application deadline
+        date: '2025-12-15 23:59:59'
+      - type: rebuttal_start
+        date: '2026-01-08 23:59:59'
+      - type: rebuttal_end
+        date: '2026-01-14 23:59:59'
+      - type: other
+        label: Recent Spotlight Track submission deadline (non-archival)
+        date: '2026-01-15 23:59:59'
+      - type: notification
+        label: Final decisions (Proceedings and Recent Spotlight tracks)
+        date: '2026-01-20 23:59:59'
+    note: Hosted by the ELLIS Institute Tübingen with the Max Planck Institute for Intelligent Systems and the Tübingen AI Center.
+    sources:
+      - https://cpal.cc/2026/deadlines/
+      - https://cpal.cc/2026/
+      - https://cpal.cc/2026/venue/
+    checked: 2026-09-28

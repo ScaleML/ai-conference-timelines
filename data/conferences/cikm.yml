@@ -1,0 +1,82 @@
+id: cikm
+title: CIKM
+full_name: ACM International Conference on Information and Knowledge Management
+link: http://www.cikmconference.org/
+subs: [DM, KR]
+rank:
+  ccf: B
+  core: A
+  thcpl: B
+dblp: cikm
+upstream:
+  ccfddl: DB/cikm
+  hf: cikm
+editions:
+  - year: 2027
+    id: cikm27
+    link: http://www.cikmconference.org/
+    place: Sydney, Australia
+    timeline: []
+    note: The CIKM steering committee site lists Sydney, Australia as the 2027 host; no edition website or dates have been published yet.
+    sources:
+      - http://www.cikmconference.org/
+    checked: 2026-09-28
+  - year: 2026
+    id: cikm26
+    link: https://cikm2026.diag.uniroma1.it/
+    date: November 7-11, 2026
+    start: 2026-11-07
+    end: 2026-11-11
+    place: Rome, Italy
+    timezone: AoE
+    timeline:
+      - type: abstract
+        date: '2026-05-16 23:59:59'
+      - type: paper
+        date: '2026-05-23 23:59:59'
+      - type: other
+        label: Short/resource/demo paper abstract deadline
+        date: '2026-05-30 23:59:59'
+      - type: other
+        label: Short/resource/demo paper submission deadline
+        date: '2026-06-06 23:59:59'
+      - type: notification
+        date: '2026-08-07 23:59:59'
+      - type: camera_ready
+        label: Camera-ready & author registration deadline
+        date: '2026-08-23 23:59:59'
+    note: Full and Applied Research papers share the May 16/23 deadlines. Tutorials/workshops Nov 7-8 at Sapienza (San Pietro in Vincoli); main conference Nov 9-11 at Auditorium Parco della Musica.
+    sources:
+      - https://cikm2026.diag.uniroma1.it/important-dates/
+      - https://cikm2026.diag.uniroma1.it/full-research-papers/
+      - https://cikm2026.diag.uniroma1.it/venues/
+      - https://cikm2026.diag.uniroma1.it/
+    checked: 2026-09-28
+  - year: 2025
+    id: cikm25
+    link: https://cikm2025.org/
+    date: November 10-14, 2025
+    start: 2025-11-10
+    end: 2025-11-14
+    place: COEX, Seoul, South Korea
+    timezone: AoE
+    timeline:
+      - type: abstract
+        date: '2025-05-16 23:59:59'
+      - type: paper
+        date: '2025-05-23 23:59:59'
+      - type: other
+        label: Short paper abstract deadline
+        date: '2025-05-30 23:59:59'
+      - type: other
+        label: Short paper submission deadline
+        date: '2025-06-06 23:59:59'
+      - type: notification
+        date: '2025-08-04 23:59:59'
+      - type: camera_ready
+        date: '2025-08-27 23:59:59'
+    sources:
+      - https://cikm2025.org/calls/full-research-papers
+      - https://cikm2025.org/calls/short-research-papers
+      - https://cikm2025.org/attend/venue
+    checked: 2026-09-28

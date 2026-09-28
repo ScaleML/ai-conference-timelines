@@ -1,0 +1,59 @@
+id: esann
+title: ESANN
+full_name: European Symposium on Artificial Neural Networks, Computational Intelligence and Machine Learning
+link: https://www.esann.org/
+subs: [ML]
+rank:
+  ccf: N
+  core: B
+  thcpl: N
+dblp: esann
+upstream:
+  ccfddl: AI/esann
+  hf: esann
+editions:
+  - year: 2027
+    id: esann27
+    link: https://www.esann.org/
+    date: April 21-23, 2027
+    start: 2027-04-21
+    end: 2027-04-23
+    place: Bruges, Belgium (hybrid)
+    timezone: AoE
+    timeline:
+      - type: paper
+        date: '2026-11-18 23:59:59'
+      - type: notification
+        label: Decisions
+        date: '2027-01-22 23:59:59'
+      - type: other
+        label: Speaker registration
+        date: '2027-02-12 23:59:59'
+    note: >-
+      The official site gives dates without a timezone (AoE assumed). At least one author must register
+      by February 12, 2027.
+    sources:
+      - https://www.esann.org/
+      - https://www.esann.org/node/3
+      - https://www.esann.org/register
+      - https://www.esann.org/node/160
+    checked: 2026-09-28
+  - year: 2026
+    id: esann26
+    link: https://www.esann.org/
+    date: April 22-24, 2026
+    start: 2026-04-22
+    end: 2026-04-24
+    place: Bruges, Belgium (hybrid)
+    timezone: AoE
+    timeline:
+      - type: paper
+        date: '2025-11-26 23:59:59'
+    note: >-
+      Deadline extended from November 19, 2025 (no timezone given, AoE assumed). The 2026 notification
+      date could not be confirmed from an official page.
+    sources:
+      - https://www.esann.org/pastesann
+      - https://groups.google.com/g/ml-news/c/2Dv9vx398xQ
+      - https://www.infovis.org/archives/list/infovis@infovis.org/thread/WTUQKQ2VWLGRARVQIOKYDKLIEGLCHELZ/
+    checked: 2026-09-28

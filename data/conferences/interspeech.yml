@@ -1,0 +1,93 @@
+id: interspeech
+title: Interspeech
+full_name: Annual Conference of the International Speech Communication Association
+link: https://www.isca-speech.org/Interspeech
+subs: [SP, NLP]
+rank:
+  ccf: B
+  core: A
+  thcpl: N
+dblp: interspeech
+upstream:
+  ccfddl: CG/interspeech
+  hf: interspeech
+editions:
+  - year: 2027
+    id: interspeech27
+    link: https://interspeech2027.org/
+    date: August 29 - September 2, 2027
+    start: 2027-08-29
+    end: 2027-09-02
+    place: Mercado Livre Arena Pacaembu, São Paulo, Brazil
+    timezone: AoE
+    timeline:
+      - type: paper
+        date: '2027-02-09 23:59:59'
+      - type: other
+        label: Paper update deadline
+        date: '2027-02-16 23:59:59'
+      - type: notification
+        date: '2027-06-02 23:59:59'
+      - type: camera_ready
+        date: '2027-06-09 23:59:59'
+    note: The key-dates page gives dates without a time zone; AoE is assumed, as used by Interspeech 2025 and 2026. The full call for papers has not been published yet.
+    sources:
+      - https://interspeech2027.org/for_authors/key_dates/
+      - https://interspeech2027.org/
+      - https://interspeech2027.org/destination/venue/
+    checked: 2026-09-28
+  - year: 2026
+    id: interspeech26
+    link: https://interspeech2026.org/
+    date: September 27 - October 1, 2026
+    start: 2026-09-27
+    end: 2026-10-01
+    place: Sydney, Australia
+    timezone: AoE
+    timeline:
+      - type: paper
+        date: '2026-02-25 23:59:59'
+      - type: other
+        label: Paper update deadline
+        date: '2026-03-04 23:59:59'
+      - type: rebuttal_start
+        date: '2026-04-24 00:00:00'
+      - type: rebuttal_end
+        date: '2026-05-01 23:59:59'
+      - type: notification
+        date: '2026-06-05 23:59:59'
+      - type: camera_ready
+        date: '2026-06-19 23:59:59'
+    note: Updates to submitted papers (PDF, media, title, abstract) were allowed until the paper update deadline; authors and topics could not be changed. Tutorial day was September 27 at ICC Sydney.
+    sources:
+      - https://interspeech2026.org/en-AU/pages/calls/call-for-papers
+      - https://interspeech2026.org/en-AU
+    checked: 2026-09-28
+  - year: 2025
+    id: interspeech25
+    link: https://www.interspeech2025.org/
+    date: August 17-21, 2025
+    start: 2025-08-17
+    end: 2025-08-21
+    place: Rotterdam, Netherlands
+    timezone: AoE
+    timeline:
+      - type: paper
+        date: '2025-02-12 23:59:59'
+      - type: other
+        label: Paper update deadline
+        date: '2025-02-19 23:59:59'
+      - type: rebuttal_start
+        date: '2025-04-04 00:00:00'
+      - type: rebuttal_end
+        date: '2025-04-13 23:59:59'
+      - type: notification
+        date: '2025-05-19 23:59:59'
+      - type: camera_ready
+        date: '2025-05-31 23:59:59'
+    note: Submission and update deadlines were 23:59 AoE; other dates were given without a time (AoE assumed).
+    sources:
+      - https://www.interspeech2025.org/important-dates
+      - https://www.interspeech2025.org/call-for-papers
+      - https://www.interspeech2025.org/paper-submission
+    checked: 2026-09-28

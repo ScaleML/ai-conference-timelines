@@ -1,0 +1,48 @@
+name: Upstream check
+
+# Weekly: compare our upcoming paper deadlines with ccfddl and huggingface/ai-deadlines,
+# and keep a single tracking issue up to date with any disagreements.
+on:
+  schedule:
+    - cron: '0 14 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: node scripts/check-upstream.mjs > report.md
+      - name: Update tracking issue
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          title="Upstream deadline differences"
+          num=$(gh issue list --state open --search "in:title \"$title\"" --json number --jq '.[0].number')
+          if [ -s report.md ]; then
+            if [ -n "$num" ]; then
+              # Body edits don't notify anyone, so also comment with the lines that are new since last time.
+              old=$(gh issue view "$num" --json body --jq .body)
+              gh issue edit "$num" --body-file report.md
+              new_lines=$(comm -13 <(printf '%s\n' "$old" | tr -d '\r' | grep '^- ' | sort) \
+                                   <(tr -d '\r' < report.md | grep '^- ' | sort) || true)
+              if [ -n "$new_lines" ]; then
+                printf 'New differences since the last check:\n\n%s\n' "$new_lines" > new.md
+                gh issue comment "$num" --body-file new.md
+              fi
+            else
+              gh issue create --title "$title" --body-file report.md
+            fi
+          elif [ -n "$num" ]; then
+            gh issue close "$num" --comment "No differences found in the latest check."
+          fi

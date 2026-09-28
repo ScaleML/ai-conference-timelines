@@ -1,0 +1,86 @@
+id: icip
+title: ICIP
+full_name: IEEE International Conference on Image Processing
+link: https://ieeeicip.org/
+subs: [CV, SP]
+rank:
+  ccf: C
+  core: B
+  thcpl: B
+dblp: icip
+upstream:
+  ccfddl: CG/icip
+editions:
+  - year: 2027
+    id: icip27
+    link: https://2027.ieeeicip.org/
+    date: November 29 - December 3, 2027
+    start: 2027-11-29
+    end: 2027-12-03
+    place: Singapore
+    timeline: []
+    note: >-
+      The edition site announces dates and venue only; no call for papers yet (its CFP subpages are unedited templates).
+      The older ieeeicip.org series event page still lists Oct 17-22, 2027; the edition site (updated Aug 2026) is followed.
+    sources:
+      - https://2027.ieeeicip.org/
+      - https://ieeeicip.org/
+      - https://ieeeicip.org/event/icip-2027-singapore/
+    checked: 2026-09-28
+  - year: 2026
+    id: icip26
+    link: https://2026.ieeeicip.org/
+    date: September 13-17, 2026
+    start: 2026-09-13
+    end: 2026-09-17
+    place: Tampere, Finland
+    timezone: AoE
+    timeline:
+      - type: paper
+        label: Regular & special session paper submission
+        date: '2026-02-04 23:59:59'
+      - type: notification
+        date: '2026-04-29 23:59:59'
+      - type: camera_ready
+        date: '2026-05-13 23:59:59'
+      - type: other
+        label: One-page abstract (work-in-progress) submission
+        date: '2026-05-20 23:59:59'
+      - type: other
+        label: Author registration deadline
+        date: '2026-06-17 23:59:59'
+    note: Paper deadline extended from Jan 21, 2026 and notification moved from Apr 22; the OJSP journal-track deadline was also Feb 4 (portal kept open until Feb 11).
+    sources:
+      - https://2026.ieeeicip.org/important-dates/
+      - https://2026.ieeeicip.org/call-for-papers-and-abstracts/
+      - https://github.com/ccfddl/ccf-deadlines/blob/main/conference/CG/icip.yml
+    checked: 2026-09-28
+  - year: 2025
+    id: icip25
+    link: https://2025.ieeeicip.org/
+    date: September 14-18, 2025
+    start: 2025-09-14
+    end: 2025-09-18
+    place: Anchorage, Alaska, USA
+    timezone: AoE
+    timeline:
+      - type: paper
+        date: '2025-02-05 23:59:59'
+      - type: review_release
+        date: '2025-04-23 23:59:59'
+      - type: rebuttal_end
+        date: '2025-04-30 23:59:59'
+      - type: notification
+        date: '2025-05-20 23:59:59'
+      - type: camera_ready
+        date: '2025-05-28 23:59:59'
+      - type: other
+        label: Author registration deadline
+        date: '2025-06-11 23:59:59'
+    note: Paper deadline extended from Jan 22, 2025 and review release moved from Apr 16. The official pages give no timezone, so AoE is assumed.
+    sources:
+      - https://2025.ieeeicip.org/important-dates/
+      - https://2025.ieeeicip.org/call-for-papers/
+      - https://2025.ieeeicip.org/
+      - https://github.com/ccfddl/ccf-deadlines/blob/main/conference/CG/icip.yml
+    checked: 2026-09-28

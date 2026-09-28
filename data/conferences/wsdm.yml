@@ -1,0 +1,74 @@
+id: wsdm
+title: WSDM
+full_name: ACM International Conference on Web Search and Data Mining
+link: https://www.wsdm-conference.org/
+subs: [DM]
+rank:
+  ccf: B
+  core: A
+  thcpl: A
+dblp: wsdm
+upstream:
+  ccfddl: DB/wsdm
+  hf: wsdm
+editions:
+  - year: 2027
+    id: wsdm27
+    link: https://wsdm-conference.org/2027/
+    date: February 15-19, 2027
+    start: 2027-02-15
+    end: 2027-02-19
+    place: Hong Kong SAR, China
+    timezone: AoE
+    timeline:
+      - type: abstract
+        date: '2026-08-17 23:59:59'
+      - type: paper
+        date: '2026-08-24 23:59:59'
+      - type: notification
+        date: '2026-11-02 23:59:59'
+      - type: other
+        label: Short paper submission deadline
+        date: '2026-11-17 23:59:59'
+      - type: other
+        label: Short paper notification
+        date: '2026-12-18 23:59:59'
+    note: Author list is frozen at the abstract deadline; main-track submissions are also considered for the new Findings track. Short papers are due Nov 17, 2026; camera-ready is TBD. Venue is Cordis Hong Kong (Mong Kok).
+    sources:
+      - https://wsdm-conference.org/2027/cffp.html
+      - https://wsdm-conference.org/2027/cfsp.html
+      - https://wsdm-conference.org/2027/
+    checked: 2026-09-28
+  - year: 2026
+    id: wsdm26
+    link: https://wsdm-conference.org/2026/
+    date: February 22-26, 2026
+    start: 2026-02-22
+    end: 2026-02-26
+    place: Boise, ID, USA
+    timezone: AoE
+    timeline:
+      - type: abstract
+        date: '2025-08-07 23:59:59'
+      - type: paper
+        date: '2025-08-14 23:59:59'
+      - type: other
+        label: Short paper abstract deadline
+        date: '2025-09-18 23:59:59'
+      - type: other
+        label: Short paper submission deadline
+        date: '2025-09-25 23:59:59'
+      - type: notification
+        date: '2025-10-23 23:59:59'
+      - type: other
+        label: Short paper notification
+        date: '2025-11-27 23:59:59'
+      - type: camera_ready
+        date: '2025-12-17 23:59:59'
+    note: First WSDM with a short paper track; short-paper deadlines were extended from Sep 11/18 to Sep 18/25, 2025. The camera-ready hard deadline (Dec 17) gives no timezone, so AoE is assumed. Held at the Boise Centre.
+    sources:
+      - https://wsdm-conference.org/2026/index.php/call-for-papers/
+      - https://wsdm-conference.org/2026/index.php/call-for-short-papers/
+      - https://wsdm-conference.org/2026/index.php/camera-ready-instructions/
+      - https://wsdm-conference.org/2026/index.php/venue-and-travel-information/
+    checked: 2026-09-28

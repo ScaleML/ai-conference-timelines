@@ -1,0 +1,88 @@
+id: iros
+title: IROS
+full_name: IEEE/RSJ International Conference on Intelligent Robots and Systems
+link: https://www.ieee-ras.org/conferences-workshops/financially-co-sponsored/iros/
+subs: [RO]
+rank:
+  ccf: C
+  core: A
+  thcpl: B
+dblp: iros
+upstream:
+  ccfddl: AI/iros
+  hf: iros
+editions:
+  - year: 2027
+    id: iros27
+    link: https://2027.ieee-iros.org/
+    date: September 26 - October 1, 2027
+    start: 2027-09-26
+    end: 2027-10-01
+    place: Fortezza da Basso, Florence, Italy
+    timezone: AoE
+    timeline:
+      - type: paper
+        date: '2027-03-01 23:59:59'
+    note: >-
+      IEEE RAS lists March 1, 2027 as the paper submission deadline without a time or timezone, so AoE is assumed
+      (recent IROS editions used 23:59 PST); the conference site has no CFP yet.
+    sources:
+      - https://www.ieee-ras.org/event/2027-ieee-rsj-international-conference-on-intelligent-robots-and-systems-iros-70525/
+      - https://www.ieee-ras.org/event/call-for-papers-paper-submission-deadline-iros-2027-ieee-rsj-international-conference-on-intelligent-robots-and-systems-iros-27403-0/
+      - https://2027.ieee-iros.org/
+    checked: 2026-09-28
+  - year: 2026
+    id: iros26
+    link: https://2026.ieee-iros.org/
+    date: September 27 - October 1, 2026
+    start: 2026-09-27
+    end: 2026-10-01
+    place: David L. Lawrence Convention Center, Pittsburgh, PA, USA
+    timezone: UTC-8
+    timeline:
+      - type: paper
+        date: '2026-03-02 23:59:59'
+      - type: supplementary
+        label: Paper video submission deadline
+        date: '2026-03-07 23:59:59'
+      - type: notification
+        date: '2026-06-16 23:59:59'
+      - type: other
+        label: Indicate preference of oral session format
+        date: '2026-06-30 23:59:59'
+      - type: camera_ready
+        label: Final paper submission deadline
+        date: '2026-07-16 23:59:59'
+    note: >-
+      Submissions could be modified (but not started) until March 5. The paper deadline has no stated time; the CFP quotes 23:59 PST
+      for uploads, so PST (UTC-8) is used. The CFP text says videos until March 5, the dates page says March 7.
+    sources:
+      - https://2026.ieee-iros.org/about/important-dates/
+      - https://2026.ieee-iros.org/contribute/call-for-papers/
+      - https://2026.ieee-iros.org/
+    checked: 2026-09-28
+  - year: 2025
+    id: iros25
+    link: http://www.iros25.org/
+    date: October 19-25, 2025
+    start: 2025-10-19
+    end: 2025-10-25
+    place: Hangzhou, China
+    timezone: UTC-8
+    timeline:
+      - type: paper
+        date: '2025-03-02 23:59:00'
+      - type: supplementary
+        label: Accompanying video submission (second window, Mar 3-6)
+        date: '2025-03-06 23:59:00'
+      - type: notification
+        date: '2025-06-30 23:59:59'
+      - type: camera_ready
+        label: Final paper submission deadline
+        date: '2025-07-31 23:59:00'
+    note: The paper deadline was extended to March 2, 2025 (23:59 PST) after the submission server broke down near the original deadline.
+    sources:
+      - http://iros25.org/CallForPapersv2
+      - http://iros25.org/FinalSubmissions
+      - http://iros25.org/
+    checked: 2026-09-28

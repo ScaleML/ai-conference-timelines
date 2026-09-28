@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AI Conference Deadlines · ScaleML</title>
+  <meta name="description" content="Countdowns and timelines for AI conference submission deadlines (ML, CV, NLP, Robotics, Graphics, Speech, Data Mining, HCI...). Maintained by ScaleML Lab.">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script>
+    // Apply the saved theme before first paint to avoid a flash.
+    (function () {
+      var t = localStorage.getItem('aidl:theme') || 'auto';
+      if (t === 'auto') t = matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      document.documentElement.dataset.theme = t;
+    })();
+  </script>
+  <script type="module" src="app.js"></script>
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a class="brand" href="./">
+        <svg class="brand-logo" viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="17" r="12" fill="none" stroke="currentColor" stroke-width="2.5"/><path d="M16 10v7l5 3" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/><path d="M6 5l4-2M26 5l-4-2" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg>
+        <span class="brand-text">
+          <span class="brand-title" data-i18n="title">AI 会议截稿追踪</span>
+          <span class="brand-sub">ScaleML Lab</span>
+        </span>
+      </a>
+      <div class="clock" id="clock" aria-live="off"></div>
+      <div class="top-actions">
+        <label class="tz-picker">
+          <span class="visually-hidden" data-i18n="timezone">时区</span>
+          <select id="tz"></select>
+        </label>
+        <button class="icon-btn" id="subscribe" type="button" data-i18n-title="subscribeTitle" title="订阅日历">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2" fill="none" stroke="currentColor" stroke-width="2"/><path d="M3 10h18M8 3v4M16 3v4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          <span class="lbl" data-i18n="subscribe">订阅</span>
+        </button>
+        <button class="icon-btn" id="lang" type="button">EN</button>
+        <button class="icon-btn" id="theme" type="button" data-i18n-aria="toggleTheme" aria-label="切换深色 / 浅色主题">
+          <svg class="i-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 2v2.5M12 19.5V22M2 12h2.5M19.5 12H22M4.9 4.9l1.8 1.8M17.3 17.3l1.8 1.8M4.9 19.1l1.8-1.8M17.3 6.7l1.8-1.8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          <svg class="i-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.5A8.5 8.5 0 0 1 9.5 4a8.5 8.5 0 1 0 10.5 10.5z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <section class="controls" id="controls">
+    <div class="controls-inner">
+      <div class="row">
+        <div class="search">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="2"/><path d="M20 20l-3.5-3.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          <input id="q" type="search" autocomplete="off" spellcheck="false" data-i18n-placeholder="searchPlaceholder" placeholder="搜索会议，如 CVPR、NeurIPS…">
+          <kbd>/</kbd>
+        </div>
+        <div class="seg" role="group" id="view-switch" data-i18n-aria="view" aria-label="视图">
+          <button type="button" data-view="list" data-i18n="viewList">列表</button>
+          <button type="button" data-view="timeline" data-i18n="viewTimeline">时间线</button>
+        </div>
+      </div>
+      <div class="row chips" id="subs" role="group" data-i18n-aria="categories" aria-label="分类"></div>
+      <div class="row filters">
+        <label class="select">
+          <span>CCF</span>
+          <select id="f-ccf">
+            <option value="" data-i18n="any">全部</option>
+            <option value="A">A</option>
+            <option value="B">≥ B</option>
+            <option value="C">≥ C</option>
+          </select>
+        </label>
+        <label class="select">
+          <span>CORE</span>
+          <select id="f-core">
+            <option value="" data-i18n="any">全部</option>
+            <option value="A*">A*</option>
+            <option value="A">≥ A</option>
+            <option value="B">≥ B</option>
+          </select>
+        </label>
+        <label class="select">
+          <span>TH-CPL</span>
+          <select id="f-thcpl">
+            <option value="" data-i18n="any">全部</option>
+            <option value="A">A</option>
+            <option value="B">≥ B</option>
+          </select>
+        </label>
+        <label class="toggle"><input type="checkbox" id="f-starred"><span data-i18n="starredOnly">只看收藏</span></label>
+        <label class="toggle"><input type="checkbox" id="f-est" checked><span data-i18n="showEstimated">显示预计截稿</span></label>
+        <label class="toggle"><input type="checkbox" id="f-past"><span data-i18n="showPast">显示已截稿</span></label>
+        <span class="count" id="count" tabindex="-1"></span>
+      </div>
+    </div>
+  </section>
+
+  <main id="main">
+    <div class="loading" id="loading" data-i18n="loading">加载中…</div>
+    <section id="list-view" class="list-view" hidden></section>
+    <section id="timeline-view" class="timeline-view" hidden></section>
+    <div class="empty" id="empty" hidden></div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <p id="footer-text"></p>
+      <p class="muted" id="updated"></p>
+    </div>
+  </footer>
+
+  <div class="tooltip" id="tooltip" role="tooltip" hidden></div>
+  <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+</body>
+</html>

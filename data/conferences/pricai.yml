@@ -1,0 +1,53 @@
+id: pricai
+title: PRICAI
+full_name: Pacific Rim International Conference on Artificial Intelligence
+link: https://www.pricai.org/
+subs: [ML, KR]
+rank:
+  ccf: C
+  core: B
+  thcpl: N
+dblp: pricai
+upstream:
+  ccfddl: AI/pricai
+editions:
+  - year: 2026
+    id: pricai26
+    link: https://2026.pricai.org/
+    date: November 16-20, 2026
+    start: 2026-11-16
+    end: 2026-11-20
+    place: Guangzhou, China
+    timezone: AoE
+    timeline:
+      - type: paper
+        date: '2026-06-27 23:59:59'
+      - type: notification
+        date: '2026-08-18 23:59:59'
+      - type: camera_ready
+        date: '2026-09-01 23:59:59'
+    note: Held at South China Normal University. Paper deadline extended from June 13 to June 27, 2026 (AoE); notification postponed from Aug 8 to Aug 18 and camera-ready from Aug 22 to Sep 1, 2026 (no timezone given for these; AoE assumed).
+    sources:
+      - https://2026.pricai.org/
+      - https://2026.pricai.org/calls/call-for-papers
+    checked: 2026-09-28
+  - year: 2025
+    id: pricai25
+    link: https://2025.pricai.org/
+    date: November 17-21, 2025
+    start: 2025-11-17
+    end: 2025-11-21
+    place: Wellington, New Zealand
+    timezone: AoE
+    timeline:
+      - type: paper
+        date: '2025-06-27 23:59:59'
+      - type: notification
+        date: '2025-08-22 23:59:59'
+      - type: camera_ready
+        date: '2025-09-05 23:59:59'
+    note: Held at Victoria University of Wellington, co-hosted with IVCNZ 2025. Paper deadline extended from June 13 to June 27, 2025 (AoE).
+    sources:
+      - https://2025.pricai.org/
+      - https://2025.pricai.org/calls/call-for-papers
+    checked: 2026-09-28

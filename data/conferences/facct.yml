@@ -1,0 +1,80 @@
+id: facct
+title: FAccT
+full_name: ACM Conference on Fairness, Accountability, and Transparency
+link: https://facctconference.org/
+subs: [ML, HCI]
+dblp: fat
+upstream:
+  hf: facct
+editions:
+  - year: 2027
+    id: facct27
+    link: https://facctconference.org/2027/cfp.html
+    date: June 21-24, 2027
+    start: 2027-06-21
+    end: 2027-06-24
+    place: Porto, Portugal
+    timezone: AoE
+    timeline:
+      - type: abstract
+        date: '2026-10-27 23:59:59'
+      - type: paper
+        date: '2026-11-03 23:59:59'
+      - type: review_release
+        label: Reviews and first-round decisions (accept / revise / reject)
+        date: '2026-12-22 23:59:59'
+      - type: rebuttal_end
+        label: Revision and rebuttal due
+        date: '2027-01-28 23:59:59'
+      - type: notification
+        label: Final accept/reject notification
+        date: '2027-03-23 23:59:59'
+    note: >-
+      Abstract registration is mandatory and the author list cannot be changed afterwards. Papers receiving a Revise
+      decision submit a revised version plus rebuttal for re-review; the camera-ready deadline is TBD.
+    sources:
+      - https://facctconference.org/2027/cfp.html
+      - https://facctconference.org/2027/authorguide.html
+      - https://facctconference.org/
+      - https://openreview.net/group?id=ACM.org/FAccT/2027/Conference
+    checked: 2026-09-28
+  - year: 2026
+    id: facct26
+    link: https://facctconference.org/2026/
+    date: June 25-28, 2026
+    start: 2026-06-25
+    end: 2026-06-28
+    place: Montréal, Canada
+    timezone: AoE
+    timeline:
+      - type: abstract
+        date: '2026-01-08 23:59:59'
+      - type: paper
+        date: '2026-01-13 23:59:59'
+      - type: review_release
+        label: Preliminary reviews released
+        date: '2026-02-20 23:59:59'
+      - type: rebuttal_end
+        label: Rebuttal due
+        date: '2026-02-24 23:59:59'
+      - type: other
+        label: Initial decisions (accept / revise / reject)
+        date: '2026-03-02 23:59:59'
+      - type: other
+        label: Revision deadline (Revise papers)
+        date: '2026-03-25 23:59:59'
+      - type: notification
+        label: Final accept/reject notification
+        date: '2026-04-15 23:59:59'
+      - type: camera_ready
+        label: Camera-ready (papers accepted in round 1)
+        date: '2026-04-24 23:59:59'
+      - type: camera_ready
+        label: Camera-ready (papers accepted after revision)
+        date: '2026-05-11 23:59:59'
+    note: First year with a revise-and-resubmit stage. Held at Le Centre Sheraton Montréal.
+    sources:
+      - https://facctconference.org/2026/cfp.html
+      - https://facctconference.org/2026/index.html
+      - https://openreview.net/group?id=ACM.org/FAccT/2026/Conference
+    checked: 2026-09-28

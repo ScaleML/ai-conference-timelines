@@ -1,0 +1,81 @@
+id: ismar
+title: ISMAR
+full_name: IEEE International Symposium on Mixed and Augmented Reality
+link: https://www.ieeeismar.net/
+subs: [CG, HCI]
+rank:
+  ccf: B
+  core: A*
+  thcpl: B
+dblp: ismar
+upstream:
+  ccfddl: CG/ismar
+editions:
+  - year: 2027
+    id: ismar27
+    link: https://www.ieeeismar.net/2027/
+    place: Kobe, Japan
+    timeline: []
+    note: Conference dates and paper deadlines have not been announced yet.
+    sources:
+      - https://www.ieeeismar.net/2027/
+    checked: 2026-09-28
+  - year: 2026
+    id: ismar26
+    link: https://www.ieeeismar.net/2026/
+    date: October 5-9, 2026
+    start: 2026-10-05
+    end: 2026-10-09
+    place: Bari, Italy
+    timezone: AoE
+    timeline:
+      - type: abstract
+        date: '2026-03-09 23:59:59'
+      - type: paper
+        date: '2026-03-16 23:59:59'
+      - type: review_release
+        date: '2026-05-24 23:59:59'
+      - type: rebuttal_end
+        date: '2026-05-31 23:59:59'
+      - type: notification
+        label: Final notification
+        date: '2026-06-22 23:59:59'
+      - type: camera_ready
+        date: '2026-07-21 23:59:59'
+      - type: other
+        label: Presentation video due
+        date: '2026-09-04 23:59:59'
+    note: Unified review for IEEE TVCG journal and conference papers with a single review cycle plus rebuttal.
+    sources:
+      - https://www.ieeeismar.net/2026/call-for-papers/
+      - https://www.ieeeismar.net/2026/
+    checked: 2026-09-28
+  - year: 2025
+    id: ismar25
+    link: https://www.ieeeismar.net/2025/
+    date: October 8-12, 2025
+    start: 2025-10-08
+    end: 2025-10-12
+    place: Daejeon, South Korea
+    timezone: AoE
+    timeline:
+      - type: abstract
+        date: '2025-04-04 23:59:59'
+      - type: paper
+        date: '2025-04-11 23:59:59'
+      - type: other
+        label: Initial notification (revise and resubmit)
+        date: '2025-06-03 23:59:59'
+      - type: other
+        label: Revision and rebuttal due
+        date: '2025-06-18 23:59:59'
+      - type: notification
+        label: Final notification
+        date: '2025-07-25 23:59:59'
+      - type: camera_ready
+        date: '2025-08-03 23:59:59'
+    note: Unified review for IEEE TVCG journal and conference papers with a revise-and-resubmit phase. Final notification was moved from July 22 and camera-ready from July 31, 2025.
+    sources:
+      - https://www.ieeeismar.net/2025/contribute/papers
+      - https://www.ieeeismar.net/2025/
+    checked: 2026-09-28

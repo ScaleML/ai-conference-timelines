@@ -1,0 +1,65 @@
+id: ictai
+title: ICTAI
+full_name: IEEE International Conference on Tools with Artificial Intelligence
+link: https://ictai.computer.org/
+subs: [ML]
+rank:
+  ccf: C
+  core: B
+  thcpl: N
+dblp: ictai
+upstream:
+  ccfddl: AI/ictai
+editions:
+  - year: 2026
+    id: ictai26
+    link: https://ictai.computer.org/2026/
+    date: November 2-4, 2026
+    start: 2026-11-02
+    end: 2026-11-04
+    place: Boca Raton, FL, USA
+    timezone: AoE
+    timeline:
+      - type: paper
+        date: '2026-07-21 23:59:59'
+      - type: notification
+        date: '2026-09-06 23:59:59'
+      - type: camera_ready
+        date: '2026-09-25 23:59:59'
+      - type: other
+        label: Author registration deadline
+        date: '2026-09-30 23:59:00'
+        timezone: UTC-4
+    note: >-
+      In-person only, at the Boca Raton Marriott at Boca Center. Final extended paper deadline (original June 30, 2026);
+      notification moved from Sep 10 to Sep 6, 2026. Only the paper deadline states AoE (notification and camera-ready give
+      no timezone). At least one author per paper must register by Sep 30, 2026, 11:59 PM US Eastern Time.
+    sources:
+      - https://ictai.computer.org/2026/
+      - https://ictai.computer.org/2026/submissions/
+      - https://ictai.computer.org/2026/camera-ready-submissions/
+      - https://ictai.computer.org/2026/registration/
+      - https://ictai.computer.org/2026/accomodation/
+    checked: 2026-09-28
+  - year: 2025
+    id: ictai25
+    link: https://easyconferences.eu/ictai2025/
+    date: November 3-5, 2025
+    start: 2025-11-03
+    end: 2025-11-05
+    place: Athens, Greece
+    timezone: AoE
+    timeline:
+      - type: paper
+        date: '2025-07-15 23:59:59'
+      - type: notification
+        date: '2025-09-09 23:59:59'
+      - type: camera_ready
+        date: '2025-09-30 23:59:59'
+      - type: other
+        label: Author registration deadline
+        date: '2025-10-10 23:59:59'
+    note: Updated dates shown (originally paper June 12, notification Aug 20, camera-ready Sep 25, registration Oct 3, 2025). The official site gives no timezone; AoE assumed.
+    sources:
+      - https://easyconferences.eu/ictai2025/
+    checked: 2026-09-28

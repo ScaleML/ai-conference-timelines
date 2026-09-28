@@ -1,0 +1,89 @@
+id: icdm
+title: ICDM
+full_name: IEEE International Conference on Data Mining
+link: https://icdm.zhonghuapu.com/
+subs: [DM]
+rank:
+  ccf: B
+  core: A*
+  thcpl: B
+dblp: icdm
+upstream:
+  ccfddl: DB/icdm
+  hf: icdm
+editions:
+  - year: 2027
+    id: icdm27
+    link: https://icdm2027-website.onrender.com/
+    date: November 15-18, 2027
+    start: 2027-11-15
+    end: 2027-11-18
+    place: Brisbane, Australia
+    timezone: AoE
+    timeline:
+      - type: paper
+        label: Full paper submission (tentative)
+        date: '2027-06-06 23:59:59'
+      - type: notification
+        label: Notification (tentative)
+        date: '2027-08-16 23:59:59'
+      - type: camera_ready
+        label: Camera-ready (tentative)
+        date: '2027-09-09 23:59:59'
+    note: The official ICDM 2027 site marks these dates as tentative and subject to change; the full CFP (page limit, submission system) has not been published yet. Research and Applied tracks are planned.
+    sources:
+      - https://icdm2027-website.onrender.com/dates/
+      - https://icdm2027-website.onrender.com/cfp/
+      - https://icdm.zhonghuapu.com/main.shtml
+    checked: 2026-09-28
+  - year: 2026
+    id: icdm26
+    link: http://icdm2026.neu.edu.cn/
+    date: November 12-15, 2026
+    start: 2026-11-12
+    end: 2026-11-15
+    place: Shenyang, China
+    timezone: AoE
+    timeline:
+      - type: paper
+        label: Full paper submission (Research & Applied tracks)
+        date: '2026-06-06 23:59:59'
+      - type: notification
+        date: '2026-08-16 23:59:59'
+      - type: camera_ready
+        label: Camera-ready (Research track)
+        date: '2026-09-09 23:59:59'
+    note: No separate abstract deadline; papers up to 10 pages (IEEE 2-column), triple-blind for the Research track and single-blind for the new Applied track (Applied track camera-ready September 16, 2026). Blue Sky track papers were due July 1, 2026 and demos August 20, 2026.
+    sources:
+      - http://icdm2026.neu.edu.cn/dates/list.htm
+      - http://icdm2026.neu.edu.cn/CallforResearchTrack/list.htm
+      - http://icdm2026.neu.edu.cn/CallforAppliedTrack/list.htm
+      - http://icdm2026.neu.edu.cn/CallforBlueSkyTrack/list.htm
+      - http://icdm2026.neu.edu.cn/
+    checked: 2026-09-28
+  - year: 2025
+    id: icdm25
+    link: https://www3.cs.stonybrook.edu/~icdm2025/
+    date: November 12-15, 2025
+    start: 2025-11-12
+    end: 2025-11-15
+    place: Washington DC, USA
+    timezone: AoE
+    timeline:
+      - type: paper
+        label: Full paper submission
+        date: '2025-06-06 23:59:59'
+      - type: notification
+        date: '2025-08-25 23:59:59'
+      - type: camera_ready
+        date: '2025-09-25 23:59:59'
+      - type: other
+        label: Author registration deadline
+        date: '2025-09-30 23:59:59'
+    note: No separate abstract submission step; triple-blind review, 10-page IEEE 2-column limit. Author registration was extended from September 24 to September 30, 2025. Held at the Capital Hilton.
+    sources:
+      - https://www3.cs.stonybrook.edu/~icdm2025/cfp.html
+      - https://www3.cs.stonybrook.edu/~icdm2025/keydates.html
+      - https://www3.cs.stonybrook.edu/~icdm2025/index.html
+      - https://www3.cs.stonybrook.edu/~icdm2025/venue.html
+    checked: 2026-09-28

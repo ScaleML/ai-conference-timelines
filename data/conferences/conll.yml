@@ -1,0 +1,63 @@
+id: conll
+title: CoNLL
+full_name: Conference on Computational Natural Language Learning
+link: https://www.conll.org/
+subs: [NLP]
+rank:
+  ccf: C
+  core: B
+  thcpl: N
+dblp: conll
+upstream:
+  ccfddl: AI/conll
+  hf: conll
+editions:
+  - year: 2026
+    id: conll26
+    link: https://www.conll.org/2026
+    date: July 3-4, 2026
+    start: 2026-07-03
+    end: 2026-07-04
+    place: San Diego, California, USA
+    timezone: AoE
+    timeline:
+      - type: paper
+        label: Submission deadline (archival and non-archival)
+        date: '2026-02-19 23:59:59'
+      - type: notification
+        date: '2026-04-21 23:59:59'
+      - type: camera_ready
+        date: '2026-05-12 23:59:59'
+    note: >-
+      Co-located with ACL 2026. Direct submissions only (via OpenReview), no ARR commitments; camera-ready
+      date as given in the official call for papers.
+    sources:
+      - https://www.conll.org/2026
+      - https://list.elra.info/mailman3/hyperkitty/list/corpora@list.elra.info/thread/BDW4FPXENUKPTACOYMT5PXZSDZHJ5LB4/
+      - https://list.elra.info/mailman3/hyperkitty/list/corpora@list.elra.info/thread/GR5A7TCNEXZRUB5SQQX4WRHZXHGUKDWY/
+      - https://list.elra.info/mailman3/hyperkitty/list/corpora@list.elra.info/thread/ZGSJK533QG74LW5JVINWOQR3LXOX5ZFJ/
+    checked: 2026-09-28
+  - year: 2025
+    id: conll25
+    link: https://www.conll.org/2025
+    date: July 31 - August 1, 2025
+    start: 2025-07-31
+    end: 2025-08-01
+    place: Vienna, Austria
+    timezone: AoE
+    timeline:
+      - type: paper
+        label: Submission deadline (archival and non-archival)
+        date: '2025-03-14 23:59:59'
+      - type: notification
+        date: '2025-05-23 23:59:59'
+      - type: camera_ready
+        date: '2025-06-17 23:59:59'
+    note: >-
+      Co-located with ACL 2025. The final call accepted direct submissions only; the first call had also
+      listed an ARR commitment deadline (May 19, 2025) and a June 25 camera-ready date.
+    sources:
+      - https://www.conll.org/2025
+      - https://www.mail-archive.com/corpora@list.elra.info/msg04351.html
+      - https://www.aclweb.org/portal/content/conference-computational-natural-language-learning
+    checked: 2026-09-28
