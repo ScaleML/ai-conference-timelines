@@ -21,7 +21,8 @@ AI 会议截稿追踪：倒计时、完整时间线（摘要 / 全文 / rebuttal
 - **Filters**: 17 categories in two groups — AI (URL-compatible with aideadlin.es: `?sub=ML,CV,NLP`) and
   systems & more (`SYS NET SEC DB SE TH MX`) — plus CCF, CORE and
   [TH-CPL](https://numbda.cs.tsinghua.edu.cn/~yuwj/TH-CPL.pdf) rank,
-  full-text search, starred venues (stored locally).
+  full-text search, starred venues (stored in the browser; **Share stars** copies a `?stars=a,b,c` link that
+  imports them on another device or for a colleague).
 - **Timezones**: every deadline is shown in the selected zone (local, Beijing, US Central/Pacific/Eastern,
   London, CET, UTC, AoE) next to the official time.
 - **Calendar**: subscribe to `deadlines.ics` (Google / Apple / Outlook), or add a single deadline

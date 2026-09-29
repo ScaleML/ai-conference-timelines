@@ -88,6 +88,7 @@
           </select>
         </label>
         <label class="toggle"><input type="checkbox" id="f-starred"><span data-i18n="starredOnly">只看收藏</span></label>
+        <button type="button" class="btn-sm" id="share-stars" data-i18n="shareStars" data-i18n-title="shareStarsTitle">分享收藏</button>
         <label class="toggle"><input type="checkbox" id="f-est" checked><span data-i18n="showEstimated">显示预计截稿</span></label>
         <label class="toggle"><input type="checkbox" id="f-past"><span data-i18n="showPast">显示已截稿</span></label>
         <span class="count" id="count" tabindex="-1"></span>
@@ -97,6 +98,7 @@
 
   <main id="main">
     <div class="loading" id="loading" data-i18n="loading">加载中…</div>
+    <div id="shared-banner" class="banner" role="status" hidden></div>
     <section id="list-view" class="list-view" hidden></section>
     <section id="timeline-view" class="timeline-view" hidden></section>
     <div class="empty" id="empty" hidden></div>

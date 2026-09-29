@@ -55,6 +55,18 @@ const I18N = {
     any: '全部',
     all: '全部',
     starredOnly: '只看收藏',
+    shareStars: '分享收藏',
+    shareStarsTitle: '复制一个包含你所有收藏会议的链接：在其他设备打开即可导入，也可以发给别人',
+    noStars: '还没有收藏的会议——先点卡片标题旁的 ☆',
+    sharedCopied: (n, u) => `已复制收藏链接（${n} 个会议）：${u}`,
+    sharedCopyManual: (n, u) => `收藏链接（${n} 个会议）：${u}`,
+    sharedBanner: (n) => `正在查看分享链接中的 ${n} 个收藏会议`,
+    saveShared: '保存为我的收藏',
+    mergeShared: (n) => `合并到我的收藏（新增 ${n} 个）`,
+    replaceShared: '替换我的收藏',
+    confirmReplace: (n) => `用链接中的会议替换你现有的 ${n} 个收藏？`,
+    dismiss: '关闭',
+    sharedSaved: (n) => `已保存，你现在共有 ${n} 个收藏会议`,
     showEstimated: '显示预计截稿',
     showPast: '显示已截稿',
     loading: '加载中…',
@@ -127,6 +139,18 @@ const I18N = {
     any: 'Any',
     all: 'All',
     starredOnly: 'Starred only',
+    shareStars: 'Share stars',
+    shareStarsTitle: 'Copy a link with all your starred conferences — open it on another device to import them, or send it to someone',
+    noStars: 'No starred conferences yet — click the ☆ next to a title first',
+    sharedCopied: (n, u) => `Link to your ${n} starred conference${n === 1 ? '' : 's'} copied: ${u}`,
+    sharedCopyManual: (n, u) => `Link to your ${n} starred conference${n === 1 ? '' : 's'}: ${u}`,
+    sharedBanner: (n) => `Viewing ${n} starred conference${n === 1 ? '' : 's'} from a shared link`,
+    saveShared: 'Save as my stars',
+    mergeShared: (n) => `Add to my stars (+${n})`,
+    replaceShared: 'Replace my stars',
+    confirmReplace: (n) => `Replace your ${n} starred conference${n === 1 ? '' : 's'} with the ones in this link?`,
+    dismiss: 'Close',
+    sharedSaved: (n) => `Saved — you now have ${n} starred conference${n === 1 ? '' : 's'}`,
     showEstimated: 'Show estimates',
     showPast: 'Show passed',
     loading: 'Loading…',
@@ -243,6 +267,9 @@ const state = {
 if (!I18N[state.lang]) state.lang = 'en';
 if (state.tz !== 'local' && !isValidTz(state.tz)) state.tz = 'local';
 const stars = new Set(store.get('stars', []));
+// `?stars=a,b,c` from a shared link: viewed without touching the local stars until the user saves them.
+const sharedParam = (params.get('stars') || '').split(',').map((s) => s.trim().toLowerCase()).filter(Boolean);
+state.shared = null;
 
 let DATA = null;
 let items = [];
@@ -262,6 +289,7 @@ function syncUrl() {
   if (state.ccf) p.set('ccf', state.ccf);
   if (state.core) p.set('core', state.core);
   if (state.thcpl) p.set('thcpl', state.thcpl);
+  if (state.shared) p.set('stars', [...state.shared].join(','));
   if (state.starred) p.set('starred', '1');
   if (!state.est) p.set('est', '0');
   if (state.past) p.set('past', '1');
@@ -546,7 +574,7 @@ function passesFilters(item) {
   if (state.ccf && !(CCF_ORDER[c.rank.ccf] <= CCF_ORDER[state.ccf])) return false;
   if (state.core && !(CORE_ORDER[c.rank.core] <= CORE_ORDER[state.core])) return false;
   if (state.thcpl && !(THCPL_ORDER[c.rank.thcpl] <= THCPL_ORDER[state.thcpl])) return false;
-  if (state.starred && !stars.has(c.id)) return false;
+  if (state.starred && !(state.shared ?? stars).has(c.id)) return false;
   return true;
 }
 
@@ -1105,6 +1133,7 @@ function render() {
   }
   $('#count').textContent = t('count', n, items.length);
   renderChips();
+  renderShared();
   restoreFocus(fk);
 
   // Re-render at the next moment anything on screen changes state: a countdown expiring, an urgency
@@ -1147,6 +1176,31 @@ function tick() {
   }
 }
 
+function renderShared() {
+  const el = $('#shared-banner');
+  if (!state.shared) {
+    el.hidden = true;
+    el.innerHTML = '';
+    return;
+  }
+  const added = [...state.shared].filter((id) => !stars.has(id)).length;
+  const actions = stars.size
+    ? `<button type="button" class="btn-sm primary" data-act="shared-merge">${esc(t('mergeShared', added))}</button>
+       <button type="button" class="btn-sm" data-act="shared-replace">${esc(t('replaceShared'))}</button>`
+    : `<button type="button" class="btn-sm primary" data-act="shared-save">${esc(t('saveShared'))}</button>`;
+  el.innerHTML = `<span class="banner-text">${ICON.star}${esc(t('sharedBanner', state.shared.size))}</span>
+    <span class="banner-actions">${actions}<button type="button" class="btn-sm" data-act="shared-dismiss">${esc(t('dismiss'))}</button></span>`;
+  el.hidden = false;
+}
+
+function initShared() {
+  if (!sharedParam.length) return;
+  const known = new Set(DATA.conferences.map((c) => c.id));
+  const ids = [...new Set(sharedParam)].filter((id) => known.has(id));
+  if (ids.length) state.shared = new Set(ids);
+  syncUrl(); // normalise the link (lower-case, known ids only) or drop it when nothing is usable
+}
+
 function toast(msg) {
   const el = $('#toast');
   el.textContent = msg;
@@ -1176,6 +1230,20 @@ function bindEvents() {
     renderStatic();
     render();
     tick();
+  });
+  $('#share-stars').addEventListener('click', async () => {
+    if (!stars.size) {
+      toast(t('noStars'));
+      return;
+    }
+    const ids = [...stars].sort();
+    const url = `${location.origin}${location.pathname}?stars=${ids.join(',')}&starred=1`;
+    try {
+      await navigator.clipboard.writeText(url);
+      toast(t('sharedCopied', ids.length, url));
+    } catch {
+      toast(t('sharedCopyManual', ids.length, url));
+    }
   });
   $('#subscribe').addEventListener('click', async () => {
     const url = new URL('deadlines.ics', location.href).href;
@@ -1261,11 +1329,36 @@ function bindEvents() {
         render();
         $('#q').focus({ preventScroll: true });
         break;
+      case 'shared-save':
+      case 'shared-merge':
+      case 'shared-replace':
+        if (b.dataset.act === 'shared-replace') {
+          if (!window.confirm(t('confirmReplace', stars.size))) break;
+          stars.clear();
+        }
+        for (const id of state.shared) stars.add(id);
+        store.set('stars', [...stars]);
+        state.shared = null;
+        state.starred = true;
+        renderStatic();
+        syncUrl();
+        render();
+        toast(t('sharedSaved', stars.size));
+        $('#f-starred').focus({ preventScroll: true });
+        break;
+      case 'shared-dismiss':
+        state.shared = null;
+        state.starred = false;
+        renderStatic();
+        syncUrl();
+        render();
+        $('#f-starred').focus({ preventScroll: true });
+        break;
       case 'star':
         if (stars.has(item.conf.id)) stars.delete(item.conf.id);
         else stars.add(item.conf.id);
         store.set('stars', [...stars]);
-        if (state.starred) render();
+        if (state.starred || state.shared) render(); // the banner's "+n" depends on the local stars
         else b.setAttribute('aria-pressed', String(stars.has(item.conf.id)));
         break;
       case 'details':
@@ -1377,6 +1470,7 @@ async function main() {
     $('#loading').textContent = `${t('loadError')}: ${err.message}`;
     return;
   }
+  initShared();
   renderStatic();
   render();
 }
